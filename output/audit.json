@@ -1,0 +1,5014 @@
+[
+  {
+    "record_id": "04_itens_legado.csv:1",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 1,
+      "line_start": 2,
+      "line_end": 2
+    },
+    "field": "ano_aplicacao",
+    "before": "2021",
+    "after": 2021,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:2",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 2,
+      "line_start": 3,
+      "line_end": 3
+    },
+    "field": "ano_aplicacao",
+    "before": "2019",
+    "after": 2019,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:3",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 3,
+      "line_start": 4,
+      "line_end": 4
+    },
+    "field": "gabarito",
+    "before": "a",
+    "after": "A",
+    "rule_id": "ANSWER_CASE",
+    "reason": "Letra isolada a-e convertida para maiúscula."
+  },
+  {
+    "record_id": "04_itens_legado.csv:3",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 3,
+      "line_start": 4,
+      "line_end": 4
+    },
+    "field": "ano_aplicacao",
+    "before": "2020",
+    "after": 2020,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:4",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 4,
+      "line_start": 5,
+      "line_end": 5
+    },
+    "field": "ano_aplicacao",
+    "before": "2022",
+    "after": 2022,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:5",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 5,
+      "line_start": 6,
+      "line_end": 6
+    },
+    "field": "alternativa_e",
+    "before": "",
+    "after": null,
+    "rule_id": "EMPTY_NULL",
+    "reason": "Campo vazio convertido a null; conteúdo bruto preservado."
+  },
+  {
+    "record_id": "04_itens_legado.csv:5",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 5,
+      "line_start": 6,
+      "line_end": 6
+    },
+    "field": "ano_aplicacao",
+    "before": "2023",
+    "after": 2023,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:6",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 6,
+      "line_start": 7,
+      "line_end": 7
+    },
+    "field": "ano_aplicacao",
+    "before": "2024",
+    "after": 2024,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:7",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 7,
+      "line_start": 8,
+      "line_end": 8
+    },
+    "field": "ano_aplicacao",
+    "before": "2025",
+    "after": 2025,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:8",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 8,
+      "line_start": 9,
+      "line_end": 9
+    },
+    "field": "gabarito",
+    "before": "2",
+    "after": null,
+    "rule_id": "ANSWER_UNRESOLVED",
+    "reason": "Formato não inequívoco, inclusive número: canônico null, pendência."
+  },
+  {
+    "record_id": "04_itens_legado.csv:8",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 8,
+      "line_start": 9,
+      "line_end": 9
+    },
+    "field": "ano_aplicacao",
+    "before": "2018",
+    "after": 2018,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:9",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 9,
+      "line_start": 10,
+      "line_end": 10
+    },
+    "field": "ano_aplicacao",
+    "before": "2024",
+    "after": 2024,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:10",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 10,
+      "line_start": 11,
+      "line_end": 11
+    },
+    "field": "ano_aplicacao",
+    "before": "2025",
+    "after": 2025,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:11",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 11,
+      "line_start": 12,
+      "line_end": 12
+    },
+    "field": "ano_aplicacao",
+    "before": "2019",
+    "after": 2019,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:12",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 12,
+      "line_start": 13,
+      "line_end": 13
+    },
+    "field": "ano_aplicacao",
+    "before": "2023",
+    "after": 2023,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:13",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 13,
+      "line_start": 14,
+      "line_end": 14
+    },
+    "field": "ano_aplicacao",
+    "before": "2021",
+    "after": 2021,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:14",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 14,
+      "line_start": 15,
+      "line_end": 15
+    },
+    "field": "ano_aplicacao",
+    "before": "2025",
+    "after": 2025,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:15",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 15,
+      "line_start": 16,
+      "line_end": 16
+    },
+    "field": "ano_aplicacao",
+    "before": "2026",
+    "after": 2026,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:16",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 16,
+      "line_start": 17,
+      "line_end": 17
+    },
+    "field": "ano_aplicacao",
+    "before": "2022",
+    "after": 2022,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:17",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 17,
+      "line_start": 18,
+      "line_end": 18
+    },
+    "field": "ano_aplicacao",
+    "before": "2020",
+    "after": 2020,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:18",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 18,
+      "line_start": 19,
+      "line_end": 19
+    },
+    "field": "ano_aplicacao",
+    "before": "2024",
+    "after": 2024,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:19",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 19,
+      "line_start": 20,
+      "line_end": 20
+    },
+    "field": "ano_aplicacao",
+    "before": "2021",
+    "after": 2021,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:20",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 20,
+      "line_start": 21,
+      "line_end": 21
+    },
+    "field": "ano_aplicacao",
+    "before": "2026",
+    "after": 2026,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:21",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 21,
+      "line_start": 22,
+      "line_end": 22
+    },
+    "field": "ano_aplicacao",
+    "before": "2023",
+    "after": 2023,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:22",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 22,
+      "line_start": 23,
+      "line_end": 23
+    },
+    "field": "ano_aplicacao",
+    "before": "2020",
+    "after": 2020,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:23",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 23,
+      "line_start": 24,
+      "line_end": 24
+    },
+    "field": "ano_aplicacao",
+    "before": "2022",
+    "after": 2022,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:24",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 24,
+      "line_start": 25,
+      "line_end": 25
+    },
+    "field": "ano_aplicacao",
+    "before": "2024",
+    "after": 2024,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:25",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 25,
+      "line_start": 26,
+      "line_end": 26
+    },
+    "field": "ano_aplicacao",
+    "before": "2026",
+    "after": 2026,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:26",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 26,
+      "line_start": 27,
+      "line_end": 27
+    },
+    "field": "ano_aplicacao",
+    "before": "2021",
+    "after": 2021,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:27",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 27,
+      "line_start": 28,
+      "line_end": 28
+    },
+    "field": "ano_aplicacao",
+    "before": "2025",
+    "after": 2025,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:28",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 28,
+      "line_start": 29,
+      "line_end": 29
+    },
+    "field": "gabarito",
+    "before": "",
+    "after": null,
+    "rule_id": "EMPTY_NULL",
+    "reason": "Campo vazio convertido a null; conteúdo bruto preservado."
+  },
+  {
+    "record_id": "04_itens_legado.csv:28",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 28,
+      "line_start": 29,
+      "line_end": 29
+    },
+    "field": "ano_aplicacao",
+    "before": "2019",
+    "after": 2019,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:29",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 29,
+      "line_start": 30,
+      "line_end": 30
+    },
+    "field": "ano_aplicacao",
+    "before": "2026",
+    "after": 2026,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:30",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 30,
+      "line_start": 31,
+      "line_end": 31
+    },
+    "field": "ano_aplicacao",
+    "before": "2025",
+    "after": 2025,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:31",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 31,
+      "line_start": 32,
+      "line_end": 32
+    },
+    "field": "ano_aplicacao",
+    "before": "2023",
+    "after": 2023,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:32",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 32,
+      "line_start": 33,
+      "line_end": 33
+    },
+    "field": "ano_aplicacao",
+    "before": "2024",
+    "after": 2024,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:33",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 33,
+      "line_start": 34,
+      "line_end": 34
+    },
+    "field": "ano_aplicacao",
+    "before": "2024",
+    "after": 2024,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:34",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 34,
+      "line_start": 35,
+      "line_end": 35
+    },
+    "field": "ano_aplicacao",
+    "before": "2022",
+    "after": 2022,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:35",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 35,
+      "line_start": 36,
+      "line_end": 36
+    },
+    "field": "ano_aplicacao",
+    "before": "2020",
+    "after": 2020,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:36",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 36,
+      "line_start": 37,
+      "line_end": 37
+    },
+    "field": "ano_aplicacao",
+    "before": "2025",
+    "after": 2025,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:37",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 37,
+      "line_start": 38,
+      "line_end": 38
+    },
+    "field": "ano_aplicacao",
+    "before": "2023",
+    "after": 2023,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:38",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 38,
+      "line_start": 39,
+      "line_end": 39
+    },
+    "field": "ano_aplicacao",
+    "before": "2019",
+    "after": 2019,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:39",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 39,
+      "line_start": 40,
+      "line_end": 40
+    },
+    "field": "gabarito",
+    "before": "1",
+    "after": null,
+    "rule_id": "ANSWER_UNRESOLVED",
+    "reason": "Formato não inequívoco, inclusive número: canônico null, pendência."
+  },
+  {
+    "record_id": "04_itens_legado.csv:39",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 39,
+      "line_start": 40,
+      "line_end": 40
+    },
+    "field": "ano_aplicacao",
+    "before": "2021",
+    "after": 2021,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:40",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 40,
+      "line_start": 41,
+      "line_end": 41
+    },
+    "field": "ano_aplicacao",
+    "before": "2026",
+    "after": 2026,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:41",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 41,
+      "line_start": 42,
+      "line_end": 42
+    },
+    "field": "ano_aplicacao",
+    "before": "2022",
+    "after": 2022,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:42",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 42,
+      "line_start": 43,
+      "line_end": 43
+    },
+    "field": "ano_aplicacao",
+    "before": "2026",
+    "after": 2026,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:43",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 43,
+      "line_start": 44,
+      "line_end": 44
+    },
+    "field": "ano_aplicacao",
+    "before": "2025",
+    "after": 2025,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:44",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 44,
+      "line_start": 45,
+      "line_end": 45
+    },
+    "field": "ano_aplicacao",
+    "before": "2021",
+    "after": 2021,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:45",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 45,
+      "line_start": 46,
+      "line_end": 46
+    },
+    "field": "ano_aplicacao",
+    "before": "2024",
+    "after": 2024,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:46",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 46,
+      "line_start": 47,
+      "line_end": 47
+    },
+    "field": "ano_aplicacao",
+    "before": "2026",
+    "after": 2026,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:47",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 47,
+      "line_start": 48,
+      "line_end": 48
+    },
+    "field": "ano_aplicacao",
+    "before": "2022",
+    "after": 2022,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:48",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 48,
+      "line_start": 49,
+      "line_end": 49
+    },
+    "field": "gabarito",
+    "before": "Alternativa B",
+    "after": "B",
+    "rule_id": "ANSWER_LABEL",
+    "reason": "Remover prefixo literal Alternativa de letra A-E."
+  },
+  {
+    "record_id": "04_itens_legado.csv:48",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 48,
+      "line_start": 49,
+      "line_end": 49
+    },
+    "field": "ano_aplicacao",
+    "before": "2020",
+    "after": 2020,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:49",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 49,
+      "line_start": 50,
+      "line_end": 50
+    },
+    "field": "ano_aplicacao",
+    "before": "2025",
+    "after": 2025,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:50",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 50,
+      "line_start": 51,
+      "line_end": 51
+    },
+    "field": "ano_aplicacao",
+    "before": "2023",
+    "after": 2023,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:51",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 51,
+      "line_start": 52,
+      "line_end": 52
+    },
+    "field": "ano_aplicacao",
+    "before": "2024",
+    "after": 2024,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:52",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 52,
+      "line_start": 53,
+      "line_end": 53
+    },
+    "field": "ano_aplicacao",
+    "before": "2026",
+    "after": 2026,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:53",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 53,
+      "line_start": 54,
+      "line_end": 54
+    },
+    "field": "ano_aplicacao",
+    "before": "2021",
+    "after": 2021,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:54",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 54,
+      "line_start": 55,
+      "line_end": 55
+    },
+    "field": "ano_aplicacao",
+    "before": "2022",
+    "after": 2022,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:55",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 55,
+      "line_start": 56,
+      "line_end": 56
+    },
+    "field": "ano_aplicacao",
+    "before": "2026",
+    "after": 2026,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:56",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 56,
+      "line_start": 57,
+      "line_end": 57
+    },
+    "field": "ano_aplicacao",
+    "before": "2024",
+    "after": 2024,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:57",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 57,
+      "line_start": 58,
+      "line_end": 58
+    },
+    "field": "ano_aplicacao",
+    "before": "2020",
+    "after": 2020,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:58",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 58,
+      "line_start": 59,
+      "line_end": 59
+    },
+    "field": "ano_aplicacao",
+    "before": "2025",
+    "after": 2025,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:59",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 59,
+      "line_start": 60,
+      "line_end": 60
+    },
+    "field": "ano_aplicacao",
+    "before": "2026",
+    "after": 2026,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:60",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 60,
+      "line_start": 61,
+      "line_end": 61
+    },
+    "field": "ano_aplicacao",
+    "before": "2021",
+    "after": 2021,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:61",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 61,
+      "line_start": 62,
+      "line_end": 62
+    },
+    "field": "ano_aplicacao",
+    "before": "2022",
+    "after": 2022,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:62",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 62,
+      "line_start": 63,
+      "line_end": 63
+    },
+    "field": "disciplina_informada",
+    "before": "",
+    "after": null,
+    "rule_id": "EMPTY_NULL",
+    "reason": "Campo vazio convertido a null; conteúdo bruto preservado."
+  },
+  {
+    "record_id": "04_itens_legado.csv:62",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 62,
+      "line_start": 63,
+      "line_end": 63
+    },
+    "field": "origem_banco",
+    "before": "",
+    "after": null,
+    "rule_id": "EMPTY_NULL",
+    "reason": "Campo vazio convertido a null; conteúdo bruto preservado."
+  },
+  {
+    "record_id": "04_itens_legado.csv:62",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 62,
+      "line_start": 63,
+      "line_end": 63
+    },
+    "field": "ano_aplicacao",
+    "before": "2020",
+    "after": 2020,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:63",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 63,
+      "line_start": 64,
+      "line_end": 64
+    },
+    "field": "ano_aplicacao",
+    "before": "",
+    "after": null,
+    "rule_id": "EMPTY_NULL",
+    "reason": "Campo vazio convertido a null; conteúdo bruto preservado."
+  },
+  {
+    "record_id": "04_itens_legado.csv:64",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 64,
+      "line_start": 65,
+      "line_end": 65
+    },
+    "field": "ano_aplicacao",
+    "before": "2023",
+    "after": 2023,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:65",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 65,
+      "line_start": 66,
+      "line_end": 66
+    },
+    "field": "ano_aplicacao",
+    "before": "2024",
+    "after": 2024,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:66",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 66,
+      "line_start": 67,
+      "line_end": 67
+    },
+    "field": "ano_aplicacao",
+    "before": "2025",
+    "after": 2025,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:67",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 67,
+      "line_start": 68,
+      "line_end": 68
+    },
+    "field": "ano_aplicacao",
+    "before": "2022",
+    "after": 2022,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "04_itens_legado.csv:68",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 68,
+      "line_start": 69,
+      "line_end": 69
+    },
+    "field": "alternativa_d",
+    "before": "",
+    "after": null,
+    "rule_id": "EMPTY_NULL",
+    "reason": "Campo vazio convertido a null; conteúdo bruto preservado."
+  },
+  {
+    "record_id": "04_itens_legado.csv:68",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 68,
+      "line_start": 69,
+      "line_end": 69
+    },
+    "field": "alternativa_e",
+    "before": "",
+    "after": null,
+    "rule_id": "EMPTY_NULL",
+    "reason": "Campo vazio convertido a null; conteúdo bruto preservado."
+  },
+  {
+    "record_id": "04_itens_legado.csv:68",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 68,
+      "line_start": 69,
+      "line_end": 69
+    },
+    "field": "gabarito",
+    "before": "",
+    "after": null,
+    "rule_id": "EMPTY_NULL",
+    "reason": "Campo vazio convertido a null; conteúdo bruto preservado."
+  },
+  {
+    "record_id": "04_itens_legado.csv:68",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 68,
+      "line_start": 69,
+      "line_end": 69
+    },
+    "field": "origem_banco",
+    "before": "",
+    "after": null,
+    "rule_id": "EMPTY_NULL",
+    "reason": "Campo vazio convertido a null; conteúdo bruto preservado."
+  },
+  {
+    "record_id": "04_itens_legado.csv:68",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 68,
+      "line_start": 69,
+      "line_end": 69
+    },
+    "field": "ano_aplicacao",
+    "before": "2019",
+    "after": 2019,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:1",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 1,
+      "line_start": 2,
+      "line_end": 2
+    },
+    "field": "n_respondentes",
+    "before": "1842",
+    "after": 1842,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:1",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 1,
+      "line_start": 2,
+      "line_end": 2
+    },
+    "field": "percentual_acerto",
+    "before": "0.62",
+    "after": 0.62,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:1",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 1,
+      "line_start": 2,
+      "line_end": 2
+    },
+    "field": "indice_discriminacao",
+    "before": "0.34",
+    "after": 0.34,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:1",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 1,
+      "line_start": 2,
+      "line_end": 2
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "142",
+    "after": 142.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:2",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 2,
+      "line_start": 3,
+      "line_end": 3
+    },
+    "field": "n_respondentes",
+    "before": "1790",
+    "after": 1790,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:2",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 2,
+      "line_start": 3,
+      "line_end": 3
+    },
+    "field": "percentual_acerto",
+    "before": "0.81",
+    "after": 0.81,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:2",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 2,
+      "line_start": 3,
+      "line_end": 3
+    },
+    "field": "indice_discriminacao",
+    "before": "0.19",
+    "after": 0.19,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:2",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 2,
+      "line_start": 3,
+      "line_end": 3
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "68",
+    "after": 68.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:3",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 3,
+      "line_start": 4,
+      "line_end": 4
+    },
+    "field": "n_respondentes",
+    "before": "1655",
+    "after": 1655,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:3",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 3,
+      "line_start": 4,
+      "line_end": 4
+    },
+    "field": "percentual_acerto",
+    "before": "0.78",
+    "after": 0.78,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:3",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 3,
+      "line_start": 4,
+      "line_end": 4
+    },
+    "field": "indice_discriminacao",
+    "before": "0.21",
+    "after": 0.21,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:3",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 3,
+      "line_start": 4,
+      "line_end": 4
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "74",
+    "after": 74.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:4",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 4,
+      "line_start": 5,
+      "line_end": 5
+    },
+    "field": "n_respondentes",
+    "before": "1203",
+    "after": 1203,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:4",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 4,
+      "line_start": 5,
+      "line_end": 5
+    },
+    "field": "percentual_acerto",
+    "before": "0.44",
+    "after": 0.44,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:4",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 4,
+      "line_start": 5,
+      "line_end": 5
+    },
+    "field": "indice_discriminacao",
+    "before": "0.41",
+    "after": 0.41,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:4",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 4,
+      "line_start": 5,
+      "line_end": 5
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "188",
+    "after": 188.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:5",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 5,
+      "line_start": 6,
+      "line_end": 6
+    },
+    "field": "n_respondentes",
+    "before": "980",
+    "after": 980,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:5",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 5,
+      "line_start": 6,
+      "line_end": 6
+    },
+    "field": "percentual_acerto",
+    "before": "0.57",
+    "after": 0.57,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:5",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 5,
+      "line_start": 6,
+      "line_end": 6
+    },
+    "field": "indice_discriminacao",
+    "before": "0.29",
+    "after": 0.29,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:5",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 5,
+      "line_start": 6,
+      "line_end": 6
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "131",
+    "after": 131.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:6",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 6,
+      "line_start": 7,
+      "line_end": 7
+    },
+    "field": "n_respondentes",
+    "before": "1411",
+    "after": 1411,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:6",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 6,
+      "line_start": 7,
+      "line_end": 7
+    },
+    "field": "percentual_acerto",
+    "before": "0.38",
+    "after": 0.38,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:6",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 6,
+      "line_start": 7,
+      "line_end": 7
+    },
+    "field": "indice_discriminacao",
+    "before": "0.47",
+    "after": 0.47,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:6",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 6,
+      "line_start": 7,
+      "line_end": 7
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "205",
+    "after": 205.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:7",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 7,
+      "line_start": 8,
+      "line_end": 8
+    },
+    "field": "n_respondentes",
+    "before": "1066",
+    "after": 1066,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:7",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 7,
+      "line_start": 8,
+      "line_end": 8
+    },
+    "field": "percentual_acerto",
+    "before": "0.51",
+    "after": 0.51,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:7",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 7,
+      "line_start": 8,
+      "line_end": 8
+    },
+    "field": "indice_discriminacao",
+    "before": "0.44",
+    "after": 0.44,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:7",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 7,
+      "line_start": 8,
+      "line_end": 8
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "176",
+    "after": 176.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:8",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 8,
+      "line_start": 9,
+      "line_end": 9
+    },
+    "field": "n_respondentes",
+    "before": "2015",
+    "after": 2015,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:8",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 8,
+      "line_start": 9,
+      "line_end": 9
+    },
+    "field": "percentual_acerto",
+    "before": "0.86",
+    "after": 0.86,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:8",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 8,
+      "line_start": 9,
+      "line_end": 9
+    },
+    "field": "indice_discriminacao",
+    "before": "0.12",
+    "after": 0.12,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:8",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 8,
+      "line_start": 9,
+      "line_end": 9
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "52",
+    "after": 52.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:9",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 9,
+      "line_start": 10,
+      "line_end": 10
+    },
+    "field": "n_respondentes",
+    "before": "1588",
+    "after": 1588,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:9",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 9,
+      "line_start": 10,
+      "line_end": 10
+    },
+    "field": "percentual_acerto",
+    "before": "0.59",
+    "after": 0.59,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:9",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 9,
+      "line_start": 10,
+      "line_end": 10
+    },
+    "field": "indice_discriminacao",
+    "before": "0.38",
+    "after": 0.38,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:9",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 9,
+      "line_start": 10,
+      "line_end": 10
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "149",
+    "after": 149.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:10",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 10,
+      "line_start": 11,
+      "line_end": 11
+    },
+    "field": "n_respondentes",
+    "before": "902",
+    "after": 902,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:10",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 10,
+      "line_start": 11,
+      "line_end": 11
+    },
+    "field": "percentual_acerto",
+    "before": "0.42",
+    "after": 0.42,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:10",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 10,
+      "line_start": 11,
+      "line_end": 11
+    },
+    "field": "indice_discriminacao",
+    "before": "0.52",
+    "after": 0.52,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:10",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 10,
+      "line_start": 11,
+      "line_end": 11
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "221",
+    "after": 221.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:11",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 11,
+      "line_start": 12,
+      "line_end": 12
+    },
+    "field": "n_respondentes",
+    "before": "1977",
+    "after": 1977,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:11",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 11,
+      "line_start": 12,
+      "line_end": 12
+    },
+    "field": "percentual_acerto",
+    "before": "0.93",
+    "after": 0.93,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:11",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 11,
+      "line_start": 12,
+      "line_end": 12
+    },
+    "field": "indice_discriminacao",
+    "before": "0.03",
+    "after": 0.03,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:11",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 11,
+      "line_start": 12,
+      "line_end": 12
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "41",
+    "after": 41.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:12",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 12,
+      "line_start": 13,
+      "line_end": 13
+    },
+    "field": "n_respondentes",
+    "before": "1340",
+    "after": 1340,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:12",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 12,
+      "line_start": 13,
+      "line_end": 13
+    },
+    "field": "percentual_acerto",
+    "before": "0.47",
+    "after": 0.47,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:12",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 12,
+      "line_start": 13,
+      "line_end": 13
+    },
+    "field": "indice_discriminacao",
+    "before": "0.39",
+    "after": 0.39,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:12",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 12,
+      "line_start": 13,
+      "line_end": 13
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "196",
+    "after": 196.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:13",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 13,
+      "line_start": 14,
+      "line_end": 14
+    },
+    "field": "n_respondentes",
+    "before": "1702",
+    "after": 1702,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:13",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 13,
+      "line_start": 14,
+      "line_end": 14
+    },
+    "field": "percentual_acerto",
+    "before": "0.74",
+    "after": 0.74,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:13",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 13,
+      "line_start": 14,
+      "line_end": 14
+    },
+    "field": "indice_discriminacao",
+    "before": "0.22",
+    "after": 0.22,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:13",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 13,
+      "line_start": 14,
+      "line_end": 14
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "81",
+    "after": 81.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:14",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 14,
+      "line_start": 15,
+      "line_end": 15
+    },
+    "field": "n_respondentes",
+    "before": "1018",
+    "after": 1018,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:14",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 14,
+      "line_start": 15,
+      "line_end": 15
+    },
+    "field": "percentual_acerto",
+    "before": "0.49",
+    "after": 0.49,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:14",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 14,
+      "line_start": 15,
+      "line_end": 15
+    },
+    "field": "indice_discriminacao",
+    "before": "0.46",
+    "after": 0.46,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:14",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 14,
+      "line_start": 15,
+      "line_end": 15
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "213",
+    "after": 213.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:15",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 15,
+      "line_start": 16,
+      "line_end": 16
+    },
+    "field": "n_respondentes",
+    "before": "874",
+    "after": 874,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:15",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 15,
+      "line_start": 16,
+      "line_end": 16
+    },
+    "field": "percentual_acerto",
+    "before": "0.36",
+    "after": 0.36,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:15",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 15,
+      "line_start": 16,
+      "line_end": 16
+    },
+    "field": "indice_discriminacao",
+    "before": "0.51",
+    "after": 0.51,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:15",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 15,
+      "line_start": 16,
+      "line_end": 16
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "238",
+    "after": 238.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:16",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 16,
+      "line_start": 17,
+      "line_end": 17
+    },
+    "field": "n_respondentes",
+    "before": "1256",
+    "after": 1256,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:16",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 16,
+      "line_start": 17,
+      "line_end": 17
+    },
+    "field": "percentual_acerto",
+    "before": "0.41",
+    "after": 0.41,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:16",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 16,
+      "line_start": 17,
+      "line_end": 17
+    },
+    "field": "indice_discriminacao",
+    "before": "0.33",
+    "after": 0.33,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:16",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 16,
+      "line_start": 17,
+      "line_end": 17
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "165",
+    "after": 165.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:17",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 17,
+      "line_start": 18,
+      "line_end": 18
+    },
+    "field": "n_respondentes",
+    "before": "1893",
+    "after": 1893,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:17",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 17,
+      "line_start": 18,
+      "line_end": 18
+    },
+    "field": "percentual_acerto",
+    "before": "0.88",
+    "after": 0.88,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:17",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 17,
+      "line_start": 18,
+      "line_end": 18
+    },
+    "field": "indice_discriminacao",
+    "before": "0.09",
+    "after": 0.09,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:17",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 17,
+      "line_start": 18,
+      "line_end": 18
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "47",
+    "after": 47.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:18",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 18,
+      "line_start": 19,
+      "line_end": 19
+    },
+    "field": "n_respondentes",
+    "before": "1177",
+    "after": 1177,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:18",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 18,
+      "line_start": 19,
+      "line_end": 19
+    },
+    "field": "percentual_acerto",
+    "before": "0.45",
+    "after": 0.45,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:18",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 18,
+      "line_start": 19,
+      "line_end": 19
+    },
+    "field": "indice_discriminacao",
+    "before": "0.43",
+    "after": 0.43,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:18",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 18,
+      "line_start": 19,
+      "line_end": 19
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "183",
+    "after": 183.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:19",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 19,
+      "line_start": 20,
+      "line_end": 20
+    },
+    "field": "n_respondentes",
+    "before": "1620",
+    "after": 1620,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:19",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 19,
+      "line_start": 20,
+      "line_end": 20
+    },
+    "field": "percentual_acerto",
+    "before": "0.69",
+    "after": 0.69,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:19",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 19,
+      "line_start": 20,
+      "line_end": 20
+    },
+    "field": "indice_discriminacao",
+    "before": "0.26",
+    "after": 0.26,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:19",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 19,
+      "line_start": 20,
+      "line_end": 20
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "93",
+    "after": 93.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:20",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 20,
+      "line_start": 21,
+      "line_end": 21
+    },
+    "field": "n_respondentes",
+    "before": "845",
+    "after": 845,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:20",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 20,
+      "line_start": 21,
+      "line_end": 21
+    },
+    "field": "percentual_acerto",
+    "before": "0.63",
+    "after": 0.63,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:20",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 20,
+      "line_start": 21,
+      "line_end": 21
+    },
+    "field": "indice_discriminacao",
+    "before": "0.37",
+    "after": 0.37,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:20",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 20,
+      "line_start": 21,
+      "line_end": 21
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "201",
+    "after": 201.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:21",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 21,
+      "line_start": 22,
+      "line_end": 22
+    },
+    "field": "n_respondentes",
+    "before": "1308",
+    "after": 1308,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:21",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 21,
+      "line_start": 22,
+      "line_end": 22
+    },
+    "field": "percentual_acerto",
+    "before": "0.9",
+    "after": 0.9,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:21",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 21,
+      "line_start": 22,
+      "line_end": 22
+    },
+    "field": "indice_discriminacao",
+    "before": "0.07",
+    "after": 0.07,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:21",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 21,
+      "line_start": 22,
+      "line_end": 22
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "58",
+    "after": 58.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:22",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 22,
+      "line_start": 23,
+      "line_end": 23
+    },
+    "field": "n_respondentes",
+    "before": "1744",
+    "after": 1744,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:22",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 22,
+      "line_start": 23,
+      "line_end": 23
+    },
+    "field": "percentual_acerto",
+    "before": "0.72",
+    "after": 0.72,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:22",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 22,
+      "line_start": 23,
+      "line_end": 23
+    },
+    "field": "indice_discriminacao",
+    "before": "0.24",
+    "after": 0.24,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:22",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 22,
+      "line_start": 23,
+      "line_end": 23
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "88",
+    "after": 88.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:23",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 23,
+      "line_start": 24,
+      "line_end": 24
+    },
+    "field": "n_respondentes",
+    "before": "1192",
+    "after": 1192,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:23",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 23,
+      "line_start": 24,
+      "line_end": 24
+    },
+    "field": "percentual_acerto",
+    "before": "0.53",
+    "after": 0.53,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:23",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 23,
+      "line_start": 24,
+      "line_end": 24
+    },
+    "field": "indice_discriminacao",
+    "before": "0.36",
+    "after": 0.36,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:23",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 23,
+      "line_start": 24,
+      "line_end": 24
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "171",
+    "after": 171.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:24",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 24,
+      "line_start": 25,
+      "line_end": 25
+    },
+    "field": "n_respondentes",
+    "before": "931",
+    "after": 931,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:24",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 24,
+      "line_start": 25,
+      "line_end": 25
+    },
+    "field": "percentual_acerto",
+    "before": "0.34",
+    "after": 0.34,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:24",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 24,
+      "line_start": 25,
+      "line_end": 25
+    },
+    "field": "indice_discriminacao",
+    "before": "0.49",
+    "after": 0.49,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:24",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 24,
+      "line_start": 25,
+      "line_end": 25
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "229",
+    "after": 229.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:25",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 25,
+      "line_start": 26,
+      "line_end": 26
+    },
+    "field": "n_respondentes",
+    "before": "668",
+    "after": 668,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:25",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 25,
+      "line_start": 26,
+      "line_end": 26
+    },
+    "field": "percentual_acerto",
+    "before": "0.28",
+    "after": 0.28,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:25",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 25,
+      "line_start": 26,
+      "line_end": 26
+    },
+    "field": "indice_discriminacao",
+    "before": "0.45",
+    "after": 0.45,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:25",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 25,
+      "line_start": 26,
+      "line_end": 26
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "254",
+    "after": 254.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:26",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 26,
+      "line_start": 27,
+      "line_end": 27
+    },
+    "field": "n_respondentes",
+    "before": "1533",
+    "after": 1533,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:26",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 26,
+      "line_start": 27,
+      "line_end": 27
+    },
+    "field": "percentual_acerto",
+    "before": "0.67",
+    "after": 0.67,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:26",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 26,
+      "line_start": 27,
+      "line_end": 27
+    },
+    "field": "indice_discriminacao",
+    "before": "0.31",
+    "after": 0.31,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:26",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 26,
+      "line_start": 27,
+      "line_end": 27
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "102",
+    "after": 102.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:27",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 27,
+      "line_start": 28,
+      "line_end": 28
+    },
+    "field": "n_respondentes",
+    "before": "889",
+    "after": 889,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:27",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 27,
+      "line_start": 28,
+      "line_end": 28
+    },
+    "field": "percentual_acerto",
+    "before": "0.48",
+    "after": 0.48,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:27",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 27,
+      "line_start": 28,
+      "line_end": 28
+    },
+    "field": "indice_discriminacao",
+    "before": "0.42",
+    "after": 0.42,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:27",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 27,
+      "line_start": 28,
+      "line_end": 28
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "187",
+    "after": 187.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:28",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 28,
+      "line_start": 29,
+      "line_end": 29
+    },
+    "field": "n_respondentes",
+    "before": "914",
+    "after": 914,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:28",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 28,
+      "line_start": 29,
+      "line_end": 29
+    },
+    "field": "percentual_acerto",
+    "before": "0.55",
+    "after": 0.55,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:28",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 28,
+      "line_start": 29,
+      "line_end": 29
+    },
+    "field": "indice_discriminacao",
+    "before": "0.4",
+    "after": 0.4,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:28",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 28,
+      "line_start": 29,
+      "line_end": 29
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "168",
+    "after": 168.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:29",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 29,
+      "line_start": 30,
+      "line_end": 30
+    },
+    "field": "n_respondentes",
+    "before": "823",
+    "after": 823,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:29",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 29,
+      "line_start": 30,
+      "line_end": 30
+    },
+    "field": "percentual_acerto",
+    "before": "0.58",
+    "after": 0.58,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:29",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 29,
+      "line_start": 30,
+      "line_end": 30
+    },
+    "field": "indice_discriminacao",
+    "before": "0.39",
+    "after": 0.39,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:29",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 29,
+      "line_start": 30,
+      "line_end": 30
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "194",
+    "after": 194.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:30",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 30,
+      "line_start": 31,
+      "line_end": 31
+    },
+    "field": "n_respondentes",
+    "before": "1425",
+    "after": 1425,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:30",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 30,
+      "line_start": 31,
+      "line_end": 31
+    },
+    "field": "percentual_acerto",
+    "before": "0.61",
+    "after": 0.61,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:30",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 30,
+      "line_start": 31,
+      "line_end": 31
+    },
+    "field": "indice_discriminacao",
+    "before": "0.32",
+    "after": 0.32,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:30",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 30,
+      "line_start": 31,
+      "line_end": 31
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "158",
+    "after": 158.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:31",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 31,
+      "line_start": 32,
+      "line_end": 32
+    },
+    "field": "n_respondentes",
+    "before": "1098",
+    "after": 1098,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:31",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 31,
+      "line_start": 32,
+      "line_end": 32
+    },
+    "field": "percentual_acerto",
+    "before": "0.43",
+    "after": 0.43,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:31",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 31,
+      "line_start": 32,
+      "line_end": 32
+    },
+    "field": "indice_discriminacao",
+    "before": "0.44",
+    "after": 0.44,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:31",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 31,
+      "line_start": 32,
+      "line_end": 32
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "199",
+    "after": 199.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:32",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 32,
+      "line_start": 33,
+      "line_end": 33
+    },
+    "field": "n_respondentes",
+    "before": "1361",
+    "after": 1361,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:32",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 32,
+      "line_start": 33,
+      "line_end": 33
+    },
+    "field": "percentual_acerto",
+    "before": "0.96",
+    "after": 0.96,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:32",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 32,
+      "line_start": 33,
+      "line_end": 33
+    },
+    "field": "indice_discriminacao",
+    "before": "0.02",
+    "after": 0.02,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:32",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 32,
+      "line_start": 33,
+      "line_end": 33
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "38",
+    "after": 38.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:33",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 33,
+      "line_start": 34,
+      "line_end": 34
+    },
+    "field": "n_respondentes",
+    "before": "907",
+    "after": 907,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:33",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 33,
+      "line_start": 34,
+      "line_end": 34
+    },
+    "field": "percentual_acerto",
+    "before": "0.39",
+    "after": 0.39,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:33",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 33,
+      "line_start": 34,
+      "line_end": 34
+    },
+    "field": "indice_discriminacao",
+    "before": "-0.18",
+    "after": -0.18,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:33",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 33,
+      "line_start": 34,
+      "line_end": 34
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "162",
+    "after": 162.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:34",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 34,
+      "line_start": 35,
+      "line_end": 35
+    },
+    "field": "n_respondentes",
+    "before": "1588",
+    "after": 1588,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:34",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 34,
+      "line_start": 35,
+      "line_end": 35
+    },
+    "field": "percentual_acerto",
+    "before": "0.56",
+    "after": 0.56,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:34",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 34,
+      "line_start": 35,
+      "line_end": 35
+    },
+    "field": "indice_discriminacao",
+    "before": "0.35",
+    "after": 0.35,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:34",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 34,
+      "line_start": 35,
+      "line_end": 35
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "139",
+    "after": 139.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:35",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 35,
+      "line_start": 36,
+      "line_end": 36
+    },
+    "field": "n_respondentes",
+    "before": "1690",
+    "after": 1690,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:35",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 35,
+      "line_start": 36,
+      "line_end": 36
+    },
+    "field": "percentual_acerto",
+    "before": "0.73",
+    "after": 0.73,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:35",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 35,
+      "line_start": 36,
+      "line_end": 36
+    },
+    "field": "indice_discriminacao",
+    "before": "0.23",
+    "after": 0.23,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:35",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 35,
+      "line_start": 36,
+      "line_end": 36
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "84",
+    "after": 84.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:36",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 36,
+      "line_start": 37,
+      "line_end": 37
+    },
+    "field": "n_respondentes",
+    "before": "1812",
+    "after": 1812,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:36",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 36,
+      "line_start": 37,
+      "line_end": 37
+    },
+    "field": "percentual_acerto",
+    "before": "0.7",
+    "after": 0.7,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:36",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 36,
+      "line_start": 37,
+      "line_end": 37
+    },
+    "field": "indice_discriminacao",
+    "before": "0.2",
+    "after": 0.2,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:36",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 36,
+      "line_start": 37,
+      "line_end": 37
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "91",
+    "after": 91.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:37",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 37,
+      "line_start": 38,
+      "line_end": 38
+    },
+    "field": "n_respondentes",
+    "before": "942",
+    "after": 942,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:37",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 37,
+      "line_start": 38,
+      "line_end": 38
+    },
+    "field": "percentual_acerto",
+    "before": "0.52",
+    "after": 0.52,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:37",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 37,
+      "line_start": 38,
+      "line_end": 38
+    },
+    "field": "indice_discriminacao",
+    "before": "0.47",
+    "after": 0.47,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:37",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 37,
+      "line_start": 38,
+      "line_end": 38
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "178",
+    "after": 178.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:38",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 38,
+      "line_start": 39,
+      "line_end": 39
+    },
+    "field": "n_respondentes",
+    "before": "1277",
+    "after": 1277,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:38",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 38,
+      "line_start": 39,
+      "line_end": 39
+    },
+    "field": "percentual_acerto",
+    "before": "0.64",
+    "after": 0.64,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:38",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 38,
+      "line_start": 39,
+      "line_end": 39
+    },
+    "field": "indice_discriminacao",
+    "before": "0.3",
+    "after": 0.3,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:38",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 38,
+      "line_start": 39,
+      "line_end": 39
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "112",
+    "after": 112.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:39",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 39,
+      "line_start": 40,
+      "line_end": 40
+    },
+    "field": "n_respondentes",
+    "before": "2104",
+    "after": 2104,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:39",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 39,
+      "line_start": 40,
+      "line_end": 40
+    },
+    "field": "percentual_acerto",
+    "before": "0.94",
+    "after": 0.94,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:39",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 39,
+      "line_start": 40,
+      "line_end": 40
+    },
+    "field": "indice_discriminacao",
+    "before": "0.05",
+    "after": 0.05,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:39",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 39,
+      "line_start": 40,
+      "line_end": 40
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "44",
+    "after": 44.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:40",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 40,
+      "line_start": 41,
+      "line_end": 41
+    },
+    "field": "n_respondentes",
+    "before": "1866",
+    "after": 1866,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:40",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 40,
+      "line_start": 41,
+      "line_end": 41
+    },
+    "field": "percentual_acerto",
+    "before": "0.91",
+    "after": 0.91,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:40",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 40,
+      "line_start": 41,
+      "line_end": 41
+    },
+    "field": "indice_discriminacao",
+    "before": "0.06",
+    "after": 0.06,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:40",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 40,
+      "line_start": 41,
+      "line_end": 41
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "46",
+    "after": 46.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:41",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 41,
+      "line_start": 42,
+      "line_end": 42
+    },
+    "field": "n_respondentes",
+    "before": "858",
+    "after": 858,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:41",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 41,
+      "line_start": 42,
+      "line_end": 42
+    },
+    "field": "percentual_acerto",
+    "before": "0.6",
+    "after": 0.6,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:41",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 41,
+      "line_start": 42,
+      "line_end": 42
+    },
+    "field": "indice_discriminacao",
+    "before": "0.43",
+    "after": 0.43,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:41",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 41,
+      "line_start": 42,
+      "line_end": 42
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "170",
+    "after": 170.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:42",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 42,
+      "line_start": 43,
+      "line_end": 43
+    },
+    "field": "n_respondentes",
+    "before": "1744",
+    "after": 1744,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:42",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 42,
+      "line_start": 43,
+      "line_end": 43
+    },
+    "field": "percentual_acerto",
+    "before": "0.76",
+    "after": 0.76,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:42",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 42,
+      "line_start": 43,
+      "line_end": 43
+    },
+    "field": "indice_discriminacao",
+    "before": "0.21",
+    "after": 0.21,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:42",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 42,
+      "line_start": 43,
+      "line_end": 43
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "79",
+    "after": 79.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:43",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 43,
+      "line_start": 44,
+      "line_end": 44
+    },
+    "field": "n_respondentes",
+    "before": "811",
+    "after": 811,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:43",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 43,
+      "line_start": 44,
+      "line_end": 44
+    },
+    "field": "percentual_acerto",
+    "before": "0.41",
+    "after": 0.41,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:43",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 43,
+      "line_start": 44,
+      "line_end": 44
+    },
+    "field": "indice_discriminacao",
+    "before": "0.48",
+    "after": 0.48,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:43",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 43,
+      "line_start": 44,
+      "line_end": 44
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "216",
+    "after": 216.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:44",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 44,
+      "line_start": 45,
+      "line_end": 45
+    },
+    "field": "n_respondentes",
+    "before": "1322",
+    "after": 1322,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:44",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 44,
+      "line_start": 45,
+      "line_end": 45
+    },
+    "field": "percentual_acerto",
+    "before": "0.58",
+    "after": 0.58,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:44",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 44,
+      "line_start": 45,
+      "line_end": 45
+    },
+    "field": "indice_discriminacao",
+    "before": "0.36",
+    "after": 0.36,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:44",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 44,
+      "line_start": 45,
+      "line_end": 45
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "147",
+    "after": 147.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:45",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 45,
+      "line_start": 46,
+      "line_end": 46
+    },
+    "field": "n_respondentes",
+    "before": "1611",
+    "after": 1611,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:45",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 45,
+      "line_start": 46,
+      "line_end": 46
+    },
+    "field": "percentual_acerto",
+    "before": "0.71",
+    "after": 0.71,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:45",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 45,
+      "line_start": 46,
+      "line_end": 46
+    },
+    "field": "indice_discriminacao",
+    "before": "0.25",
+    "after": 0.25,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:45",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 45,
+      "line_start": 46,
+      "line_end": 46
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "87",
+    "after": 87.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:46",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 46,
+      "line_start": 47,
+      "line_end": 47
+    },
+    "field": "n_respondentes",
+    "before": "1289",
+    "after": 1289,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:46",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 46,
+      "line_start": 47,
+      "line_end": 47
+    },
+    "field": "percentual_acerto",
+    "before": "0.66",
+    "after": 0.66,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:46",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 46,
+      "line_start": 47,
+      "line_end": 47
+    },
+    "field": "indice_discriminacao",
+    "before": "0.33",
+    "after": 0.33,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:46",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 46,
+      "line_start": 47,
+      "line_end": 47
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "124",
+    "after": 124.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:47",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 47,
+      "line_start": 48,
+      "line_end": 48
+    },
+    "field": "n_respondentes",
+    "before": "836",
+    "after": 836,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:47",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 47,
+      "line_start": 48,
+      "line_end": 48
+    },
+    "field": "percentual_acerto",
+    "before": "0.54",
+    "after": 0.54,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:47",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 47,
+      "line_start": 48,
+      "line_end": 48
+    },
+    "field": "indice_discriminacao",
+    "before": "0.45",
+    "after": 0.45,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:47",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 47,
+      "line_start": 48,
+      "line_end": 48
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "192",
+    "after": 192.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:48",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 48,
+      "line_start": 49,
+      "line_end": 49
+    },
+    "field": "n_respondentes",
+    "before": "1405",
+    "after": 1405,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:48",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 48,
+      "line_start": 49,
+      "line_end": 49
+    },
+    "field": "percentual_acerto",
+    "before": "0.47",
+    "after": 0.47,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:48",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 48,
+      "line_start": 49,
+      "line_end": 49
+    },
+    "field": "indice_discriminacao",
+    "before": "-0.11",
+    "after": -0.11,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:48",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 48,
+      "line_start": 49,
+      "line_end": 49
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "136",
+    "after": 136.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:49",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 49,
+      "line_start": 50,
+      "line_end": 50
+    },
+    "field": "n_respondentes",
+    "before": "1958",
+    "after": 1958,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:49",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 49,
+      "line_start": 50,
+      "line_end": 50
+    },
+    "field": "percentual_acerto",
+    "before": "0.89",
+    "after": 0.89,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:49",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 49,
+      "line_start": 50,
+      "line_end": 50
+    },
+    "field": "indice_discriminacao",
+    "before": "0.08",
+    "after": 0.08,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:49",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 49,
+      "line_start": 50,
+      "line_end": 50
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "49",
+    "after": 49.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:50",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 50,
+      "line_start": 51,
+      "line_end": 51
+    },
+    "field": "n_respondentes",
+    "before": "867",
+    "after": 867,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:50",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 50,
+      "line_start": 51,
+      "line_end": 51
+    },
+    "field": "percentual_acerto",
+    "before": "0.59",
+    "after": 0.59,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:50",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 50,
+      "line_start": 51,
+      "line_end": 51
+    },
+    "field": "indice_discriminacao",
+    "before": "0.46",
+    "after": 0.46,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:50",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 50,
+      "line_start": 51,
+      "line_end": 51
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "185",
+    "after": 185.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:51",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 51,
+      "line_start": 52,
+      "line_end": 52
+    },
+    "field": "n_respondentes",
+    "before": "1244",
+    "after": 1244,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:51",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 51,
+      "line_start": 52,
+      "line_end": 52
+    },
+    "field": "percentual_acerto",
+    "before": "0.62",
+    "after": 0.62,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:51",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 51,
+      "line_start": 52,
+      "line_end": 52
+    },
+    "field": "indice_discriminacao",
+    "before": "0.31",
+    "after": 0.31,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:51",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 51,
+      "line_start": 52,
+      "line_end": 52
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "118",
+    "after": 118.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:52",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 52,
+      "line_start": 53,
+      "line_end": 53
+    },
+    "field": "n_respondentes",
+    "before": "1163",
+    "after": 1163,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:52",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 52,
+      "line_start": 53,
+      "line_end": 53
+    },
+    "field": "percentual_acerto",
+    "before": "0.44",
+    "after": 0.44,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:52",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 52,
+      "line_start": 53,
+      "line_end": 53
+    },
+    "field": "indice_discriminacao",
+    "before": "0.4",
+    "after": 0.4,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:52",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 52,
+      "line_start": 53,
+      "line_end": 53
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "174",
+    "after": 174.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:53",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 53,
+      "line_start": 54,
+      "line_end": 54
+    },
+    "field": "n_respondentes",
+    "before": "798",
+    "after": 798,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:53",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 53,
+      "line_start": 54,
+      "line_end": 54
+    },
+    "field": "percentual_acerto",
+    "before": "0.57",
+    "after": 0.57,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:53",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 53,
+      "line_start": 54,
+      "line_end": 54
+    },
+    "field": "indice_discriminacao",
+    "before": "0.44",
+    "after": 0.44,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:53",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 53,
+      "line_start": 54,
+      "line_end": 54
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "189",
+    "after": 189.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:54",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 54,
+      "line_start": 55,
+      "line_end": 55
+    },
+    "field": "n_respondentes",
+    "before": "1677",
+    "after": 1677,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:54",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 54,
+      "line_start": 55,
+      "line_end": 55
+    },
+    "field": "percentual_acerto",
+    "before": "0.75",
+    "after": 0.75,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:54",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 54,
+      "line_start": 55,
+      "line_end": 55
+    },
+    "field": "indice_discriminacao",
+    "before": "0.22",
+    "after": 0.22,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:54",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 54,
+      "line_start": 55,
+      "line_end": 55
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "83",
+    "after": 83.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:55",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 55,
+      "line_start": 56,
+      "line_end": 56
+    },
+    "field": "n_respondentes",
+    "before": "1598",
+    "after": 1598,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:55",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 55,
+      "line_start": 56,
+      "line_end": 56
+    },
+    "field": "percentual_acerto",
+    "before": "0.68",
+    "after": 0.68,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:55",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 55,
+      "line_start": 56,
+      "line_end": 56
+    },
+    "field": "indice_discriminacao",
+    "before": "0.27",
+    "after": 0.27,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:55",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 55,
+      "line_start": 56,
+      "line_end": 56
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "96",
+    "after": 96.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:56",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 56,
+      "line_start": 57,
+      "line_end": 57
+    },
+    "field": "n_respondentes",
+    "before": "785",
+    "after": 785,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:56",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 56,
+      "line_start": 57,
+      "line_end": 57
+    },
+    "field": "percentual_acerto",
+    "before": "0.61",
+    "after": 0.61,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:56",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 56,
+      "line_start": 57,
+      "line_end": 57
+    },
+    "field": "indice_discriminacao",
+    "before": "0.41",
+    "after": 0.41,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:56",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 56,
+      "line_start": 57,
+      "line_end": 57
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "197",
+    "after": 197.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:57",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 57,
+      "line_start": 58,
+      "line_end": 58
+    },
+    "field": "n_respondentes",
+    "before": "1356",
+    "after": 1356,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:57",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 57,
+      "line_start": 58,
+      "line_end": 58
+    },
+    "field": "percentual_acerto",
+    "before": "0.8",
+    "after": 0.8,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:57",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 57,
+      "line_start": 58,
+      "line_end": 58
+    },
+    "field": "indice_discriminacao",
+    "before": "0.18",
+    "after": 0.18,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:57",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 57,
+      "line_start": 58,
+      "line_end": 58
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "71",
+    "after": 71.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:58",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 58,
+      "line_start": 59,
+      "line_end": 59
+    },
+    "field": "n_respondentes",
+    "before": "1889",
+    "after": 1889,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:58",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 58,
+      "line_start": 59,
+      "line_end": 59
+    },
+    "field": "percentual_acerto",
+    "before": "0.87",
+    "after": 0.87,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:58",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 58,
+      "line_start": 59,
+      "line_end": 59
+    },
+    "field": "indice_discriminacao",
+    "before": "0.1",
+    "after": 0.1,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:58",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 58,
+      "line_start": 59,
+      "line_end": 59
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "54",
+    "after": 54.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:59",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 59,
+      "line_start": 60,
+      "line_end": 60
+    },
+    "field": "n_respondentes",
+    "before": "842",
+    "after": 842,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:59",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 59,
+      "line_start": 60,
+      "line_end": 60
+    },
+    "field": "percentual_acerto",
+    "before": "0.53",
+    "after": 0.53,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:59",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 59,
+      "line_start": 60,
+      "line_end": 60
+    },
+    "field": "indice_discriminacao",
+    "before": "0.45",
+    "after": 0.45,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:59",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 59,
+      "line_start": 60,
+      "line_end": 60
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "181",
+    "after": 181.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:60",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 60,
+      "line_start": 61,
+      "line_end": 61
+    },
+    "field": "n_respondentes",
+    "before": "776",
+    "after": 776,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:60",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 60,
+      "line_start": 61,
+      "line_end": 61
+    },
+    "field": "percentual_acerto",
+    "before": "0.46",
+    "after": 0.46,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:60",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 60,
+      "line_start": 61,
+      "line_end": 61
+    },
+    "field": "indice_discriminacao",
+    "before": "0.47",
+    "after": 0.47,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:60",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 60,
+      "line_start": 61,
+      "line_end": 61
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "207",
+    "after": 207.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:61",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 61,
+      "line_start": 62,
+      "line_end": 62
+    },
+    "field": "n_respondentes",
+    "before": "1534",
+    "after": 1534,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:61",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 61,
+      "line_start": 62,
+      "line_end": 62
+    },
+    "field": "percentual_acerto",
+    "before": "0.31",
+    "after": 0.31,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:61",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 61,
+      "line_start": 62,
+      "line_end": 62
+    },
+    "field": "indice_discriminacao",
+    "before": "-0.24",
+    "after": -0.24,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:61",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 61,
+      "line_start": 62,
+      "line_end": 62
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "118",
+    "after": 118.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:62",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 62,
+      "line_start": 63,
+      "line_end": 63
+    },
+    "field": "n_respondentes",
+    "before": "1298",
+    "after": 1298,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:62",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 62,
+      "line_start": 63,
+      "line_end": 63
+    },
+    "field": "percentual_acerto",
+    "before": "0.84",
+    "after": 0.84,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:62",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 62,
+      "line_start": 63,
+      "line_end": 63
+    },
+    "field": "indice_discriminacao",
+    "before": "0.11",
+    "after": 0.11,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:62",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 62,
+      "line_start": 63,
+      "line_end": 63
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "63",
+    "after": 63.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:63",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 63,
+      "line_start": 64,
+      "line_end": 64
+    },
+    "field": "indice_discriminacao",
+    "before": "",
+    "after": null,
+    "rule_id": "EMPTY_NULL",
+    "reason": "Campo vazio convertido a null; conteúdo bruto preservado."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:63",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 63,
+      "line_start": 64,
+      "line_end": 64
+    },
+    "field": "n_respondentes",
+    "before": "18",
+    "after": 18,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:63",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 63,
+      "line_start": 64,
+      "line_end": 64
+    },
+    "field": "percentual_acerto",
+    "before": "0.5",
+    "after": 0.5,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:63",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 63,
+      "line_start": 64,
+      "line_end": 64
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "203",
+    "after": 203.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:64",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 64,
+      "line_start": 65,
+      "line_end": 65
+    },
+    "field": "indice_discriminacao",
+    "before": "",
+    "after": null,
+    "rule_id": "EMPTY_NULL",
+    "reason": "Campo vazio convertido a null; conteúdo bruto preservado."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:64",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 64,
+      "line_start": 65,
+      "line_end": 65
+    },
+    "field": "n_respondentes",
+    "before": "22",
+    "after": 22,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:64",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 64,
+      "line_start": 65,
+      "line_end": 65
+    },
+    "field": "percentual_acerto",
+    "before": "0.77",
+    "after": 0.77,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:64",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 64,
+      "line_start": 65,
+      "line_end": 65
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "88",
+    "after": 88.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:65",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 65,
+      "line_start": 66,
+      "line_end": 66
+    },
+    "field": "indice_discriminacao",
+    "before": "",
+    "after": null,
+    "rule_id": "EMPTY_NULL",
+    "reason": "Campo vazio convertido a null; conteúdo bruto preservado."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:65",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 65,
+      "line_start": 66,
+      "line_end": 66
+    },
+    "field": "n_respondentes",
+    "before": "11",
+    "after": 11,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:65",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 65,
+      "line_start": 66,
+      "line_end": 66
+    },
+    "field": "percentual_acerto",
+    "before": "0.64",
+    "after": 0.64,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:65",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 65,
+      "line_start": 66,
+      "line_end": 66
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "142",
+    "after": 142.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:66",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 66,
+      "line_start": 67,
+      "line_end": 67
+    },
+    "field": "item_id",
+    "before": "ITM10068",
+    "after": "ITM-10068",
+    "rule_id": "ID_HYPHEN",
+    "reason": "Inserir hífen apenas em ITM seguido de dígitos; vínculo só com destino único."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:66",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 66,
+      "line_start": 67,
+      "line_end": 67
+    },
+    "field": "n_respondentes",
+    "before": "1702",
+    "after": 1702,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:66",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 66,
+      "line_start": 67,
+      "line_end": 67
+    },
+    "field": "percentual_acerto",
+    "before": "0.66",
+    "after": 0.66,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:66",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 66,
+      "line_start": 67,
+      "line_end": 67
+    },
+    "field": "indice_discriminacao",
+    "before": "0.28",
+    "after": 0.28,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:66",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 66,
+      "line_start": 67,
+      "line_end": 67
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "99",
+    "after": 99.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:67",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 67,
+      "line_start": 68,
+      "line_end": 68
+    },
+    "field": "item_id",
+    "before": "ITM10066",
+    "after": "ITM-10066",
+    "rule_id": "ID_HYPHEN",
+    "reason": "Inserir hífen apenas em ITM seguido de dígitos; vínculo só com destino único."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:67",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 67,
+      "line_start": 68,
+      "line_end": 68
+    },
+    "field": "n_respondentes",
+    "before": "1588",
+    "after": 1588,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:67",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 67,
+      "line_start": 68,
+      "line_end": 68
+    },
+    "field": "percentual_acerto",
+    "before": "0.64",
+    "after": 0.64,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:67",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 67,
+      "line_start": 68,
+      "line_end": 68
+    },
+    "field": "indice_discriminacao",
+    "before": "0.3",
+    "after": 0.3,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:67",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 67,
+      "line_start": 68,
+      "line_end": 68
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "105",
+    "after": 105.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:68",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 68,
+      "line_start": 69,
+      "line_end": 69
+    },
+    "field": "n_respondentes",
+    "before": "1455",
+    "after": 1455,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:68",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 68,
+      "line_start": 69,
+      "line_end": 69
+    },
+    "field": "percentual_acerto",
+    "before": "0.58",
+    "after": 0.58,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:68",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 68,
+      "line_start": 69,
+      "line_end": 69
+    },
+    "field": "indice_discriminacao",
+    "before": "0.33",
+    "after": 0.33,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:68",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 68,
+      "line_start": 69,
+      "line_end": 69
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "151",
+    "after": 151.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:69",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 69,
+      "line_start": 70,
+      "line_end": 70
+    },
+    "field": "n_respondentes",
+    "before": "1390",
+    "after": 1390,
+    "rule_id": "INTEGER",
+    "reason": "Converter inteiro decimal válido para número."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:69",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 69,
+      "line_start": 70,
+      "line_end": 70
+    },
+    "field": "percentual_acerto",
+    "before": "0.49",
+    "after": 0.49,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:69",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 69,
+      "line_start": 70,
+      "line_end": 70
+    },
+    "field": "indice_discriminacao",
+    "before": "0.37",
+    "after": 0.37,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:69",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 69,
+      "line_start": 70,
+      "line_end": 70
+    },
+    "field": "tempo_medio_resposta_seg",
+    "before": "168",
+    "after": 168.0,
+    "rule_id": "DECIMAL",
+    "reason": "Converter decimal válido para número sem mudar escala."
+  }
+]

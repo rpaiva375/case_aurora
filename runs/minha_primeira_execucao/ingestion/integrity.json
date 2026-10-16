@@ -1,0 +1,50 @@
+{
+  "checks": {
+    "one_to_one_source_records": true,
+    "separate_tables_no_fact_join": true,
+    "unambiguous_links_only": true,
+    "source_and_copy_hashes_match": true
+  },
+  "counts": {
+    "itens": {
+      "source_records": 68,
+      "output_records": 68,
+      "unique_record_ids": 68,
+      "links": {
+        "matched": 68
+      }
+    },
+    "desempenho": {
+      "source_records": 69,
+      "output_records": 69,
+      "unique_record_ids": 69,
+      "links": {
+        "matched": 67,
+        "unmatched": 2
+      }
+    },
+    "aplicacoes": {
+      "source_records": 142,
+      "output_records": 142,
+      "unique_record_ids": 142,
+      "links": {
+        "matched": 142
+      }
+    }
+  },
+  "duplicate_grain_groups": {
+    "itens": [],
+    "desempenho": [],
+    "aplicacoes": []
+  },
+  "issues_by_code": {
+    "MISSING_FIELD": 12,
+    "ANSWER_UNRESOLVED": 2,
+    "DUPLICATE_ALTERNATIVES": 1,
+    "ORPHAN": 2
+  },
+  "audit_events": 358,
+  "source_kind": "synthetic_case_data",
+  "pedagogical_quality": "not_evaluated",
+  "operational_gain": "not_measured"
+}

@@ -1,0 +1,177 @@
+PLANO DE ENSINO — MATERIAL FICTÍCIO PARA CASE TÉCNICO
+
+Componente curricular: Comportamento Organizacional
+Código: ADM-0307
+Curso: Administração (Bacharelado)
+Semestre: 3º
+Carga horária: 60 horas
+Modalidade: EAD
+
+------------------------------------------------------------
+EMENTA
+------------------------------------------------------------
+O campo do comportamento organizacional e seus níveis de análise. Percepção,
+atitudes e diferenças individuais. Motivação no trabalho: teorias de conteúdo e
+de processo. Grupos, equipes e decisão coletiva. Liderança e poder. Comunicação
+organizacional e suas barreiras. Conflito e negociação. Cultura e clima
+organizacional. Ética nas relações de trabalho.
+
+------------------------------------------------------------
+OBJETIVO GERAL
+------------------------------------------------------------
+Capacitar o estudante a analisar o comportamento de indivíduos e grupos no
+ambiente de trabalho e a utilizar esse diagnóstico para sustentar decisões de
+gestão de pessoas.
+
+OBJETIVOS ESPECÍFICOS
+1. Distinguir os níveis individual, grupal e organizacional de análise.
+2. Explicar comportamentos no trabalho a partir das principais teorias de
+   motivação.
+3. Analisar o efeito de estilos de liderança e de bases de poder sobre a equipe.
+4. Identificar barreiras de comunicação e propor correções no fluxo de informação.
+5. Escolher estratégias de negociação e de mediação adequadas ao conflito.
+
+------------------------------------------------------------
+UNIDADE I — O INDIVÍDUO NA ORGANIZAÇÃO
+------------------------------------------------------------
+1.1 Níveis de análise
+O comportamento organizacional estuda o comportamento humano no trabalho em três
+níveis: individual (percepção, atitudes, motivação), grupal (equipes, normas,
+liderança, conflito) e organizacional (cultura, estrutura, políticas). Um mesmo
+fenômeno, como a rotatividade, pode ser lido nos três níveis e demanda
+diagnóstico antes de intervenção.
+
+1.2 Percepção e atribuição
+Percepção é o processo pelo qual o indivíduo organiza e interpreta estímulos para
+dar sentido ao ambiente. Como a decisão gerencial se baseia na percepção da
+realidade, e não na realidade em si, erros de percepção produzem decisões
+equivocadas. A teoria da atribuição descreve como atribuímos causas ao
+comportamento alheio; o erro fundamental de atribuição consiste em superestimar
+fatores internos, como caráter e esforço, e subestimar fatores situacionais ao
+julgar o comportamento de outra pessoa. Vieses frequentes incluem o efeito de
+halo, a projeção e o estereótipo.
+
+1.3 Atitudes e satisfação no trabalho
+Atitude é uma avaliação, favorável ou desfavorável, sobre objetos, pessoas ou
+eventos, e combina componentes cognitivo, afetivo e comportamental. Satisfação no
+trabalho, envolvimento com o trabalho e comprometimento organizacional são
+atitudes distintas, com consequências distintas: a satisfação relaciona-se de
+forma moderada ao desempenho e de forma mais consistente à rotatividade e ao
+absenteísmo.
+
+------------------------------------------------------------
+UNIDADE II — MOTIVAÇÃO, GRUPOS E EQUIPES
+------------------------------------------------------------
+2.1 Teorias de conteúdo
+As teorias de conteúdo tratam do que motiva. A hierarquia de necessidades de
+Maslow organiza necessidades em cinco níveis, dos fisiológicos à autorrealização,
+sob a premissa de que um nível se torna relevante quando o anterior está
+razoavelmente atendido. A teoria dos dois fatores, de Herzberg, distingue fatores
+higiênicos — salário, condições de trabalho, políticas da empresa, supervisão —,
+cuja ausência gera insatisfação mas cuja presença não motiva, dos fatores
+motivacionais — reconhecimento, responsabilidade, conteúdo do trabalho,
+crescimento —, que atuam sobre a satisfação e o esforço. A consequência prática é
+que corrigir apenas fatores higiênicos remove insatisfação sem produzir
+engajamento.
+
+2.2 Teorias de processo
+As teorias de processo tratam de como a motivação se forma. A teoria da
+expectância, de Vroom, propõe que o esforço depende de três percepções
+encadeadas: que o esforço levará ao desempenho, que o desempenho levará à
+recompensa e que a recompensa tem valor para a pessoa. Se qualquer um dos elos
+for percebido como frágil, a motivação cai. A teoria da equidade sustenta que o
+indivíduo compara sua razão entre contribuições e retornos com a de colegas de
+referência, e que a percepção de injustiça gera ajuste de esforço, pedido de
+revisão ou saída. A teoria da fixação de metas indica que metas específicas,
+desafiadoras e aceitas, acompanhadas de retorno sobre o progresso, produzem
+desempenho superior a metas genéricas.
+
+2.3 Grupos e equipes
+Grupo é um conjunto de pessoas que interagem para um objetivo comum; equipe
+caracteriza-se por esforço coordenado, responsabilidade mútua e habilidades
+complementares, de modo que o resultado coletivo supera a soma dos resultados
+individuais. Normas são padrões de comportamento compartilhados e tácitos; coesão
+é o grau de atração entre os membros, e sua relação com o desempenho depende do
+alinhamento das normas aos objetivos da organização.
+
+2.4 Falhas da decisão coletiva
+O pensamento grupal ocorre quando a pressão pela concordância suprime a avaliação
+crítica de alternativas, levando o grupo a decidir pior do que decidiriam seus
+membros isoladamente. A folga social é a tendência de reduzir o esforço
+individual quando o resultado é avaliado apenas de forma coletiva. Contramedidas
+incluem designar um avaliador crítico, registrar discordâncias e tornar visível a
+contribuição individual.
+
+------------------------------------------------------------
+UNIDADE III — LIDERANÇA, PODER E COMUNICAÇÃO
+------------------------------------------------------------
+3.1 Liderança
+As abordagens de traços buscaram características estáveis do líder; as
+comportamentais descreveram estilos orientados à tarefa ou às pessoas; as
+contingenciais sustentam que a eficácia depende da situação. A liderança
+situacional propõe ajustar o estilo — dirigir, orientar, apoiar ou delegar — ao
+nível de maturidade e de preparo do liderado para a tarefa. A liderança
+transacional baseia-se em troca entre desempenho e recompensa; a liderança
+transformacional atua sobre propósito, estímulo intelectual e consideração
+individualizada, e associa-se a maior engajamento.
+
+3.2 Bases de poder
+Poder é a capacidade de influenciar o comportamento de outra pessoa. As bases
+formais incluem o poder legítimo, decorrente do cargo, o poder de recompensa e o
+poder coercitivo. As bases pessoais incluem o poder de competência, derivado de
+conhecimento técnico reconhecido, e o poder de referência, derivado de admiração
+e identificação. Bases pessoais tendem a produzir comprometimento; bases
+coercitivas tendem a produzir apenas obediência.
+
+3.3 Comunicação organizacional
+O processo de comunicação envolve emissor, codificação, mensagem, canal,
+decodificação, receptor e retorno. Ruído é qualquer interferência que distorce a
+mensagem. Barreiras comuns incluem filtragem, percepção seletiva, sobrecarga de
+informação, linguagem inadequada ao receptor e silêncio organizacional. A
+comunicação ascendente é a mais frágil nas estruturas hierárquicas: problemas
+tendem a ser filtrados antes de chegar ao nível decisório.
+
+------------------------------------------------------------
+UNIDADE IV — CONFLITO, CULTURA E ÉTICA
+------------------------------------------------------------
+4.1 Conflito
+O conflito pode ser funcional, quando questiona premissas e melhora a qualidade
+da decisão, ou disfuncional, quando desloca a energia da tarefa para a disputa.
+Conflitos de tarefa e de processo costumam ser mais tratáveis que conflitos de
+relacionamento. Estilos de administração de conflito incluem competição,
+colaboração, acomodação, afastamento e concessão mútua.
+
+4.2 Negociação
+Na negociação distributiva, as partes disputam a divisão de um valor fixo, e o
+ganho de uma implica perda da outra. Na negociação integrativa, as partes buscam
+ampliar o valor disponível a partir de interesses complementares, o que exige
+troca de informação e confiança. A zona de possível acordo é o intervalo entre os
+pontos de reserva das partes; conhecer a melhor alternativa à negociação define o
+limite a partir do qual recusar é melhor do que aceitar.
+
+4.3 Cultura e clima
+A cultura organizacional pode ser lida em três camadas: artefatos observáveis,
+como rituais, linguagem e espaço físico; valores declarados, presentes em códigos
+e discursos; e pressupostos básicos, tácitos e raramente discutidos, que de fato
+orientam o comportamento. A distância entre valores declarados e pressupostos
+explica por que mudanças anunciadas não se sustentam. Clima organizacional é a
+percepção compartilhada e de curto prazo sobre o ambiente de trabalho, sensível a
+eventos recentes, e por isso mais volátil que a cultura.
+
+4.4 Ética nas relações de trabalho
+Códigos de conduta, canais de denúncia protegidos e equidade de tratamento são
+instrumentos de gestão, não apenas peças formais. Dilemas éticos no trabalho
+raramente opõem certo e errado evidentes: em geral confrontam valores legítimos,
+como lealdade à equipe e transparência com a organização, e exigem critério
+declarado para a decisão.
+
+------------------------------------------------------------
+BIBLIOGRAFIA BÁSICA (referência de apoio)
+------------------------------------------------------------
+Comportamento organizacional — obras de referência da área.
+Psicologia aplicada ao trabalho e às organizações.
+Cultura organizacional e liderança: teoria e prática.
+
+OBSERVAÇÃO: Este plano de ensino é fictício e foi redigido para servir de fonte
+de conhecimento em um case técnico. Não corresponde ao plano de ensino de
+nenhuma instituição real.

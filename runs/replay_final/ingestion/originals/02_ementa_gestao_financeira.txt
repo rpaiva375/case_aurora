@@ -1,0 +1,173 @@
+PLANO DE ENSINO — MATERIAL FICTÍCIO PARA CASE TÉCNICO
+
+Componente curricular: Gestão Financeira
+Código: ADM-0412
+Curso: Administração (Bacharelado)
+Semestre: 4º
+Carga horária: 80 horas
+Modalidade: EAD
+
+------------------------------------------------------------
+EMENTA
+------------------------------------------------------------
+Fundamentos do valor do dinheiro no tempo. Capitalização simples e composta.
+Séries uniformes e sistemas de amortização. Projeção de fluxo de caixa e gestão
+do capital de giro. Análise das demonstrações financeiras por indicadores de
+liquidez, endividamento e rentabilidade. Custo de capital e custo médio
+ponderado de capital. Métodos de avaliação de investimentos. Risco, retorno e
+diversificação. Ética e transparência na informação financeira.
+
+------------------------------------------------------------
+OBJETIVO GERAL
+------------------------------------------------------------
+Capacitar o estudante a diagnosticar a situação financeira de uma organização e
+a avaliar decisões de investimento e de financiamento com base em evidência
+quantitativa e em premissas explicitadas.
+
+OBJETIVOS ESPECÍFICOS
+1. Resolver problemas de capitalização e de equivalência de capitais.
+2. Comparar sistemas de amortização quanto a prestação, juros e saldo devedor.
+3. Calcular e interpretar indicadores extraídos das demonstrações financeiras.
+4. Aplicar VPL, TIR e payback descontado na decisão de investimento.
+5. Reconhecer dilemas éticos ligados à produção e à divulgação de informação
+   financeira.
+
+------------------------------------------------------------
+UNIDADE I — VALOR DO DINHEIRO NO TEMPO
+------------------------------------------------------------
+1.1 Capitalização simples e composta
+No regime de juros simples, os juros incidem sempre sobre o capital inicial, de
+modo que o montante cresce linearmente: M = C x (1 + i x n). No regime de juros
+compostos, os juros de cada período passam a integrar a base de cálculo do
+período seguinte, e o montante cresce exponencialmente: M = C x (1 + i)^n. Para
+um mesmo capital, mesma taxa e prazo superior a um período, o montante composto
+é sempre maior que o simples. Exemplo: um capital de R$ 10.000,00 aplicado a 2%
+ao mês por 6 meses resulta em R$ 11.200,00 no regime simples e em R$ 11.261,62
+no regime composto.
+
+1.2 Taxas e equivalência de capitais
+Taxa nominal é a taxa anunciada para um período, sem considerar a capitalização
+intermediária; taxa efetiva é a que de fato incide no período considerado. Dois
+capitais são equivalentes em uma determinada data quando, descontados ou
+capitalizados pela mesma taxa para aquela data, apresentam o mesmo valor. A
+comparação entre alternativas de pagamento exige, portanto, que todos os valores
+sejam trazidos a uma data focal comum.
+
+1.3 Séries uniformes
+Série uniforme é um conjunto de pagamentos ou recebimentos de mesmo valor, em
+intervalos iguais. O valor presente de uma série uniforme postecipada de n
+parcelas de valor PMT, à taxa i, é dado por PV = PMT x [1 - (1 + i)^-n] / i. O
+fator entre colchetes dividido por i é o fator de valor presente da série, e seu
+uso simplifica o cálculo de financiamentos e de aluguéis.
+
+1.4 Sistemas de amortização
+No Sistema de Amortização Constante (SAC), a parcela de amortização do principal
+é igual em todos os períodos; como os juros incidem sobre um saldo devedor
+decrescente, as prestações são decrescentes. Na Tabela Price, a prestação é
+constante: a parcela de juros é maior no início e decresce, enquanto a parcela de
+amortização cresce ao longo do tempo. Para um mesmo prazo e uma mesma taxa, o
+total de juros pago na Price é superior ao do SAC, porque a amortização do
+principal é mais lenta no início do contrato.
+
+------------------------------------------------------------
+UNIDADE II — FLUXO DE CAIXA, CAPITAL DE GIRO E ANÁLISE DE DEMONSTRAÇÕES
+------------------------------------------------------------
+2.1 Fluxo de caixa projetado
+O fluxo de caixa projetado organiza entradas e saídas esperadas em uma linha de
+tempo e é o insumo central de qualquer decisão de investimento. Projeções devem
+declarar suas premissas: crescimento de receita, prazos de recebimento e de
+pagamento, sazonalidade e política de estoques.
+
+2.2 Capital de giro e ciclo financeiro
+Capital de giro é o recurso aplicado no curto prazo para sustentar a operação. O
+ciclo operacional vai da compra de insumos ao recebimento das vendas; o ciclo
+financeiro, ou de caixa, corresponde ao intervalo entre o pagamento a
+fornecedores e o recebimento dos clientes. A necessidade de capital de giro
+aumenta quando o prazo médio de recebimento ou o prazo médio de estocagem se
+alongam, e diminui quando se amplia o prazo obtido com fornecedores. Uma empresa
+lucrativa pode enfrentar insolvência de curto prazo se o ciclo financeiro for
+financiado de forma inadequada.
+
+2.3 Indicadores de liquidez
+Liquidez corrente = ativo circulante / passivo circulante; indica quanto a
+empresa possui de recursos de curto prazo para cada unidade monetária de
+obrigações de curto prazo. Liquidez seca retira os estoques do numerador.
+Liquidez imediata considera apenas disponibilidades. Exemplo: ativo circulante
+de R$ 180.000,00 e passivo circulante de R$ 120.000,00 produzem liquidez
+corrente de 1,5.
+
+2.4 Indicadores de endividamento e de rentabilidade
+A participação de capital de terceiros relaciona o passivo total ao ativo total.
+A composição do endividamento mede quanto da dívida vence no curto prazo. Margem
+líquida = lucro líquido / receita líquida. Retorno sobre o patrimônio líquido
+(ROE) = lucro líquido / patrimônio líquido. Giro do ativo = receita líquida /
+ativo total. Indicadores isolados não sustentam diagnóstico: a leitura exige
+comparação temporal e setorial.
+
+------------------------------------------------------------
+UNIDADE III — CUSTO DE CAPITAL E AVALIAÇÃO DE INVESTIMENTOS
+------------------------------------------------------------
+3.1 Custo de capital
+O custo de capital de terceiros corresponde à remuneração exigida pelos credores,
+líquida do benefício fiscal gerado pela dedutibilidade dos juros. O custo de
+capital próprio é o retorno exigido pelos acionistas, superior ao de terceiros
+por refletir maior risco. O custo médio ponderado de capital (WACC) pondera as
+duas fontes pela participação de cada uma na estrutura de capital e costuma ser
+adotado como taxa mínima de atratividade (TMA) dos projetos da organização.
+
+3.2 Valor presente líquido
+O VPL é a soma dos fluxos de caixa do projeto descontados à TMA, menos o
+investimento inicial. VPL positivo indica que o projeto remunera o capital acima
+da TMA e agrega valor; VPL negativo indica o contrário; VPL nulo indica retorno
+exatamente igual à TMA. Exemplo: investimento inicial de R$ 50.000,00 com
+entradas de R$ 20.000,00 por três anos e TMA de 10% ao ano produz valor presente
+das entradas de aproximadamente R$ 49.738,00 e, portanto, VPL de cerca de
+R$ 262,00 negativos — o projeto deve ser rejeitado.
+
+3.3 Taxa interna de retorno
+A TIR é a taxa de desconto que torna o VPL igual a zero. O projeto é aceitável
+quando a TIR supera a TMA. A TIR apresenta limitações: pode haver múltiplas
+soluções em fluxos com mais de uma inversão de sinal, e a comparação entre
+projetos de escalas diferentes pode conduzir a decisão equivocada. Em projetos
+mutuamente exclusivos, o VPL é o critério preferencial.
+
+3.4 Payback simples e descontado
+O payback simples é o prazo necessário para que as entradas acumuladas igualem o
+investimento, sem considerar o valor do dinheiro no tempo. O payback descontado
+corrige essa limitação ao acumular fluxos já descontados pela TMA. Nenhuma das
+duas versões mede a rentabilidade do projeto após a recuperação do investimento,
+razão pela qual são usadas como critério complementar de risco de liquidez.
+
+------------------------------------------------------------
+UNIDADE IV — RISCO, RETORNO E ÉTICA NA INFORMAÇÃO FINANCEIRA
+------------------------------------------------------------
+4.1 Risco e retorno
+Retorno esperado e risco caminham juntos: ativos de maior risco demandam prêmio
+adicional. O risco total de um ativo divide-se em risco diversificável, que pode
+ser reduzido pela composição de carteira, e risco sistemático, ligado a fatores
+de mercado e não eliminável por diversificação. O coeficiente beta mede a
+sensibilidade do ativo a movimentos do mercado.
+
+4.2 Diversificação
+A diversificação reduz o risco da carteira quando os ativos não são perfeitamente
+correlacionados. Acrescentar ativos muito correlacionados entre si amplia a
+exposição sem reduzir o risco de forma proporcional.
+
+4.3 Ética e transparência
+A informação financeira orienta decisões de credores, investidores, gestores e
+órgãos reguladores. Omitir passivos, antecipar receitas ou escolher critérios
+contábeis com o único objetivo de melhorar indicadores configura falha ética,
+ainda quando se discuta a legalidade da prática. Conflitos de interesse devem ser
+declarados, e a qualidade da informação é condição para a confiança das partes
+interessadas.
+
+------------------------------------------------------------
+BIBLIOGRAFIA BÁSICA (referência de apoio)
+------------------------------------------------------------
+Princípios de administração financeira — obras de referência da área.
+Matemática financeira aplicada à gestão.
+Análise de demonstrações financeiras: teoria e prática.
+
+OBSERVAÇÃO: Este plano de ensino é fictício e foi redigido para servir de fonte
+de conhecimento em um case técnico. Não corresponde ao plano de ensino de
+nenhuma instituição real.

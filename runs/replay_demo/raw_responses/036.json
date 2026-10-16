@@ -1,0 +1,196 @@
+{
+  "version": "suggestions-v2",
+  "authorship": "session_agent_authored",
+  "started_at": null,
+  "checkpoint_at": "2026-10-14 19:15:52 UTC",
+  "time_note": "Inicio nao capturado; checkpoint obtido por clock tool apos leitura preliminar.",
+  "api_integration_executed": false,
+  "decision_source": "agent_judgment",
+  "item_decisions": "agent_judgment",
+  "sources_consulted": [
+    "sample_packet.json",
+    "suggestions_v1.json",
+    "prompt_v1.md",
+    "review/critica_v1.md",
+    "review/findings_v1.json"
+  ],
+  "source_hashes": {
+    "sample_packet.json": "4877f16df8091bbc070b783429daaaf4d8f3c9f9d7c281480a06b8891a79bdad",
+    "suggestions_v1.json": "53d1acd15e6283c1cc4b7876f8def76b263719661b29a03975f2da8c16027d80",
+    "prompt_v1.md": "215690811b561e132dc03a50a419de79462c5751c245f75c5357b6e49320f8be",
+    "review/critica_v1.md": "5730521dea15b10a619a15242a472afb2d07401843a480c97320a743b1335b8e",
+    "review/findings_v1.json": "2e0fb79c288bd6b8d23d11dd7835b72914074e737501f65ae5ee4fa7037f693e"
+  },
+  "criterion_source": "user_criterion_v2",
+  "items": [
+    {
+      "item_id": "ITM-20018",
+      "record_id": "04_itens_legado.csv:36",
+      "item_snapshot": {
+        "id": "ITM-20018",
+        "enunciado": "Uma equipe de suporte tecnico apresenta alta rotatividade. A pesquisa interna aponta salarios compativeis com o mercado, mas ausencia de reconhecimento e de perspectiva de crescimento. A luz da teoria dos dois fatores de Herzberg, qual interpretacao e correta?",
+        "alternativa_a": "Os fatores higienicos estao insatisfatorios e causam a rotatividade",
+        "alternativa_b": "Os fatores motivacionais estao ausentes, o que explica a insatisfacao apesar da remuneracao adequada",
+        "alternativa_c": "A remuneracao e o unico fator motivacional relevante",
+        "alternativa_d": "A teoria nao se aplica a equipes tecnicas",
+        "alternativa_e": "A rotatividade decorre exclusivamente de fatores externos",
+        "gabarito": "B",
+        "disciplina_informada": "Comportamento Organizacional",
+        "ano_aplicacao": 2025,
+        "origem_banco": "Banco Próprio"
+      },
+      "links": [
+        {
+          "oc_id": "OC-CO-02",
+          "competency_id": "COMP-04",
+          "skill_ids": [
+            "HAB-04.1"
+          ],
+          "evidence": [
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:36",
+              "field": "enunciado",
+              "quote": "Uma equipe de suporte tecnico apresenta alta rotatividade. A pesquisa interna aponta salarios compativeis com o mercado, mas ausencia de reconhecimento e de perspectiva de crescimento. A luz da teoria dos dois fatores de Herzberg, qual interpretacao e correta?"
+            },
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:36",
+              "field": "alternativa_b",
+              "quote": "Os fatores motivacionais estao ausentes, o que explica a insatisfacao apesar da remuneracao adequada"
+            },
+            {
+              "kind": "matrix",
+              "file": "01_matriz_competencias.json",
+              "pointer": "/componentes_curriculares/1/objetos_conhecimento/1/nome",
+              "quote": "Motivação no trabalho: teorias de conteúdo e de processo"
+            },
+            {
+              "kind": "matrix",
+              "file": "01_matriz_competencias.json",
+              "pointer": "/competencias/3/descricao",
+              "quote": "Analisar o comportamento de indivíduos e grupos no contexto organizacional para sustentar decisões de gestão de pessoas."
+            },
+            {
+              "kind": "matrix",
+              "file": "01_matriz_competencias.json",
+              "pointer": "/competencias/3/habilidades/0/descricao",
+              "quote": "Explicar comportamentos no trabalho a partir de teorias de motivação, percepção e atitudes."
+            },
+            {
+              "kind": "ementa",
+              "file": "03_ementa_comportamento_organizacional.txt",
+              "line_start": 69,
+              "line_end": 75,
+              "quote": "razoavelmente atendido. A teoria dos dois fatores, de Herzberg, distingue fatores\nhigiênicos — salário, condições de trabalho, políticas da empresa, supervisão —,\ncuja ausência gera insatisfação mas cuja presença não motiva, dos fatores\nmotivacionais — reconhecimento, responsabilidade, conteúdo do trabalho,\ncrescimento —, que atuam sobre a satisfação e o esforço. A consequência prática é\nque corrigir apenas fatores higiênicos remove insatisfação sem produzir\nengajamento."
+            }
+          ],
+          "status": "suggested_partial",
+          "scope": "Somente interpretacao motivacional localizada; nao decisao de pessoas nem competencia integral.",
+          "reason": "Interpretar comportamento no trabalho por teoria motivacional executa aspecto explicito de HAB-04.1. O vinculo tematico e cognitivo subsiste mesmo com validade de B contestada."
+        }
+      ],
+      "rejected_candidates": [
+        {
+          "oc_id": "OC-CO-07",
+          "competency_id": "COMP-04",
+          "status": "rejected",
+          "reason": "A pesquisa interna é contexto; não exige diagnóstico de cultura ou clima.",
+          "evidence": [
+            {
+              "kind": "matrix",
+              "file": "01_matriz_competencias.json",
+              "pointer": "/componentes_curriculares/1/objetos_conhecimento/6/nome",
+              "quote": "Cultura e clima organizacional"
+            }
+          ]
+        }
+      ],
+      "status": "suggested",
+      "decision_source": "agent_judgment",
+      "criterion_source": "user_criterion_v2",
+      "human_review": "pending",
+      "pedagogical_approval": false,
+      "evidence": [
+        {
+          "kind": "item",
+          "record_id": "04_itens_legado.csv:36",
+          "field": "enunciado",
+          "quote": "Uma equipe de suporte tecnico apresenta alta rotatividade. A pesquisa interna aponta salarios compativeis com o mercado, mas ausencia de reconhecimento e de perspectiva de crescimento. A luz da teoria dos dois fatores de Herzberg, qual interpretacao e correta?"
+        },
+        {
+          "kind": "item",
+          "record_id": "04_itens_legado.csv:36",
+          "field": "alternativa_b",
+          "quote": "Os fatores motivacionais estao ausentes, o que explica a insatisfacao apesar da remuneracao adequada"
+        },
+        {
+          "kind": "matrix",
+          "file": "01_matriz_competencias.json",
+          "pointer": "/componentes_curriculares/1/objetos_conhecimento/1/nome",
+          "quote": "Motivação no trabalho: teorias de conteúdo e de processo"
+        },
+        {
+          "kind": "matrix",
+          "file": "01_matriz_competencias.json",
+          "pointer": "/competencias/3/descricao",
+          "quote": "Analisar o comportamento de indivíduos e grupos no contexto organizacional para sustentar decisões de gestão de pessoas."
+        },
+        {
+          "kind": "matrix",
+          "file": "01_matriz_competencias.json",
+          "pointer": "/competencias/3/habilidades/0/descricao",
+          "quote": "Explicar comportamentos no trabalho a partir de teorias de motivação, percepção e atitudes."
+        },
+        {
+          "kind": "ementa",
+          "file": "03_ementa_comportamento_organizacional.txt",
+          "line_start": 69,
+          "line_end": 75,
+          "quote": "razoavelmente atendido. A teoria dos dois fatores, de Herzberg, distingue fatores\nhigiênicos — salário, condições de trabalho, políticas da empresa, supervisão —,\ncuja ausência gera insatisfação mas cuja presença não motiva, dos fatores\nmotivacionais — reconhecimento, responsabilidade, conteúdo do trabalho,\ncrescimento —, que atuam sobre a satisfação e o esforço. A consequência prática é\nque corrigir apenas fatores higiênicos remove insatisfação sem produzir\nengajamento."
+        }
+      ],
+      "subject": "Motivacao no trabalho por Herzberg.",
+      "object_alignment": {
+        "status": "supported",
+        "supported_oc_ids": [
+          "OC-CO-02"
+        ],
+        "reason": "Interpretar comportamento no trabalho por teoria motivacional executa aspecto explicito de HAB-04.1. O vinculo tematico e cognitivo subsiste mesmo com validade de B contestada."
+      },
+      "required_task": {
+        "operation": "Interpretar o cenario de remuneracao, reconhecimento e crescimento usando a distincao de fatores de Herzberg; nao confirmar B como correta.",
+        "item_evidence": [
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:36",
+            "field": "enunciado",
+            "quote": "Uma equipe de suporte tecnico apresenta alta rotatividade. A pesquisa interna aponta salarios compativeis com o mercado, mas ausencia de reconhecimento e de perspectiva de crescimento. A luz da teoria dos dois fatores de Herzberg, qual interpretacao e correta?"
+          },
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:36",
+            "field": "alternativa_b",
+            "quote": "Os fatores motivacionais estao ausentes, o que explica a insatisfacao apesar da remuneracao adequada"
+          }
+        ]
+      },
+      "competency_alignment": {
+        "status": "partial_suggestion",
+        "reason": "Interpretar comportamento no trabalho por teoria motivacional executa aspecto explicito de HAB-04.1. O vinculo tematico e cognitivo subsiste mesmo com validade de B contestada.",
+        "scope": "Somente interpretacao motivacional localizada; nao decisao de pessoas nem competencia integral."
+      },
+      "use_issues": [
+        "Validade de B contestada: atribui insatisfacao a ausencia de motivadores, enquanto ementa distingue sua atuacao em satisfacao/esforco de ausencia de fatores higienicos. Remuneracao adequada nao prova adequacao de todos fatores higienicos. Revisar antes de usar acerto como evidencia."
+      ],
+      "readiness": {
+        "status": "held_for_specialist_review",
+        "ready": false,
+        "mapped_does_not_mean_usable": true
+      },
+      "use_issues_decision_source": "agent_judgment",
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending"
+    }
+  ]
+}

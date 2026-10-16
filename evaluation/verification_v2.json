@@ -1,0 +1,1168 @@
+{
+  "summary": {
+    "total": 8,
+    "statuses": {
+      "suggested": 5,
+      "object_supported_competency_pending": 1,
+      "abstained": 2
+    },
+    "citations_presented": 40,
+    "citations_literal_valid": 40,
+    "user_reviews_completed": 0,
+    "specialist_reviews_completed": 0,
+    "api_calls": 0
+  },
+  "frozen_integrity": {
+    "evaluation/rubrica_reservados_v1.md": true,
+    "evaluation/freeze.py": true,
+    "mapping/split.json": true,
+    "output/itens.json": true,
+    "output/matriz.json": true,
+    "output/textos.json": true,
+    "output/ementas_manifest.json": true,
+    "run_local.py": true,
+    "decisions.py": true,
+    "packet": true,
+    "freeze_manifest": true
+  },
+  "raw_sha256": "32631bf2d64c05f98d380f5d98d7c6cc5d9aec0cab8f95e8760f84cf8108e67a",
+  "items": [
+    {
+      "item_id": "ITM-10049",
+      "status": "suggested",
+      "declared_status": "suggested",
+      "errors": [],
+      "citations": [
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:9",
+            "field": "raw.enunciado",
+            "quote": "Uma empresa apresenta ativo circulante de R$ 240.000,00 e passivo circulante de R$ 160.000,00. Qual o indice de liquidez corrente e o que ele indica?"
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/componentes_curriculares/0/objetos_conhecimento/3/nome",
+            "quote": "Análise de demonstrações financeiras por indicadores"
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/0/habilidades/1/descricao",
+            "quote": "Calcular e comparar indicadores de liquidez, endividamento e rentabilidade entre períodos."
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "ementa",
+            "file": "02_ementa_gestao_financeira.txt",
+            "line_start": 30,
+            "line_end": 30,
+            "quote": "3. Calcular e interpretar indicadores extraídos das demonstrações financeiras."
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "ementa",
+            "file": "02_ementa_gestao_financeira.txt",
+            "line_start": 92,
+            "line_end": 94,
+            "quote": "Liquidez corrente = ativo circulante / passivo circulante; indica quanto a\nempresa possui de recursos de curto prazo para cada unidade monetária de\nobrigações de curto prazo."
+          }
+        }
+      ],
+      "rule_check": {
+        "identified_nodes": [
+          "COMP-01",
+          "OC-GF-04"
+        ],
+        "count": 2,
+        "pair_count": 1,
+        "objects_without_pair": [],
+        "status": "within_provisional_limit",
+        "limit_exceeded": false,
+        "truncated": false
+      },
+      "answer": {
+        "item_id": "ITM-10049",
+        "record_id": "04_itens_legado.csv:9",
+        "status": "suggested",
+        "subject": "Liquidez corrente e significado financeiro de curto prazo.",
+        "required_task": "Calcular a razão entre ativo e passivo circulantes e interpretar o que esse indicador representa.",
+        "supported_oc_ids": [
+          "OC-GF-04"
+        ],
+        "links": [
+          {
+            "oc_id": "OC-GF-04",
+            "competency_id": "COMP-01",
+            "skill_ids": [
+              "HAB-01.2"
+            ],
+            "scope": "Parcial: cálculo de um indicador de liquidez; não mede comparação entre períodos, outros indicadores ou diagnóstico financeiro completo."
+          }
+        ],
+        "rationale": "A resposta exige operar os valores fornecidos como numerador e denominador e associar o resultado às obrigações de curto prazo. Isso realiza explicitamente a parcela de cálculo de HAB-01.2, confirmada pelo objetivo curricular de calcular e interpretar indicadores. A falta de comparação temporal limita o alcance, mas não elimina a evidência parcial. Não proponho HAB-01.1: não há leitura de balanço e DRE como demonstrações completas.",
+        "evidence": [
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:9",
+            "field": "raw.enunciado",
+            "quote": "Uma empresa apresenta ativo circulante de R$ 240.000,00 e passivo circulante de R$ 160.000,00. Qual o indice de liquidez corrente e o que ele indica?"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/componentes_curriculares/0/objetos_conhecimento/3/nome",
+            "quote": "Análise de demonstrações financeiras por indicadores"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/0/habilidades/1/descricao",
+            "quote": "Calcular e comparar indicadores de liquidez, endividamento e rentabilidade entre períodos."
+          },
+          {
+            "kind": "ementa",
+            "file": "02_ementa_gestao_financeira.txt",
+            "line_start": 30,
+            "line_end": 30,
+            "quote": "3. Calcular e interpretar indicadores extraídos das demonstrações financeiras."
+          },
+          {
+            "kind": "ementa",
+            "file": "02_ementa_gestao_financeira.txt",
+            "line_start": 92,
+            "line_end": 94,
+            "quote": "Liquidez corrente = ativo circulante / passivo circulante; indica quanto a\nempresa possui de recursos de curto prazo para cada unidade monetária de\nobrigações de curto prazo."
+          }
+        ],
+        "use_issues": [
+          "A formulação das alternativas sobre capacidade de honrar obrigações pode ser lida como garantia de pagamento; o indicador isolado não fornece diagnóstico completo. Encaminhar essa precisão para revisão especializada, sem homologar o gabarito."
+        ],
+        "abstention_or_pending_reason": null,
+        "analyst_next_action": {
+          "evidence_check": "Conferir literalmente o cálculo requerido, o pointer da habilidade e as linhas da ementa.",
+          "information_request": "Se o uso previsto exigir diagnóstico completo, solicitar a especificação de cobertura desejada.",
+          "specialist_review": "Revisar a interpretação de liquidez nas alternativas e a suficiência do escopo parcial."
+        },
+        "user_check_question": "Você confirma que o trecho exige calcular e interpretar um indicador, sem tratar isso como demonstração da competência financeira inteira?",
+        "node_rule": {
+          "unique_oc_ids": [
+            "OC-GF-04"
+          ],
+          "unique_competency_ids": [
+            "COMP-01"
+          ],
+          "unpaired_oc_ids": [],
+          "identified_node_count": 2,
+          "status": "within_provisional_limit"
+        },
+        "ready_for_exam": false,
+        "user_evidence_check": "pending",
+        "specialist_pedagogical_review": "pending"
+      },
+      "ready_for_exam": false,
+      "user_evidence_check": "pending",
+      "specialist_pedagogical_review": "pending"
+    },
+    {
+      "item_id": "ITM-10060",
+      "status": "suggested",
+      "declared_status": "suggested",
+      "errors": [],
+      "citations": [
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:20",
+            "field": "raw.enunciado",
+            "quote": "Qual conduta e compativel com os principios de transparencia na informacao financeira?"
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:20",
+            "field": "raw.alternativa_b",
+            "quote": "Retificar a informacao e comunicar o mercado antes da divulgacao, registrando a origem do erro"
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/componentes_curriculares/0/objetos_conhecimento/7/nome",
+            "quote": "Ética e transparência na informação financeira"
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/5/habilidades/1/descricao",
+            "quote": "Avaliar decisões gerenciais quanto a transparência e quanto a impacto sobre partes interessadas."
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "ementa",
+            "file": "02_ementa_gestao_financeira.txt",
+            "line_start": 157,
+            "line_end": 162,
+            "quote": "Conflitos de interesse devem ser\ndeclarados, e a qualidade da informação é condição para a confiança das partes\ninteressadas."
+          }
+        }
+      ],
+      "rule_check": {
+        "identified_nodes": [
+          "COMP-06",
+          "OC-GF-08"
+        ],
+        "count": 2,
+        "pair_count": 1,
+        "objects_without_pair": [],
+        "status": "within_provisional_limit",
+        "limit_exceeded": false,
+        "truncated": false
+      },
+      "answer": {
+        "item_id": "ITM-10060",
+        "record_id": "04_itens_legado.csv:20",
+        "status": "suggested",
+        "subject": "Transparência diante de erro relevante em informação financeira.",
+        "required_task": "Avaliar condutas de divulgação e correção de informação financeira pela transparência diante do mercado.",
+        "supported_oc_ids": [
+          "OC-GF-08"
+        ],
+        "links": [
+          {
+            "oc_id": "OC-GF-08",
+            "competency_id": "COMP-06",
+            "skill_ids": [
+              "HAB-06.2"
+            ],
+            "scope": "Parcial: avaliação da transparência de condutas gerenciais perante destinatários da informação; não exige análise ampla de impactos sociais e ambientais."
+          }
+        ],
+        "rationale": "O erro e a divulgação iminente constituem uma situação decisória; escolher entre retificar, omitir, adiar ou compensar exige avaliar transparência, e não apenas reconhecer o tema contábil. A habilidade HAB-06.2 explicita esse critério e a ementa relaciona qualidade informacional à confiança das partes interessadas. COMP-01 não é proposta: não se pede diagnosticar indicadores ou demonstrações. Não adiciono HAB-06.1 apenas por haver um problema ético, pois a operação diretamente solicitada é avaliar uma conduta.",
+        "evidence": [
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:20",
+            "field": "raw.enunciado",
+            "quote": "Qual conduta e compativel com os principios de transparencia na informacao financeira?"
+          },
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:20",
+            "field": "raw.alternativa_b",
+            "quote": "Retificar a informacao e comunicar o mercado antes da divulgacao, registrando a origem do erro"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/componentes_curriculares/0/objetos_conhecimento/7/nome",
+            "quote": "Ética e transparência na informação financeira"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/5/habilidades/1/descricao",
+            "quote": "Avaliar decisões gerenciais quanto a transparência e quanto a impacto sobre partes interessadas."
+          },
+          {
+            "kind": "ementa",
+            "file": "02_ementa_gestao_financeira.txt",
+            "line_start": 157,
+            "line_end": 162,
+            "quote": "Conflitos de interesse devem ser\ndeclarados, e a qualidade da informação é condição para a confiança das partes\ninteressadas."
+          }
+        ],
+        "use_issues": [
+          "A expressão 'lucro informado' antes da divulgação pode deixar incerto se já houve comunicação anterior. A adequação do procedimento e do momento de comunicação precisa de revisão especializada; não foi verificada conformidade normativa."
+        ],
+        "abstention_or_pending_reason": null,
+        "analyst_next_action": {
+          "evidence_check": "Conferir a pergunta sobre transparência e sua correspondência com HAB-06.2.",
+          "information_request": "Solicitar esclarecimento sobre a informação já divulgada, caso a ambiguidade afete o uso pretendido.",
+          "specialist_review": "Revisar redação, alternativas e adequação do procedimento de comunicação, sem presumir aprovação do gabarito."
+        },
+        "user_check_question": "Você confirma que a evidência é a avaliação de transparência nas condutas, e não um diagnóstico econômico-financeiro?",
+        "node_rule": {
+          "unique_oc_ids": [
+            "OC-GF-08"
+          ],
+          "unique_competency_ids": [
+            "COMP-06"
+          ],
+          "unpaired_oc_ids": [],
+          "identified_node_count": 2,
+          "status": "within_provisional_limit"
+        },
+        "ready_for_exam": false,
+        "user_evidence_check": "pending",
+        "specialist_pedagogical_review": "pending"
+      },
+      "ready_for_exam": false,
+      "user_evidence_check": "pending",
+      "specialist_pedagogical_review": "pending"
+    },
+    {
+      "item_id": "ITM-10069",
+      "status": "object_supported_competency_pending",
+      "declared_status": "object_supported_competency_pending",
+      "errors": [],
+      "citations": [
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:29",
+            "field": "raw.enunciado",
+            "quote": "Em um cenario de elevacao da taxa basica de juros, qual efeito e esperado sobre a avaliacao de projetos de investimento de longo prazo?"
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:29",
+            "field": "raw.alternativa_b",
+            "quote": "O VPL dos projetos diminui pela elevacao da taxa de desconto"
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/componentes_curriculares/0/objetos_conhecimento/5/nome",
+            "quote": "Métodos de avaliação de investimentos: VPL, TIR e payback descontado"
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/1/habilidades/0/descricao",
+            "quote": "Selecionar e aplicar métodos de avaliação de investimentos adequados ao fluxo de caixa do projeto."
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/1/habilidades/1/descricao",
+            "quote": "Justificar a taxa mínima de atratividade adotada a partir do custo de capital da organização."
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "ementa",
+            "file": "02_ementa_gestao_financeira.txt",
+            "line_start": 119,
+            "line_end": 122,
+            "quote": "O VPL é a soma dos fluxos de caixa do projeto descontados à TMA, menos o\ninvestimento inicial."
+          }
+        }
+      ],
+      "rule_check": {
+        "identified_nodes": [
+          "OC-GF-06"
+        ],
+        "count": 1,
+        "pair_count": 0,
+        "objects_without_pair": [
+          "OC-GF-06"
+        ],
+        "status": "incomplete_mapping",
+        "limit_exceeded": false,
+        "truncated": false
+      },
+      "answer": {
+        "item_id": "ITM-10069",
+        "record_id": "04_itens_legado.csv:29",
+        "status": "object_supported_competency_pending",
+        "subject": "Efeito esperado de juros e desconto na avaliação de investimentos.",
+        "required_task": "Reconhecer qualitativamente a relação entre elevação de juros, taxa de desconto e VPL entre afirmações dadas.",
+        "supported_oc_ids": [
+          "OC-GF-06"
+        ],
+        "links": [],
+        "rationale": "A pergunta e as alternativas sustentam o objeto métodos de avaliação, sobretudo VPL. Foram examinadas COMP-02/HAB-02.1 e HAB-02.2: o item não fornece fluxo de caixa para selecionar ou aplicar um método adequado, nem pede justificar a TMA pelo custo de capital. O reconhecimento direcional não demonstra suficientemente essas operações na redação disponível. Também não há projeção de fluxos descontados de HAB-03.3. A pendência decorre da operação ausente, não de o item ser simples. OC-GF-05 foi considerado, mas a mera taxa básica não exige examinar fontes ou custo de capital da organização.",
+        "evidence": [
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:29",
+            "field": "raw.enunciado",
+            "quote": "Em um cenario de elevacao da taxa basica de juros, qual efeito e esperado sobre a avaliacao de projetos de investimento de longo prazo?"
+          },
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:29",
+            "field": "raw.alternativa_b",
+            "quote": "O VPL dos projetos diminui pela elevacao da taxa de desconto"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/componentes_curriculares/0/objetos_conhecimento/5/nome",
+            "quote": "Métodos de avaliação de investimentos: VPL, TIR e payback descontado"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/1/habilidades/0/descricao",
+            "quote": "Selecionar e aplicar métodos de avaliação de investimentos adequados ao fluxo de caixa do projeto."
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/1/habilidades/1/descricao",
+            "quote": "Justificar a taxa mínima de atratividade adotada a partir do custo de capital da organização."
+          },
+          {
+            "kind": "ementa",
+            "file": "02_ementa_gestao_financeira.txt",
+            "line_start": 119,
+            "line_end": 122,
+            "quote": "O VPL é a soma dos fluxos de caixa do projeto descontados à TMA, menos o\ninvestimento inicial."
+          }
+        ],
+        "use_issues": [
+          "Não explicita a transmissão da taxa básica à taxa de desconto, a manutenção dos fluxos nem sua configuração. A afirmação direcional pode depender dessas premissas; problema a revisar, não diagnóstico especializado confirmado."
+        ],
+        "abstention_or_pending_reason": "Objeto explícito, mas a operação de reconhecimento qualitativo não fornece evidência suficiente de aplicação de método, justificativa de TMA ou projeção de fluxo nas habilidades fornecidas.",
+        "analyst_next_action": {
+          "evidence_check": "Conferir que o objeto está explícito e que os candidatos examinados não foram registrados como vínculos.",
+          "information_request": "Solicitar o contexto original e as premissas do projeto, se existirem, sem preenchê-los por inferência.",
+          "specialist_review": "Avaliar se há aspecto de COMP-02 suficientemente demonstrado por essa operação e revisar a generalização sobre VPL; preservar a pendência desta rodada."
+        },
+        "user_check_question": "Existe contexto original que explicite fluxo, premissas ou justificativa de taxa, além do texto presente no pacote?",
+        "node_rule": {
+          "unique_oc_ids": [
+            "OC-GF-06"
+          ],
+          "unique_competency_ids": [],
+          "unpaired_oc_ids": [
+            "OC-GF-06"
+          ],
+          "identified_node_count": 1,
+          "status": "incomplete_mapping"
+        },
+        "ready_for_exam": false,
+        "user_evidence_check": "pending",
+        "specialist_pedagogical_review": "pending"
+      },
+      "ready_for_exam": false,
+      "user_evidence_check": "pending",
+      "specialist_pedagogical_review": "pending"
+    },
+    {
+      "item_id": "ITM-20028",
+      "status": "suggested",
+      "declared_status": "suggested",
+      "errors": [],
+      "citations": [
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:46",
+            "field": "raw.enunciado",
+            "quote": "Uma diretora precisa comunicar a reestruturacao de uma area, com extincao de dois cargos, a uma equipe de 40 pessoas distribuida em tres cidades. Qual escolha de canal e sequencia reduz o risco de ruido e de boato?"
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/componentes_curriculares/1/objetos_conhecimento/4/nome",
+            "quote": "Comunicação organizacional e suas barreiras"
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/4/habilidades/0/descricao",
+            "quote": "Identificar barreiras de comunicação e propor ajustes no fluxo de informação da equipe."
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "ementa",
+            "file": "03_ementa_comportamento_organizacional.txt",
+            "line_start": 31,
+            "line_end": 31,
+            "quote": "4. Identificar barreiras de comunicação e propor correções no fluxo de informação."
+          }
+        }
+      ],
+      "rule_check": {
+        "identified_nodes": [
+          "COMP-05",
+          "OC-CO-05"
+        ],
+        "count": 2,
+        "pair_count": 1,
+        "objects_without_pair": [],
+        "status": "within_provisional_limit",
+        "limit_exceeded": false,
+        "truncated": false
+      },
+      "answer": {
+        "item_id": "ITM-20028",
+        "record_id": "04_itens_legado.csv:46",
+        "status": "suggested",
+        "subject": "Canais e sequência de comunicação de reestruturação a equipe distribuída.",
+        "required_task": "Escolher uma organização do fluxo de comunicação que reduza ruído e boatos nas condições apresentadas.",
+        "supported_oc_ids": [
+          "OC-CO-05"
+        ],
+        "links": [
+          {
+            "oc_id": "OC-CO-05",
+            "competency_id": "COMP-05",
+            "skill_ids": [
+              "HAB-05.1"
+            ],
+            "scope": "Parcial: selecionar ajustes de canal e sequência em cenário com risco de ruído; não demonstra condução real de comunicação, negociação ou mediação."
+          }
+        ],
+        "rationale": "As condições de dispersão geográfica e pessoas diretamente afetadas tornam a escolha de canal e sequência uma decisão sobre fluxo de informação. Comparar as opções exige reconhecer risco de barreiras e selecionar ajuste, núcleo explícito de HAB-05.1 e do objetivo 4. A presença de uma diretora e de cargos extintos não exige avaliar estilo de liderança, negociar ou mediar; por isso não acrescento esses objetos.",
+        "evidence": [
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:46",
+            "field": "raw.enunciado",
+            "quote": "Uma diretora precisa comunicar a reestruturacao de uma area, com extincao de dois cargos, a uma equipe de 40 pessoas distribuida em tres cidades. Qual escolha de canal e sequencia reduz o risco de ruido e de boato?"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/componentes_curriculares/1/objetos_conhecimento/4/nome",
+            "quote": "Comunicação organizacional e suas barreiras"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/4/habilidades/0/descricao",
+            "quote": "Identificar barreiras de comunicação e propor ajustes no fluxo de informação da equipe."
+          },
+          {
+            "kind": "ementa",
+            "file": "03_ementa_comportamento_organizacional.txt",
+            "line_start": 31,
+            "line_end": 31,
+            "quote": "4. Identificar barreiras de comunicação e propor correções no fluxo de informação."
+          }
+        ],
+        "use_issues": [
+          "A alternativa com múltiplas etapas é mais detalhada que as demais; possível pista de resposta a avaliar por especialista. A seleção entre opções não comprova execução da comunicação."
+        ],
+        "abstention_or_pending_reason": null,
+        "analyst_next_action": {
+          "evidence_check": "Conferir o risco de ruído explicitado e a operação de escolher ajustes de fluxo.",
+          "information_request": "Solicitar condições adicionais de acesso aos canais somente se necessárias ao uso pretendido.",
+          "specialist_review": "Revisar plausibilidade e equilíbrio das alternativas e suficiência da evidência parcial."
+        },
+        "user_check_question": "Você confirma que a escolha de canal e sequência constitui a evidência observável do ajuste de fluxo citado?",
+        "node_rule": {
+          "unique_oc_ids": [
+            "OC-CO-05"
+          ],
+          "unique_competency_ids": [
+            "COMP-05"
+          ],
+          "unpaired_oc_ids": [],
+          "identified_node_count": 2,
+          "status": "within_provisional_limit"
+        },
+        "ready_for_exam": false,
+        "user_evidence_check": "pending",
+        "specialist_pedagogical_review": "pending"
+      },
+      "ready_for_exam": false,
+      "user_evidence_check": "pending",
+      "specialist_pedagogical_review": "pending"
+    },
+    {
+      "item_id": "ITM-20034",
+      "status": "suggested",
+      "declared_status": "suggested",
+      "errors": [],
+      "citations": [
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:52",
+            "field": "raw.enunciado",
+            "quote": "Uma organizacao declara em seu codigo que valoriza a autonomia das equipes, mas toda decisao de compra acima de R$ 500,00 exige aprovacao de tres niveis hierarquicos. Essa situacao evidencia:"
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/componentes_curriculares/1/objetos_conhecimento/6/nome",
+            "quote": "Cultura e clima organizacional"
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/3/habilidades/1/descricao",
+            "quote": "Diagnosticar fatores de cultura e clima que afetam o desempenho de uma equipe."
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "ementa",
+            "file": "03_ementa_comportamento_organizacional.txt",
+            "line_start": 153,
+            "line_end": 157,
+            "quote": "A cultura organizacional pode ser lida em três camadas: artefatos observáveis,\ncomo rituais, linguagem e espaço físico; valores declarados, presentes em códigos\ne discursos; e pressupostos básicos, tácitos e raramente discutidos, que de fato\norientam o comportamento."
+          }
+        }
+      ],
+      "rule_check": {
+        "identified_nodes": [
+          "COMP-04",
+          "OC-CO-07"
+        ],
+        "count": 2,
+        "pair_count": 1,
+        "objects_without_pair": [],
+        "status": "within_provisional_limit",
+        "limit_exceeded": false,
+        "truncated": false
+      },
+      "answer": {
+        "item_id": "ITM-20034",
+        "record_id": "04_itens_legado.csv:52",
+        "status": "suggested",
+        "subject": "Distância entre valores organizacionais declarados e práticas de aprovação.",
+        "required_task": "Comparar a autonomia declarada às práticas hierárquicas descritas e identificar a discrepância cultural.",
+        "supported_oc_ids": [
+          "OC-CO-07"
+        ],
+        "links": [
+          {
+            "oc_id": "OC-CO-07",
+            "competency_id": "COMP-04",
+            "skill_ids": [
+              "HAB-04.2"
+            ],
+            "scope": "Parcial: diagnóstico de fator cultural pela discrepância entre declaração e prática. Não avalia clima nem demonstra efeito no desempenho da equipe."
+          }
+        ],
+        "rationale": "Não basta recordar o nome cultura: é necessário confrontar duas evidências organizacionais e classificar sua relação. Essa identificação de discrepância é parcela explícita de diagnosticar fatores de cultura em HAB-04.2, sustentada pelas camadas e distância entre valores e práticas na ementa. A ausência de efeito medido no desempenho limita o alcance e deve ficar visível; não exige rejeitar a parcela diagnóstica. COMP-06 não é proposta porque não se pede avaliar eticamente a política de compras.",
+        "evidence": [
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:52",
+            "field": "raw.enunciado",
+            "quote": "Uma organizacao declara em seu codigo que valoriza a autonomia das equipes, mas toda decisao de compra acima de R$ 500,00 exige aprovacao de tres niveis hierarquicos. Essa situacao evidencia:"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/componentes_curriculares/1/objetos_conhecimento/6/nome",
+            "quote": "Cultura e clima organizacional"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/3/habilidades/1/descricao",
+            "quote": "Diagnosticar fatores de cultura e clima que afetam o desempenho de uma equipe."
+          },
+          {
+            "kind": "ementa",
+            "file": "03_ementa_comportamento_organizacional.txt",
+            "line_start": 153,
+            "line_end": 157,
+            "quote": "A cultura organizacional pode ser lida em três camadas: artefatos observáveis,\ncomo rituais, linguagem e espaço físico; valores declarados, presentes em códigos\ne discursos; e pressupostos básicos, tácitos e raramente discutidos, que de fato\norientam o comportamento."
+          }
+        ],
+        "use_issues": [
+          "Não informa escopo da autonomia declarada nem motivos dos controles de compra. A discrepância é uma leitura do contraste apresentado, não prova de toda a cultura nem de dano ao desempenho; revisar suficiência contextual."
+        ],
+        "abstention_or_pending_reason": null,
+        "analyst_next_action": {
+          "evidence_check": "Conferir o contraste literal e que o vínculo afirma somente diagnóstico cultural parcial.",
+          "information_request": "Solicitar escopo da autonomia se existir no contexto original; não inventar efeitos sobre a equipe.",
+          "specialist_review": "Revisar a suficiência do contraste para diagnóstico cultural e a adequação do escopo parcial de HAB-04.2."
+        },
+        "user_check_question": "Você confirma o contraste entre declaração e prática e reconhece que o item não demonstra efeito sobre desempenho?",
+        "node_rule": {
+          "unique_oc_ids": [
+            "OC-CO-07"
+          ],
+          "unique_competency_ids": [
+            "COMP-04"
+          ],
+          "unpaired_oc_ids": [],
+          "identified_node_count": 2,
+          "status": "within_provisional_limit"
+        },
+        "ready_for_exam": false,
+        "user_evidence_check": "pending",
+        "specialist_pedagogical_review": "pending"
+      },
+      "ready_for_exam": false,
+      "user_evidence_check": "pending",
+      "specialist_pedagogical_review": "pending"
+    },
+    {
+      "item_id": "ITM-20037",
+      "status": "suggested",
+      "declared_status": "suggested",
+      "errors": [],
+      "citations": [
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:55",
+            "field": "raw.enunciado",
+            "quote": "O colaborador e o de melhor desempenho tecnico da area e esta em periodo de promocao. Qual conduta e compativel com a etica nas relacoes de trabalho?"
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:55",
+            "field": "raw.alternativa_b",
+            "quote": "Apurar o fato pelo canal formal e aplicar o mesmo criterio adotado para qualquer colaborador"
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/componentes_curriculares/1/objetos_conhecimento/7/nome",
+            "quote": "Ética nas relações de trabalho"
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/5/habilidades/0/descricao",
+            "quote": "Reconhecer conflitos de interesse e dilemas éticos em situações de gestão."
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/5/habilidades/1/descricao",
+            "quote": "Avaliar decisões gerenciais quanto a transparência e quanto a impacto sobre partes interessadas."
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "ementa",
+            "file": "03_ementa_comportamento_organizacional.txt",
+            "line_start": 162,
+            "line_end": 166,
+            "quote": "Códigos de conduta, canais de denúncia protegidos e equidade de tratamento são\ninstrumentos de gestão, não apenas peças formais."
+          }
+        }
+      ],
+      "rule_check": {
+        "identified_nodes": [
+          "COMP-06",
+          "OC-CO-08"
+        ],
+        "count": 2,
+        "pair_count": 1,
+        "objects_without_pair": [],
+        "status": "within_provisional_limit",
+        "limit_exceeded": false,
+        "truncated": false
+      },
+      "answer": {
+        "item_id": "ITM-20037",
+        "record_id": "04_itens_legado.csv:55",
+        "status": "suggested",
+        "subject": "Equidade de tratamento e apuração de conduta diante de desempenho técnico e promoção.",
+        "required_task": "Avaliar uma decisão gerencial diante da tensão entre favorecer colaborador de alto desempenho e apurar o registro indevido de horas com critério uniforme.",
+        "supported_oc_ids": [
+          "OC-CO-08"
+        ],
+        "links": [
+          {
+            "oc_id": "OC-CO-08",
+            "competency_id": "COMP-06",
+            "skill_ids": [
+              "HAB-06.1",
+              "HAB-06.2"
+            ],
+            "scope": "Parcial: reconhecer a tensão ética e avaliar transparência e equidade do encaminhamento; não demonstra implementação, apuração ou abrangência social e ambiental da competência."
+          }
+        ],
+        "rationale": "O destaque ao melhor desempenho e à promoção cria uma tensão relevante para a decisão sobre o fato identificado. Escolher a conduta requer reconhecer essa tensão ética (HAB-06.1) e avaliar registro formal, apuração ou ocultação (parcela de transparência de HAB-06.2). A ementa explicita equidade e critério declarado. Não há explicação por teoria motivacional nem diagnóstico de desempenho que sustente COMP-04 apenas por existir um colaborador.",
+        "evidence": [
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:55",
+            "field": "raw.enunciado",
+            "quote": "O colaborador e o de melhor desempenho tecnico da area e esta em periodo de promocao. Qual conduta e compativel com a etica nas relacoes de trabalho?"
+          },
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:55",
+            "field": "raw.alternativa_b",
+            "quote": "Apurar o fato pelo canal formal e aplicar o mesmo criterio adotado para qualquer colaborador"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/componentes_curriculares/1/objetos_conhecimento/7/nome",
+            "quote": "Ética nas relações de trabalho"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/5/habilidades/0/descricao",
+            "quote": "Reconhecer conflitos de interesse e dilemas éticos em situações de gestão."
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/5/habilidades/1/descricao",
+            "quote": "Avaliar decisões gerenciais quanto a transparência e quanto a impacto sobre partes interessadas."
+          },
+          {
+            "kind": "ementa",
+            "file": "03_ementa_comportamento_organizacional.txt",
+            "line_start": 162,
+            "line_end": 166,
+            "quote": "Códigos de conduta, canais de denúncia protegidos e equidade de tratamento são\ninstrumentos de gestão, não apenas peças formais."
+          }
+        ],
+        "use_issues": [
+          "As opções de omissão e transferência sem registro podem tornar o contraste ético muito evidente; dificuldade e funcionamento dos distratores não foram avaliados empiricamente. Revisão deve distinguir apurar de presumir sanção."
+        ],
+        "abstention_or_pending_reason": null,
+        "analyst_next_action": {
+          "evidence_check": "Conferir a tensão destacada no enunciado e os critérios de registro e tratamento nas alternativas.",
+          "information_request": "Solicitar a finalidade avaliativa se for necessário distinguir reconhecimento ético de decisão aplicada.",
+          "specialist_review": "Revisar distratores, enquadramento do dilema e alcance parcial das duas habilidades."
+        },
+        "user_check_question": "Você confirma que o destaque a desempenho e promoção compõe a tensão ética, sem inferir uma análise motivacional não exigida?",
+        "node_rule": {
+          "unique_oc_ids": [
+            "OC-CO-08"
+          ],
+          "unique_competency_ids": [
+            "COMP-06"
+          ],
+          "unpaired_oc_ids": [],
+          "identified_node_count": 2,
+          "status": "within_provisional_limit"
+        },
+        "ready_for_exam": false,
+        "user_evidence_check": "pending",
+        "specialist_pedagogical_review": "pending"
+      },
+      "ready_for_exam": false,
+      "user_evidence_check": "pending",
+      "specialist_pedagogical_review": "pending"
+    },
+    {
+      "item_id": "ITM-30010",
+      "status": "abstained",
+      "declared_status": "abstained",
+      "errors": [],
+      "citations": [
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:63",
+            "field": "raw.enunciado",
+            "quote": "O regime de tributacao do Simples Nacional aplica-se a:"
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:63",
+            "field": "raw.alternativa_a",
+            "quote": "Microempresas e empresas de pequeno porte, observados os limites de receita"
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/componentes_curriculares/0/nome",
+            "quote": "Gestão Financeira"
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/componentes_curriculares/1/nome",
+            "quote": "Comportamento Organizacional"
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "ementa",
+            "file": "02_ementa_gestao_financeira.txt",
+            "line_start": 111,
+            "line_end": 112,
+            "quote": "O custo de capital de terceiros corresponde à remuneração exigida pelos credores,\nlíquida do benefício fiscal gerado pela dedutibilidade dos juros."
+          }
+        }
+      ],
+      "rule_check": {
+        "identified_nodes": [],
+        "count": 0,
+        "pair_count": 0,
+        "objects_without_pair": [],
+        "status": "not_applicable",
+        "limit_exceeded": false,
+        "truncated": false
+      },
+      "answer": {
+        "item_id": "ITM-30010",
+        "record_id": "04_itens_legado.csv:63",
+        "status": "abstained",
+        "subject": "Público de aplicação do regime tributário Simples Nacional.",
+        "required_task": "Reconhecer categorias de empresas às quais se aplica um regime de tributação.",
+        "supported_oc_ids": [],
+        "links": [],
+        "rationale": "A classificação tributária pedida não consta dos objetos dos dois componentes fornecidos. A existência de temas financeiros e de benefício fiscal no custo de capital não exige conhecer a elegibilidade ao Simples Nacional. Não converto essa proximidade em vínculo com OC-GF-05 ou qualquer competência financeira. O limite é do recorte curricular disponível, não uma declaração de invalidade geral do item.",
+        "evidence": [
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:63",
+            "field": "raw.enunciado",
+            "quote": "O regime de tributacao do Simples Nacional aplica-se a:"
+          },
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:63",
+            "field": "raw.alternativa_a",
+            "quote": "Microempresas e empresas de pequeno porte, observados os limites de receita"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/componentes_curriculares/0/nome",
+            "quote": "Gestão Financeira"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/componentes_curriculares/1/nome",
+            "quote": "Comportamento Organizacional"
+          },
+          {
+            "kind": "ementa",
+            "file": "02_ementa_gestao_financeira.txt",
+            "line_start": 111,
+            "line_end": 112,
+            "quote": "O custo de capital de terceiros corresponde à remuneração exigida pelos credores,\nlíquida do benefício fiscal gerado pela dedutibilidade dos juros."
+          }
+        ],
+        "use_issues": [
+          "Ano de aplicação ausente no campo raw.ano_aplicacao. A atualidade e a suficiência das condições tributárias das alternativas precisam de revisão especializada; nenhuma norma externa foi consultada e nenhum gabarito foi homologado."
+        ],
+        "abstention_or_pending_reason": "Ausência de objeto correspondente à operação tributária no recorte de Gestão Financeira e Comportamento Organizacional.",
+        "analyst_next_action": {
+          "evidence_check": "Conferir a operação tributária e a inexistência de objeto correspondente no recorte, sem usar a disciplina informada como prova de vínculo.",
+          "information_request": "Solicitar matriz e ementa de Gestão Tributária e a referência temporal do item.",
+          "specialist_review": "Encaminhar conteúdo tributário e alternativas a especialista após disponibilização do recorte pertinente."
+        },
+        "user_check_question": "Você dispõe do componente de Gestão Tributária e da referência temporal necessários para avaliar esse item fora do recorte atual?",
+        "node_rule": {
+          "unique_oc_ids": [],
+          "unique_competency_ids": [],
+          "unpaired_oc_ids": [],
+          "identified_node_count": 0,
+          "status": "not_applicable"
+        },
+        "ready_for_exam": false,
+        "user_evidence_check": "pending",
+        "specialist_pedagogical_review": "pending"
+      },
+      "ready_for_exam": false,
+      "user_evidence_check": "pending",
+      "specialist_pedagogical_review": "pending"
+    },
+    {
+      "item_id": "ITM-20044",
+      "status": "abstained",
+      "declared_status": "abstained",
+      "errors": [],
+      "citations": [
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:68",
+            "field": "raw.enunciado",
+            "quote": "O turnover voluntario difere do involuntario porque:"
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:68",
+            "field": "raw.alternativa_a",
+            "quote": "Parte da iniciativa do colaborador"
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/componentes_curriculares/1/objetos_conhecimento/0/nome",
+            "quote": "Percepção, atitudes e diferenças individuais"
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/3/habilidades/0/descricao",
+            "quote": "Explicar comportamentos no trabalho a partir de teorias de motivação, percepção e atitudes."
+          }
+        },
+        {
+          "valid": true,
+          "evidence": {
+            "kind": "ementa",
+            "file": "03_ementa_comportamento_organizacional.txt",
+            "line_start": 58,
+            "line_end": 60,
+            "quote": "a satisfação relaciona-se de\nforma moderada ao desempenho e de forma mais consistente à rotatividade e ao\nabsenteísmo."
+          }
+        }
+      ],
+      "rule_check": {
+        "identified_nodes": [],
+        "count": 0,
+        "pair_count": 0,
+        "objects_without_pair": [],
+        "status": "not_applicable",
+        "limit_exceeded": false,
+        "truncated": false
+      },
+      "answer": {
+        "item_id": "ITM-20044",
+        "record_id": "04_itens_legado.csv:68",
+        "status": "abstained",
+        "subject": "Distinção entre turnover voluntário e involuntário.",
+        "required_task": "Reconhecer quem inicia o desligamento para distinguir duas categorias de rotatividade.",
+        "supported_oc_ids": [],
+        "links": [],
+        "rationale": "A ementa menciona rotatividade como consequência relacionada à satisfação, mas o item não pede explicar atitudes, percepção, motivação ou causas do desligamento. Identificar o agente da iniciativa não demonstra HAB-04.1. OC-CO-01 foi examinado e não confirmado: tratar uma consequência citada não equivale a exigir o objeto percepção e atitudes. Não atribuo OC ou competência apenas pela disciplina informada.",
+        "evidence": [
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:68",
+            "field": "raw.enunciado",
+            "quote": "O turnover voluntario difere do involuntario porque:"
+          },
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:68",
+            "field": "raw.alternativa_a",
+            "quote": "Parte da iniciativa do colaborador"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/componentes_curriculares/1/objetos_conhecimento/0/nome",
+            "quote": "Percepção, atitudes e diferenças individuais"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/3/habilidades/0/descricao",
+            "quote": "Explicar comportamentos no trabalho a partir de teorias de motivação, percepção e atitudes."
+          },
+          {
+            "kind": "ementa",
+            "file": "03_ementa_comportamento_organizacional.txt",
+            "line_start": 58,
+            "line_end": 60,
+            "quote": "a satisfação relaciona-se de\nforma moderada ao desempenho e de forma mais consistente à rotatividade e ao\nabsenteísmo."
+          }
+        ],
+        "use_issues": [
+          "raw.alternativa_d, raw.alternativa_e e raw.gabarito estão vazios; data contém null nesses campos. Não se assume que cinco alternativas sejam obrigatórias, mas a completude e o formato original precisam ser conferidos.",
+          "raw.origem_banco está vazio. A ausência de gabarito não foi suprida e não constitui a razão curricular da abstenção."
+        ],
+        "abstention_or_pending_reason": "Não se encontrou objeto e operação curricular suficientemente correspondentes no recorte fornecido. A menção à rotatividade na ementa é relação temática, não exigência da habilidade. Não se afirma invalidade em outros currículos.",
+        "analyst_next_action": {
+          "evidence_check": "Conferir os campos vazios e a diferença entre classificar desligamentos e explicar atitudes.",
+          "information_request": "Solicitar item original completo, metadados e eventual componente curricular que contemple essa classificação.",
+          "specialist_review": "Revisar enquadramento curricular e formato após obtenção de informação; preservar a abstenção da rodada."
+        },
+        "user_check_question": "Há fonte original completa ou outro componente que explicite a classificação dos desligamentos, sem depender da menção geral à rotatividade?",
+        "node_rule": {
+          "unique_oc_ids": [],
+          "unique_competency_ids": [],
+          "unpaired_oc_ids": [],
+          "identified_node_count": 0,
+          "status": "not_applicable"
+        },
+        "ready_for_exam": false,
+        "user_evidence_check": "pending",
+        "specialist_pedagogical_review": "pending"
+      },
+      "ready_for_exam": false,
+      "user_evidence_check": "pending",
+      "specialist_pedagogical_review": "pending"
+    }
+  ],
+  "limits": "Formal checks only; no pedagogical accuracy or operational savings measured"
+}

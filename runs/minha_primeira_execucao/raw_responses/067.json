@@ -1,0 +1,104 @@
+{
+  "version": "suggestions-v2",
+  "authorship": "session_agent_authored",
+  "started_at": null,
+  "checkpoint_at": "2026-10-14 19:15:52 UTC",
+  "time_note": "Inicio nao capturado; checkpoint obtido por clock tool apos leitura preliminar.",
+  "api_integration_executed": false,
+  "decision_source": "agent_judgment",
+  "item_decisions": "agent_judgment",
+  "sources_consulted": [
+    "sample_packet.json",
+    "suggestions_v1.json",
+    "prompt_v1.md",
+    "review/critica_v1.md",
+    "review/findings_v1.json"
+  ],
+  "source_hashes": {
+    "sample_packet.json": "4877f16df8091bbc070b783429daaaf4d8f3c9f9d7c281480a06b8891a79bdad",
+    "suggestions_v1.json": "53d1acd15e6283c1cc4b7876f8def76b263719661b29a03975f2da8c16027d80",
+    "prompt_v1.md": "215690811b561e132dc03a50a419de79462c5751c245f75c5357b6e49320f8be",
+    "review/critica_v1.md": "5730521dea15b10a619a15242a472afb2d07401843a480c97320a743b1335b8e",
+    "review/findings_v1.json": "2e0fb79c288bd6b8d23d11dd7835b72914074e737501f65ae5ee4fa7037f693e"
+  },
+  "criterion_source": "user_criterion_v2",
+  "items": [
+    {
+      "item_id": "ITM-20043",
+      "record_id": "04_itens_legado.csv:67",
+      "item_snapshot": {
+        "id": "ITM-20043",
+        "enunciado": "Com base no texto acima, qual teoria explica o comportamento do gestor descrito?",
+        "alternativa_a": "Teoria X",
+        "alternativa_b": "Teoria Y",
+        "alternativa_c": "Teoria dos dois fatores",
+        "alternativa_d": "Teoria da expectancia",
+        "alternativa_e": "Teoria da equidade",
+        "gabarito": "B",
+        "disciplina_informada": "Comportamento Organizacional",
+        "ano_aplicacao": 2022,
+        "origem_banco": "Banco Próprio"
+      },
+      "links": [],
+      "rejected_candidates": [],
+      "status": "abstained",
+      "decision_source": "agent_judgment",
+      "criterion_source": "user_criterion_v2",
+      "human_review": "pending",
+      "pedagogical_approval": false,
+      "evidence": [
+        {
+          "kind": "item",
+          "record_id": "04_itens_legado.csv:67",
+          "field": "enunciado",
+          "quote": "Com base no texto acima, qual teoria explica o comportamento do gestor descrito?"
+        },
+        {
+          "kind": "item",
+          "record_id": "04_itens_legado.csv:67",
+          "field": "alternativa_b",
+          "quote": "Teoria Y"
+        }
+      ],
+      "subject": "Teorias do comportamento; objeto especifico indeterminavel sem texto-base.",
+      "object_alignment": {
+        "status": "indeterminate",
+        "supported_oc_ids": [],
+        "reason": "Incompletude impede observar comportamento necessario para sustentar OC e competencia. Alternativas e gabarito nao reconstituem texto-base."
+      },
+      "required_task": {
+        "operation": "Demanda pretendida: relacionar comportamento do gestor a teoria. Operacao executavel indeterminada: texto acima ausente.",
+        "item_evidence": [
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:67",
+            "field": "enunciado",
+            "quote": "Com base no texto acima, qual teoria explica o comportamento do gestor descrito?"
+          },
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:67",
+            "field": "alternativa_b",
+            "quote": "Teoria Y"
+          }
+        ]
+      },
+      "competency_alignment": {
+        "status": "not_established",
+        "reason": "Incompletude impede observar comportamento necessario para sustentar OC e competencia. Alternativas e gabarito nao reconstituem texto-base.",
+        "scope": "Sem inferencia curricular positiva."
+      },
+      "use_issues": [
+        "Recuperar texto-base na origem antes de reapreciar."
+      ],
+      "readiness": {
+        "status": "held_missing_context",
+        "ready": false,
+        "mapped_does_not_mean_usable": true
+      },
+      "use_issues_decision_source": "agent_judgment",
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "reference": {
+    "results_sha256": "dd697835837db41263ec370a747688ccba9e1f292214a2d69e76fcff2bdbcf66",
+    "item_id": "ITM-10048",
+    "record_id": "04_itens_legado.csv:8",
+    "item_hash": "ba7b81a8531f73d0d00e0e35ca62197d0e1bd1c179d687b0d796cb2355bd77a9",
+    "fingerprint": "869312f92faf261f45541982302916d485466ce9dfc7c8da8e1cc08f1d8199c0"
+  },
+  "processing_status": "pending",
+  "reason": "fixture_missing",
+  "ingestion_issues": [
+    {
+      "record_id": "04_itens_legado.csv:8",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 8,
+        "line_start": 9,
+        "line_end": 9
+      },
+      "code": "ANSWER_UNRESOLVED",
+      "field": "gabarito",
+      "detail": {
+        "raw": "2",
+        "decision": "Confirmar convenção na origem."
+      },
+      "status": "open",
+      "pedagogical_validation": false
+    }
+  ],
+  "source": {
+    "file": "04_itens_legado.csv",
+    "record": 8,
+    "line_start": 9,
+    "line_end": 9
+  },
+  "raw": {
+    "id": "ITM-10048",
+    "enunciado": "O que e capital de giro?",
+    "alternativa_a": "Recursos aplicados em ativo imobilizado",
+    "alternativa_b": "Recursos necessarios para sustentar a operacao no curto prazo",
+    "alternativa_c": "Patrimonio liquido da organizacao",
+    "alternativa_d": "Total de dividas de longo prazo",
+    "alternativa_e": "Lucro retido no exercicio",
+    "gabarito": "2",
+    "disciplina_informada": "Financeira",
+    "ano_aplicacao": "2018",
+    "origem_banco": "Importado 2019"
+  },
+  "standardized": {
+    "id": "ITM-10048",
+    "enunciado": "O que e capital de giro?",
+    "alternativa_a": "Recursos aplicados em ativo imobilizado",
+    "alternativa_b": "Recursos necessarios para sustentar a operacao no curto prazo",
+    "alternativa_c": "Patrimonio liquido da organizacao",
+    "alternativa_d": "Total de dividas de longo prazo",
+    "alternativa_e": "Lucro retido no exercicio",
+    "gabarito": null,
+    "disciplina_informada": "Financeira",
+    "ano_aplicacao": 2018,
+    "origem_banco": "Importado 2019"
+  },
+  "analysis": null,
+  "ready_for_exam": false,
+  "event": {
+    "version": "decision-event-v1",
+    "event_id": "461bd857fcca4896a13557e44ee93e74",
+    "created_at": "2026-10-15T18:36:32.109719+00:00",
+    "demo": true,
+    "actor": "agente_demo",
+    "review_kind": "operational",
+    "decision": "request_source",
+    "note": "Demonstração: solicitar à origem confirmação da convenção do gabarito numérico; preservar 2 bruto e nulo padronizado até evidência documentada.",
+    "reference": {
+      "results_sha256": "dd697835837db41263ec370a747688ccba9e1f292214a2d69e76fcff2bdbcf66",
+      "item_id": "ITM-10048",
+      "record_id": "04_itens_legado.csv:8",
+      "item_hash": "ba7b81a8531f73d0d00e0e35ca62197d0e1bd1c179d687b0d796cb2355bd77a9",
+      "fingerprint": "869312f92faf261f45541982302916d485466ce9dfc7c8da8e1cc08f1d8199c0"
+    },
+    "issue_snapshot": [
+      {
+        "record_id": "04_itens_legado.csv:8",
+        "source": {
+          "file": "04_itens_legado.csv",
+          "record": 8,
+          "line_start": 9,
+          "line_end": 9
+        },
+        "code": "ANSWER_UNRESOLVED",
+        "field": "gabarito",
+        "detail": {
+          "raw": "2",
+          "decision": "Confirmar convenção na origem."
+        },
+        "status": "open",
+        "pedagogical_validation": false
+      }
+    ],
+    "ready_for_exam": false,
+    "changes_legacy": false,
+    "effect": "decision_record_only",
+    "qualification_verified": false
+  },
+  "event_applicability": "current",
+  "event_effect": "Registro separado; nenhuma pendência ou liberação é alterada automaticamente."
+}

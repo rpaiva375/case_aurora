@@ -1,0 +1,3552 @@
+[
+  {
+    "record_id": "07_historico_aplicacao.csv:1",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 1,
+      "line_start": 2,
+      "line_end": 2
+    },
+    "raw": {
+      "item_id": "ITM-10048",
+      "prova_id": "PRV-2018-0044",
+      "curso": "CUR-ADM",
+      "semestre": "2018.2",
+      "modalidade": "Presencial"
+    },
+    "data": {
+      "item_id": "ITM-10048",
+      "prova_id": "PRV-2018-0044",
+      "curso": "CUR-ADM",
+      "semestre": "2018.2",
+      "modalidade": "Presencial"
+    },
+    "item_record_id": "04_itens_legado.csv:8",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:2",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 2,
+      "line_start": 3,
+      "line_end": 3
+    },
+    "raw": {
+      "item_id": "ITM-10042",
+      "prova_id": "PRV-2019-0077",
+      "curso": "CUR-ADM",
+      "semestre": "2019.2",
+      "modalidade": "Presencial"
+    },
+    "data": {
+      "item_id": "ITM-10042",
+      "prova_id": "PRV-2019-0077",
+      "curso": "CUR-ADM",
+      "semestre": "2019.2",
+      "modalidade": "Presencial"
+    },
+    "item_record_id": "04_itens_legado.csv:2",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:3",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 3,
+      "line_start": 4,
+      "line_end": 4
+    },
+    "raw": {
+      "item_id": "ITM-10051",
+      "prova_id": "PRV-2019-0081",
+      "curso": "CUR-ADM",
+      "semestre": "2019.2",
+      "modalidade": "Presencial"
+    },
+    "data": {
+      "item_id": "ITM-10051",
+      "prova_id": "PRV-2019-0081",
+      "curso": "CUR-ADM",
+      "semestre": "2019.2",
+      "modalidade": "Presencial"
+    },
+    "item_record_id": "04_itens_legado.csv:11",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:4",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 4,
+      "line_start": 5,
+      "line_end": 5
+    },
+    "raw": {
+      "item_id": "ITM-10068",
+      "prova_id": "PRV-2019-0088",
+      "curso": "CUR-ADM",
+      "semestre": "2019.2",
+      "modalidade": "Presencial"
+    },
+    "data": {
+      "item_id": "ITM-10068",
+      "prova_id": "PRV-2019-0088",
+      "curso": "CUR-ADM",
+      "semestre": "2019.2",
+      "modalidade": "Presencial"
+    },
+    "item_record_id": "04_itens_legado.csv:28",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:5",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 5,
+      "line_start": 6,
+      "line_end": 6
+    },
+    "raw": {
+      "item_id": "ITM-20020",
+      "prova_id": "PRV-2019-0092",
+      "curso": "CUR-ADM",
+      "semestre": "2019.2",
+      "modalidade": "Presencial"
+    },
+    "data": {
+      "item_id": "ITM-20020",
+      "prova_id": "PRV-2019-0092",
+      "curso": "CUR-ADM",
+      "semestre": "2019.2",
+      "modalidade": "Presencial"
+    },
+    "item_record_id": "04_itens_legado.csv:38",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:6",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 6,
+      "line_start": 7,
+      "line_end": 7
+    },
+    "raw": {
+      "item_id": "ITM-20044",
+      "prova_id": "PRV-2019-0096",
+      "curso": "CUR-ADM",
+      "semestre": "2019.2",
+      "modalidade": "Presencial"
+    },
+    "data": {
+      "item_id": "ITM-20044",
+      "prova_id": "PRV-2019-0096",
+      "curso": "CUR-ADM",
+      "semestre": "2019.2",
+      "modalidade": "Presencial"
+    },
+    "item_record_id": "04_itens_legado.csv:68",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:7",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 7,
+      "line_start": 8,
+      "line_end": 8
+    },
+    "raw": {
+      "item_id": "ITM-10043",
+      "prova_id": "PRV-2020-0121",
+      "curso": "CUR-ADM",
+      "semestre": "2020.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10043",
+      "prova_id": "PRV-2020-0121",
+      "curso": "CUR-ADM",
+      "semestre": "2020.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:3",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:8",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 8,
+      "line_start": 9,
+      "line_end": 9
+    },
+    "raw": {
+      "item_id": "ITM-10057",
+      "prova_id": "PRV-2020-0128",
+      "curso": "CUR-ADM",
+      "semestre": "2020.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10057",
+      "prova_id": "PRV-2020-0128",
+      "curso": "CUR-ADM",
+      "semestre": "2020.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:17",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:9",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 9,
+      "line_start": 10,
+      "line_end": 10
+    },
+    "raw": {
+      "item_id": "ITM-10062",
+      "prova_id": "PRV-2020-0133",
+      "curso": "CUR-ADM",
+      "semestre": "2020.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10062",
+      "prova_id": "PRV-2020-0133",
+      "curso": "CUR-ADM",
+      "semestre": "2020.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:22",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:10",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 10,
+      "line_start": 11,
+      "line_end": 11
+    },
+    "raw": {
+      "item_id": "ITM-20017",
+      "prova_id": "PRV-2020-0138",
+      "curso": "CUR-ADM",
+      "semestre": "2020.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20017",
+      "prova_id": "PRV-2020-0138",
+      "curso": "CUR-ADM",
+      "semestre": "2020.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:35",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:11",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 11,
+      "line_start": 12,
+      "line_end": 12
+    },
+    "raw": {
+      "item_id": "ITM-20030",
+      "prova_id": "PRV-2020-0144",
+      "curso": "CUR-ADM",
+      "semestre": "2020.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20030",
+      "prova_id": "PRV-2020-0144",
+      "curso": "CUR-ADM",
+      "semestre": "2020.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:48",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:12",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 12,
+      "line_start": 13,
+      "line_end": 13
+    },
+    "raw": {
+      "item_id": "ITM-20039",
+      "prova_id": "PRV-2020-0149",
+      "curso": "CUR-ADM",
+      "semestre": "2020.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20039",
+      "prova_id": "PRV-2020-0149",
+      "curso": "CUR-ADM",
+      "semestre": "2020.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:57",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:13",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 13,
+      "line_start": 14,
+      "line_end": 14
+    },
+    "raw": {
+      "item_id": "ITM-10041",
+      "prova_id": "PRV-2021-0155",
+      "curso": "CUR-ADM",
+      "semestre": "2021.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10041",
+      "prova_id": "PRV-2021-0155",
+      "curso": "CUR-ADM",
+      "semestre": "2021.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:1",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:14",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 14,
+      "line_start": 15,
+      "line_end": 15
+    },
+    "raw": {
+      "item_id": "ITM-10053",
+      "prova_id": "PRV-2021-0160",
+      "curso": "CUR-ADM",
+      "semestre": "2021.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10053",
+      "prova_id": "PRV-2021-0160",
+      "curso": "CUR-ADM",
+      "semestre": "2021.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:13",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:15",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 15,
+      "line_start": 16,
+      "line_end": 16
+    },
+    "raw": {
+      "item_id": "ITM-10059",
+      "prova_id": "PRV-2021-0166",
+      "curso": "CUR-ADM",
+      "semestre": "2021.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10059",
+      "prova_id": "PRV-2021-0166",
+      "curso": "CUR-ADM",
+      "semestre": "2021.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:19",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:16",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 16,
+      "line_start": 17,
+      "line_end": 17
+    },
+    "raw": {
+      "item_id": "ITM-10066",
+      "prova_id": "PRV-2021-0171",
+      "curso": "CUR-ADM",
+      "semestre": "2021.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10066",
+      "prova_id": "PRV-2021-0171",
+      "curso": "CUR-ADM",
+      "semestre": "2021.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:26",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:17",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 17,
+      "line_start": 18,
+      "line_end": 18
+    },
+    "raw": {
+      "item_id": "ITM-20021",
+      "prova_id": "PRV-2021-0177",
+      "curso": "CUR-ADM",
+      "semestre": "2021.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20021",
+      "prova_id": "PRV-2021-0177",
+      "curso": "CUR-ADM",
+      "semestre": "2021.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:39",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:18",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 18,
+      "line_start": 19,
+      "line_end": 19
+    },
+    "raw": {
+      "item_id": "ITM-20026",
+      "prova_id": "PRV-2021-0182",
+      "curso": "CUR-ADM",
+      "semestre": "2021.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20026",
+      "prova_id": "PRV-2021-0182",
+      "curso": "CUR-ADM",
+      "semestre": "2021.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:44",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:19",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 19,
+      "line_start": 20,
+      "line_end": 20
+    },
+    "raw": {
+      "item_id": "ITM-20035",
+      "prova_id": "PRV-2021-0187",
+      "curso": "CUR-ADM",
+      "semestre": "2021.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20035",
+      "prova_id": "PRV-2021-0187",
+      "curso": "CUR-ADM",
+      "semestre": "2021.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:53",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:20",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 20,
+      "line_start": 21,
+      "line_end": 21
+    },
+    "raw": {
+      "item_id": "ITM-20043",
+      "prova_id": "PRV-2021-0188",
+      "curso": "CUR-ADM",
+      "semestre": "2021.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20043",
+      "prova_id": "PRV-2021-0188",
+      "curso": "CUR-ADM",
+      "semestre": "2021.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:67",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:21",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 21,
+      "line_start": 22,
+      "line_end": 22
+    },
+    "raw": {
+      "item_id": "ITM-30007",
+      "prova_id": "PRV-2021-0192",
+      "curso": "CUR-ADM",
+      "semestre": "2021.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-30007",
+      "prova_id": "PRV-2021-0192",
+      "curso": "CUR-ADM",
+      "semestre": "2021.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:60",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:22",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 22,
+      "line_start": 23,
+      "line_end": 23
+    },
+    "raw": {
+      "item_id": "ITM-20043",
+      "prova_id": "PRV-2021-0402",
+      "curso": "CUR-ADM",
+      "semestre": "2021.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20043",
+      "prova_id": "PRV-2021-0402",
+      "curso": "CUR-ADM",
+      "semestre": "2021.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:67",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:23",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 23,
+      "line_start": 24,
+      "line_end": 24
+    },
+    "raw": {
+      "item_id": "ITM-20043",
+      "prova_id": "PRV-2022-0231",
+      "curso": "CUR-ADM",
+      "semestre": "2022.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20043",
+      "prova_id": "PRV-2022-0231",
+      "curso": "CUR-ADM",
+      "semestre": "2022.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:67",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:24",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 24,
+      "line_start": 25,
+      "line_end": 25
+    },
+    "raw": {
+      "item_id": "ITM-10044",
+      "prova_id": "PRV-2022-0266",
+      "curso": "CUR-ADM",
+      "semestre": "2022.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10044",
+      "prova_id": "PRV-2022-0266",
+      "curso": "CUR-ADM",
+      "semestre": "2022.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:4",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:25",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 25,
+      "line_start": 26,
+      "line_end": 26
+    },
+    "raw": {
+      "item_id": "ITM-10056",
+      "prova_id": "PRV-2022-0271",
+      "curso": "CUR-ADM",
+      "semestre": "2022.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10056",
+      "prova_id": "PRV-2022-0271",
+      "curso": "CUR-ADM",
+      "semestre": "2022.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:16",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:26",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 26,
+      "line_start": 27,
+      "line_end": 27
+    },
+    "raw": {
+      "item_id": "ITM-10063",
+      "prova_id": "PRV-2022-0277",
+      "curso": "CUR-ADM",
+      "semestre": "2022.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10063",
+      "prova_id": "PRV-2022-0277",
+      "curso": "CUR-ADM",
+      "semestre": "2022.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:23",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:27",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 27,
+      "line_start": 28,
+      "line_end": 28
+    },
+    "raw": {
+      "item_id": "ITM-20016",
+      "prova_id": "PRV-2022-0283",
+      "curso": "CUR-ADM",
+      "semestre": "2022.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20016",
+      "prova_id": "PRV-2022-0283",
+      "curso": "CUR-ADM",
+      "semestre": "2022.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:34",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:28",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 28,
+      "line_start": 29,
+      "line_end": 29
+    },
+    "raw": {
+      "item_id": "ITM-20023",
+      "prova_id": "PRV-2022-0288",
+      "curso": "CUR-ADM",
+      "semestre": "2022.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20023",
+      "prova_id": "PRV-2022-0288",
+      "curso": "CUR-ADM",
+      "semestre": "2022.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:41",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:29",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 29,
+      "line_start": 30,
+      "line_end": 30
+    },
+    "raw": {
+      "item_id": "ITM-20029",
+      "prova_id": "PRV-2022-0294",
+      "curso": "CUR-ADM",
+      "semestre": "2022.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20029",
+      "prova_id": "PRV-2022-0294",
+      "curso": "CUR-ADM",
+      "semestre": "2022.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:47",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:30",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 30,
+      "line_start": 31,
+      "line_end": 31
+    },
+    "raw": {
+      "item_id": "ITM-20036",
+      "prova_id": "PRV-2022-0299",
+      "curso": "CUR-ADM",
+      "semestre": "2022.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20036",
+      "prova_id": "PRV-2022-0299",
+      "curso": "CUR-ADM",
+      "semestre": "2022.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:54",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:31",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 31,
+      "line_start": 32,
+      "line_end": 32
+    },
+    "raw": {
+      "item_id": "ITM-20043",
+      "prova_id": "PRV-2022-0455",
+      "curso": "CUR-ADM",
+      "semestre": "2022.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20043",
+      "prova_id": "PRV-2022-0455",
+      "curso": "CUR-ADM",
+      "semestre": "2022.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:67",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:32",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 32,
+      "line_start": 33,
+      "line_end": 33
+    },
+    "raw": {
+      "item_id": "ITM-20043",
+      "prova_id": "PRV-2023-0190",
+      "curso": "CUR-ADM",
+      "semestre": "2023.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20043",
+      "prova_id": "PRV-2023-0190",
+      "curso": "CUR-ADM",
+      "semestre": "2023.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:67",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:33",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 33,
+      "line_start": 34,
+      "line_end": 34
+    },
+    "raw": {
+      "item_id": "ITM-10045",
+      "prova_id": "PRV-2023-0244",
+      "curso": "CUR-ADM",
+      "semestre": "2023.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10045",
+      "prova_id": "PRV-2023-0244",
+      "curso": "CUR-ADM",
+      "semestre": "2023.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:5",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:34",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 34,
+      "line_start": 35,
+      "line_end": 35
+    },
+    "raw": {
+      "item_id": "ITM-10052",
+      "prova_id": "PRV-2023-0251",
+      "curso": "CUR-ADM",
+      "semestre": "2023.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10052",
+      "prova_id": "PRV-2023-0251",
+      "curso": "CUR-ADM",
+      "semestre": "2023.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:12",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:35",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 35,
+      "line_start": 36,
+      "line_end": 36
+    },
+    "raw": {
+      "item_id": "ITM-10061",
+      "prova_id": "PRV-2023-0258",
+      "curso": "CUR-ADM",
+      "semestre": "2023.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10061",
+      "prova_id": "PRV-2023-0258",
+      "curso": "CUR-ADM",
+      "semestre": "2023.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:21",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:36",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 36,
+      "line_start": 37,
+      "line_end": 37
+    },
+    "raw": {
+      "item_id": "ITM-10071",
+      "prova_id": "PRV-2023-0263",
+      "curso": "CUR-ADM",
+      "semestre": "2023.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10071",
+      "prova_id": "PRV-2023-0263",
+      "curso": "CUR-ADM",
+      "semestre": "2023.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:31",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:37",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 37,
+      "line_start": 38,
+      "line_end": 38
+    },
+    "raw": {
+      "item_id": "ITM-10073",
+      "prova_id": "PRV-2023-0269",
+      "curso": "CUR-ADM",
+      "semestre": "2023.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10073",
+      "prova_id": "PRV-2023-0269",
+      "curso": "CUR-ADM",
+      "semestre": "2023.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:64",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:38",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 38,
+      "line_start": 39,
+      "line_end": 39
+    },
+    "raw": {
+      "item_id": "ITM-20019",
+      "prova_id": "PRV-2023-0274",
+      "curso": "CUR-ADM",
+      "semestre": "2023.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20019",
+      "prova_id": "PRV-2023-0274",
+      "curso": "CUR-ADM",
+      "semestre": "2023.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:37",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:39",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 39,
+      "line_start": 40,
+      "line_end": 40
+    },
+    "raw": {
+      "item_id": "ITM-20032",
+      "prova_id": "PRV-2023-0280",
+      "curso": "CUR-ADM",
+      "semestre": "2023.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20032",
+      "prova_id": "PRV-2023-0280",
+      "curso": "CUR-ADM",
+      "semestre": "2023.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:50",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:40",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 40,
+      "line_start": 41,
+      "line_end": 41
+    },
+    "raw": {
+      "item_id": "ITM-20043",
+      "prova_id": "PRV-2023-0511",
+      "curso": "CUR-ADM",
+      "semestre": "2023.2",
+      "modalidade": "Presencial"
+    },
+    "data": {
+      "item_id": "ITM-20043",
+      "prova_id": "PRV-2023-0511",
+      "curso": "CUR-ADM",
+      "semestre": "2023.2",
+      "modalidade": "Presencial"
+    },
+    "item_record_id": "04_itens_legado.csv:67",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:41",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 41,
+      "line_start": 42,
+      "line_end": 42
+    },
+    "raw": {
+      "item_id": "ITM-20043",
+      "prova_id": "PRV-2024-0203",
+      "curso": "CUR-ADM",
+      "semestre": "2024.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20043",
+      "prova_id": "PRV-2024-0203",
+      "curso": "CUR-ADM",
+      "semestre": "2024.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:67",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:42",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 42,
+      "line_start": 43,
+      "line_end": 43
+    },
+    "raw": {
+      "item_id": "ITM-10066",
+      "prova_id": "PRV-2024-0211",
+      "curso": "CUR-ADM",
+      "semestre": "2024.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10066",
+      "prova_id": "PRV-2024-0211",
+      "curso": "CUR-ADM",
+      "semestre": "2024.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:26",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:43",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 43,
+      "line_start": 44,
+      "line_end": 44
+    },
+    "raw": {
+      "item_id": "ITM-20020",
+      "prova_id": "PRV-2024-0216",
+      "curso": "CUR-ADM",
+      "semestre": "2024.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20020",
+      "prova_id": "PRV-2024-0216",
+      "curso": "CUR-ADM",
+      "semestre": "2024.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:38",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:44",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 44,
+      "line_start": 45,
+      "line_end": 45
+    },
+    "raw": {
+      "item_id": "ITM-10046",
+      "prova_id": "PRV-2024-0233",
+      "curso": "CUR-ADM",
+      "semestre": "2024.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10046",
+      "prova_id": "PRV-2024-0233",
+      "curso": "CUR-ADM",
+      "semestre": "2024.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:6",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:45",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 45,
+      "line_start": 46,
+      "line_end": 46
+    },
+    "raw": {
+      "item_id": "ITM-10049",
+      "prova_id": "PRV-2024-0240",
+      "curso": "CUR-ADM",
+      "semestre": "2024.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10049",
+      "prova_id": "PRV-2024-0240",
+      "curso": "CUR-ADM",
+      "semestre": "2024.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:9",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:46",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 46,
+      "line_start": 47,
+      "line_end": 47
+    },
+    "raw": {
+      "item_id": "ITM-10058",
+      "prova_id": "PRV-2024-0247",
+      "curso": "CUR-ADM",
+      "semestre": "2024.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10058",
+      "prova_id": "PRV-2024-0247",
+      "curso": "CUR-ADM",
+      "semestre": "2024.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:18",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:47",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 47,
+      "line_start": 48,
+      "line_end": 48
+    },
+    "raw": {
+      "item_id": "ITM-10072",
+      "prova_id": "PRV-2024-0255",
+      "curso": "CUR-ADM",
+      "semestre": "2024.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10072",
+      "prova_id": "PRV-2024-0255",
+      "curso": "CUR-ADM",
+      "semestre": "2024.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:32",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:48",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 48,
+      "line_start": 49,
+      "line_end": 49
+    },
+    "raw": {
+      "item_id": "ITM-20015",
+      "prova_id": "PRV-2024-0260",
+      "curso": "CUR-ADM",
+      "semestre": "2024.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20015",
+      "prova_id": "PRV-2024-0260",
+      "curso": "CUR-ADM",
+      "semestre": "2024.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:33",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:49",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 49,
+      "line_start": 50,
+      "line_end": 50
+    },
+    "raw": {
+      "item_id": "ITM-20027",
+      "prova_id": "PRV-2024-0266",
+      "curso": "CUR-ADM",
+      "semestre": "2024.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20027",
+      "prova_id": "PRV-2024-0266",
+      "curso": "CUR-ADM",
+      "semestre": "2024.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:45",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:50",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 50,
+      "line_start": 51,
+      "line_end": 51
+    },
+    "raw": {
+      "item_id": "ITM-20033",
+      "prova_id": "PRV-2024-0272",
+      "curso": "CUR-ADM",
+      "semestre": "2024.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20033",
+      "prova_id": "PRV-2024-0272",
+      "curso": "CUR-ADM",
+      "semestre": "2024.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:51",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:51",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 51,
+      "line_start": 52,
+      "line_end": 52
+    },
+    "raw": {
+      "item_id": "ITM-20038",
+      "prova_id": "PRV-2024-0277",
+      "curso": "CUR-ADM",
+      "semestre": "2024.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20038",
+      "prova_id": "PRV-2024-0277",
+      "curso": "CUR-ADM",
+      "semestre": "2024.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:56",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:52",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 52,
+      "line_start": 53,
+      "line_end": 53
+    },
+    "raw": {
+      "item_id": "ITM-20042",
+      "prova_id": "PRV-2024-0282",
+      "curso": "CUR-ADM",
+      "semestre": "2024.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20042",
+      "prova_id": "PRV-2024-0282",
+      "curso": "CUR-ADM",
+      "semestre": "2024.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:65",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:53",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 53,
+      "line_start": 54,
+      "line_end": 54
+    },
+    "raw": {
+      "item_id": "ITM-10048",
+      "prova_id": "PRV-2024-0477",
+      "curso": "CUR-ADM",
+      "semestre": "2024.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10048",
+      "prova_id": "PRV-2024-0477",
+      "curso": "CUR-ADM",
+      "semestre": "2024.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:8",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:54",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 54,
+      "line_start": 55,
+      "line_end": 55
+    },
+    "raw": {
+      "item_id": "ITM-10057",
+      "prova_id": "PRV-2024-0481",
+      "curso": "CUR-ADM",
+      "semestre": "2024.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10057",
+      "prova_id": "PRV-2024-0481",
+      "curso": "CUR-ADM",
+      "semestre": "2024.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:17",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:55",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 55,
+      "line_start": 56,
+      "line_end": 56
+    },
+    "raw": {
+      "item_id": "ITM-10062",
+      "prova_id": "PRV-2024-0486",
+      "curso": "CUR-ADM",
+      "semestre": "2024.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10062",
+      "prova_id": "PRV-2024-0486",
+      "curso": "CUR-ADM",
+      "semestre": "2024.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:22",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:56",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 56,
+      "line_start": 57,
+      "line_end": 57
+    },
+    "raw": {
+      "item_id": "ITM-10068",
+      "prova_id": "PRV-2024-0490",
+      "curso": "CUR-ADM",
+      "semestre": "2024.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10068",
+      "prova_id": "PRV-2024-0490",
+      "curso": "CUR-ADM",
+      "semestre": "2024.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:28",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:57",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 57,
+      "line_start": 58,
+      "line_end": 58
+    },
+    "raw": {
+      "item_id": "ITM-20017",
+      "prova_id": "PRV-2024-0494",
+      "curso": "CUR-ADM",
+      "semestre": "2024.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20017",
+      "prova_id": "PRV-2024-0494",
+      "curso": "CUR-ADM",
+      "semestre": "2024.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:35",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:58",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 58,
+      "line_start": 59,
+      "line_end": 59
+    },
+    "raw": {
+      "item_id": "ITM-20043",
+      "prova_id": "PRV-2024-0498",
+      "curso": "CUR-ADM",
+      "semestre": "2024.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20043",
+      "prova_id": "PRV-2024-0498",
+      "curso": "CUR-ADM",
+      "semestre": "2024.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:67",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:59",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 59,
+      "line_start": 60,
+      "line_end": 60
+    },
+    "raw": {
+      "item_id": "ITM-20030",
+      "prova_id": "PRV-2024-0499",
+      "curso": "CUR-ADM",
+      "semestre": "2024.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20030",
+      "prova_id": "PRV-2024-0499",
+      "curso": "CUR-ADM",
+      "semestre": "2024.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:48",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:60",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 60,
+      "line_start": 61,
+      "line_end": 61
+    },
+    "raw": {
+      "item_id": "ITM-20039",
+      "prova_id": "PRV-2024-0503",
+      "curso": "CUR-ADM",
+      "semestre": "2024.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20039",
+      "prova_id": "PRV-2024-0503",
+      "curso": "CUR-ADM",
+      "semestre": "2024.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:57",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:61",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 61,
+      "line_start": 62,
+      "line_end": 62
+    },
+    "raw": {
+      "item_id": "ITM-20043",
+      "prova_id": "PRV-2025-0177",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20043",
+      "prova_id": "PRV-2025-0177",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:67",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:62",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 62,
+      "line_start": 63,
+      "line_end": 63
+    },
+    "raw": {
+      "item_id": "ITM-10043",
+      "prova_id": "PRV-2025-0180",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10043",
+      "prova_id": "PRV-2025-0180",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:3",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:63",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 63,
+      "line_start": 64,
+      "line_end": 64
+    },
+    "raw": {
+      "item_id": "ITM-10051",
+      "prova_id": "PRV-2025-0186",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10051",
+      "prova_id": "PRV-2025-0186",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:11",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:64",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 64,
+      "line_start": 65,
+      "line_end": 65
+    },
+    "raw": {
+      "item_id": "ITM-10053",
+      "prova_id": "PRV-2025-0191",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10053",
+      "prova_id": "PRV-2025-0191",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:13",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:65",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 65,
+      "line_start": 66,
+      "line_end": 66
+    },
+    "raw": {
+      "item_id": "ITM-10059",
+      "prova_id": "PRV-2025-0195",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10059",
+      "prova_id": "PRV-2025-0195",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:19",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:66",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 66,
+      "line_start": 67,
+      "line_end": 67
+    },
+    "raw": {
+      "item_id": "ITM-10067",
+      "prova_id": "PRV-2025-0199",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10067",
+      "prova_id": "PRV-2025-0199",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:27",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:67",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 67,
+      "line_start": 68,
+      "line_end": 68
+    },
+    "raw": {
+      "item_id": "ITM-10070",
+      "prova_id": "PRV-2025-0204",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10070",
+      "prova_id": "PRV-2025-0204",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:30",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:68",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 68,
+      "line_start": 69,
+      "line_end": 69
+    },
+    "raw": {
+      "item_id": "ITM-10074",
+      "prova_id": "PRV-2025-0209",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10074",
+      "prova_id": "PRV-2025-0209",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:66",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:69",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 69,
+      "line_start": 70,
+      "line_end": 70
+    },
+    "raw": {
+      "item_id": "ITM-20016",
+      "prova_id": "PRV-2025-0213",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20016",
+      "prova_id": "PRV-2025-0213",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:34",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:70",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 70,
+      "line_start": 71,
+      "line_end": 71
+    },
+    "raw": {
+      "item_id": "ITM-20018",
+      "prova_id": "PRV-2025-0218",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20018",
+      "prova_id": "PRV-2025-0218",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:36",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:71",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 71,
+      "line_start": 72,
+      "line_end": 72
+    },
+    "raw": {
+      "item_id": "ITM-20021",
+      "prova_id": "PRV-2025-0222",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20021",
+      "prova_id": "PRV-2025-0222",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:39",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:72",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 72,
+      "line_start": 73,
+      "line_end": 73
+    },
+    "raw": {
+      "item_id": "ITM-20023",
+      "prova_id": "PRV-2025-0226",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20023",
+      "prova_id": "PRV-2025-0226",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:41",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:73",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 73,
+      "line_start": 74,
+      "line_end": 74
+    },
+    "raw": {
+      "item_id": "ITM-20025",
+      "prova_id": "PRV-2025-0230",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20025",
+      "prova_id": "PRV-2025-0230",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:43",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:74",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 74,
+      "line_start": 75,
+      "line_end": 75
+    },
+    "raw": {
+      "item_id": "ITM-20026",
+      "prova_id": "PRV-2025-0234",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20026",
+      "prova_id": "PRV-2025-0234",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:44",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:75",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 75,
+      "line_start": 76,
+      "line_end": 76
+    },
+    "raw": {
+      "item_id": "ITM-20031",
+      "prova_id": "PRV-2025-0239",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20031",
+      "prova_id": "PRV-2025-0239",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:49",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:76",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 76,
+      "line_start": 77,
+      "line_end": 77
+    },
+    "raw": {
+      "item_id": "ITM-20035",
+      "prova_id": "PRV-2025-0243",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20035",
+      "prova_id": "PRV-2025-0243",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:53",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:77",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 77,
+      "line_start": 78,
+      "line_end": 78
+    },
+    "raw": {
+      "item_id": "ITM-20036",
+      "prova_id": "PRV-2025-0247",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20036",
+      "prova_id": "PRV-2025-0247",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:54",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:78",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 78,
+      "line_start": 79,
+      "line_end": 79
+    },
+    "raw": {
+      "item_id": "ITM-20040",
+      "prova_id": "PRV-2025-0251",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20040",
+      "prova_id": "PRV-2025-0251",
+      "curso": "CUR-ADM",
+      "semestre": "2025.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:58",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:79",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 79,
+      "line_start": 80,
+      "line_end": 80
+    },
+    "raw": {
+      "item_id": "ITM-10041",
+      "prova_id": "PRV-2025-0502",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10041",
+      "prova_id": "PRV-2025-0502",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:1",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:80",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 80,
+      "line_start": 81,
+      "line_end": 81
+    },
+    "raw": {
+      "item_id": "ITM-20043",
+      "prova_id": "PRV-2025-0506",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20043",
+      "prova_id": "PRV-2025-0506",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:67",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:81",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 81,
+      "line_start": 82,
+      "line_end": 82
+    },
+    "raw": {
+      "item_id": "ITM-10044",
+      "prova_id": "PRV-2025-0509",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10044",
+      "prova_id": "PRV-2025-0509",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:4",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:82",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 82,
+      "line_start": 83,
+      "line_end": 83
+    },
+    "raw": {
+      "item_id": "ITM-10046",
+      "prova_id": "PRV-2025-0515",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10046",
+      "prova_id": "PRV-2025-0515",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:6",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:83",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 83,
+      "line_start": 84,
+      "line_end": 84
+    },
+    "raw": {
+      "item_id": "ITM-10049",
+      "prova_id": "PRV-2025-0520",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10049",
+      "prova_id": "PRV-2025-0520",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:9",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:84",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 84,
+      "line_start": 85,
+      "line_end": 85
+    },
+    "raw": {
+      "item_id": "ITM-10052",
+      "prova_id": "PRV-2025-0524",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10052",
+      "prova_id": "PRV-2025-0524",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:12",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:85",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 85,
+      "line_start": 86,
+      "line_end": 86
+    },
+    "raw": {
+      "item_id": "ITM-10056",
+      "prova_id": "PRV-2025-0528",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10056",
+      "prova_id": "PRV-2025-0528",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:16",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:86",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 86,
+      "line_start": 87,
+      "line_end": 87
+    },
+    "raw": {
+      "item_id": "ITM-10058",
+      "prova_id": "PRV-2025-0531",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10058",
+      "prova_id": "PRV-2025-0531",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:18",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:87",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 87,
+      "line_start": 88,
+      "line_end": 88
+    },
+    "raw": {
+      "item_id": "ITM-10061",
+      "prova_id": "PRV-2025-0536",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10061",
+      "prova_id": "PRV-2025-0536",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:21",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:88",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 88,
+      "line_start": 89,
+      "line_end": 89
+    },
+    "raw": {
+      "item_id": "ITM-10063",
+      "prova_id": "PRV-2025-0540",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10063",
+      "prova_id": "PRV-2025-0540",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:23",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:89",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 89,
+      "line_start": 90,
+      "line_end": 90
+    },
+    "raw": {
+      "item_id": "ITM-10071",
+      "prova_id": "PRV-2025-0545",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10071",
+      "prova_id": "PRV-2025-0545",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:31",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:90",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 90,
+      "line_start": 91,
+      "line_end": 91
+    },
+    "raw": {
+      "item_id": "ITM-10072",
+      "prova_id": "PRV-2025-0549",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10072",
+      "prova_id": "PRV-2025-0549",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:32",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:91",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 91,
+      "line_start": 92,
+      "line_end": 92
+    },
+    "raw": {
+      "item_id": "ITM-10073",
+      "prova_id": "PRV-2025-0553",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10073",
+      "prova_id": "PRV-2025-0553",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:64",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:92",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 92,
+      "line_start": 93,
+      "line_end": 93
+    },
+    "raw": {
+      "item_id": "ITM-20015",
+      "prova_id": "PRV-2025-0557",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20015",
+      "prova_id": "PRV-2025-0557",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:33",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:93",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 93,
+      "line_start": 94,
+      "line_end": 94
+    },
+    "raw": {
+      "item_id": "ITM-20019",
+      "prova_id": "PRV-2025-0561",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20019",
+      "prova_id": "PRV-2025-0561",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:37",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:94",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 94,
+      "line_start": 95,
+      "line_end": 95
+    },
+    "raw": {
+      "item_id": "ITM-20025",
+      "prova_id": "PRV-2025-0565",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20025",
+      "prova_id": "PRV-2025-0565",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:43",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:95",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 95,
+      "line_start": 96,
+      "line_end": 96
+    },
+    "raw": {
+      "item_id": "ITM-20027",
+      "prova_id": "PRV-2025-0569",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20027",
+      "prova_id": "PRV-2025-0569",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:45",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:96",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 96,
+      "line_start": 97,
+      "line_end": 97
+    },
+    "raw": {
+      "item_id": "ITM-20029",
+      "prova_id": "PRV-2025-0573",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20029",
+      "prova_id": "PRV-2025-0573",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:47",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:97",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 97,
+      "line_start": 98,
+      "line_end": 98
+    },
+    "raw": {
+      "item_id": "ITM-20032",
+      "prova_id": "PRV-2025-0577",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20032",
+      "prova_id": "PRV-2025-0577",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:50",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:98",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 98,
+      "line_start": 99,
+      "line_end": 99
+    },
+    "raw": {
+      "item_id": "ITM-20033",
+      "prova_id": "PRV-2025-0581",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20033",
+      "prova_id": "PRV-2025-0581",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:51",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:99",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 99,
+      "line_start": 100,
+      "line_end": 100
+    },
+    "raw": {
+      "item_id": "ITM-20038",
+      "prova_id": "PRV-2025-0585",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20038",
+      "prova_id": "PRV-2025-0585",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:56",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:100",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 100,
+      "line_start": 101,
+      "line_end": 101
+    },
+    "raw": {
+      "item_id": "ITM-20042",
+      "prova_id": "PRV-2025-0589",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20042",
+      "prova_id": "PRV-2025-0589",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:65",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:101",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 101,
+      "line_start": 102,
+      "line_end": 102
+    },
+    "raw": {
+      "item_id": "ITM-30009",
+      "prova_id": "PRV-2025-0593",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-30009",
+      "prova_id": "PRV-2025-0593",
+      "curso": "CUR-ADM",
+      "semestre": "2025.2",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:62",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:102",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 102,
+      "line_start": 103,
+      "line_end": 103
+    },
+    "raw": {
+      "item_id": "ITM-10054",
+      "prova_id": "PRV-2026-0101",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10054",
+      "prova_id": "PRV-2026-0101",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:14",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:103",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 103,
+      "line_start": 104,
+      "line_end": 104
+    },
+    "raw": {
+      "item_id": "ITM-10055",
+      "prova_id": "PRV-2026-0101",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10055",
+      "prova_id": "PRV-2026-0101",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:15",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:104",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 104,
+      "line_start": 105,
+      "line_end": 105
+    },
+    "raw": {
+      "item_id": "ITM-10047",
+      "prova_id": "PRV-2026-0103",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10047",
+      "prova_id": "PRV-2026-0103",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:7",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:105",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 105,
+      "line_start": 106,
+      "line_end": 106
+    },
+    "raw": {
+      "item_id": "ITM-10064",
+      "prova_id": "PRV-2026-0105",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10064",
+      "prova_id": "PRV-2026-0105",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:24",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:106",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 106,
+      "line_start": 107,
+      "line_end": 107
+    },
+    "raw": {
+      "item_id": "ITM-10045",
+      "prova_id": "PRV-2026-0107",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10045",
+      "prova_id": "PRV-2026-0107",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:5",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:107",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 107,
+      "line_start": 108,
+      "line_end": 108
+    },
+    "raw": {
+      "item_id": "ITM-10050",
+      "prova_id": "PRV-2026-0109",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10050",
+      "prova_id": "PRV-2026-0109",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:10",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:108",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 108,
+      "line_start": 109,
+      "line_end": 109
+    },
+    "raw": {
+      "item_id": "ITM-10060",
+      "prova_id": "PRV-2026-0112",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10060",
+      "prova_id": "PRV-2026-0112",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:20",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:109",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 109,
+      "line_start": 110,
+      "line_end": 110
+    },
+    "raw": {
+      "item_id": "ITM-10065",
+      "prova_id": "PRV-2026-0115",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10065",
+      "prova_id": "PRV-2026-0115",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:25",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:110",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 110,
+      "line_start": 111,
+      "line_end": 111
+    },
+    "raw": {
+      "item_id": "ITM-20022",
+      "prova_id": "PRV-2026-0118",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20022",
+      "prova_id": "PRV-2026-0118",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:40",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:111",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 111,
+      "line_start": 112,
+      "line_end": 112
+    },
+    "raw": {
+      "item_id": "ITM-20028",
+      "prova_id": "PRV-2026-0118",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20028",
+      "prova_id": "PRV-2026-0118",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:46",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:112",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 112,
+      "line_start": 113,
+      "line_end": 113
+    },
+    "raw": {
+      "item_id": "ITM-20034",
+      "prova_id": "PRV-2026-0120",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20034",
+      "prova_id": "PRV-2026-0120",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:52",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:113",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 113,
+      "line_start": 114,
+      "line_end": 114
+    },
+    "raw": {
+      "item_id": "ITM-20024",
+      "prova_id": "PRV-2026-0122",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20024",
+      "prova_id": "PRV-2026-0122",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:42",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:114",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 114,
+      "line_start": 115,
+      "line_end": 115
+    },
+    "raw": {
+      "item_id": "ITM-10067",
+      "prova_id": "PRV-2026-0124",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10067",
+      "prova_id": "PRV-2026-0124",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:27",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:115",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 115,
+      "line_start": 116,
+      "line_end": 116
+    },
+    "raw": {
+      "item_id": "ITM-10069",
+      "prova_id": "PRV-2026-0127",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10069",
+      "prova_id": "PRV-2026-0127",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:29",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:116",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 116,
+      "line_start": 117,
+      "line_end": 117
+    },
+    "raw": {
+      "item_id": "ITM-10070",
+      "prova_id": "PRV-2026-0130",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10070",
+      "prova_id": "PRV-2026-0130",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:30",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:117",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 117,
+      "line_start": 118,
+      "line_end": 118
+    },
+    "raw": {
+      "item_id": "ITM-10074",
+      "prova_id": "PRV-2026-0133",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10074",
+      "prova_id": "PRV-2026-0133",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:66",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:118",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 118,
+      "line_start": 119,
+      "line_end": 119
+    },
+    "raw": {
+      "item_id": "ITM-20018",
+      "prova_id": "PRV-2026-0136",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20018",
+      "prova_id": "PRV-2026-0136",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:36",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:119",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 119,
+      "line_start": 120,
+      "line_end": 120
+    },
+    "raw": {
+      "item_id": "ITM-20031",
+      "prova_id": "PRV-2026-0139",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20031",
+      "prova_id": "PRV-2026-0139",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:49",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:120",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 120,
+      "line_start": 121,
+      "line_end": 121
+    },
+    "raw": {
+      "item_id": "ITM-20037",
+      "prova_id": "PRV-2026-0142",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20037",
+      "prova_id": "PRV-2026-0142",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:55",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:121",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 121,
+      "line_start": 122,
+      "line_end": 122
+    },
+    "raw": {
+      "item_id": "ITM-20043",
+      "prova_id": "PRV-2026-0144",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20043",
+      "prova_id": "PRV-2026-0144",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:67",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:122",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 122,
+      "line_start": 123,
+      "line_end": 123
+    },
+    "raw": {
+      "item_id": "ITM-20040",
+      "prova_id": "PRV-2026-0145",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20040",
+      "prova_id": "PRV-2026-0145",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:58",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:123",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 123,
+      "line_start": 124,
+      "line_end": 124
+    },
+    "raw": {
+      "item_id": "ITM-10054",
+      "prova_id": "PRV-2026-0147",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10054",
+      "prova_id": "PRV-2026-0147",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:14",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:124",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 124,
+      "line_start": 125,
+      "line_end": 125
+    },
+    "raw": {
+      "item_id": "ITM-10047",
+      "prova_id": "PRV-2026-0148",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10047",
+      "prova_id": "PRV-2026-0148",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:7",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:125",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 125,
+      "line_start": 126,
+      "line_end": 126
+    },
+    "raw": {
+      "item_id": "ITM-10055",
+      "prova_id": "PRV-2026-0149",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10055",
+      "prova_id": "PRV-2026-0149",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:15",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:126",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 126,
+      "line_start": 127,
+      "line_end": 127
+    },
+    "raw": {
+      "item_id": "ITM-20022",
+      "prova_id": "PRV-2026-0150",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20022",
+      "prova_id": "PRV-2026-0150",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:40",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:127",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 127,
+      "line_start": 128,
+      "line_end": 128
+    },
+    "raw": {
+      "item_id": "ITM-10064",
+      "prova_id": "PRV-2026-0151",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10064",
+      "prova_id": "PRV-2026-0151",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:24",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:128",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 128,
+      "line_start": 129,
+      "line_end": 129
+    },
+    "raw": {
+      "item_id": "ITM-20041",
+      "prova_id": "PRV-2026-0153",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20041",
+      "prova_id": "PRV-2026-0153",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:59",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:129",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 129,
+      "line_start": 130,
+      "line_end": 130
+    },
+    "raw": {
+      "item_id": "ITM-20028",
+      "prova_id": "PRV-2026-0155",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "Presencial"
+    },
+    "data": {
+      "item_id": "ITM-20028",
+      "prova_id": "PRV-2026-0155",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "Presencial"
+    },
+    "item_record_id": "04_itens_legado.csv:46",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:130",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 130,
+      "line_start": 131,
+      "line_end": 131
+    },
+    "raw": {
+      "item_id": "ITM-20034",
+      "prova_id": "PRV-2026-0157",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20034",
+      "prova_id": "PRV-2026-0157",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:52",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:131",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 131,
+      "line_start": 132,
+      "line_end": 132
+    },
+    "raw": {
+      "item_id": "ITM-20024",
+      "prova_id": "PRV-2026-0159",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20024",
+      "prova_id": "PRV-2026-0159",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:42",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:132",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 132,
+      "line_start": 133,
+      "line_end": 133
+    },
+    "raw": {
+      "item_id": "ITM-30008",
+      "prova_id": "PRV-2026-0160",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-30008",
+      "prova_id": "PRV-2026-0160",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:61",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:133",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 133,
+      "line_start": 134,
+      "line_end": 134
+    },
+    "raw": {
+      "item_id": "ITM-10054",
+      "prova_id": "PRV-2026-0162",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "Presencial"
+    },
+    "data": {
+      "item_id": "ITM-10054",
+      "prova_id": "PRV-2026-0162",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "Presencial"
+    },
+    "item_record_id": "04_itens_legado.csv:14",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:134",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 134,
+      "line_start": 135,
+      "line_end": 135
+    },
+    "raw": {
+      "item_id": "ITM-10064",
+      "prova_id": "PRV-2026-0164",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10064",
+      "prova_id": "PRV-2026-0164",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:24",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:135",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 135,
+      "line_start": 136,
+      "line_end": 136
+    },
+    "raw": {
+      "item_id": "ITM-20022",
+      "prova_id": "PRV-2026-0166",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20022",
+      "prova_id": "PRV-2026-0166",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:40",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:136",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 136,
+      "line_start": 137,
+      "line_end": 137
+    },
+    "raw": {
+      "item_id": "ITM-30010",
+      "prova_id": "PRV-2026-0168",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-30010",
+      "prova_id": "PRV-2026-0168",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:63",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:137",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 137,
+      "line_start": 138,
+      "line_end": 138
+    },
+    "raw": {
+      "item_id": "ITM-10047",
+      "prova_id": "PRV-2026-0169",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10047",
+      "prova_id": "PRV-2026-0169",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:7",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:138",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 138,
+      "line_start": 139,
+      "line_end": 139
+    },
+    "raw": {
+      "item_id": "ITM-10055",
+      "prova_id": "PRV-2026-0171",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-10055",
+      "prova_id": "PRV-2026-0171",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:15",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:139",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 139,
+      "line_start": 140,
+      "line_end": 140
+    },
+    "raw": {
+      "item_id": "ITM-20028",
+      "prova_id": "PRV-2026-0174",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20028",
+      "prova_id": "PRV-2026-0174",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:46",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:140",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 140,
+      "line_start": 141,
+      "line_end": 141
+    },
+    "raw": {
+      "item_id": "ITM-20034",
+      "prova_id": "PRV-2026-0178",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "Presencial"
+    },
+    "data": {
+      "item_id": "ITM-20034",
+      "prova_id": "PRV-2026-0178",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "Presencial"
+    },
+    "item_record_id": "04_itens_legado.csv:52",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:141",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 141,
+      "line_start": 142,
+      "line_end": 142
+    },
+    "raw": {
+      "item_id": "ITM-20024",
+      "prova_id": "PRV-2026-0180",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "data": {
+      "item_id": "ITM-20024",
+      "prova_id": "PRV-2026-0180",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "EAD"
+    },
+    "item_record_id": "04_itens_legado.csv:42",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "07_historico_aplicacao.csv:142",
+    "source": {
+      "file": "07_historico_aplicacao.csv",
+      "record": 142,
+      "line_start": 143,
+      "line_end": 143
+    },
+    "raw": {
+      "item_id": "ITM-10055",
+      "prova_id": "PRV-2026-0183",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "Presencial"
+    },
+    "data": {
+      "item_id": "ITM-10055",
+      "prova_id": "PRV-2026-0183",
+      "curso": "CUR-ADM",
+      "semestre": "2026.1",
+      "modalidade": "Presencial"
+    },
+    "item_record_id": "04_itens_legado.csv:15",
+    "link_status": "matched"
+  }
+]

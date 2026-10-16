@@ -1,0 +1,22 @@
+{
+  "version": "decision-event-v1",
+  "event_id": "f08963ba9e9946318cc27dc43be6b9c4",
+  "created_at": "2026-10-15T18:36:32.081408+00:00",
+  "demo": true,
+  "actor": "agente_demo",
+  "review_kind": "operational",
+  "decision": "defer",
+  "note": "Demonstração: encaminhar a sugestão parcial e suas evidências à revisão especializada; não liberar para prova.",
+  "reference": {
+    "results_sha256": "dd697835837db41263ec370a747688ccba9e1f292214a2d69e76fcff2bdbcf66",
+    "item_id": "ITM-10041",
+    "record_id": "04_itens_legado.csv:1",
+    "item_hash": "4868f910086072a2aee91e0533559782ffbfda5e2fe9f116924dec5c47c40137",
+    "fingerprint": "462d39285a28f7df458c8268e3df4b7662db620cfcd0e6b768f1f994e4e27f69"
+  },
+  "issue_snapshot": [],
+  "ready_for_exam": false,
+  "changes_legacy": false,
+  "effect": "decision_record_only",
+  "qualification_verified": false
+}

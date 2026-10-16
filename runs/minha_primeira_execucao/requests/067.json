@@ -1,0 +1,41 @@
+{
+  "item": {
+    "record_id": "04_itens_legado.csv:67",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 67,
+      "line_start": 68,
+      "line_end": 68
+    },
+    "raw": {
+      "id": "ITM-20043",
+      "enunciado": "Com base no texto acima, qual teoria explica o comportamento do gestor descrito?",
+      "alternativa_a": "Teoria X",
+      "alternativa_b": "Teoria Y",
+      "alternativa_c": "Teoria dos dois fatores",
+      "alternativa_d": "Teoria da expectancia",
+      "alternativa_e": "Teoria da equidade",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2022",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20043",
+      "enunciado": "Com base no texto acima, qual teoria explica o comportamento do gestor descrito?",
+      "alternativa_a": "Teoria X",
+      "alternativa_b": "Teoria Y",
+      "alternativa_c": "Teoria dos dois fatores",
+      "alternativa_d": "Teoria da expectancia",
+      "alternativa_e": "Teoria da equidade",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2022,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:67",
+    "link_status": "matched"
+  },
+  "context_file": "../context.json",
+  "fingerprint": "6c4bf2ee4d851840815f275a9912ab1e53a4155e495894d8657a4973ed876ed6"
+}

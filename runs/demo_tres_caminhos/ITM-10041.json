@@ -1,0 +1,221 @@
+{
+  "reference": {
+    "results_sha256": "dd697835837db41263ec370a747688ccba9e1f292214a2d69e76fcff2bdbcf66",
+    "item_id": "ITM-10041",
+    "record_id": "04_itens_legado.csv:1",
+    "item_hash": "4868f910086072a2aee91e0533559782ffbfda5e2fe9f116924dec5c47c40137",
+    "fingerprint": "462d39285a28f7df458c8268e3df4b7662db620cfcd0e6b768f1f994e4e27f69"
+  },
+  "processing_status": "analyzed",
+  "reason": "recorded_response_replayed",
+  "ingestion_issues": [],
+  "source": {
+    "file": "04_itens_legado.csv",
+    "record": 1,
+    "line_start": 2,
+    "line_end": 2
+  },
+  "raw": {
+    "id": "ITM-10041",
+    "enunciado": "Um capital de R$ 12.000,00 foi aplicado a juros simples de 2% ao mes durante 7 meses. Qual o montante ao final do periodo?",
+    "alternativa_a": "R$ 13.680,00",
+    "alternativa_b": "R$ 13.440,00",
+    "alternativa_c": "R$ 12.840,00",
+    "alternativa_d": "R$ 14.000,00",
+    "alternativa_e": "R$ 13.200,00",
+    "gabarito": "A",
+    "disciplina_informada": "Gestão Financeira",
+    "ano_aplicacao": "2021",
+    "origem_banco": "Banco Próprio"
+  },
+  "standardized": {
+    "id": "ITM-10041",
+    "enunciado": "Um capital de R$ 12.000,00 foi aplicado a juros simples de 2% ao mes durante 7 meses. Qual o montante ao final do periodo?",
+    "alternativa_a": "R$ 13.680,00",
+    "alternativa_b": "R$ 13.440,00",
+    "alternativa_c": "R$ 12.840,00",
+    "alternativa_d": "R$ 14.000,00",
+    "alternativa_e": "R$ 13.200,00",
+    "gabarito": "A",
+    "disciplina_informada": "Gestão Financeira",
+    "ano_aplicacao": 2021,
+    "origem_banco": "Banco Próprio"
+  },
+  "analysis": {
+    "item_id": "ITM-10041",
+    "record_id": "04_itens_legado.csv:1",
+    "item_snapshot": {
+      "id": "ITM-10041",
+      "enunciado": "Um capital de R$ 12.000,00 foi aplicado a juros simples de 2% ao mes durante 7 meses. Qual o montante ao final do periodo?",
+      "alternativa_a": "R$ 13.680,00",
+      "alternativa_b": "R$ 13.440,00",
+      "alternativa_c": "R$ 12.840,00",
+      "alternativa_d": "R$ 14.000,00",
+      "alternativa_e": "R$ 13.200,00",
+      "gabarito": "A",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2021,
+      "origem_banco": "Banco Próprio"
+    },
+    "links": [
+      {
+        "oc_id": "OC-GF-01",
+        "competency_id": "COMP-03",
+        "skill_ids": [
+          "HAB-03.1"
+        ],
+        "evidence": [
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:1",
+            "field": "enunciado",
+            "quote": "Um capital de R$ 12.000,00 foi aplicado a juros simples de 2% ao mes durante 7 meses. Qual o montante ao final do periodo?"
+          },
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:1",
+            "field": "alternativa_a",
+            "quote": "R$ 13.680,00"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/componentes_curriculares/0/objetos_conhecimento/0/nome",
+            "quote": "Valor do dinheiro no tempo: capitalização simples e composta"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/2/descricao",
+            "quote": "Aplicar instrumentos de matemática financeira na análise de operações de crédito, investimento e financiamento."
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/2/habilidades/0/descricao",
+            "quote": "Resolver problemas de capitalização simples e composta e de equivalência de capitais."
+          },
+          {
+            "kind": "ementa",
+            "file": "02_ementa_gestao_financeira.txt",
+            "line_start": 38,
+            "line_end": 40,
+            "quote": "1.1 Capitalização simples e composta\nNo regime de juros simples, os juros incidem sempre sobre o capital inicial, de\nmodo que o montante cresce linearmente: M = C x (1 + i x n). No regime de juros"
+          }
+        ],
+        "status": "suggested_partial",
+        "scope": "Somente resolver capitalizacao simples; nao composta, equivalencia ou competencia integral.",
+        "reason": "Resolver capitalizacao simples e parte textual explicita de HAB-03.1. A operacao e simples, mas executa a habilidade, nao apenas um pre-requisito; nao exige demonstrar capitalizacao composta ou toda COMP-03."
+      }
+    ],
+    "rejected_candidates": [],
+    "status": "suggested",
+    "decision_source": "agent_judgment",
+    "criterion_source": "user_criterion_v2",
+    "human_review": "pending",
+    "pedagogical_approval": false,
+    "evidence": [
+      {
+        "kind": "item",
+        "record_id": "04_itens_legado.csv:1",
+        "field": "enunciado",
+        "quote": "Um capital de R$ 12.000,00 foi aplicado a juros simples de 2% ao mes durante 7 meses. Qual o montante ao final do periodo?"
+      },
+      {
+        "kind": "item",
+        "record_id": "04_itens_legado.csv:1",
+        "field": "alternativa_a",
+        "quote": "R$ 13.680,00"
+      },
+      {
+        "kind": "matrix",
+        "file": "01_matriz_competencias.json",
+        "pointer": "/componentes_curriculares/0/objetos_conhecimento/0/nome",
+        "quote": "Valor do dinheiro no tempo: capitalização simples e composta"
+      },
+      {
+        "kind": "matrix",
+        "file": "01_matriz_competencias.json",
+        "pointer": "/competencias/2/descricao",
+        "quote": "Aplicar instrumentos de matemática financeira na análise de operações de crédito, investimento e financiamento."
+      },
+      {
+        "kind": "matrix",
+        "file": "01_matriz_competencias.json",
+        "pointer": "/competencias/2/habilidades/0/descricao",
+        "quote": "Resolver problemas de capitalização simples e composta e de equivalência de capitais."
+      },
+      {
+        "kind": "ementa",
+        "file": "02_ementa_gestao_financeira.txt",
+        "line_start": 38,
+        "line_end": 40,
+        "quote": "1.1 Capitalização simples e composta\nNo regime de juros simples, os juros incidem sempre sobre o capital inicial, de\nmodo que o montante cresce linearmente: M = C x (1 + i x n). No regime de juros"
+      }
+    ],
+    "subject": "Capitalizacao simples e montante.",
+    "object_alignment": {
+      "status": "supported",
+      "supported_oc_ids": [
+        "OC-GF-01"
+      ],
+      "reason": "Resolver capitalizacao simples e parte textual explicita de HAB-03.1. A operacao e simples, mas executa a habilidade, nao apenas um pre-requisito; nao exige demonstrar capitalizacao composta ou toda COMP-03."
+    },
+    "required_task": {
+      "operation": "Calcular montante em juros simples com capital, taxa e prazo fornecidos: 12000*(1+0.02*7)=13680.",
+      "item_evidence": [
+        {
+          "kind": "item",
+          "record_id": "04_itens_legado.csv:1",
+          "field": "enunciado",
+          "quote": "Um capital de R$ 12.000,00 foi aplicado a juros simples de 2% ao mes durante 7 meses. Qual o montante ao final do periodo?"
+        },
+        {
+          "kind": "item",
+          "record_id": "04_itens_legado.csv:1",
+          "field": "alternativa_a",
+          "quote": "R$ 13.680,00"
+        }
+      ]
+    },
+    "competency_alignment": {
+      "status": "partial_suggestion",
+      "reason": "Resolver capitalizacao simples e parte textual explicita de HAB-03.1. A operacao e simples, mas executa a habilidade, nao apenas um pre-requisito; nao exige demonstrar capitalizacao composta ou toda COMP-03.",
+      "scope": "Somente resolver capitalizacao simples; nao composta, equivalencia ou competencia integral."
+    },
+    "use_issues": [],
+    "readiness": {
+      "status": "not_approved_pending_review",
+      "ready": false,
+      "mapped_does_not_mean_usable": true
+    },
+    "use_issues_decision_source": "agent_judgment",
+    "user_coherence_review": "pending",
+    "specialist_pedagogical_review": "pending"
+  },
+  "ready_for_exam": false,
+  "event": {
+    "version": "decision-event-v1",
+    "event_id": "f08963ba9e9946318cc27dc43be6b9c4",
+    "created_at": "2026-10-15T18:36:32.081408+00:00",
+    "demo": true,
+    "actor": "agente_demo",
+    "review_kind": "operational",
+    "decision": "defer",
+    "note": "Demonstração: encaminhar a sugestão parcial e suas evidências à revisão especializada; não liberar para prova.",
+    "reference": {
+      "results_sha256": "dd697835837db41263ec370a747688ccba9e1f292214a2d69e76fcff2bdbcf66",
+      "item_id": "ITM-10041",
+      "record_id": "04_itens_legado.csv:1",
+      "item_hash": "4868f910086072a2aee91e0533559782ffbfda5e2fe9f116924dec5c47c40137",
+      "fingerprint": "462d39285a28f7df458c8268e3df4b7662db620cfcd0e6b768f1f994e4e27f69"
+    },
+    "issue_snapshot": [],
+    "ready_for_exam": false,
+    "changes_legacy": false,
+    "effect": "decision_record_only",
+    "qualification_verified": false
+  },
+  "event_applicability": "current",
+  "event_effect": "Registro separado; nenhuma pendência ou liberação é alterada automaticamente."
+}

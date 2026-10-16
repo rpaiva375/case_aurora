@@ -1,0 +1,41 @@
+{
+  "item": {
+    "record_id": "04_itens_legado.csv:1",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 1,
+      "line_start": 2,
+      "line_end": 2
+    },
+    "raw": {
+      "id": "ITM-10041",
+      "enunciado": "Um capital de R$ 12.000,00 foi aplicado a juros simples de 2% ao mes durante 7 meses. Qual o montante ao final do periodo?",
+      "alternativa_a": "R$ 13.680,00",
+      "alternativa_b": "R$ 13.440,00",
+      "alternativa_c": "R$ 12.840,00",
+      "alternativa_d": "R$ 14.000,00",
+      "alternativa_e": "R$ 13.200,00",
+      "gabarito": "A",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2021",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10041",
+      "enunciado": "Um capital de R$ 12.000,00 foi aplicado a juros simples de 2% ao mes durante 7 meses. Qual o montante ao final do periodo?",
+      "alternativa_a": "R$ 13.680,00",
+      "alternativa_b": "R$ 13.440,00",
+      "alternativa_c": "R$ 12.840,00",
+      "alternativa_d": "R$ 14.000,00",
+      "alternativa_e": "R$ 13.200,00",
+      "gabarito": "A",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2021,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:1",
+    "link_status": "matched"
+  },
+  "context_file": "../context.json",
+  "fingerprint": "462d39285a28f7df458c8268e3df4b7662db620cfcd0e6b768f1f994e4e27f69"
+}

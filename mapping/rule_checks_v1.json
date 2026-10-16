@@ -1,0 +1,66 @@
+{
+  "premise_status": "provisional_manager_assumption_not_pedagogical_decision",
+  "counting": "Unique OC + COMP nodes; skills excluded; min 1 max 3; abstentions not_applicable. Violations retained for review.",
+  "items": [
+    {
+      "record_id": "04_itens_legado.csv:1",
+      "pair_count": 1,
+      "unique_pair_count": 1,
+      "unique_oc_count": 1,
+      "unique_competency_count": 1,
+      "unique_node_count": 2,
+      "quantity_status": "pass",
+      "oc_permission_status": "pass"
+    },
+    {
+      "record_id": "04_itens_legado.csv:36",
+      "pair_count": 1,
+      "unique_pair_count": 1,
+      "unique_oc_count": 1,
+      "unique_competency_count": 1,
+      "unique_node_count": 2,
+      "quantity_status": "pass",
+      "oc_permission_status": "pass"
+    },
+    {
+      "record_id": "04_itens_legado.csv:43",
+      "pair_count": 0,
+      "unique_pair_count": 0,
+      "unique_oc_count": 0,
+      "unique_competency_count": 0,
+      "unique_node_count": 0,
+      "quantity_status": "not_applicable",
+      "oc_permission_status": "not_applicable"
+    },
+    {
+      "record_id": "04_itens_legado.csv:67",
+      "pair_count": 0,
+      "unique_pair_count": 0,
+      "unique_oc_count": 0,
+      "unique_competency_count": 0,
+      "unique_node_count": 0,
+      "quantity_status": "not_applicable",
+      "oc_permission_status": "not_applicable"
+    },
+    {
+      "record_id": "04_itens_legado.csv:60",
+      "pair_count": 0,
+      "unique_pair_count": 0,
+      "unique_oc_count": 0,
+      "unique_competency_count": 0,
+      "unique_node_count": 0,
+      "quantity_status": "not_applicable",
+      "oc_permission_status": "not_applicable"
+    },
+    {
+      "record_id": "04_itens_legado.csv:61",
+      "pair_count": 0,
+      "unique_pair_count": 0,
+      "unique_oc_count": 0,
+      "unique_competency_count": 0,
+      "unique_node_count": 0,
+      "quantity_status": "not_applicable",
+      "oc_permission_status": "not_applicable"
+    }
+  ]
+}

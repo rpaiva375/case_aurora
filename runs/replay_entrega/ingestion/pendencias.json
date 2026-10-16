@@ -1,0 +1,257 @@
+[
+  {
+    "record_id": "04_itens_legado.csv:5",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 5,
+      "line_start": 6,
+      "line_end": 6
+    },
+    "code": "MISSING_FIELD",
+    "field": "alternativa_e",
+    "detail": "Campo vazio na fonte; não imputado.",
+    "status": "open",
+    "pedagogical_validation": false
+  },
+  {
+    "record_id": "04_itens_legado.csv:8",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 8,
+      "line_start": 9,
+      "line_end": 9
+    },
+    "code": "ANSWER_UNRESOLVED",
+    "field": "gabarito",
+    "detail": {
+      "raw": "2",
+      "decision": "Confirmar convenção na origem."
+    },
+    "status": "open",
+    "pedagogical_validation": false
+  },
+  {
+    "record_id": "04_itens_legado.csv:28",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 28,
+      "line_start": 29,
+      "line_end": 29
+    },
+    "code": "MISSING_FIELD",
+    "field": "gabarito",
+    "detail": "Campo vazio na fonte; não imputado.",
+    "status": "open",
+    "pedagogical_validation": false
+  },
+  {
+    "record_id": "04_itens_legado.csv:39",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 39,
+      "line_start": 40,
+      "line_end": 40
+    },
+    "code": "ANSWER_UNRESOLVED",
+    "field": "gabarito",
+    "detail": {
+      "raw": "1",
+      "decision": "Confirmar convenção na origem."
+    },
+    "status": "open",
+    "pedagogical_validation": false
+  },
+  {
+    "record_id": "04_itens_legado.csv:62",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 62,
+      "line_start": 63,
+      "line_end": 63
+    },
+    "code": "MISSING_FIELD",
+    "field": "disciplina_informada",
+    "detail": "Campo vazio na fonte; não imputado.",
+    "status": "open",
+    "pedagogical_validation": false
+  },
+  {
+    "record_id": "04_itens_legado.csv:62",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 62,
+      "line_start": 63,
+      "line_end": 63
+    },
+    "code": "MISSING_FIELD",
+    "field": "origem_banco",
+    "detail": "Campo vazio na fonte; não imputado.",
+    "status": "open",
+    "pedagogical_validation": false
+  },
+  {
+    "record_id": "04_itens_legado.csv:63",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 63,
+      "line_start": 64,
+      "line_end": 64
+    },
+    "code": "MISSING_FIELD",
+    "field": "ano_aplicacao",
+    "detail": "Campo vazio na fonte; não imputado.",
+    "status": "open",
+    "pedagogical_validation": false
+  },
+  {
+    "record_id": "04_itens_legado.csv:65",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 65,
+      "line_start": 66,
+      "line_end": 66
+    },
+    "code": "DUPLICATE_ALTERNATIVES",
+    "field": "alternativas",
+    "detail": [
+      [
+        "alternativa_c",
+        "alternativa_d"
+      ]
+    ],
+    "status": "open",
+    "pedagogical_validation": false
+  },
+  {
+    "record_id": "04_itens_legado.csv:68",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 68,
+      "line_start": 69,
+      "line_end": 69
+    },
+    "code": "MISSING_FIELD",
+    "field": "alternativa_d",
+    "detail": "Campo vazio na fonte; não imputado.",
+    "status": "open",
+    "pedagogical_validation": false
+  },
+  {
+    "record_id": "04_itens_legado.csv:68",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 68,
+      "line_start": 69,
+      "line_end": 69
+    },
+    "code": "MISSING_FIELD",
+    "field": "alternativa_e",
+    "detail": "Campo vazio na fonte; não imputado.",
+    "status": "open",
+    "pedagogical_validation": false
+  },
+  {
+    "record_id": "04_itens_legado.csv:68",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 68,
+      "line_start": 69,
+      "line_end": 69
+    },
+    "code": "MISSING_FIELD",
+    "field": "gabarito",
+    "detail": "Campo vazio na fonte; não imputado.",
+    "status": "open",
+    "pedagogical_validation": false
+  },
+  {
+    "record_id": "04_itens_legado.csv:68",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 68,
+      "line_start": 69,
+      "line_end": 69
+    },
+    "code": "MISSING_FIELD",
+    "field": "origem_banco",
+    "detail": "Campo vazio na fonte; não imputado.",
+    "status": "open",
+    "pedagogical_validation": false
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:63",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 63,
+      "line_start": 64,
+      "line_end": 64
+    },
+    "code": "MISSING_FIELD",
+    "field": "indice_discriminacao",
+    "detail": "Campo vazio na fonte; não imputado.",
+    "status": "open",
+    "pedagogical_validation": false
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:64",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 64,
+      "line_start": 65,
+      "line_end": 65
+    },
+    "code": "MISSING_FIELD",
+    "field": "indice_discriminacao",
+    "detail": "Campo vazio na fonte; não imputado.",
+    "status": "open",
+    "pedagogical_validation": false
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:65",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 65,
+      "line_start": 66,
+      "line_end": 66
+    },
+    "code": "MISSING_FIELD",
+    "field": "indice_discriminacao",
+    "detail": "Campo vazio na fonte; não imputado.",
+    "status": "open",
+    "pedagogical_validation": false
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:68",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 68,
+      "line_start": 69,
+      "line_end": 69
+    },
+    "code": "ORPHAN",
+    "field": "item_id",
+    "detail": {
+      "candidate": "ITM-10039",
+      "target_records": []
+    },
+    "status": "open",
+    "pedagogical_validation": false
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:69",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 69,
+      "line_start": 70,
+      "line_end": 70
+    },
+    "code": "ORPHAN",
+    "field": "item_id",
+    "detail": {
+      "candidate": "ITM-20011",
+      "target_records": []
+    },
+    "status": "open",
+    "pedagogical_validation": false
+  }
+]

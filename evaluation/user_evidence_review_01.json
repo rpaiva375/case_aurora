@@ -1,0 +1,43 @@
+{
+  "version": "user-evidence-review-event-v1",
+  "recorded_at_utc": "2026-10-15T18:35:03Z",
+  "actor": "usuario_desta_conversa",
+  "recorded_by": "manager_agent",
+  "authorization": "Instrucao explicita do usuario nesta conversa para registrar somente os dois casos",
+  "review_kind": "user_evidence_check",
+  "demo": false,
+  "reference": {
+    "raw_round1_sha256": "32631bf2d64c05f98d380f5d98d7c6cc5d9aec0cab8f95e8760f84cf8108e67a",
+    "packet_sha256": "93d8eed2d8d3fbc864714366928a929680a7748196a6b45381fa373e7fd2e07c"
+  },
+  "items": [
+    {
+      "item_id": "ITM-20034",
+      "record_id": "04_itens_legado.csv:52",
+      "user_evidence_check": "completed_with_reservation",
+      "user_statement": "Para mim, o 20034 permite identificar uma discrepância cultural, mas o vínculo com a habilidade completa continua discutível. Vamos manter a sugestão parcial com essa ressalva visível e encaminhar para revisão especializada.",
+      "disposition": "maintain_partial_suggestion_with_explicit_reservation",
+      "reservation": "Identificar discrepância cultural não comprova a habilidade completa; vínculo continua discutível.",
+      "next_action": "specialist_review_required",
+      "specialist_pedagogical_review": "pending",
+      "ready_for_exam": false
+    },
+    {
+      "item_id": "ITM-10069",
+      "record_id": "04_itens_legado.csv:29",
+      "user_evidence_check": "completed_agrees_to_keep_pending",
+      "user_statement": "No 10069, concordo em manter o objeto identificado e a competência pendente.",
+      "disposition": "maintain_supported_object_and_pending_competency",
+      "reservation": "Concordância com a manutenção da pendência, não aprovação de competência.",
+      "next_action": "retain_competency_pending",
+      "specialist_pedagogical_review": "pending",
+      "ready_for_exam": false
+    }
+  ],
+  "other_six_user_evidence_checks": "pending",
+  "other_six_ids": ["ITM-10049", "ITM-10060", "ITM-20028", "ITM-20037", "ITM-20044", "ITM-30010"],
+  "pedagogical_validation": false,
+  "legacy_changed": false,
+  "inference_repeated": false,
+  "notes": "Evento separado, nao modifica resposta congelada. Encaminhamento especializado registrado, nenhuma mensagem externa enviada. Registro por instrucao explicita, nao pelo CLI que continua protegendo reservados."
+}

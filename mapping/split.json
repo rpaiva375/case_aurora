@@ -1,0 +1,146 @@
+{
+  "version": "sample-v1",
+  "frozen_before_semantic_mapping": true,
+  "selection": "purposive_small_varied_sample_not_representative",
+  "development": [
+    {
+      "id": "ITM-10041",
+      "selection_reason_not_gold_label": "cálculo financeiro contextualizado",
+      "record_sha256": "8085871b710ed99b60fea3b0832da5a69de6024fac0445e6d0948f2e7fa959c7"
+    },
+    {
+      "id": "ITM-20018",
+      "selection_reason_not_gold_label": "interpretação de situação organizacional",
+      "record_sha256": "f71bc6c4606141eb9c0a6098f4bf7a67b1ae2a0af6376b3812d217da47892845"
+    },
+    {
+      "id": "ITM-20025",
+      "selection_reason_not_gold_label": "possível ambiguidade entre bases de poder",
+      "record_sha256": "a3ecf52262281b6de168d5534fcfbc03df2bcb6c990f40a518370d3023ae093b"
+    },
+    {
+      "id": "ITM-20043",
+      "selection_reason_not_gold_label": "referência a contexto ausente",
+      "record_sha256": "01c8424996de206258b3f53e69c6ab9a62fb1095872616174f6adb0c186f3169"
+    },
+    {
+      "id": "ITM-30007",
+      "selection_reason_not_gold_label": "possível conteúdo fora dos dois componentes",
+      "record_sha256": "e527e71340343161017cff1034c608e34ed8497cd2e47d4fd6fd2b8ef6171136"
+    },
+    {
+      "id": "ITM-30008",
+      "selection_reason_not_gold_label": "fronteira entre custos e finanças",
+      "record_sha256": "7699b0933a7b648cf20acadaccbd4be2ed7a32c341f67f4439dcb3b1262f446c"
+    }
+  ],
+  "holdout": [
+    {
+      "id": "ITM-10049",
+      "record_sha256": "ecb840e96531c726a7915c56ac58bd60d59509757738487e38d9f0295384026b"
+    },
+    {
+      "id": "ITM-10060",
+      "record_sha256": "e92899dfddf6d6ee025cc5bf22242e6ce04da8521172a2ec575d31b082107024"
+    },
+    {
+      "id": "ITM-10069",
+      "record_sha256": "167a52eeebf921f0c6b9821b5a427fff1474647d3d6f8db91ba51d438881b7df"
+    },
+    {
+      "id": "ITM-20028",
+      "record_sha256": "53d08bddf2e60f3f8bf761e37787d476d21d338cc8fcb5d823820951cfa14bce"
+    },
+    {
+      "id": "ITM-20034",
+      "record_sha256": "a8443a3a780828d0ed78948d57e703f8e6467048da46ffbc40bebdcfef03b41e"
+    },
+    {
+      "id": "ITM-20037",
+      "record_sha256": "328bdc432f27fd98722722725163c480ea0128de2bc5363106b2324cdee39951"
+    },
+    {
+      "id": "ITM-20044",
+      "record_sha256": "facb5bfe8aa1e451a61c3456d394dc53bcf790024cdb08566ef0b2c2e8d1a9b9"
+    },
+    {
+      "id": "ITM-30010",
+      "record_sha256": "cbec5f38ffa093c0b4ed33dbe673945606ed061149338dc8e7cf5986459eb4f7"
+    }
+  ],
+  "remaining_unassigned_ids": [
+    "ITM-10042",
+    "ITM-10043",
+    "ITM-10044",
+    "ITM-10045",
+    "ITM-10046",
+    "ITM-10047",
+    "ITM-10048",
+    "ITM-10050",
+    "ITM-10051",
+    "ITM-10052",
+    "ITM-10053",
+    "ITM-10054",
+    "ITM-10055",
+    "ITM-10056",
+    "ITM-10057",
+    "ITM-10058",
+    "ITM-10059",
+    "ITM-10061",
+    "ITM-10062",
+    "ITM-10063",
+    "ITM-10064",
+    "ITM-10065",
+    "ITM-10066",
+    "ITM-10067",
+    "ITM-10068",
+    "ITM-10070",
+    "ITM-10071",
+    "ITM-10072",
+    "ITM-20015",
+    "ITM-20016",
+    "ITM-20017",
+    "ITM-20019",
+    "ITM-20020",
+    "ITM-20021",
+    "ITM-20022",
+    "ITM-20023",
+    "ITM-20024",
+    "ITM-20026",
+    "ITM-20027",
+    "ITM-20029",
+    "ITM-20030",
+    "ITM-20031",
+    "ITM-20032",
+    "ITM-20033",
+    "ITM-20035",
+    "ITM-20036",
+    "ITM-20038",
+    "ITM-20039",
+    "ITM-20040",
+    "ITM-20041",
+    "ITM-30009",
+    "ITM-10073",
+    "ITM-20042",
+    "ITM-10074"
+  ],
+  "holdout_policy": "No semantic outputs, labels, prompt examples or tuning on holdout until prompt/rules are frozen after user review. Evaluate once; after inspection it is no longer unseen for further tuning.",
+  "exposure_limit": "Manager and earlier diagnostic agents have inspected the corpus. This is a prospective development holdout, not a retrospectively blind or statistically representative test. New mapper/reviewer receive only the six-item packet and shared curriculum.",
+  "human_review": {
+    "user_coherence_review": "not_performed",
+    "specialist_pedagogical_validation": "not_performed"
+  },
+  "source_hashes": {
+    "aplicacoes.json": "e26b1fe0017534d79aa60269b0118223491387f895e9768e0a25d12354e927cc",
+    "audit.json": "55808b89eb7aa2f2dd151c543aee48f4d099410fbf710c969071b57981398edd",
+    "desempenho.json": "d91e1523ffe1a0fdd696ba2a92810d5817ee7a105838753d153f567b23b0706e",
+    "ementas_manifest.json": "da23b23f7e56b9c969d2e41df64937807771240a13b60261c8a47c8d3579df8c",
+    "integrity.json": "e0b0e7da40e80885383bf7e572ebf0dd619ac3cbcbfac2d277783649646e2a2a",
+    "itens.json": "e08ad0983b4d768a1d536cec4b7746f7adbfaa879760bc66197292a826d300e5",
+    "manifest.json": "dd9fa4b4f02924b13af9b2d93ee6f0e362be741396adbadee316c6fbc6b14ec7",
+    "matriz.json": "d9f2d3fb06abe250dbfab5a7f2a9c8227ff3e2804bf6065063ce38d360ae99e8",
+    "pendencias.json": "a8b84ba0d350f8328c4c02b4d99b83ed402a9469c6ad401522a74abd404cab92",
+    "rules.json": "5167bd6a84fabad9366864e709093c856b089c5cc474647b2f73a9eee9bea426",
+    "textos.json": "ef8cedba364ee3baecdd5240e5328a5a0ba1eaf99b58947d7a4c304ab77af9e9"
+  }
+}

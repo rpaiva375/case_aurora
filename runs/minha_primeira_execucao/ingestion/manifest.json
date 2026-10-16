@@ -1,0 +1,51 @@
+[
+  {
+    "file": "01_matriz_competencias.json",
+    "bytes": 13070,
+    "source_sha256_before": "d73b39a4d6320c1dfaa780b9ded161b593e139d70b754249d048b4fa5c9d7bf5",
+    "source_sha256_after": "d73b39a4d6320c1dfaa780b9ded161b593e139d70b754249d048b4fa5c9d7bf5",
+    "copy_sha256": "d73b39a4d6320c1dfaa780b9ded161b593e139d70b754249d048b4fa5c9d7bf5"
+  },
+  {
+    "file": "02_ementa_gestao_financeira.txt",
+    "bytes": 9781,
+    "source_sha256_before": "5c6c80c38a2bf2a299dca4a7afcafb290c8bb3dd678d3e7f3618811ce295f297",
+    "source_sha256_after": "5c6c80c38a2bf2a299dca4a7afcafb290c8bb3dd678d3e7f3618811ce295f297",
+    "copy_sha256": "5c6c80c38a2bf2a299dca4a7afcafb290c8bb3dd678d3e7f3618811ce295f297"
+  },
+  {
+    "file": "03_ementa_comportamento_organizacional.txt",
+    "bytes": 10078,
+    "source_sha256_before": "eb8a68b3d6d396ad93cdfbea3aa4b4feae3cc86e81a5e0d7d23886966de0aa56",
+    "source_sha256_after": "eb8a68b3d6d396ad93cdfbea3aa4b4feae3cc86e81a5e0d7d23886966de0aa56",
+    "copy_sha256": "eb8a68b3d6d396ad93cdfbea3aa4b4feae3cc86e81a5e0d7d23886966de0aa56"
+  },
+  {
+    "file": "04_itens_legado.csv",
+    "bytes": 25420,
+    "source_sha256_before": "c96c3a7f54b46b762c116c7f611ae1f0d39a360f870cd09e44f0aeb8ba131899",
+    "source_sha256_after": "c96c3a7f54b46b762c116c7f611ae1f0d39a360f870cd09e44f0aeb8ba131899",
+    "copy_sha256": "c96c3a7f54b46b762c116c7f611ae1f0d39a360f870cd09e44f0aeb8ba131899"
+  },
+  {
+    "file": "05_desempenho_itens.csv",
+    "bytes": 2590,
+    "source_sha256_before": "fcc6cf71665aad3067e31a05fbe45daeee57c2d31bbf983b3e1e6947102ae71e",
+    "source_sha256_after": "fcc6cf71665aad3067e31a05fbe45daeee57c2d31bbf983b3e1e6947102ae71e",
+    "copy_sha256": "fcc6cf71665aad3067e31a05fbe45daeee57c2d31bbf983b3e1e6947102ae71e"
+  },
+  {
+    "file": "06_fila_revisao.txt",
+    "bytes": 7375,
+    "source_sha256_before": "b85e2a5a6bccf13a59a40ef68b8089773d47e14c2a302b2be2a79361f87758a4",
+    "source_sha256_after": "b85e2a5a6bccf13a59a40ef68b8089773d47e14c2a302b2be2a79361f87758a4",
+    "copy_sha256": "b85e2a5a6bccf13a59a40ef68b8089773d47e14c2a302b2be2a79361f87758a4"
+  },
+  {
+    "file": "07_historico_aplicacao.csv",
+    "bytes": 6369,
+    "source_sha256_before": "aa37f2dcb17de261dba3ad9c9d8ff3f8bd3ac8eb6a1c62504636f3874c6ab2bc",
+    "source_sha256_after": "aa37f2dcb17de261dba3ad9c9d8ff3f8bd3ac8eb6a1c62504636f3874c6ab2bc",
+    "copy_sha256": "aa37f2dcb17de261dba3ad9c9d8ff3f8bd3ac8eb6a1c62504636f3874c6ab2bc"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "item": {
+    "record_id": "04_itens_legado.csv:60",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 60,
+      "line_start": 61,
+      "line_end": 61
+    },
+    "raw": {
+      "id": "ITM-30007",
+      "enunciado": "Sao requisitos de validade do negocio juridico, nos termos do Codigo Civil:",
+      "alternativa_a": "Agente capaz, objeto licito e forma prescrita ou nao defesa em lei",
+      "alternativa_b": "Apenas agente capaz",
+      "alternativa_c": "Apenas objeto licito",
+      "alternativa_d": "Registro em cartorio em qualquer hipotese",
+      "alternativa_e": "Anuencia do Ministerio Publico",
+      "gabarito": "A",
+      "disciplina_informada": "Direito Empresarial",
+      "ano_aplicacao": "2021",
+      "origem_banco": "Aquisição Norte"
+    },
+    "data": {
+      "id": "ITM-30007",
+      "enunciado": "Sao requisitos de validade do negocio juridico, nos termos do Codigo Civil:",
+      "alternativa_a": "Agente capaz, objeto licito e forma prescrita ou nao defesa em lei",
+      "alternativa_b": "Apenas agente capaz",
+      "alternativa_c": "Apenas objeto licito",
+      "alternativa_d": "Registro em cartorio em qualquer hipotese",
+      "alternativa_e": "Anuencia do Ministerio Publico",
+      "gabarito": "A",
+      "disciplina_informada": "Direito Empresarial",
+      "ano_aplicacao": 2021,
+      "origem_banco": "Aquisição Norte"
+    },
+    "item_record_id": "04_itens_legado.csv:60",
+    "link_status": "matched"
+  },
+  "context_file": "../context.json",
+  "fingerprint": "a7971f45ab1404afd1ff81f1a4b9efccd9cba8a07a6968880c2cd6664e890790"
+}

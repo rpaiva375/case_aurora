@@ -1,0 +1,410 @@
+{
+  "source": "real supplied synthetic case files; no demonstration fixture",
+  "verified_raw_against_csv": true,
+  "cases": [
+    {
+      "record": {
+        "record_id": "04_itens_legado.csv:3",
+        "source": {
+          "file": "04_itens_legado.csv",
+          "record": 3,
+          "line_start": 4,
+          "line_end": 4
+        },
+        "raw": {
+          "id": "ITM-10043",
+          "enunciado": "Qual a diferenca entre capitalizacao simples e composta?",
+          "alternativa_a": "Na simples os juros incidem sobre o capital inicial; na composta, sobre o montante acumulado",
+          "alternativa_b": "Na simples os juros sao maiores em qualquer prazo",
+          "alternativa_c": "Na composta nao ha incidencia de juros no primeiro periodo",
+          "alternativa_d": "Nao existe diferenca pratica entre as duas",
+          "alternativa_e": "A simples e usada apenas em operacoes de longo prazo",
+          "gabarito": "a",
+          "disciplina_informada": "GESTÃO FINANCEIRA",
+          "ano_aplicacao": "2020",
+          "origem_banco": "banco proprio"
+        },
+        "data": {
+          "id": "ITM-10043",
+          "enunciado": "Qual a diferenca entre capitalizacao simples e composta?",
+          "alternativa_a": "Na simples os juros incidem sobre o capital inicial; na composta, sobre o montante acumulado",
+          "alternativa_b": "Na simples os juros sao maiores em qualquer prazo",
+          "alternativa_c": "Na composta nao ha incidencia de juros no primeiro periodo",
+          "alternativa_d": "Nao existe diferenca pratica entre as duas",
+          "alternativa_e": "A simples e usada apenas em operacoes de longo prazo",
+          "gabarito": "A",
+          "disciplina_informada": "GESTÃO FINANCEIRA",
+          "ano_aplicacao": 2020,
+          "origem_banco": "banco proprio"
+        },
+        "item_record_id": "04_itens_legado.csv:3",
+        "link_status": "matched"
+      },
+      "audit": [
+        {
+          "record_id": "04_itens_legado.csv:3",
+          "source": {
+            "file": "04_itens_legado.csv",
+            "record": 3,
+            "line_start": 4,
+            "line_end": 4
+          },
+          "field": "gabarito",
+          "before": "a",
+          "after": "A",
+          "rule_id": "ANSWER_CASE",
+          "reason": "Letra isolada a-e convertida para maiúscula."
+        },
+        {
+          "record_id": "04_itens_legado.csv:3",
+          "source": {
+            "file": "04_itens_legado.csv",
+            "record": 3,
+            "line_start": 4,
+            "line_end": 4
+          },
+          "field": "ano_aplicacao",
+          "before": "2020",
+          "after": 2020,
+          "rule_id": "INTEGER",
+          "reason": "Converter inteiro decimal válido para número."
+        }
+      ],
+      "pending": [],
+      "source_sha256": "c96c3a7f54b46b762c116c7f611ae1f0d39a360f870cd09e44f0aeb8ba131899"
+    },
+    {
+      "record": {
+        "record_id": "04_itens_legado.csv:8",
+        "source": {
+          "file": "04_itens_legado.csv",
+          "record": 8,
+          "line_start": 9,
+          "line_end": 9
+        },
+        "raw": {
+          "id": "ITM-10048",
+          "enunciado": "O que e capital de giro?",
+          "alternativa_a": "Recursos aplicados em ativo imobilizado",
+          "alternativa_b": "Recursos necessarios para sustentar a operacao no curto prazo",
+          "alternativa_c": "Patrimonio liquido da organizacao",
+          "alternativa_d": "Total de dividas de longo prazo",
+          "alternativa_e": "Lucro retido no exercicio",
+          "gabarito": "2",
+          "disciplina_informada": "Financeira",
+          "ano_aplicacao": "2018",
+          "origem_banco": "Importado 2019"
+        },
+        "data": {
+          "id": "ITM-10048",
+          "enunciado": "O que e capital de giro?",
+          "alternativa_a": "Recursos aplicados em ativo imobilizado",
+          "alternativa_b": "Recursos necessarios para sustentar a operacao no curto prazo",
+          "alternativa_c": "Patrimonio liquido da organizacao",
+          "alternativa_d": "Total de dividas de longo prazo",
+          "alternativa_e": "Lucro retido no exercicio",
+          "gabarito": null,
+          "disciplina_informada": "Financeira",
+          "ano_aplicacao": 2018,
+          "origem_banco": "Importado 2019"
+        },
+        "item_record_id": "04_itens_legado.csv:8",
+        "link_status": "matched"
+      },
+      "audit": [
+        {
+          "record_id": "04_itens_legado.csv:8",
+          "source": {
+            "file": "04_itens_legado.csv",
+            "record": 8,
+            "line_start": 9,
+            "line_end": 9
+          },
+          "field": "gabarito",
+          "before": "2",
+          "after": null,
+          "rule_id": "ANSWER_UNRESOLVED",
+          "reason": "Formato não inequívoco, inclusive número: canônico null, pendência."
+        },
+        {
+          "record_id": "04_itens_legado.csv:8",
+          "source": {
+            "file": "04_itens_legado.csv",
+            "record": 8,
+            "line_start": 9,
+            "line_end": 9
+          },
+          "field": "ano_aplicacao",
+          "before": "2018",
+          "after": 2018,
+          "rule_id": "INTEGER",
+          "reason": "Converter inteiro decimal válido para número."
+        }
+      ],
+      "pending": [
+        {
+          "record_id": "04_itens_legado.csv:8",
+          "source": {
+            "file": "04_itens_legado.csv",
+            "record": 8,
+            "line_start": 9,
+            "line_end": 9
+          },
+          "code": "ANSWER_UNRESOLVED",
+          "field": "gabarito",
+          "detail": {
+            "raw": "2",
+            "decision": "Confirmar convenção na origem."
+          },
+          "status": "open",
+          "pedagogical_validation": false
+        }
+      ],
+      "source_sha256": "c96c3a7f54b46b762c116c7f611ae1f0d39a360f870cd09e44f0aeb8ba131899"
+    },
+    {
+      "record": {
+        "record_id": "05_desempenho_itens.csv:26",
+        "source": {
+          "file": "05_desempenho_itens.csv",
+          "record": 26,
+          "line_start": 27,
+          "line_end": 27
+        },
+        "raw": {
+          "item_id": "ITM-10066",
+          "semestre_referencia": "2025.1",
+          "n_respondentes": "1533",
+          "percentual_acerto": "0.67",
+          "indice_discriminacao": "0.31",
+          "tempo_medio_resposta_seg": "102"
+        },
+        "data": {
+          "item_id": "ITM-10066",
+          "semestre_referencia": "2025.1",
+          "n_respondentes": 1533,
+          "percentual_acerto": 0.67,
+          "indice_discriminacao": 0.31,
+          "tempo_medio_resposta_seg": 102.0
+        },
+        "item_record_id": "04_itens_legado.csv:26",
+        "link_status": "matched"
+      },
+      "audit": [
+        {
+          "record_id": "05_desempenho_itens.csv:26",
+          "source": {
+            "file": "05_desempenho_itens.csv",
+            "record": 26,
+            "line_start": 27,
+            "line_end": 27
+          },
+          "field": "n_respondentes",
+          "before": "1533",
+          "after": 1533,
+          "rule_id": "INTEGER",
+          "reason": "Converter inteiro decimal válido para número."
+        },
+        {
+          "record_id": "05_desempenho_itens.csv:26",
+          "source": {
+            "file": "05_desempenho_itens.csv",
+            "record": 26,
+            "line_start": 27,
+            "line_end": 27
+          },
+          "field": "percentual_acerto",
+          "before": "0.67",
+          "after": 0.67,
+          "rule_id": "DECIMAL",
+          "reason": "Converter decimal válido para número sem mudar escala."
+        },
+        {
+          "record_id": "05_desempenho_itens.csv:26",
+          "source": {
+            "file": "05_desempenho_itens.csv",
+            "record": 26,
+            "line_start": 27,
+            "line_end": 27
+          },
+          "field": "indice_discriminacao",
+          "before": "0.31",
+          "after": 0.31,
+          "rule_id": "DECIMAL",
+          "reason": "Converter decimal válido para número sem mudar escala."
+        },
+        {
+          "record_id": "05_desempenho_itens.csv:26",
+          "source": {
+            "file": "05_desempenho_itens.csv",
+            "record": 26,
+            "line_start": 27,
+            "line_end": 27
+          },
+          "field": "tempo_medio_resposta_seg",
+          "before": "102",
+          "after": 102.0,
+          "rule_id": "DECIMAL",
+          "reason": "Converter decimal válido para número sem mudar escala."
+        }
+      ],
+      "pending": [],
+      "source_sha256": "fcc6cf71665aad3067e31a05fbe45daeee57c2d31bbf983b3e1e6947102ae71e"
+    },
+    {
+      "record": {
+        "record_id": "05_desempenho_itens.csv:67",
+        "source": {
+          "file": "05_desempenho_itens.csv",
+          "record": 67,
+          "line_start": 68,
+          "line_end": 68
+        },
+        "raw": {
+          "item_id": "ITM10066",
+          "semestre_referencia": "2024.1",
+          "n_respondentes": "1588",
+          "percentual_acerto": "0.64",
+          "indice_discriminacao": "0.3",
+          "tempo_medio_resposta_seg": "105"
+        },
+        "data": {
+          "item_id": "ITM-10066",
+          "semestre_referencia": "2024.1",
+          "n_respondentes": 1588,
+          "percentual_acerto": 0.64,
+          "indice_discriminacao": 0.3,
+          "tempo_medio_resposta_seg": 105.0
+        },
+        "item_record_id": "04_itens_legado.csv:26",
+        "link_status": "matched"
+      },
+      "audit": [
+        {
+          "record_id": "05_desempenho_itens.csv:67",
+          "source": {
+            "file": "05_desempenho_itens.csv",
+            "record": 67,
+            "line_start": 68,
+            "line_end": 68
+          },
+          "field": "item_id",
+          "before": "ITM10066",
+          "after": "ITM-10066",
+          "rule_id": "ID_HYPHEN",
+          "reason": "Inserir hífen apenas em ITM seguido de dígitos; vínculo só com destino único."
+        },
+        {
+          "record_id": "05_desempenho_itens.csv:67",
+          "source": {
+            "file": "05_desempenho_itens.csv",
+            "record": 67,
+            "line_start": 68,
+            "line_end": 68
+          },
+          "field": "n_respondentes",
+          "before": "1588",
+          "after": 1588,
+          "rule_id": "INTEGER",
+          "reason": "Converter inteiro decimal válido para número."
+        },
+        {
+          "record_id": "05_desempenho_itens.csv:67",
+          "source": {
+            "file": "05_desempenho_itens.csv",
+            "record": 67,
+            "line_start": 68,
+            "line_end": 68
+          },
+          "field": "percentual_acerto",
+          "before": "0.64",
+          "after": 0.64,
+          "rule_id": "DECIMAL",
+          "reason": "Converter decimal válido para número sem mudar escala."
+        },
+        {
+          "record_id": "05_desempenho_itens.csv:67",
+          "source": {
+            "file": "05_desempenho_itens.csv",
+            "record": 67,
+            "line_start": 68,
+            "line_end": 68
+          },
+          "field": "indice_discriminacao",
+          "before": "0.3",
+          "after": 0.3,
+          "rule_id": "DECIMAL",
+          "reason": "Converter decimal válido para número sem mudar escala."
+        },
+        {
+          "record_id": "05_desempenho_itens.csv:67",
+          "source": {
+            "file": "05_desempenho_itens.csv",
+            "record": 67,
+            "line_start": 68,
+            "line_end": 68
+          },
+          "field": "tempo_medio_resposta_seg",
+          "before": "105",
+          "after": 105.0,
+          "rule_id": "DECIMAL",
+          "reason": "Converter decimal válido para número sem mudar escala."
+        }
+      ],
+      "pending": [],
+      "source_sha256": "fcc6cf71665aad3067e31a05fbe45daeee57c2d31bbf983b3e1e6947102ae71e"
+    }
+  ],
+  "applications_10066": [
+    {
+      "record_id": "07_historico_aplicacao.csv:16",
+      "source": {
+        "file": "07_historico_aplicacao.csv",
+        "record": 16,
+        "line_start": 17,
+        "line_end": 17
+      },
+      "raw": {
+        "item_id": "ITM-10066",
+        "prova_id": "PRV-2021-0171",
+        "curso": "CUR-ADM",
+        "semestre": "2021.1",
+        "modalidade": "EAD"
+      },
+      "data": {
+        "item_id": "ITM-10066",
+        "prova_id": "PRV-2021-0171",
+        "curso": "CUR-ADM",
+        "semestre": "2021.1",
+        "modalidade": "EAD"
+      },
+      "item_record_id": "04_itens_legado.csv:26",
+      "link_status": "matched"
+    },
+    {
+      "record_id": "07_historico_aplicacao.csv:42",
+      "source": {
+        "file": "07_historico_aplicacao.csv",
+        "record": 42,
+        "line_start": 43,
+        "line_end": 43
+      },
+      "raw": {
+        "item_id": "ITM-10066",
+        "prova_id": "PRV-2024-0211",
+        "curso": "CUR-ADM",
+        "semestre": "2024.1",
+        "modalidade": "EAD"
+      },
+      "data": {
+        "item_id": "ITM-10066",
+        "prova_id": "PRV-2024-0211",
+        "curso": "CUR-ADM",
+        "semestre": "2024.1",
+        "modalidade": "EAD"
+      },
+      "item_record_id": "04_itens_legado.csv:26",
+      "link_status": "matched"
+    }
+  ]
+}

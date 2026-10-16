@@ -1,0 +1,216 @@
+{
+  "version": "suggestions-v2",
+  "authorship": "session_agent_authored",
+  "started_at": null,
+  "checkpoint_at": "2026-10-14 19:15:52 UTC",
+  "time_note": "Inicio nao capturado; checkpoint obtido por clock tool apos leitura preliminar.",
+  "api_integration_executed": false,
+  "decision_source": "agent_judgment",
+  "item_decisions": "agent_judgment",
+  "sources_consulted": [
+    "sample_packet.json",
+    "suggestions_v1.json",
+    "prompt_v1.md",
+    "review/critica_v1.md",
+    "review/findings_v1.json"
+  ],
+  "source_hashes": {
+    "sample_packet.json": "4877f16df8091bbc070b783429daaaf4d8f3c9f9d7c281480a06b8891a79bdad",
+    "suggestions_v1.json": "53d1acd15e6283c1cc4b7876f8def76b263719661b29a03975f2da8c16027d80",
+    "prompt_v1.md": "215690811b561e132dc03a50a419de79462c5751c245f75c5357b6e49320f8be",
+    "review/critica_v1.md": "5730521dea15b10a619a15242a472afb2d07401843a480c97320a743b1335b8e",
+    "review/findings_v1.json": "2e0fb79c288bd6b8d23d11dd7835b72914074e737501f65ae5ee4fa7037f693e"
+  },
+  "criterion_source": "user_criterion_v2",
+  "items": [
+    {
+      "item_id": "ITM-20025",
+      "record_id": "04_itens_legado.csv:43",
+      "item_snapshot": {
+        "id": "ITM-20025",
+        "enunciado": "Um gerente recem-promovido obtem adesao da equipe principalmente porque os colaboradores admiram sua trajetoria tecnica e desejam ser associados a ele. Qual base de poder predomina?",
+        "alternativa_a": "Poder legitimo",
+        "alternativa_b": "Poder de referencia",
+        "alternativa_c": "Poder de recompensa",
+        "alternativa_d": "Poder coercitivo",
+        "alternativa_e": "Poder de especialista",
+        "gabarito": "B",
+        "disciplina_informada": "Comportamento Organizacional",
+        "ano_aplicacao": 2025,
+        "origem_banco": "Banco Próprio"
+      },
+      "links": [],
+      "rejected_candidates": [
+        {
+          "oc_id": "OC-CO-04",
+          "competency_id": "COMP-04",
+          "status": "pending",
+          "reason": "OC-CO-04 sustentado por classificacao contextual de bases de poder. COMP-04 permanece pendente: nomear a base cuja causa e adesao ja foram dadas nao demonstra por si analisar seu efeito (objetivo 3) ou avaliar efeito de estilos (HAB-04.3). Nao se exige competencia inteira nem se veta operacao simples; falta correspondencia operacional suficiente com um aspecto explicito.",
+          "evidence": [
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:43",
+              "field": "enunciado",
+              "quote": "Um gerente recem-promovido obtem adesao da equipe principalmente porque os colaboradores admiram sua trajetoria tecnica e desejam ser associados a ele. Qual base de poder predomina?"
+            },
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:43",
+              "field": "alternativa_b",
+              "quote": "Poder de referencia"
+            },
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:43",
+              "field": "alternativa_e",
+              "quote": "Poder de especialista"
+            },
+            {
+              "kind": "matrix",
+              "file": "01_matriz_competencias.json",
+              "pointer": "/componentes_curriculares/1/objetos_conhecimento/3/nome",
+              "quote": "Liderança e poder nas organizações"
+            },
+            {
+              "kind": "matrix",
+              "file": "01_matriz_competencias.json",
+              "pointer": "/competencias/3/descricao",
+              "quote": "Analisar o comportamento de indivíduos e grupos no contexto organizacional para sustentar decisões de gestão de pessoas."
+            },
+            {
+              "kind": "matrix",
+              "file": "01_matriz_competencias.json",
+              "pointer": "/competencias/3/habilidades/2/descricao",
+              "quote": "Avaliar o efeito de estilos de liderança sobre resultados e sobre o engajamento da equipe."
+            },
+            {
+              "kind": "ementa",
+              "file": "03_ementa_comportamento_organizacional.txt",
+              "line_start": 118,
+              "line_end": 124,
+              "quote": "3.2 Bases de poder\nPoder é a capacidade de influenciar o comportamento de outra pessoa. As bases\nformais incluem o poder legítimo, decorrente do cargo, o poder de recompensa e o\npoder coercitivo. As bases pessoais incluem o poder de competência, derivado de\nconhecimento técnico reconhecido, e o poder de referência, derivado de admiração\ne identificação. Bases pessoais tendem a produzir comprometimento; bases\ncoercitivas tendem a produzir apenas obediência."
+            }
+          ]
+        },
+        {
+          "oc_id": "OC-CO-04",
+          "competency_id": "COMP-05",
+          "status": "rejected",
+          "reason": "Não exige conduzir comunicação, negociação ou mediação.",
+          "evidence": [
+            {
+              "kind": "matrix",
+              "file": "01_matriz_competencias.json",
+              "pointer": "/competencias/4/descricao",
+              "quote": "Conduzir processos de comunicação, negociação e mediação de conflitos em equipes de trabalho."
+            }
+          ]
+        }
+      ],
+      "status": "object_supported_competency_pending",
+      "decision_source": "agent_judgment",
+      "criterion_source": "user_criterion_v2",
+      "human_review": "pending",
+      "pedagogical_approval": false,
+      "evidence": [
+        {
+          "kind": "item",
+          "record_id": "04_itens_legado.csv:43",
+          "field": "enunciado",
+          "quote": "Um gerente recem-promovido obtem adesao da equipe principalmente porque os colaboradores admiram sua trajetoria tecnica e desejam ser associados a ele. Qual base de poder predomina?"
+        },
+        {
+          "kind": "item",
+          "record_id": "04_itens_legado.csv:43",
+          "field": "alternativa_b",
+          "quote": "Poder de referencia"
+        },
+        {
+          "kind": "item",
+          "record_id": "04_itens_legado.csv:43",
+          "field": "alternativa_e",
+          "quote": "Poder de especialista"
+        },
+        {
+          "kind": "matrix",
+          "file": "01_matriz_competencias.json",
+          "pointer": "/componentes_curriculares/1/objetos_conhecimento/3/nome",
+          "quote": "Liderança e poder nas organizações"
+        },
+        {
+          "kind": "matrix",
+          "file": "01_matriz_competencias.json",
+          "pointer": "/competencias/3/descricao",
+          "quote": "Analisar o comportamento de indivíduos e grupos no contexto organizacional para sustentar decisões de gestão de pessoas."
+        },
+        {
+          "kind": "matrix",
+          "file": "01_matriz_competencias.json",
+          "pointer": "/competencias/3/habilidades/2/descricao",
+          "quote": "Avaliar o efeito de estilos de liderança sobre resultados e sobre o engajamento da equipe."
+        },
+        {
+          "kind": "ementa",
+          "file": "03_ementa_comportamento_organizacional.txt",
+          "line_start": 118,
+          "line_end": 124,
+          "quote": "3.2 Bases de poder\nPoder é a capacidade de influenciar o comportamento de outra pessoa. As bases\nformais incluem o poder legítimo, decorrente do cargo, o poder de recompensa e o\npoder coercitivo. As bases pessoais incluem o poder de competência, derivado de\nconhecimento técnico reconhecido, e o poder de referência, derivado de admiração\ne identificação. Bases pessoais tendem a produzir comprometimento; bases\ncoercitivas tendem a produzir apenas obediência."
+        },
+        {
+          "kind": "ementa",
+          "file": "03_ementa_comportamento_organizacional.txt",
+          "line_start": 30,
+          "line_end": 30,
+          "quote": "3. Analisar o efeito de estilos de liderança e de bases de poder sobre a equipe."
+        }
+      ],
+      "subject": "Bases de poder e influencia sobre equipe.",
+      "object_alignment": {
+        "status": "supported",
+        "supported_oc_ids": [
+          "OC-CO-04"
+        ],
+        "reason": "OC-CO-04 sustentado por classificacao contextual de bases de poder. COMP-04 permanece pendente: nomear a base cuja causa e adesao ja foram dadas nao demonstra por si analisar seu efeito (objetivo 3) ou avaliar efeito de estilos (HAB-04.3). Nao se exige competencia inteira nem se veta operacao simples; falta correspondencia operacional suficiente com um aspecto explicito."
+      },
+      "required_task": {
+        "operation": "Classificar a base de poder descrita por admiracao/identificacao, distinguindo-a de conhecimento tecnico. O efeito adesao e sua causa ja sao informados.",
+        "item_evidence": [
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:43",
+            "field": "enunciado",
+            "quote": "Um gerente recem-promovido obtem adesao da equipe principalmente porque os colaboradores admiram sua trajetoria tecnica e desejam ser associados a ele. Qual base de poder predomina?"
+          },
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:43",
+            "field": "alternativa_b",
+            "quote": "Poder de referencia"
+          },
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:43",
+            "field": "alternativa_e",
+            "quote": "Poder de especialista"
+          }
+        ]
+      },
+      "competency_alignment": {
+        "status": "pending",
+        "reason": "OC-CO-04 sustentado por classificacao contextual de bases de poder. COMP-04 permanece pendente: nomear a base cuja causa e adesao ja foram dadas nao demonstra por si analisar seu efeito (objetivo 3) ou avaliar efeito de estilos (HAB-04.3). Nao se exige competencia inteira nem se veta operacao simples; falta correspondencia operacional suficiente com um aspecto explicito.",
+        "scope": "Nenhum aspecto de COMP aprovado; classificacao de base e OC sustentado."
+      },
+      "use_issues": [
+        "Trajetoria tecnica também evoca poder de especialista; identificação favorece B. Revisão humana deve decidir se a classificação localizada é evidência suficiente de COMP-04."
+      ],
+      "readiness": {
+        "status": "not_approved_pending_review",
+        "ready": false,
+        "mapped_does_not_mean_usable": true
+      },
+      "use_issues_decision_source": "agent_judgment",
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending"
+    }
+  ]
+}

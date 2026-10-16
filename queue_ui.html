@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aurora · Fila de curadoria</title>
+<style>
+:root{--ink:#1b3330;--muted:#5c726d;--line:#d5e2dc;--paper:#f3f6f4;--card:#fff;--teal:#143f3c;--teal-2:#176051;--gold:#c8922a;--green:#1f7a4d;--amber:#9a5b00;--blue:#1d5c8a;--red:#902c21}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 "Segoe UI",system-ui,sans-serif}
+header{background:var(--teal);color:#fff;padding:22px 28px 18px}
+header h1{margin:0;font-size:28px;letter-spacing:-.02em}
+header p{margin:6px 0 0;max-width:46rem}
+.kicker{margin:0 0 6px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+header .kicker{color:#d7ebe4}
+main{max-width:1180px;margin:0 auto;padding:20px}
+.banner{background:#fff8e8;border:1px solid #ead7a4;border-radius:10px;padding:12px 14px;margin:0 0 16px}
+.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:0 0 16px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.stat b{display:block;font-size:26px;line-height:1.1}
+.stat span{color:var(--muted);font-size:13px}
+.paths{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:0 0 18px}
+.path{text-align:left;background:var(--card);border:1px solid var(--line);border-left:6px solid var(--muted);border-radius:12px;padding:14px 16px;cursor:pointer;color:inherit;font:inherit}
+.path strong{display:block;font-size:18px}
+.path .id{color:var(--muted);font-size:13px}
+.path.suggestion{border-left-color:var(--green)}
+.path.abstention{border-left-color:var(--amber)}
+.path.pending{border-left-color:var(--blue)}
+.path.selected{outline:3px solid var(--gold);background:#fbf8ef}
+.layout{display:grid;grid-template-columns:320px minmax(0,1fr);gap:16px;align-items:start}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+h2{margin:0 0 8px;font-size:20px}
+h3{margin:0 0 8px;font-size:16px}
+.filters{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+button,input,textarea,select{font:inherit;color:inherit}
+button{cursor:pointer;border:1px solid #b7c9c2;background:#fff;border-radius:999px;padding:6px 10px}
+button.primary{background:var(--teal-2);color:#fff;border-color:var(--teal-2);border-radius:8px;padding:10px 14px}
+button.active,button.primary:hover{background:var(--teal);color:#fff;border-color:var(--teal)}
+button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid var(--gold)}
+input,textarea,select{width:100%;border:1px solid #b7c9c2;border-radius:8px;padding:9px;background:#fff;margin:4px 0 10px}
+textarea{min-height:96px}
+label{font-weight:650;font-size:14px}
+.queue{max-height:68vh;overflow:auto}
+.row{display:block;width:100%;text-align:left;border-radius:10px;margin:0 0 8px;padding:10px 12px;border:1px solid var(--line)}
+.row.selected{border-color:var(--teal-2);background:#edf7f2}
+.row strong{display:block}
+.tag{display:inline-block;font-size:12px;padding:2px 8px;border-radius:999px;background:#e7f0ec;margin:6px 6px 0 0}
+.tag.warn{background:#fff1d6}
+.tag.stop{background:#ffe8e4;color:var(--red)}
+.small{color:var(--muted);font-size:13px}
+.section{border-top:1px solid var(--line);margin-top:18px;padding-top:14px}
+.hero{border-radius:12px;padding:16px;margin:0 0 12px;background:#f7faf8;border:1px solid var(--line)}
+.hero.suggestion{background:#eef8f2}
+.hero.abstention{background:#fff8ee}
+.hero.pending{background:#f3f7fb}
+.quote{white-space:pre-wrap;background:#f6f8f7;border-left:4px solid #8aafa0;padding:10px 12px;margin:8px 0;border-radius:0 8px 8px 0}
+.answer{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 0}
+.answer div{background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.answer b{display:block;font-size:22px}
+ul{margin:8px 0;padding-left:18px}
+.event{border:1px solid var(--line);border-radius:10px;padding:12px;margin:8px 0}
+.success{background:#e5f6ec;border-radius:8px;padding:10px 12px}
+.error{background:#ffece8;color:var(--red);border-radius:8px;padding:10px 12px}
+.hidden{display:none}
+@media(max-width:900px){.stats,.paths,.layout,.answer{grid-template-columns:1fr}.queue{max-height:280px}}
+</style>
+</head>
+<body>
+<header>
+  <p class="kicker">Curadoria do acervo · local</p>
+  <h1>Aurora · Fila de curadoria</h1>
+  <p>Seis respostas gravadas, 54 sem análise e oito reservados. Nenhum item está liberado para prova.</p>
+</header>
+<main>
+  <p id="demo" class="banner hidden"></p>
+  <p class="banner">Mapeado não significa pronto para prova. A fila organiza evidência e encaminhamento. Não valida pedagogia, não altera o legado e não envia solicitações.</p>
+  <div id="stats" class="stats"></div>
+  <section id="paths" class="paths" aria-label="Três caminhos da demonstração"></section>
+  <div class="layout">
+    <aside class="panel">
+      <h2>Fila</h2>
+      <label for="search">Buscar por ID</label>
+      <input id="search" placeholder="Ex.: 10048">
+      <div id="filters" class="filters"></div>
+      <p id="order" class="small"></p>
+      <p id="count" class="small"></p>
+      <div id="queue" class="queue"></div>
+    </aside>
+    <article id="detail" class="panel">
+      <h2>Escolha um dos três caminhos</h2>
+      <p>Sugestão, abstenção e pendência abrem aqui, com a evidência e o encaminhamento já registrado.</p>
+      <p class="small">Os oito reservados ficam fora desta fila. A conferência de 20034 e 10069 não é resposta deste replay.</p>
+    </article>
+  </div>
+</main>
+<script>
+'use strict';
+const $=s=>document.querySelector(s);
+const state={items:[],filter:'all',selected:null,detail:null,csrf:null,demo:false};
+const labels={
+  pending:'Sem análise',suggestion:'Sugestão parcial',abstention:'Abstenção',
+  competency_pending:'Objeto sustentado; competência pendente',reserved:'Reservado',error:'Erro técnico',
+  analyzed:'Analisado por replay',suggested:'Sugestão parcial',
+  object_supported_competency_pending:'Objeto sustentado; competência pendente',abstained:'Abstenção',
+  request_source:'Solicitar confirmação à origem',defer:'Encaminhar para revisão',
+  accept_evidence:'Evidência considerada coerente',reject_evidence:'Evidência contestada',
+  operational:'Encaminhamento operacional',user_evidence_check:'Conferência de evidências',
+  current:'Referência atual',stale:'Referência anterior — requer nova conferência'
+};
+const paths=[
+  {id:'ITM-10041',tone:'suggestion',title:'Sugestão parcial',line:'Juros simples sustenta HAB-03.1, com limite explícito.'},
+  {id:'ITM-30007',tone:'abstention',title:'Abstenção',line:'Questão jurídica sem suporte nos componentes fornecidos.'},
+  {id:'ITM-10048',tone:'pending',title:'Pendência de origem',line:'Gabarito bruto 2, padronizado ainda não confirmado.'}
+];
+function el(t,v,c){const e=document.createElement(t);if(v!=null)e.textContent=v;if(c)e.className=c;return e}
+function add(p,t,v,c){const e=el(t,v,c);p.append(e);return e}
+function text(v){if(v==null||v==='')return 'Não informado';if(typeof v!=='object')return String(v);if(Array.isArray(v))return v.map(text).join(' · ');return Object.entries(v).map(([k,x])=>k+': '+text(x)).join(' · ')}
+async function api(path,opt={}){const r=await fetch(path,opt),d=await r.json();if(!r.ok)throw Error(d.error||d.message||'Operação não concluída');return d}
+function rowOf(id){return state.items.find(x=>x.item_id===id)}
+async function refresh(){
+  const q=await api('/api/queue');
+  state.items=q.items;state.csrf=q.csrf_token;state.demo=!!(q.demo||q.demo_mode);
+  $('#demo').className=state.demo?'banner':'hidden';
+  $('#demo').textContent='Modo demonstração. Novos registros saem como agente_demo e não são decisão de uma pessoa.';
+  const s=q.summary||{};
+  $('#stats').replaceChildren();
+  for(const [k,t] of [['total','questões'],['analyzed','analisadas por replay'],['pending','sem análise'],['reserved','reservadas'],['error','erros técnicos']]){
+    const card=add($('#stats'),'div',null,'stat');add(card,'b',String(s[k]??0));add(card,'span',t);
+  }
+  $('#order').textContent='Ordem operacional: problema com uso recente primeiro. Último semestre na base: '+(q.latest_semester||'não informado')+'.';
+  renderPaths();renderList();
+}
+function renderPaths(){
+  const box=$('#paths');box.replaceChildren();
+  for(const p of paths){
+    const row=rowOf(p.id);
+    const b=add(box,'button',null,'path '+p.tone+(state.selected===p.id?' selected':''));
+    add(b,'span',p.title,'id');add(b,'strong',p.id);add(b,'span',p.line);
+    if(row&&row.workflow_status)add(b,'div',row.workflow_status,'small');
+    b.onclick=()=>openItem(p.id);
+  }
+}
+for(const [id,name] of [['all','Todas'],['analyzed','Analisadas'],['pending','Sem análise'],['events','Com encaminhamento']]){
+  const b=add($('#filters'),'button',name);b.dataset.filter=id;b.onclick=()=>{state.filter=id;renderList()};
+}
+$('#search').oninput=renderList;
+const analyzed=new Set(['suggestion','abstention','competency_pending']);
+function renderList(){
+  document.querySelectorAll('[data-filter]').forEach(b=>{const on=b.dataset.filter===state.filter;b.className=on?'active':'';b.setAttribute('aria-pressed',String(on))});
+  const q=$('#search').value.trim().toLowerCase();
+  const rows=state.items.filter(r=>r.item_id.toLowerCase().includes(q)&&(state.filter==='all'||state.filter==='events'&&r.latest_event||state.filter==='analyzed'&&analyzed.has(r.category)||state.filter===r.category));
+  $('#count').textContent=rows.length+' questões nesta visualização';
+  $('#queue').replaceChildren();
+  for(const r of rows){
+    const b=add($('#queue'),'button',null,'row'+(state.selected===r.item_id?' selected':''));
+    add(b,'strong',r.item_id);
+    add(b,'span',labels[r.category]||r.category,'tag');
+    if(r.latest_event)add(b,'span','Com encaminhamento','tag');
+    const use=r.application_count?(r.application_count+' aplicação(ões)'+(r.last_application?' · '+r.last_application:'')):'sem aplicação associada';
+    add(b,'div',use,'small');
+    if(r.read_only)add(b,'div',r.category==='reserved'?'Consulta bloqueada':'Erro de integridade · consulta bloqueada','small');
+    b.onclick=()=>openItem(r.item_id);
+  }
+  renderPaths();
+}
+async function openItem(id){
+  state.selected=id;renderList();
+  $('#detail').replaceChildren(el('p','Carregando…'));
+  try{state.detail=await api('/api/item?id='+encodeURIComponent(id));renderDetail()}
+  catch(e){$('#detail').replaceChildren(el('h2',id),el('p',e.message,'banner'));add($('#detail'),'p','Itens reservados permanecem fora deste fluxo.','small')}
+}
+function section(p,title){const s=add(p,'section',null,'section');add(s,'h3',title);return s}
+function toneOf(d){const s=d.analysis?.status;if(s==='suggested')return 'suggestion';if(s==='abstained')return 'abstention';return 'pending'}
+function renderDetail(){
+  const d=state.detail,b=$('#detail'),q=d.standardized||{},a=d.analysis,tone=toneOf(d);
+  b.replaceChildren();
+  const hero=add(b,'div',null,'hero '+tone);
+  add(hero,'p',labels[a?.status]||labels[d.category]||d.processing_status,'kicker');
+  add(hero,'h2',state.selected);
+  add(hero,'p',q.enunciado||'Enunciado ausente na origem.');
+  const tags=add(hero,'div');
+  add(tags,'span','Não liberado para prova','tag stop');
+  add(tags,'span',d.new_inference===false||a?'Resposta gravada · sem inferência nova':'Sem análise semântica nesta execução','tag');
+  if(a?.competency_alignment?.scope)add(hero,'p','Limite: '+a.competency_alignment.scope,'small');
+  if(a?.abstention_reason)add(hero,'p',text(a.abstention_reason));
+  const unresolved=(d.ingestion_issues||[]).some(i=>i.code==='ANSWER_UNRESOLVED')||q.gabarito==null;
+  const answers=add(b,'div',null,'answer');
+  const raw=add(answers,'div');add(raw,'span','Gabarito bruto','small');add(raw,'b',text(d.raw?.gabarito));
+  const canon=add(answers,'div');add(canon,'span','Gabarito padronizado','small');add(canon,'b',q.gabarito==null?'Não confirmado':text(q.gabarito));
+  if(unresolved&&d.processing_status!=='reserved')add(b,'p','A convenção numérica não foi assumida. O valor bruto permanece e o padronizado fica vazio até confirmação da origem.','banner');
+  add(b,'p','Origem: '+(d.source?.file||'—')+' · registro '+(d.source?.record??'—')+' · linha '+(d.source?.line_start??'—'),'small');
+  const alts=add(b,'ul');
+  for(const x of ['a','b','c','d','e'])add(alts,'li',x.toUpperCase()+'. '+(q['alternativa_'+x]||'Alternativa ausente'));
+  const issues=section(b,'Problemas de uso e dados');let found=false;
+  for(const i of d.ingestion_issues||[]){found=true;add(issues,'p',(i.code==='ANSWER_UNRESOLVED'?'Convenção numérica do gabarito não confirmada':i.code==='MISSING_FIELD'?'Campo ausente':i.code)+' · '+(i.field||'')+' · '+text(i.detail),'banner')}
+  for(const i of a?.use_issues||[]){found=true;add(issues,'p',text(i),'banner')}
+  if(!found)add(issues,'p','Sem problema de origem ou de uso nesta execução. Isso não certifica aptidão para prova.','small');
+  const s=section(b,'Vínculo e evidências');
+  if(!a)add(s,'p','Não há sugestão curricular gravada para esta questão.','banner');
+  else{
+    add(s,'p','Resposta gravada de agente. Abrir a questão não executa inferência nova.','small');
+    if(a.subject)add(s,'p','Assunto: '+a.subject);
+    if(a.required_task?.operation)add(s,'p','Tarefa exigida: '+a.required_task.operation);
+    if(a.object_alignment?.supported_oc_ids?.length)add(s,'p','Objeto: '+a.object_alignment.supported_oc_ids.join(', '));
+    for(const l of a.links||[]){
+      add(s,'h3',l.oc_id+' → '+l.competency_id+' · '+(l.skill_ids||[]).join(', '));
+      add(s,'p',l.reason);
+      if(l.scope)add(s,'p',l.scope,'banner');
+    }
+    if(a.competency_alignment?.reason)add(s,'p',a.competency_alignment.reason);
+    const seen=new Set();
+    for(const e of a.evidence||[]){
+      const key=(e.quote||'')+ (e.pointer||'')+(e.line_start||'');
+      if(seen.has(key))continue;seen.add(key);
+      add(s,'p',(e.kind==='item'?'Questão':e.kind==='matrix'?'Matriz':'Ementa')+' · '+(e.file||e.record_id||'')+(e.field?' · '+e.field:'')+(e.line_start?' · linhas '+e.line_start+'–'+(e.line_end||e.line_start):'')+(e.pointer?' · '+e.pointer:''),'small');
+      add(s,'blockquote',e.quote,'quote');
+    }
+    add(s,'p','Conferir a evidência não substitui a revisão pedagógica especializada.','small');
+  }
+  const usage=section(b,'Histórico de aplicação');
+  const apps=d.applications||[];
+  add(usage,'p',apps.length+' registro(s) associado(s). Desempenho permanece separado e não entra nesta conta.');
+  for(const app of apps.slice(0,4)){const x=app.data||app;add(usage,'p',text(x.semestre)+' · '+text(x.prova_id)+' · '+text(x.curso)+' · '+text(x.modalidade),'small')}
+  if(apps.length>4)add(usage,'p','Mais '+(apps.length-4)+' registro(s) na base.','small');
+  if(!apps.length)add(usage,'p','Sem uso registrado não significa nunca aplicada.','small');
+  form(b,d);history(b,d);
+}
+function form(b,d){
+  const s=section(b,'Registrar próximo passo');
+  add(s,'p','Registro local. Não envia solicitação, não resolve a pendência e não libera a questão para prova.','small');
+  const f=add(s,'form');
+  const la=add(f,'label','Seu nome');la.htmlFor='actor';
+  const actor=add(f,'input');actor.id='actor';actor.required=true;actor.maxLength=160;
+  if(state.demo){actor.value='agente_demo';actor.readOnly=true}
+  let l=add(f,'label','Encaminhamento');l.htmlFor='action';
+  const action=add(f,'select');action.id='action';
+  for(const [v,t] of [['request_source','Solicitar confirmação à origem'],['defer','Encaminhar para revisão especializada'],['accept_evidence','Registrar evidência como coerente'],['reject_evidence','Contestar evidência apresentada']]){const o=add(action,'option',t);o.value=v}
+  action.value=d.ingestion_issues?.length?'request_source':'defer';
+  l=add(f,'label','Justificativa e próximo passo');l.htmlFor='note';
+  const note=add(f,'textarea');note.id='note';note.required=true;note.maxLength=6000;note.placeholder='O que precisa ser confirmado ou revisado, e por quem?';
+  const button=add(f,'button','Salvar encaminhamento','primary');button.type='submit';
+  const feedback=add(s,'div');feedback.setAttribute('role','status');
+  f.onsubmit=async e=>{
+    e.preventDefault();if(!actor.value.trim()||!note.value.trim())return;
+    button.disabled=true;feedback.textContent='Salvando…';feedback.className='';
+    const id=state.selected;
+    try{
+      const result=await api('/api/decision',{method:'POST',headers:{'Content-Type':'application/json','X-CSRF-Token':state.csrf},body:JSON.stringify({item_id:id,actor:actor.value.trim(),review_kind:['accept_evidence','reject_evidence'].includes(action.value)?'user_evidence_check':'operational',decision:action.value,note:note.value.trim(),demo:state.demo,reference:d.reference})});
+      if(state.selected===id){state.detail=result.detail;renderDetail();$('#detail').prepend(el('p','Encaminhamento registrado. A confirmação ou a revisão continua pendente.','success'))}
+      await refresh();
+    }catch(err){feedback.className='error';feedback.textContent=err.message}
+    finally{button.disabled=false}
+  };
+}
+function history(b,d){
+  const s=section(b,'Histórico de encaminhamentos');
+  add(s,'p','Separado do legado. Autoria informada, não autenticada. Nenhum registro libera a questão para prova.','small');
+  if(!d.history?.length)add(s,'p','Nenhum encaminhamento registrado para esta questão.');
+  for(const h of d.history||[]){
+    const e=h.event||h,c=add(s,'div',null,'event');
+    add(c,'strong',labels[e.decision]||e.decision);
+    add(c,'p',(e.actor||'Autor não informado')+' · '+(e.created_at?new Date(e.created_at).toLocaleString('pt-BR'):''),'small');
+    add(c,'span',e.demo?'Demonstração — não é decisão real':labels[e.review_kind]||'Registro local','tag warn');
+    add(c,'span',labels[h.applicability||h.event_applicability]||'Conferir referência','tag');
+    add(c,'p',e.note);
+  }
+}
+refresh().catch(e=>$('#queue').replaceChildren(el('p',e.message,'error')));
+</script>
+</body>
+</html>

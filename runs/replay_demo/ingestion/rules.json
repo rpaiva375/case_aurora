@@ -1,0 +1,11 @@
+{
+  "ID_HYPHEN": "Inserir hífen apenas em ITM seguido de dígitos; vínculo só com destino único.",
+  "EMPTY_NULL": "Campo vazio convertido a null; conteúdo bruto preservado.",
+  "ANSWER_CASE": "Letra isolada a-e convertida para maiúscula.",
+  "ANSWER_LABEL": "Remover prefixo literal Alternativa de letra A-E.",
+  "ANSWER_UNRESOLVED": "Formato não inequívoco, inclusive número: canônico null, pendência.",
+  "INTEGER": "Converter inteiro decimal válido para número.",
+  "DECIMAL": "Converter decimal válido para número sem mudar escala.",
+  "NUMBER_INVALID": "Número inválido: canônico null, pendência.",
+  "EMENTA_MANIFEST": "Resolver nome da matriz pelo manifesto explícito, sem alterar matriz original."
+}

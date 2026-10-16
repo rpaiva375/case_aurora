@@ -1,0 +1,41 @@
+{
+  "item": {
+    "record_id": "04_itens_legado.csv:43",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 43,
+      "line_start": 44,
+      "line_end": 44
+    },
+    "raw": {
+      "id": "ITM-20025",
+      "enunciado": "Um gerente recem-promovido obtem adesao da equipe principalmente porque os colaboradores admiram sua trajetoria tecnica e desejam ser associados a ele. Qual base de poder predomina?",
+      "alternativa_a": "Poder legitimo",
+      "alternativa_b": "Poder de referencia",
+      "alternativa_c": "Poder de recompensa",
+      "alternativa_d": "Poder coercitivo",
+      "alternativa_e": "Poder de especialista",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2025",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20025",
+      "enunciado": "Um gerente recem-promovido obtem adesao da equipe principalmente porque os colaboradores admiram sua trajetoria tecnica e desejam ser associados a ele. Qual base de poder predomina?",
+      "alternativa_a": "Poder legitimo",
+      "alternativa_b": "Poder de referencia",
+      "alternativa_c": "Poder de recompensa",
+      "alternativa_d": "Poder coercitivo",
+      "alternativa_e": "Poder de especialista",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2025,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:43",
+    "link_status": "matched"
+  },
+  "context_file": "../context.json",
+  "fingerprint": "04e01383015d86ef589d1c1f9f3d0012f0126c140e5bdffccd04703b9000a339"
+}

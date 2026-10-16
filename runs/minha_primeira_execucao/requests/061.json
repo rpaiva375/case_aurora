@@ -1,0 +1,41 @@
+{
+  "item": {
+    "record_id": "04_itens_legado.csv:61",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 61,
+      "line_start": 62,
+      "line_end": 62
+    },
+    "raw": {
+      "id": "ITM-30008",
+      "enunciado": "No calculo do ponto de equilibrio contabil, considera-se:",
+      "alternativa_a": "Custos fixos divididos pela margem de contribuicao unitaria",
+      "alternativa_b": "Receita total menos custo variavel total",
+      "alternativa_c": "Lucro operacional dividido pelo ativo total",
+      "alternativa_d": "Custos variaveis divididos pelo preco de venda",
+      "alternativa_e": "Margem bruta menos despesas administrativas",
+      "gabarito": "A",
+      "disciplina_informada": "Contabilidade de Custos",
+      "ano_aplicacao": "2022",
+      "origem_banco": "Aquisição Norte"
+    },
+    "data": {
+      "id": "ITM-30008",
+      "enunciado": "No calculo do ponto de equilibrio contabil, considera-se:",
+      "alternativa_a": "Custos fixos divididos pela margem de contribuicao unitaria",
+      "alternativa_b": "Receita total menos custo variavel total",
+      "alternativa_c": "Lucro operacional dividido pelo ativo total",
+      "alternativa_d": "Custos variaveis divididos pelo preco de venda",
+      "alternativa_e": "Margem bruta menos despesas administrativas",
+      "gabarito": "A",
+      "disciplina_informada": "Contabilidade de Custos",
+      "ano_aplicacao": 2022,
+      "origem_banco": "Aquisição Norte"
+    },
+    "item_record_id": "04_itens_legado.csv:61",
+    "link_status": "matched"
+  },
+  "context_file": "../context.json",
+  "fingerprint": "6e0da1ea5547c9e6a485312da11fd132429392dfe0435b55e88519f60fcd475d"
+}

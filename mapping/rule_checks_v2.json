@@ -1,0 +1,64 @@
+{
+  "premise": "manager_provisional_unique_OC_plus_COMP_1_to_3",
+  "maximum": 3,
+  "orphan_policy": "Count supported OC as one identified node, report incomplete_mapping; never invent COMP or truncate.",
+  "pedagogical_approval": false,
+  "items": [
+    {
+      "item_id": "ITM-10041",
+      "pair_count": 1,
+      "pair_node_count": 2,
+      "objects_without_pair": [],
+      "identified_node_count": 2,
+      "status": "within_provisional_limit",
+      "limit_exceeded": false
+    },
+    {
+      "item_id": "ITM-20018",
+      "pair_count": 1,
+      "pair_node_count": 2,
+      "objects_without_pair": [],
+      "identified_node_count": 2,
+      "status": "within_provisional_limit",
+      "limit_exceeded": false
+    },
+    {
+      "item_id": "ITM-20025",
+      "pair_count": 0,
+      "pair_node_count": 0,
+      "objects_without_pair": [
+        "OC-CO-04"
+      ],
+      "identified_node_count": 1,
+      "status": "incomplete_mapping",
+      "limit_exceeded": false
+    },
+    {
+      "item_id": "ITM-20043",
+      "pair_count": 0,
+      "pair_node_count": 0,
+      "objects_without_pair": [],
+      "identified_node_count": 0,
+      "status": "not_applicable",
+      "limit_exceeded": false
+    },
+    {
+      "item_id": "ITM-30007",
+      "pair_count": 0,
+      "pair_node_count": 0,
+      "objects_without_pair": [],
+      "identified_node_count": 0,
+      "status": "not_applicable",
+      "limit_exceeded": false
+    },
+    {
+      "item_id": "ITM-30008",
+      "pair_count": 0,
+      "pair_node_count": 0,
+      "objects_without_pair": [],
+      "identified_node_count": 0,
+      "status": "not_applicable",
+      "limit_exceeded": false
+    }
+  ]
+}

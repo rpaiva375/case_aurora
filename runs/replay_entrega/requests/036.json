@@ -1,0 +1,41 @@
+{
+  "item": {
+    "record_id": "04_itens_legado.csv:36",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 36,
+      "line_start": 37,
+      "line_end": 37
+    },
+    "raw": {
+      "id": "ITM-20018",
+      "enunciado": "Uma equipe de suporte tecnico apresenta alta rotatividade. A pesquisa interna aponta salarios compativeis com o mercado, mas ausencia de reconhecimento e de perspectiva de crescimento. A luz da teoria dos dois fatores de Herzberg, qual interpretacao e correta?",
+      "alternativa_a": "Os fatores higienicos estao insatisfatorios e causam a rotatividade",
+      "alternativa_b": "Os fatores motivacionais estao ausentes, o que explica a insatisfacao apesar da remuneracao adequada",
+      "alternativa_c": "A remuneracao e o unico fator motivacional relevante",
+      "alternativa_d": "A teoria nao se aplica a equipes tecnicas",
+      "alternativa_e": "A rotatividade decorre exclusivamente de fatores externos",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2025",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20018",
+      "enunciado": "Uma equipe de suporte tecnico apresenta alta rotatividade. A pesquisa interna aponta salarios compativeis com o mercado, mas ausencia de reconhecimento e de perspectiva de crescimento. A luz da teoria dos dois fatores de Herzberg, qual interpretacao e correta?",
+      "alternativa_a": "Os fatores higienicos estao insatisfatorios e causam a rotatividade",
+      "alternativa_b": "Os fatores motivacionais estao ausentes, o que explica a insatisfacao apesar da remuneracao adequada",
+      "alternativa_c": "A remuneracao e o unico fator motivacional relevante",
+      "alternativa_d": "A teoria nao se aplica a equipes tecnicas",
+      "alternativa_e": "A rotatividade decorre exclusivamente de fatores externos",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2025,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:36",
+    "link_status": "matched"
+  },
+  "context_file": "../context.json",
+  "fingerprint": "49698ea100f44751fff4bf482fdde3e1dedadad9893f7621f71472d3fcef8460"
+}

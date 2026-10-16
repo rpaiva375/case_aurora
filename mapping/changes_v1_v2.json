@@ -1,0 +1,92 @@
+{
+  "criterion_source": "user_criterion_v2",
+  "decision_source": "agent_judgment",
+  "items": [
+    {
+      "item_id": "ITM-10041",
+      "before_status": "suggested",
+      "after_status": "suggested",
+      "before_pairs": [
+        [
+          "OC-GF-01",
+          "COMP-03"
+        ]
+      ],
+      "after_pairs": [
+        [
+          "OC-GF-01",
+          "COMP-03"
+        ]
+      ],
+      "supported_objects": [
+        "OC-GF-01"
+      ],
+      "what_changed": "V1 ja explicitava HAB-03.1 e escopo parcial; v2 formaliza a separacao entre objeto, operacao, competencia e uso, preservando o par e suas evidencias.",
+      "why": "Resolver capitalizacao simples e parte textual explicita de HAB-03.1. A operacao e simples, mas executa a habilidade, nao apenas um pre-requisito; nao exige demonstrar capitalizacao composta ou toda COMP-03."
+    },
+    {
+      "item_id": "ITM-20018",
+      "before_status": "suggested",
+      "after_status": "suggested",
+      "before_pairs": [
+        [
+          "OC-CO-02",
+          "COMP-04"
+        ]
+      ],
+      "after_pairs": [
+        [
+          "OC-CO-02",
+          "COMP-04"
+        ]
+      ],
+      "supported_objects": [
+        "OC-CO-02"
+      ],
+      "what_changed": "Validade B separada da sugestao; removida instrucao escolher B como acerto confirmado.",
+      "why": "Interpretar comportamento no trabalho por teoria motivacional executa aspecto explicito de HAB-04.1. O vinculo tematico e cognitivo subsiste mesmo com validade de B contestada."
+    },
+    {
+      "item_id": "ITM-20025",
+      "before_status": "abstained",
+      "after_status": "object_supported_competency_pending",
+      "before_pairs": [],
+      "after_pairs": [],
+      "supported_objects": [
+        "OC-CO-04"
+      ],
+      "what_changed": "Abstencao total substituida por OC sustentado/COMP pendente; rejeicao definitiva vira pendencia.",
+      "why": "OC-CO-04 sustentado por classificacao contextual de bases de poder. COMP-04 permanece pendente: nomear a base cuja causa e adesao ja foram dadas nao demonstra por si analisar seu efeito (objetivo 3) ou avaliar efeito de estilos (HAB-04.3). Nao se exige competencia inteira nem se veta operacao simples; falta correspondencia operacional suficiente com um aspecto explicito."
+    },
+    {
+      "item_id": "ITM-20043",
+      "before_status": "abstained",
+      "after_status": "abstained",
+      "before_pairs": [],
+      "after_pairs": [],
+      "supported_objects": [],
+      "what_changed": "Mantida abstencao por incompletude; retirada ementa Herzberg como evidencia de Teoria Y.",
+      "why": "Incompletude impede observar comportamento necessario para sustentar OC e competencia. Alternativas e gabarito nao reconstituem texto-base."
+    },
+    {
+      "item_id": "ITM-30007",
+      "before_status": "abstained",
+      "after_status": "abstained",
+      "before_pairs": [],
+      "after_pairs": [],
+      "supported_objects": [],
+      "what_changed": "Mantido fora de escopo; gabarito e completude juridica nao validados.",
+      "why": "Nao existe OC juridico especifico na matriz fornecida. Reconhecer requisitos legais nao exige reconhecer dilema etico ou avaliar impactos de gestao. Ausencia de escopo nao declara invalidade juridica."
+    },
+    {
+      "item_id": "ITM-30008",
+      "before_status": "abstained",
+      "after_status": "abstained",
+      "before_pairs": [],
+      "after_pairs": [],
+      "supported_objects": [],
+      "what_changed": "Mantido fora de escopo; separar formula reconhecida de ausencia de OC, sem veto por facilidade.",
+      "why": "Nao existe OC especifico de custo-volume-lucro/ponto de equilibrio na matriz fornecida. Reconhecer formula e uma operacao identificavel, nao um veto por facilidade. OC-GF-04 trata demonstracoes e indicadores, e COMP-03 trata instrumentos de matematica financeira; mera divisao nao estabelece esses aspectos."
+    }
+  ]
+}

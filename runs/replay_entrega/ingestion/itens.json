@@ -1,0 +1,2518 @@
+[
+  {
+    "record_id": "04_itens_legado.csv:1",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 1,
+      "line_start": 2,
+      "line_end": 2
+    },
+    "raw": {
+      "id": "ITM-10041",
+      "enunciado": "Um capital de R$ 12.000,00 foi aplicado a juros simples de 2% ao mes durante 7 meses. Qual o montante ao final do periodo?",
+      "alternativa_a": "R$ 13.680,00",
+      "alternativa_b": "R$ 13.440,00",
+      "alternativa_c": "R$ 12.840,00",
+      "alternativa_d": "R$ 14.000,00",
+      "alternativa_e": "R$ 13.200,00",
+      "gabarito": "A",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2021",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10041",
+      "enunciado": "Um capital de R$ 12.000,00 foi aplicado a juros simples de 2% ao mes durante 7 meses. Qual o montante ao final do periodo?",
+      "alternativa_a": "R$ 13.680,00",
+      "alternativa_b": "R$ 13.440,00",
+      "alternativa_c": "R$ 12.840,00",
+      "alternativa_d": "R$ 14.000,00",
+      "alternativa_e": "R$ 13.200,00",
+      "gabarito": "A",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2021,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:1",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:2",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 2,
+      "line_start": 3,
+      "line_end": 3
+    },
+    "raw": {
+      "id": "ITM-10042",
+      "enunciado": "Assinale a alternativa que apresenta a definicao de juros compostos.",
+      "alternativa_a": "Juros calculados sempre sobre o capital inicial",
+      "alternativa_b": "Juros incidentes sobre o capital acrescido dos juros dos periodos anteriores",
+      "alternativa_c": "Juros fixados por lei para operacoes de credito",
+      "alternativa_d": "Juros cobrados apenas no vencimento da operacao",
+      "alternativa_e": "Juros proporcionais ao prazo da aplicacao",
+      "gabarito": "B",
+      "disciplina_informada": "Gestao Financeira",
+      "ano_aplicacao": "2019",
+      "origem_banco": "Importado 2019"
+    },
+    "data": {
+      "id": "ITM-10042",
+      "enunciado": "Assinale a alternativa que apresenta a definicao de juros compostos.",
+      "alternativa_a": "Juros calculados sempre sobre o capital inicial",
+      "alternativa_b": "Juros incidentes sobre o capital acrescido dos juros dos periodos anteriores",
+      "alternativa_c": "Juros fixados por lei para operacoes de credito",
+      "alternativa_d": "Juros cobrados apenas no vencimento da operacao",
+      "alternativa_e": "Juros proporcionais ao prazo da aplicacao",
+      "gabarito": "B",
+      "disciplina_informada": "Gestao Financeira",
+      "ano_aplicacao": 2019,
+      "origem_banco": "Importado 2019"
+    },
+    "item_record_id": "04_itens_legado.csv:2",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:3",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 3,
+      "line_start": 4,
+      "line_end": 4
+    },
+    "raw": {
+      "id": "ITM-10043",
+      "enunciado": "Qual a diferenca entre capitalizacao simples e composta?",
+      "alternativa_a": "Na simples os juros incidem sobre o capital inicial; na composta, sobre o montante acumulado",
+      "alternativa_b": "Na simples os juros sao maiores em qualquer prazo",
+      "alternativa_c": "Na composta nao ha incidencia de juros no primeiro periodo",
+      "alternativa_d": "Nao existe diferenca pratica entre as duas",
+      "alternativa_e": "A simples e usada apenas em operacoes de longo prazo",
+      "gabarito": "a",
+      "disciplina_informada": "GESTÃO FINANCEIRA",
+      "ano_aplicacao": "2020",
+      "origem_banco": "banco proprio"
+    },
+    "data": {
+      "id": "ITM-10043",
+      "enunciado": "Qual a diferenca entre capitalizacao simples e composta?",
+      "alternativa_a": "Na simples os juros incidem sobre o capital inicial; na composta, sobre o montante acumulado",
+      "alternativa_b": "Na simples os juros sao maiores em qualquer prazo",
+      "alternativa_c": "Na composta nao ha incidencia de juros no primeiro periodo",
+      "alternativa_d": "Nao existe diferenca pratica entre as duas",
+      "alternativa_e": "A simples e usada apenas em operacoes de longo prazo",
+      "gabarito": "A",
+      "disciplina_informada": "GESTÃO FINANCEIRA",
+      "ano_aplicacao": 2020,
+      "origem_banco": "banco proprio"
+    },
+    "item_record_id": "04_itens_legado.csv:3",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:4",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 4,
+      "line_start": 5,
+      "line_end": 5
+    },
+    "raw": {
+      "id": "ITM-10044",
+      "enunciado": "Uma empresa contratou um emprestimo de R$ 80.000,00 a ser pago em 24 prestacoes mensais iguais, com taxa de 1,5% ao mes. Considerando o sistema de prestacoes constantes, qual afirmacao sobre a composicao das parcelas e correta?",
+      "alternativa_a": "A parcela de juros cresce ao longo do tempo",
+      "alternativa_b": "A parcela de amortizacao cresce ao longo do tempo",
+      "alternativa_c": "Juros e amortizacao permanecem constantes em cada parcela",
+      "alternativa_d": "A amortizacao e sempre igual a um vinte e quatro avos do saldo atual",
+      "alternativa_e": "O saldo devedor cresce nos primeiros meses",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2022",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10044",
+      "enunciado": "Uma empresa contratou um emprestimo de R$ 80.000,00 a ser pago em 24 prestacoes mensais iguais, com taxa de 1,5% ao mes. Considerando o sistema de prestacoes constantes, qual afirmacao sobre a composicao das parcelas e correta?",
+      "alternativa_a": "A parcela de juros cresce ao longo do tempo",
+      "alternativa_b": "A parcela de amortizacao cresce ao longo do tempo",
+      "alternativa_c": "Juros e amortizacao permanecem constantes em cada parcela",
+      "alternativa_d": "A amortizacao e sempre igual a um vinte e quatro avos do saldo atual",
+      "alternativa_e": "O saldo devedor cresce nos primeiros meses",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2022,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:4",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:5",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 5,
+      "line_start": 6,
+      "line_end": 6
+    },
+    "raw": {
+      "id": "ITM-10045",
+      "enunciado": "No Sistema de Amortizacao Constante (SAC), o valor da parcela de amortizacao e constante e a parcela de juros e decrescente. Considerando o SAC, qual caracteristica descreve corretamente o comportamento das prestacoes?",
+      "alternativa_a": "Prestacoes crescentes",
+      "alternativa_b": "Prestacoes decrescentes",
+      "alternativa_c": "Prestacoes constantes",
+      "alternativa_d": "Prestacoes com amortizacao crescente",
+      "alternativa_e": "",
+      "gabarito": "B",
+      "disciplina_informada": "Gest. Financeira",
+      "ano_aplicacao": "2023",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10045",
+      "enunciado": "No Sistema de Amortizacao Constante (SAC), o valor da parcela de amortizacao e constante e a parcela de juros e decrescente. Considerando o SAC, qual caracteristica descreve corretamente o comportamento das prestacoes?",
+      "alternativa_a": "Prestacoes crescentes",
+      "alternativa_b": "Prestacoes decrescentes",
+      "alternativa_c": "Prestacoes constantes",
+      "alternativa_d": "Prestacoes com amortizacao crescente",
+      "alternativa_e": null,
+      "gabarito": "B",
+      "disciplina_informada": "Gest. Financeira",
+      "ano_aplicacao": 2023,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:5",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:6",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 6,
+      "line_start": 7,
+      "line_end": 7
+    },
+    "raw": {
+      "id": "ITM-10046",
+      "enunciado": "Uma industria apresenta prazo medio de estocagem de 48 dias, prazo medio de recebimento de 36 dias e prazo medio de pagamento a fornecedores de 30 dias. Qual o ciclo financeiro da empresa?",
+      "alternativa_a": "54 dias",
+      "alternativa_b": "84 dias",
+      "alternativa_c": "114 dias",
+      "alternativa_d": "18 dias",
+      "alternativa_e": "42 dias",
+      "gabarito": "A",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2024",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10046",
+      "enunciado": "Uma industria apresenta prazo medio de estocagem de 48 dias, prazo medio de recebimento de 36 dias e prazo medio de pagamento a fornecedores de 30 dias. Qual o ciclo financeiro da empresa?",
+      "alternativa_a": "54 dias",
+      "alternativa_b": "84 dias",
+      "alternativa_c": "114 dias",
+      "alternativa_d": "18 dias",
+      "alternativa_e": "42 dias",
+      "gabarito": "A",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2024,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:6",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:7",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 7,
+      "line_start": 8,
+      "line_end": 8
+    },
+    "raw": {
+      "id": "ITM-10047",
+      "enunciado": "A empresa Delta projeta para o proximo trimestre recebimentos de R$ 420.000,00 e desembolsos de R$ 505.000,00, com saldo inicial de caixa de R$ 30.000,00. Qual decisao e mais adequada diante desse cenario?",
+      "alternativa_a": "Antecipar investimentos em imobilizado",
+      "alternativa_b": "Negociar capital de giro ou alongar o prazo com fornecedores antes do periodo",
+      "alternativa_c": "Distribuir dividendos para sinalizar solidez ao mercado",
+      "alternativa_d": "Aguardar o fechamento do trimestre para avaliar",
+      "alternativa_e": "Reduzir o prazo de recebimento concedido aos clientes para 90 dias",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2025",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10047",
+      "enunciado": "A empresa Delta projeta para o proximo trimestre recebimentos de R$ 420.000,00 e desembolsos de R$ 505.000,00, com saldo inicial de caixa de R$ 30.000,00. Qual decisao e mais adequada diante desse cenario?",
+      "alternativa_a": "Antecipar investimentos em imobilizado",
+      "alternativa_b": "Negociar capital de giro ou alongar o prazo com fornecedores antes do periodo",
+      "alternativa_c": "Distribuir dividendos para sinalizar solidez ao mercado",
+      "alternativa_d": "Aguardar o fechamento do trimestre para avaliar",
+      "alternativa_e": "Reduzir o prazo de recebimento concedido aos clientes para 90 dias",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2025,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:7",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:8",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 8,
+      "line_start": 9,
+      "line_end": 9
+    },
+    "raw": {
+      "id": "ITM-10048",
+      "enunciado": "O que e capital de giro?",
+      "alternativa_a": "Recursos aplicados em ativo imobilizado",
+      "alternativa_b": "Recursos necessarios para sustentar a operacao no curto prazo",
+      "alternativa_c": "Patrimonio liquido da organizacao",
+      "alternativa_d": "Total de dividas de longo prazo",
+      "alternativa_e": "Lucro retido no exercicio",
+      "gabarito": "2",
+      "disciplina_informada": "Financeira",
+      "ano_aplicacao": "2018",
+      "origem_banco": "Importado 2019"
+    },
+    "data": {
+      "id": "ITM-10048",
+      "enunciado": "O que e capital de giro?",
+      "alternativa_a": "Recursos aplicados em ativo imobilizado",
+      "alternativa_b": "Recursos necessarios para sustentar a operacao no curto prazo",
+      "alternativa_c": "Patrimonio liquido da organizacao",
+      "alternativa_d": "Total de dividas de longo prazo",
+      "alternativa_e": "Lucro retido no exercicio",
+      "gabarito": null,
+      "disciplina_informada": "Financeira",
+      "ano_aplicacao": 2018,
+      "origem_banco": "Importado 2019"
+    },
+    "item_record_id": "04_itens_legado.csv:8",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:9",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 9,
+      "line_start": 10,
+      "line_end": 10
+    },
+    "raw": {
+      "id": "ITM-10049",
+      "enunciado": "Uma empresa apresenta ativo circulante de R$ 240.000,00 e passivo circulante de R$ 160.000,00. Qual o indice de liquidez corrente e o que ele indica?",
+      "alternativa_a": "0,67 — capacidade insuficiente de honrar obrigacoes de curto prazo",
+      "alternativa_b": "1,50 — capacidade de honrar obrigacoes de curto prazo",
+      "alternativa_c": "1,50 — endividamento elevado no longo prazo",
+      "alternativa_d": "2,40 — folga financeira ampla",
+      "alternativa_e": "0,67 — rentabilidade abaixo do setor",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2024",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10049",
+      "enunciado": "Uma empresa apresenta ativo circulante de R$ 240.000,00 e passivo circulante de R$ 160.000,00. Qual o indice de liquidez corrente e o que ele indica?",
+      "alternativa_a": "0,67 — capacidade insuficiente de honrar obrigacoes de curto prazo",
+      "alternativa_b": "1,50 — capacidade de honrar obrigacoes de curto prazo",
+      "alternativa_c": "1,50 — endividamento elevado no longo prazo",
+      "alternativa_d": "2,40 — folga financeira ampla",
+      "alternativa_e": "0,67 — rentabilidade abaixo do setor",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2024,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:9",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:10",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 10,
+      "line_start": 11,
+      "line_end": 11
+    },
+    "raw": {
+      "id": "ITM-10050",
+      "enunciado": "Analise os indicadores da empresa Mercurio em dois exercicios: liquidez corrente caiu de 1,8 para 1,1; endividamento geral subiu de 45% para 68%; margem liquida caiu de 9% para 3%. Qual diagnostico e sustentado por esses dados?",
+      "alternativa_a": "Melhora da estrutura de capital com ganho de rentabilidade",
+      "alternativa_b": "Deterioracao simultanea de liquidez, estrutura de capital e rentabilidade",
+      "alternativa_c": "Estabilidade financeira com variacao sazonal",
+      "alternativa_d": "Reducao de risco de credito pela queda da liquidez",
+      "alternativa_e": "Crescimento acelerado financiado por capital proprio",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2025",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10050",
+      "enunciado": "Analise os indicadores da empresa Mercurio em dois exercicios: liquidez corrente caiu de 1,8 para 1,1; endividamento geral subiu de 45% para 68%; margem liquida caiu de 9% para 3%. Qual diagnostico e sustentado por esses dados?",
+      "alternativa_a": "Melhora da estrutura de capital com ganho de rentabilidade",
+      "alternativa_b": "Deterioracao simultanea de liquidez, estrutura de capital e rentabilidade",
+      "alternativa_c": "Estabilidade financeira com variacao sazonal",
+      "alternativa_d": "Reducao de risco de credito pela queda da liquidez",
+      "alternativa_e": "Crescimento acelerado financiado por capital proprio",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2025,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:10",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:11",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 11,
+      "line_start": 12,
+      "line_end": 12
+    },
+    "raw": {
+      "id": "ITM-10051",
+      "enunciado": "Qual indicador mede a capacidade de pagamento de curto prazo?",
+      "alternativa_a": "Liquidez corrente",
+      "alternativa_b": "Giro do ativo",
+      "alternativa_c": "Margem EBITDA",
+      "alternativa_d": "Grau de alavancagem operacional",
+      "alternativa_e": "Payback",
+      "gabarito": "A",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2019",
+      "origem_banco": "Prova Antiga"
+    },
+    "data": {
+      "id": "ITM-10051",
+      "enunciado": "Qual indicador mede a capacidade de pagamento de curto prazo?",
+      "alternativa_a": "Liquidez corrente",
+      "alternativa_b": "Giro do ativo",
+      "alternativa_c": "Margem EBITDA",
+      "alternativa_d": "Grau de alavancagem operacional",
+      "alternativa_e": "Payback",
+      "gabarito": "A",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2019,
+      "origem_banco": "Prova Antiga"
+    },
+    "item_record_id": "04_itens_legado.csv:11",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:12",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 12,
+      "line_start": 13,
+      "line_end": 13
+    },
+    "raw": {
+      "id": "ITM-10052",
+      "enunciado": "Uma companhia tem 60% de capital proprio com custo de 14% ao ano e 40% de capital de terceiros com custo liquido de 9% ao ano. Qual o custo medio ponderado de capital?",
+      "alternativa_a": "11,5%",
+      "alternativa_b": "12,0%",
+      "alternativa_c": "13,0%",
+      "alternativa_d": "10,8%",
+      "alternativa_e": "11,0%",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2023",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10052",
+      "enunciado": "Uma companhia tem 60% de capital proprio com custo de 14% ao ano e 40% de capital de terceiros com custo liquido de 9% ao ano. Qual o custo medio ponderado de capital?",
+      "alternativa_a": "11,5%",
+      "alternativa_b": "12,0%",
+      "alternativa_c": "13,0%",
+      "alternativa_d": "10,8%",
+      "alternativa_e": "11,0%",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2023,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:12",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:13",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 13,
+      "line_start": 14,
+      "line_end": 14
+    },
+    "raw": {
+      "id": "ITM-10053",
+      "enunciado": "O custo medio ponderado de capital (WACC) representa:",
+      "alternativa_a": "O custo exclusivo do capital de terceiros",
+      "alternativa_b": "A media dos custos das fontes de financiamento ponderada por sua participacao",
+      "alternativa_c": "A taxa interna de retorno do projeto",
+      "alternativa_d": "O retorno minimo exigido pelos acionistas apenas",
+      "alternativa_e": "O custo do capital de terceiros antes dos impostos",
+      "gabarito": "B",
+      "disciplina_informada": "Gestao Financeira",
+      "ano_aplicacao": "2021",
+      "origem_banco": "banco proprio"
+    },
+    "data": {
+      "id": "ITM-10053",
+      "enunciado": "O custo medio ponderado de capital (WACC) representa:",
+      "alternativa_a": "O custo exclusivo do capital de terceiros",
+      "alternativa_b": "A media dos custos das fontes de financiamento ponderada por sua participacao",
+      "alternativa_c": "A taxa interna de retorno do projeto",
+      "alternativa_d": "O retorno minimo exigido pelos acionistas apenas",
+      "alternativa_e": "O custo do capital de terceiros antes dos impostos",
+      "gabarito": "B",
+      "disciplina_informada": "Gestao Financeira",
+      "ano_aplicacao": 2021,
+      "origem_banco": "banco proprio"
+    },
+    "item_record_id": "04_itens_legado.csv:13",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:14",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 14,
+      "line_start": 15,
+      "line_end": 15
+    },
+    "raw": {
+      "id": "ITM-10054",
+      "enunciado": "Um projeto exige investimento inicial de R$ 500.000,00 e gera fluxos liquidos de R$ 180.000,00 por ano durante 4 anos. Considerando custo de capital de 10% ao ano, qual conclusao e correta?",
+      "alternativa_a": "O VPL e negativo e o projeto deve ser rejeitado",
+      "alternativa_b": "O VPL e positivo e o projeto cria valor ao custo de capital informado",
+      "alternativa_c": "O payback simples e superior a 4 anos",
+      "alternativa_d": "A TIR e inferior a 10%",
+      "alternativa_e": "O projeto e indiferente ao custo de capital",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2025",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10054",
+      "enunciado": "Um projeto exige investimento inicial de R$ 500.000,00 e gera fluxos liquidos de R$ 180.000,00 por ano durante 4 anos. Considerando custo de capital de 10% ao ano, qual conclusao e correta?",
+      "alternativa_a": "O VPL e negativo e o projeto deve ser rejeitado",
+      "alternativa_b": "O VPL e positivo e o projeto cria valor ao custo de capital informado",
+      "alternativa_c": "O payback simples e superior a 4 anos",
+      "alternativa_d": "A TIR e inferior a 10%",
+      "alternativa_e": "O projeto e indiferente ao custo de capital",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2025,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:14",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:15",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 15,
+      "line_start": 16,
+      "line_end": 16
+    },
+    "raw": {
+      "id": "ITM-10055",
+      "enunciado": "Dois projetos mutuamente exclusivos apresentam: Projeto A, VPL de R$ 120.000,00 e TIR de 18%; Projeto B, VPL de R$ 150.000,00 e TIR de 15%. O custo de capital da empresa e 11%. Qual decisao maximiza o valor para o acionista?",
+      "alternativa_a": "Escolher A, pela maior TIR",
+      "alternativa_b": "Escolher B, pelo maior VPL",
+      "alternativa_c": "Escolher A, pelo menor risco implicito",
+      "alternativa_d": "Executar os dois projetos simultaneamente",
+      "alternativa_e": "Rejeitar ambos, pois a TIR excede o custo de capital",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2026",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10055",
+      "enunciado": "Dois projetos mutuamente exclusivos apresentam: Projeto A, VPL de R$ 120.000,00 e TIR de 18%; Projeto B, VPL de R$ 150.000,00 e TIR de 15%. O custo de capital da empresa e 11%. Qual decisao maximiza o valor para o acionista?",
+      "alternativa_a": "Escolher A, pela maior TIR",
+      "alternativa_b": "Escolher B, pelo maior VPL",
+      "alternativa_c": "Escolher A, pelo menor risco implicito",
+      "alternativa_d": "Executar os dois projetos simultaneamente",
+      "alternativa_e": "Rejeitar ambos, pois a TIR excede o custo de capital",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2026,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:15",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:16",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 16,
+      "line_start": 17,
+      "line_end": 17
+    },
+    "raw": {
+      "id": "ITM-10056",
+      "enunciado": "O payback descontado difere do payback simples porque considera o valor do dinheiro no tempo. Assim, o payback descontado:",
+      "alternativa_a": "E sempre menor que o payback simples",
+      "alternativa_b": "E sempre igual ao payback simples",
+      "alternativa_c": "E sempre maior ou igual ao payback simples",
+      "alternativa_d": "Nao depende da taxa de desconto",
+      "alternativa_e": "Ignora os fluxos apos a recuperacao",
+      "gabarito": "C",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2022",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10056",
+      "enunciado": "O payback descontado difere do payback simples porque considera o valor do dinheiro no tempo. Assim, o payback descontado:",
+      "alternativa_a": "E sempre menor que o payback simples",
+      "alternativa_b": "E sempre igual ao payback simples",
+      "alternativa_c": "E sempre maior ou igual ao payback simples",
+      "alternativa_d": "Nao depende da taxa de desconto",
+      "alternativa_e": "Ignora os fluxos apos a recuperacao",
+      "gabarito": "C",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2022,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:16",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:17",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 17,
+      "line_start": 18,
+      "line_end": 18
+    },
+    "raw": {
+      "id": "ITM-10057",
+      "enunciado": "Qual metodo de avaliacao de investimentos desconsidera o valor do dinheiro no tempo?",
+      "alternativa_a": "VPL",
+      "alternativa_b": "TIR",
+      "alternativa_c": "Payback simples",
+      "alternativa_d": "Payback descontado",
+      "alternativa_e": "Valor economico agregado",
+      "gabarito": "C",
+      "disciplina_informada": "GESTÃO FINANCEIRA",
+      "ano_aplicacao": "2020",
+      "origem_banco": "Prova Antiga"
+    },
+    "data": {
+      "id": "ITM-10057",
+      "enunciado": "Qual metodo de avaliacao de investimentos desconsidera o valor do dinheiro no tempo?",
+      "alternativa_a": "VPL",
+      "alternativa_b": "TIR",
+      "alternativa_c": "Payback simples",
+      "alternativa_d": "Payback descontado",
+      "alternativa_e": "Valor economico agregado",
+      "gabarito": "C",
+      "disciplina_informada": "GESTÃO FINANCEIRA",
+      "ano_aplicacao": 2020,
+      "origem_banco": "Prova Antiga"
+    },
+    "item_record_id": "04_itens_legado.csv:17",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:18",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 18,
+      "line_start": 19,
+      "line_end": 19
+    },
+    "raw": {
+      "id": "ITM-10058",
+      "enunciado": "Um investidor monta uma carteira com dois ativos de correlacao negativa. Qual efeito esperado sobre o risco da carteira?",
+      "alternativa_a": "O risco total aumenta proporcionalmente",
+      "alternativa_b": "O risco total se reduz em relacao a media ponderada dos riscos individuais",
+      "alternativa_c": "O risco permanece inalterado",
+      "alternativa_d": "O retorno esperado necessariamente cai",
+      "alternativa_e": "A diversificacao elimina o risco sistematico",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2024",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10058",
+      "enunciado": "Um investidor monta uma carteira com dois ativos de correlacao negativa. Qual efeito esperado sobre o risco da carteira?",
+      "alternativa_a": "O risco total aumenta proporcionalmente",
+      "alternativa_b": "O risco total se reduz em relacao a media ponderada dos riscos individuais",
+      "alternativa_c": "O risco permanece inalterado",
+      "alternativa_d": "O retorno esperado necessariamente cai",
+      "alternativa_e": "A diversificacao elimina o risco sistematico",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2024,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:18",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:19",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 19,
+      "line_start": 20,
+      "line_end": 20
+    },
+    "raw": {
+      "id": "ITM-10059",
+      "enunciado": "Diversificacao de carteira reduz principalmente qual tipo de risco?",
+      "alternativa_a": "Risco sistematico",
+      "alternativa_b": "Risco de mercado",
+      "alternativa_c": "Risco nao sistematico",
+      "alternativa_d": "Risco soberano",
+      "alternativa_e": "Risco cambial",
+      "gabarito": "C",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2021",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10059",
+      "enunciado": "Diversificacao de carteira reduz principalmente qual tipo de risco?",
+      "alternativa_a": "Risco sistematico",
+      "alternativa_b": "Risco de mercado",
+      "alternativa_c": "Risco nao sistematico",
+      "alternativa_d": "Risco soberano",
+      "alternativa_e": "Risco cambial",
+      "gabarito": "C",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2021,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:19",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:20",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 20,
+      "line_start": 21,
+      "line_end": 21
+    },
+    "raw": {
+      "id": "ITM-10060",
+      "enunciado": "A diretoria financeira de uma companhia aberta identificou, duas semanas antes da divulgacao do resultado trimestral, um erro relevante na apuracao de receitas que reduz o lucro informado em 18%. Qual conduta e compativel com os principios de transparencia na informacao financeira?",
+      "alternativa_a": "Divulgar o resultado original e corrigir no trimestre seguinte",
+      "alternativa_b": "Retificar a informacao e comunicar o mercado antes da divulgacao, registrando a origem do erro",
+      "alternativa_c": "Comunicar apenas o auditor independente e manter a divulgacao",
+      "alternativa_d": "Adiar a divulgacao sem justificativa publica",
+      "alternativa_e": "Compensar o erro com reversao de provisoes de outra conta",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2026",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10060",
+      "enunciado": "A diretoria financeira de uma companhia aberta identificou, duas semanas antes da divulgacao do resultado trimestral, um erro relevante na apuracao de receitas que reduz o lucro informado em 18%. Qual conduta e compativel com os principios de transparencia na informacao financeira?",
+      "alternativa_a": "Divulgar o resultado original e corrigir no trimestre seguinte",
+      "alternativa_b": "Retificar a informacao e comunicar o mercado antes da divulgacao, registrando a origem do erro",
+      "alternativa_c": "Comunicar apenas o auditor independente e manter a divulgacao",
+      "alternativa_d": "Adiar a divulgacao sem justificativa publica",
+      "alternativa_e": "Compensar o erro com reversao de provisoes de outra conta",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2026,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:20",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:21",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 21,
+      "line_start": 22,
+      "line_end": 22
+    },
+    "raw": {
+      "id": "ITM-10061",
+      "enunciado": "A transparencia na informacao financeira e um principio etico que exige divulgacao completa e tempestiva. Sendo a transparencia a divulgacao completa e tempestiva, qual pratica a viola?",
+      "alternativa_a": "Publicar notas explicativas detalhadas",
+      "alternativa_b": "Omitir passivo contingente relevante das demonstracoes",
+      "alternativa_c": "Submeter as demonstracoes a auditoria independente",
+      "alternativa_d": "Divulgar o resultado no prazo regulatorio",
+      "alternativa_e": "Apresentar comparativo com exercicios anteriores",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2023",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10061",
+      "enunciado": "A transparencia na informacao financeira e um principio etico que exige divulgacao completa e tempestiva. Sendo a transparencia a divulgacao completa e tempestiva, qual pratica a viola?",
+      "alternativa_a": "Publicar notas explicativas detalhadas",
+      "alternativa_b": "Omitir passivo contingente relevante das demonstracoes",
+      "alternativa_c": "Submeter as demonstracoes a auditoria independente",
+      "alternativa_d": "Divulgar o resultado no prazo regulatorio",
+      "alternativa_e": "Apresentar comparativo com exercicios anteriores",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2023,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:21",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:22",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 22,
+      "line_start": 23,
+      "line_end": 23
+    },
+    "raw": {
+      "id": "ITM-10062",
+      "enunciado": "Sobre o regime de competencia, assinale a alternativa correta.",
+      "alternativa_a": "Receitas sao reconhecidas no recebimento",
+      "alternativa_b": "Despesas sao reconhecidas no pagamento",
+      "alternativa_c": "Receitas e despesas sao reconhecidas no fato gerador, independente do caixa",
+      "alternativa_d": "Aplica-se somente a empresas de capital aberto",
+      "alternativa_e": "Equivale ao regime de caixa para fins gerenciais",
+      "gabarito": "C",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2020",
+      "origem_banco": "Importado 2019"
+    },
+    "data": {
+      "id": "ITM-10062",
+      "enunciado": "Sobre o regime de competencia, assinale a alternativa correta.",
+      "alternativa_a": "Receitas sao reconhecidas no recebimento",
+      "alternativa_b": "Despesas sao reconhecidas no pagamento",
+      "alternativa_c": "Receitas e despesas sao reconhecidas no fato gerador, independente do caixa",
+      "alternativa_d": "Aplica-se somente a empresas de capital aberto",
+      "alternativa_e": "Equivale ao regime de caixa para fins gerenciais",
+      "gabarito": "C",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2020,
+      "origem_banco": "Importado 2019"
+    },
+    "item_record_id": "04_itens_legado.csv:22",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:23",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 23,
+      "line_start": 24,
+      "line_end": 24
+    },
+    "raw": {
+      "id": "ITM-10063",
+      "enunciado": "Um titulo de R$ 25.000,00 foi descontado 3 meses antes do vencimento a uma taxa de desconto simples de 2,5% ao mes. Qual o valor liquido recebido?",
+      "alternativa_a": "R$ 23.125,00",
+      "alternativa_b": "R$ 24.375,00",
+      "alternativa_c": "R$ 23.750,00",
+      "alternativa_d": "R$ 22.500,00",
+      "alternativa_e": "R$ 24.000,00",
+      "gabarito": "A",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2022",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10063",
+      "enunciado": "Um titulo de R$ 25.000,00 foi descontado 3 meses antes do vencimento a uma taxa de desconto simples de 2,5% ao mes. Qual o valor liquido recebido?",
+      "alternativa_a": "R$ 23.125,00",
+      "alternativa_b": "R$ 24.375,00",
+      "alternativa_c": "R$ 23.750,00",
+      "alternativa_d": "R$ 22.500,00",
+      "alternativa_e": "R$ 24.000,00",
+      "gabarito": "A",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2022,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:23",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:24",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 24,
+      "line_start": 25,
+      "line_end": 25
+    },
+    "raw": {
+      "id": "ITM-10064",
+      "enunciado": "A taxa nominal de 24% ao ano com capitalizacao mensal corresponde a qual taxa efetiva anual aproximada?",
+      "alternativa_a": "24,00%",
+      "alternativa_b": "26,82%",
+      "alternativa_c": "25,44%",
+      "alternativa_d": "22,80%",
+      "alternativa_e": "21,55%",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2024",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10064",
+      "enunciado": "A taxa nominal de 24% ao ano com capitalizacao mensal corresponde a qual taxa efetiva anual aproximada?",
+      "alternativa_a": "24,00%",
+      "alternativa_b": "26,82%",
+      "alternativa_c": "25,44%",
+      "alternativa_d": "22,80%",
+      "alternativa_e": "21,55%",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2024,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:24",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:25",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 25,
+      "line_start": 26,
+      "line_end": 26
+    },
+    "raw": {
+      "id": "ITM-10065",
+      "enunciado": "Uma empresa avalia substituir um equipamento. O fluxo incremental considera economia de custos de R$ 90.000,00 por ano por 5 anos, investimento de R$ 300.000,00 e valor residual de R$ 40.000,00 no quinto ano. Ao custo de capital de 12%, qual elemento e indispensavel a decisao e costuma ser omitido?",
+      "alternativa_a": "A depreciacao contabil do equipamento antigo",
+      "alternativa_b": "O efeito fiscal sobre a economia de custos e sobre o valor residual",
+      "alternativa_c": "O preco de lista do equipamento novo",
+      "alternativa_d": "A taxa de inflacao projetada do periodo",
+      "alternativa_e": "O prazo de garantia oferecido pelo fornecedor",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2026",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10065",
+      "enunciado": "Uma empresa avalia substituir um equipamento. O fluxo incremental considera economia de custos de R$ 90.000,00 por ano por 5 anos, investimento de R$ 300.000,00 e valor residual de R$ 40.000,00 no quinto ano. Ao custo de capital de 12%, qual elemento e indispensavel a decisao e costuma ser omitido?",
+      "alternativa_a": "A depreciacao contabil do equipamento antigo",
+      "alternativa_b": "O efeito fiscal sobre a economia de custos e sobre o valor residual",
+      "alternativa_c": "O preco de lista do equipamento novo",
+      "alternativa_d": "A taxa de inflacao projetada do periodo",
+      "alternativa_e": "O prazo de garantia oferecido pelo fornecedor",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2026,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:25",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:26",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 26,
+      "line_start": 27,
+      "line_end": 27
+    },
+    "raw": {
+      "id": "ITM-10066",
+      "enunciado": "Assinale a alternativa que NAO corresponde a uma fonte de capital de terceiros.",
+      "alternativa_a": "Debentures",
+      "alternativa_b": "Emprestimo bancario",
+      "alternativa_c": "Arrendamento mercantil financeiro",
+      "alternativa_d": "Integralizacao de capital social",
+      "alternativa_e": "Nota promissoria comercial",
+      "gabarito": "D",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2021",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10066",
+      "enunciado": "Assinale a alternativa que NAO corresponde a uma fonte de capital de terceiros.",
+      "alternativa_a": "Debentures",
+      "alternativa_b": "Emprestimo bancario",
+      "alternativa_c": "Arrendamento mercantil financeiro",
+      "alternativa_d": "Integralizacao de capital social",
+      "alternativa_e": "Nota promissoria comercial",
+      "gabarito": "D",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2021,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:26",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:27",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 27,
+      "line_start": 28,
+      "line_end": 28
+    },
+    "raw": {
+      "id": "ITM-10067",
+      "enunciado": "O indice de endividamento geral de uma empresa passou de 40% para 75% em dois exercicios, enquanto o EBITDA permaneceu estavel. Qual consequencia e mais provavel?",
+      "alternativa_a": "Reducao do custo de capital de terceiros",
+      "alternativa_b": "Elevacao do risco percebido e do custo de novas captacoes",
+      "alternativa_c": "Aumento automatico da liquidez corrente",
+      "alternativa_d": "Melhora da classificacao de credito",
+      "alternativa_e": "Reducao da necessidade de capital de giro",
+      "gabarito": "B",
+      "disciplina_informada": "Gest. Financeira",
+      "ano_aplicacao": "2025",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10067",
+      "enunciado": "O indice de endividamento geral de uma empresa passou de 40% para 75% em dois exercicios, enquanto o EBITDA permaneceu estavel. Qual consequencia e mais provavel?",
+      "alternativa_a": "Reducao do custo de capital de terceiros",
+      "alternativa_b": "Elevacao do risco percebido e do custo de novas captacoes",
+      "alternativa_c": "Aumento automatico da liquidez corrente",
+      "alternativa_d": "Melhora da classificacao de credito",
+      "alternativa_e": "Reducao da necessidade de capital de giro",
+      "gabarito": "B",
+      "disciplina_informada": "Gest. Financeira",
+      "ano_aplicacao": 2025,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:27",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:28",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 28,
+      "line_start": 29,
+      "line_end": 29
+    },
+    "raw": {
+      "id": "ITM-10068",
+      "enunciado": "Defina fluxo de caixa livre.",
+      "alternativa_a": "Lucro liquido do exercicio",
+      "alternativa_b": "Caixa gerado pela operacao apos investimentos necessarios a manutencao da atividade",
+      "alternativa_c": "Soma de todas as entradas de caixa do periodo",
+      "alternativa_d": "Saldo bancario ao final do mes",
+      "alternativa_e": "Receita bruta menos despesas financeiras",
+      "gabarito": "",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2019",
+      "origem_banco": "Prova Antiga"
+    },
+    "data": {
+      "id": "ITM-10068",
+      "enunciado": "Defina fluxo de caixa livre.",
+      "alternativa_a": "Lucro liquido do exercicio",
+      "alternativa_b": "Caixa gerado pela operacao apos investimentos necessarios a manutencao da atividade",
+      "alternativa_c": "Soma de todas as entradas de caixa do periodo",
+      "alternativa_d": "Saldo bancario ao final do mes",
+      "alternativa_e": "Receita bruta menos despesas financeiras",
+      "gabarito": null,
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2019,
+      "origem_banco": "Prova Antiga"
+    },
+    "item_record_id": "04_itens_legado.csv:28",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:29",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 29,
+      "line_start": 30,
+      "line_end": 30
+    },
+    "raw": {
+      "id": "ITM-10069",
+      "enunciado": "Em um cenario de elevacao da taxa basica de juros, qual efeito e esperado sobre a avaliacao de projetos de investimento de longo prazo?",
+      "alternativa_a": "O VPL dos projetos aumenta",
+      "alternativa_b": "O VPL dos projetos diminui pela elevacao da taxa de desconto",
+      "alternativa_c": "A TIR dos projetos aumenta",
+      "alternativa_d": "O payback simples se reduz",
+      "alternativa_e": "Nao ha efeito sobre a avaliacao",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2026",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10069",
+      "enunciado": "Em um cenario de elevacao da taxa basica de juros, qual efeito e esperado sobre a avaliacao de projetos de investimento de longo prazo?",
+      "alternativa_a": "O VPL dos projetos aumenta",
+      "alternativa_b": "O VPL dos projetos diminui pela elevacao da taxa de desconto",
+      "alternativa_c": "A TIR dos projetos aumenta",
+      "alternativa_d": "O payback simples se reduz",
+      "alternativa_e": "Nao ha efeito sobre a avaliacao",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2026,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:29",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:30",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 30,
+      "line_start": 31,
+      "line_end": 31
+    },
+    "raw": {
+      "id": "ITM-10070",
+      "enunciado": "Uma empresa familiar registra retiradas dos socios como despesa operacional, sem contrato de pro-labore nem registro em ata. Do ponto de vista da transparencia da informacao financeira, essa pratica:",
+      "alternativa_a": "E adequada, pois reduz a base tributavel",
+      "alternativa_b": "Compromete a fidedignidade das demonstracoes e a comparabilidade entre periodos",
+      "alternativa_c": "E irrelevante, por se tratar de empresa de capital fechado",
+      "alternativa_d": "Atende ao regime de caixa",
+      "alternativa_e": "E permitida desde que aprovada pelo contador",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2025",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10070",
+      "enunciado": "Uma empresa familiar registra retiradas dos socios como despesa operacional, sem contrato de pro-labore nem registro em ata. Do ponto de vista da transparencia da informacao financeira, essa pratica:",
+      "alternativa_a": "E adequada, pois reduz a base tributavel",
+      "alternativa_b": "Compromete a fidedignidade das demonstracoes e a comparabilidade entre periodos",
+      "alternativa_c": "E irrelevante, por se tratar de empresa de capital fechado",
+      "alternativa_d": "Atende ao regime de caixa",
+      "alternativa_e": "E permitida desde que aprovada pelo contador",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2025,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:30",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:31",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 31,
+      "line_start": 32,
+      "line_end": 32
+    },
+    "raw": {
+      "id": "ITM-10071",
+      "enunciado": "Calcule o montante de R$ 5.000,00 aplicados a juros compostos de 3% ao mes por 4 meses.",
+      "alternativa_a": "R$ 5.600,00",
+      "alternativa_b": "R$ 5.627,54",
+      "alternativa_c": "R$ 5.500,00",
+      "alternativa_d": "R$ 5.700,00",
+      "alternativa_e": "R$ 5.628,00",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2023",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10071",
+      "enunciado": "Calcule o montante de R$ 5.000,00 aplicados a juros compostos de 3% ao mes por 4 meses.",
+      "alternativa_a": "R$ 5.600,00",
+      "alternativa_b": "R$ 5.627,54",
+      "alternativa_c": "R$ 5.500,00",
+      "alternativa_d": "R$ 5.700,00",
+      "alternativa_e": "R$ 5.628,00",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2023,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:31",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:32",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 32,
+      "line_start": 33,
+      "line_end": 33
+    },
+    "raw": {
+      "id": "ITM-10072",
+      "enunciado": "Um emprestimo de R$ 60.000,00 sera pago pelo Sistema de Amortizacao Constante em 10 parcelas mensais, com juros de 1% ao mes. Qual o valor da primeira prestacao?",
+      "alternativa_a": "R$ 6.600,00",
+      "alternativa_b": "R$ 6.000,00",
+      "alternativa_c": "R$ 6.060,00",
+      "alternativa_d": "R$ 6.300,00",
+      "alternativa_e": "R$ 6.120,00",
+      "gabarito": "A",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2024",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10072",
+      "enunciado": "Um emprestimo de R$ 60.000,00 sera pago pelo Sistema de Amortizacao Constante em 10 parcelas mensais, com juros de 1% ao mes. Qual o valor da primeira prestacao?",
+      "alternativa_a": "R$ 6.600,00",
+      "alternativa_b": "R$ 6.000,00",
+      "alternativa_c": "R$ 6.060,00",
+      "alternativa_d": "R$ 6.300,00",
+      "alternativa_e": "R$ 6.120,00",
+      "gabarito": "A",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2024,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:32",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:33",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 33,
+      "line_start": 34,
+      "line_end": 34
+    },
+    "raw": {
+      "id": "ITM-20015",
+      "enunciado": "Um gestor avalia o desempenho de um colaborador com base na impressao formada na primeira semana de trabalho, desconsiderando os resultados dos meses seguintes. Esse vies de percepcao e conhecido como:",
+      "alternativa_a": "Efeito halo",
+      "alternativa_b": "Efeito de primazia",
+      "alternativa_c": "Profecia autorrealizavel",
+      "alternativa_d": "Estereotipagem",
+      "alternativa_e": "Percepcao seletiva",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2024",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20015",
+      "enunciado": "Um gestor avalia o desempenho de um colaborador com base na impressao formada na primeira semana de trabalho, desconsiderando os resultados dos meses seguintes. Esse vies de percepcao e conhecido como:",
+      "alternativa_a": "Efeito halo",
+      "alternativa_b": "Efeito de primazia",
+      "alternativa_c": "Profecia autorrealizavel",
+      "alternativa_d": "Estereotipagem",
+      "alternativa_e": "Percepcao seletiva",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2024,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:33",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:34",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 34,
+      "line_start": 35,
+      "line_end": 35
+    },
+    "raw": {
+      "id": "ITM-20016",
+      "enunciado": "O efeito halo na avaliacao de desempenho consiste em:",
+      "alternativa_a": "Avaliar com base em um unico atributo positivo generalizado para todo o desempenho",
+      "alternativa_b": "Comparar o avaliado com a media do grupo",
+      "alternativa_c": "Atribuir notas centrais para evitar conflito",
+      "alternativa_d": "Considerar apenas os eventos mais recentes",
+      "alternativa_e": "Projetar no avaliado as proprias caracteristicas",
+      "gabarito": "A",
+      "disciplina_informada": "Comp. Organizacional",
+      "ano_aplicacao": "2022",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20016",
+      "enunciado": "O efeito halo na avaliacao de desempenho consiste em:",
+      "alternativa_a": "Avaliar com base em um unico atributo positivo generalizado para todo o desempenho",
+      "alternativa_b": "Comparar o avaliado com a media do grupo",
+      "alternativa_c": "Atribuir notas centrais para evitar conflito",
+      "alternativa_d": "Considerar apenas os eventos mais recentes",
+      "alternativa_e": "Projetar no avaliado as proprias caracteristicas",
+      "gabarito": "A",
+      "disciplina_informada": "Comp. Organizacional",
+      "ano_aplicacao": 2022,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:34",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:35",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 35,
+      "line_start": 36,
+      "line_end": 36
+    },
+    "raw": {
+      "id": "ITM-20017",
+      "enunciado": "O que sao atitudes no contexto organizacional?",
+      "alternativa_a": "Comportamentos observaveis apenas",
+      "alternativa_b": "Predisposicoes avaliativas com componentes cognitivo, afetivo e comportamental",
+      "alternativa_c": "Normas formais da organizacao",
+      "alternativa_d": "Tracos de personalidade imutaveis",
+      "alternativa_e": "Resultados de avaliacao de desempenho",
+      "gabarito": "B",
+      "disciplina_informada": "COMPORTAMENTO ORG",
+      "ano_aplicacao": "2020",
+      "origem_banco": "Importado 2019"
+    },
+    "data": {
+      "id": "ITM-20017",
+      "enunciado": "O que sao atitudes no contexto organizacional?",
+      "alternativa_a": "Comportamentos observaveis apenas",
+      "alternativa_b": "Predisposicoes avaliativas com componentes cognitivo, afetivo e comportamental",
+      "alternativa_c": "Normas formais da organizacao",
+      "alternativa_d": "Tracos de personalidade imutaveis",
+      "alternativa_e": "Resultados de avaliacao de desempenho",
+      "gabarito": "B",
+      "disciplina_informada": "COMPORTAMENTO ORG",
+      "ano_aplicacao": 2020,
+      "origem_banco": "Importado 2019"
+    },
+    "item_record_id": "04_itens_legado.csv:35",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:36",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 36,
+      "line_start": 37,
+      "line_end": 37
+    },
+    "raw": {
+      "id": "ITM-20018",
+      "enunciado": "Uma equipe de suporte tecnico apresenta alta rotatividade. A pesquisa interna aponta salarios compativeis com o mercado, mas ausencia de reconhecimento e de perspectiva de crescimento. A luz da teoria dos dois fatores de Herzberg, qual interpretacao e correta?",
+      "alternativa_a": "Os fatores higienicos estao insatisfatorios e causam a rotatividade",
+      "alternativa_b": "Os fatores motivacionais estao ausentes, o que explica a insatisfacao apesar da remuneracao adequada",
+      "alternativa_c": "A remuneracao e o unico fator motivacional relevante",
+      "alternativa_d": "A teoria nao se aplica a equipes tecnicas",
+      "alternativa_e": "A rotatividade decorre exclusivamente de fatores externos",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2025",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20018",
+      "enunciado": "Uma equipe de suporte tecnico apresenta alta rotatividade. A pesquisa interna aponta salarios compativeis com o mercado, mas ausencia de reconhecimento e de perspectiva de crescimento. A luz da teoria dos dois fatores de Herzberg, qual interpretacao e correta?",
+      "alternativa_a": "Os fatores higienicos estao insatisfatorios e causam a rotatividade",
+      "alternativa_b": "Os fatores motivacionais estao ausentes, o que explica a insatisfacao apesar da remuneracao adequada",
+      "alternativa_c": "A remuneracao e o unico fator motivacional relevante",
+      "alternativa_d": "A teoria nao se aplica a equipes tecnicas",
+      "alternativa_e": "A rotatividade decorre exclusivamente de fatores externos",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2025,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:36",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:37",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 37,
+      "line_start": 38,
+      "line_end": 38
+    },
+    "raw": {
+      "id": "ITM-20019",
+      "enunciado": "Na teoria da expectancia de Vroom, a motivacao resulta do produto de tres elementos. Quais sao eles?",
+      "alternativa_a": "Necessidade, impulso e recompensa",
+      "alternativa_b": "Expectancia, instrumentalidade e valencia",
+      "alternativa_c": "Higiene, motivacao e satisfacao",
+      "alternativa_d": "Equidade, justica e reciprocidade",
+      "alternativa_e": "Autonomia, competencia e proposito",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2023",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20019",
+      "enunciado": "Na teoria da expectancia de Vroom, a motivacao resulta do produto de tres elementos. Quais sao eles?",
+      "alternativa_a": "Necessidade, impulso e recompensa",
+      "alternativa_b": "Expectancia, instrumentalidade e valencia",
+      "alternativa_c": "Higiene, motivacao e satisfacao",
+      "alternativa_d": "Equidade, justica e reciprocidade",
+      "alternativa_e": "Autonomia, competencia e proposito",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2023,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:37",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:38",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 38,
+      "line_start": 39,
+      "line_end": 39
+    },
+    "raw": {
+      "id": "ITM-20020",
+      "enunciado": "Segundo Maslow, qual a ordem correta da hierarquia das necessidades?",
+      "alternativa_a": "Fisiologicas, seguranca, sociais, estima, autorrealizacao",
+      "alternativa_b": "Seguranca, fisiologicas, estima, sociais, autorrealizacao",
+      "alternativa_c": "Sociais, fisiologicas, seguranca, autorrealizacao, estima",
+      "alternativa_d": "Fisiologicas, sociais, seguranca, autorrealizacao, estima",
+      "alternativa_e": "Estima, autorrealizacao, sociais, seguranca, fisiologicas",
+      "gabarito": "A",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2019",
+      "origem_banco": "Prova Antiga"
+    },
+    "data": {
+      "id": "ITM-20020",
+      "enunciado": "Segundo Maslow, qual a ordem correta da hierarquia das necessidades?",
+      "alternativa_a": "Fisiologicas, seguranca, sociais, estima, autorrealizacao",
+      "alternativa_b": "Seguranca, fisiologicas, estima, sociais, autorrealizacao",
+      "alternativa_c": "Sociais, fisiologicas, seguranca, autorrealizacao, estima",
+      "alternativa_d": "Fisiologicas, sociais, seguranca, autorrealizacao, estima",
+      "alternativa_e": "Estima, autorrealizacao, sociais, seguranca, fisiologicas",
+      "gabarito": "A",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2019,
+      "origem_banco": "Prova Antiga"
+    },
+    "item_record_id": "04_itens_legado.csv:38",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:39",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 39,
+      "line_start": 40,
+      "line_end": 40
+    },
+    "raw": {
+      "id": "ITM-20021",
+      "enunciado": "Cite as cinco necessidades da piramide de Maslow em ordem.",
+      "alternativa_a": "Fisiologicas, seguranca, sociais, estima, autorrealizacao",
+      "alternativa_b": "Seguranca, sociais, estima, fisiologicas, autorrealizacao",
+      "alternativa_c": "Fisiologicas, estima, sociais, seguranca, autorrealizacao",
+      "alternativa_d": "Sociais, estima, seguranca, fisiologicas, autorrealizacao",
+      "alternativa_e": "Estima, sociais, seguranca, fisiologicas, autorrealizacao",
+      "gabarito": "1",
+      "disciplina_informada": "Comportamento Organiz.",
+      "ano_aplicacao": "2021",
+      "origem_banco": "banco proprio"
+    },
+    "data": {
+      "id": "ITM-20021",
+      "enunciado": "Cite as cinco necessidades da piramide de Maslow em ordem.",
+      "alternativa_a": "Fisiologicas, seguranca, sociais, estima, autorrealizacao",
+      "alternativa_b": "Seguranca, sociais, estima, fisiologicas, autorrealizacao",
+      "alternativa_c": "Fisiologicas, estima, sociais, seguranca, autorrealizacao",
+      "alternativa_d": "Sociais, estima, seguranca, fisiologicas, autorrealizacao",
+      "alternativa_e": "Estima, sociais, seguranca, fisiologicas, autorrealizacao",
+      "gabarito": null,
+      "disciplina_informada": "Comportamento Organiz.",
+      "ano_aplicacao": 2021,
+      "origem_banco": "banco proprio"
+    },
+    "item_record_id": "04_itens_legado.csv:39",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:40",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 40,
+      "line_start": 41,
+      "line_end": 41
+    },
+    "raw": {
+      "id": "ITM-20022",
+      "enunciado": "Em uma reuniao de decisao, os membros de um comite convergem rapidamente para a posicao do gestor, evitando levantar objecoes para nao romper a harmonia do grupo. Esse fenomeno e denominado:",
+      "alternativa_a": "Difusao de responsabilidade",
+      "alternativa_b": "Pensamento grupal",
+      "alternativa_c": "Deslocamento de meta",
+      "alternativa_d": "Polarizacao de grupo",
+      "alternativa_e": "Conformidade normativa",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2026",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20022",
+      "enunciado": "Em uma reuniao de decisao, os membros de um comite convergem rapidamente para a posicao do gestor, evitando levantar objecoes para nao romper a harmonia do grupo. Esse fenomeno e denominado:",
+      "alternativa_a": "Difusao de responsabilidade",
+      "alternativa_b": "Pensamento grupal",
+      "alternativa_c": "Deslocamento de meta",
+      "alternativa_d": "Polarizacao de grupo",
+      "alternativa_e": "Conformidade normativa",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2026,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:40",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:41",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 41,
+      "line_start": 42,
+      "line_end": 42
+    },
+    "raw": {
+      "id": "ITM-20023",
+      "enunciado": "Qual a diferenca entre grupo e equipe de trabalho?",
+      "alternativa_a": "Nao ha diferenca conceitual",
+      "alternativa_b": "A equipe tem responsabilidade compartilhada e desempenho coletivo; o grupo soma contribuicoes individuais",
+      "alternativa_c": "O grupo e sempre formal e a equipe informal",
+      "alternativa_d": "A equipe dispensa coordenacao",
+      "alternativa_e": "O grupo tem mais autonomia decisoria",
+      "gabarito": "B",
+      "disciplina_informada": "Comp. Organizacional",
+      "ano_aplicacao": "2022",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20023",
+      "enunciado": "Qual a diferenca entre grupo e equipe de trabalho?",
+      "alternativa_a": "Nao ha diferenca conceitual",
+      "alternativa_b": "A equipe tem responsabilidade compartilhada e desempenho coletivo; o grupo soma contribuicoes individuais",
+      "alternativa_c": "O grupo e sempre formal e a equipe informal",
+      "alternativa_d": "A equipe dispensa coordenacao",
+      "alternativa_e": "O grupo tem mais autonomia decisoria",
+      "gabarito": "B",
+      "disciplina_informada": "Comp. Organizacional",
+      "ano_aplicacao": 2022,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:41",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:42",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 42,
+      "line_start": 43,
+      "line_end": 43
+    },
+    "raw": {
+      "id": "ITM-20024",
+      "enunciado": "A coordenadora de uma equipe de 9 pessoas percebe que as decisoes tomadas coletivamente sao sistematicamente mais arriscadas do que as que cada membro tomaria individualmente. Qual medida enderecaria essa dinamica?",
+      "alternativa_a": "Ampliar o tamanho do grupo para diluir o risco",
+      "alternativa_b": "Designar um membro para o papel formal de advogado do diabo e registrar as objecoes",
+      "alternativa_c": "Decidir sempre por maioria simples",
+      "alternativa_d": "Transferir a decisao para o nivel hierarquico superior",
+      "alternativa_e": "Reduzir a frequencia das reunioes",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2026",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20024",
+      "enunciado": "A coordenadora de uma equipe de 9 pessoas percebe que as decisoes tomadas coletivamente sao sistematicamente mais arriscadas do que as que cada membro tomaria individualmente. Qual medida enderecaria essa dinamica?",
+      "alternativa_a": "Ampliar o tamanho do grupo para diluir o risco",
+      "alternativa_b": "Designar um membro para o papel formal de advogado do diabo e registrar as objecoes",
+      "alternativa_c": "Decidir sempre por maioria simples",
+      "alternativa_d": "Transferir a decisao para o nivel hierarquico superior",
+      "alternativa_e": "Reduzir a frequencia das reunioes",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2026,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:42",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:43",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 43,
+      "line_start": 44,
+      "line_end": 44
+    },
+    "raw": {
+      "id": "ITM-20025",
+      "enunciado": "Um gerente recem-promovido obtem adesao da equipe principalmente porque os colaboradores admiram sua trajetoria tecnica e desejam ser associados a ele. Qual base de poder predomina?",
+      "alternativa_a": "Poder legitimo",
+      "alternativa_b": "Poder de referencia",
+      "alternativa_c": "Poder de recompensa",
+      "alternativa_d": "Poder coercitivo",
+      "alternativa_e": "Poder de especialista",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2025",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20025",
+      "enunciado": "Um gerente recem-promovido obtem adesao da equipe principalmente porque os colaboradores admiram sua trajetoria tecnica e desejam ser associados a ele. Qual base de poder predomina?",
+      "alternativa_a": "Poder legitimo",
+      "alternativa_b": "Poder de referencia",
+      "alternativa_c": "Poder de recompensa",
+      "alternativa_d": "Poder coercitivo",
+      "alternativa_e": "Poder de especialista",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2025,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:43",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:44",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 44,
+      "line_start": 45,
+      "line_end": 45
+    },
+    "raw": {
+      "id": "ITM-20026",
+      "enunciado": "Segundo a tipologia de French e Raven, o poder que deriva do conhecimento tecnico reconhecido e o:",
+      "alternativa_a": "Poder legitimo",
+      "alternativa_b": "Poder coercitivo",
+      "alternativa_c": "Poder de especialista",
+      "alternativa_d": "Poder de referencia",
+      "alternativa_e": "Poder de recompensa",
+      "gabarito": "C",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2021",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20026",
+      "enunciado": "Segundo a tipologia de French e Raven, o poder que deriva do conhecimento tecnico reconhecido e o:",
+      "alternativa_a": "Poder legitimo",
+      "alternativa_b": "Poder coercitivo",
+      "alternativa_c": "Poder de especialista",
+      "alternativa_d": "Poder de referencia",
+      "alternativa_e": "Poder de recompensa",
+      "gabarito": "C",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2021,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:44",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:45",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 45,
+      "line_start": 46,
+      "line_end": 46
+    },
+    "raw": {
+      "id": "ITM-20027",
+      "enunciado": "A lideranca transformacional caracteriza-se por:",
+      "alternativa_a": "Troca de recompensas por desempenho acordado",
+      "alternativa_b": "Estimulo intelectual e elevacao dos objetivos do liderado acima do interesse imediato",
+      "alternativa_c": "Supervisao estrita do cumprimento de normas",
+      "alternativa_d": "Ausencia deliberada de intervencao do lider",
+      "alternativa_e": "Centralizacao das decisoes operacionais",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2024",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20027",
+      "enunciado": "A lideranca transformacional caracteriza-se por:",
+      "alternativa_a": "Troca de recompensas por desempenho acordado",
+      "alternativa_b": "Estimulo intelectual e elevacao dos objetivos do liderado acima do interesse imediato",
+      "alternativa_c": "Supervisao estrita do cumprimento de normas",
+      "alternativa_d": "Ausencia deliberada de intervencao do lider",
+      "alternativa_e": "Centralizacao das decisoes operacionais",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2024,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:45",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:46",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 46,
+      "line_start": 47,
+      "line_end": 47
+    },
+    "raw": {
+      "id": "ITM-20028",
+      "enunciado": "Uma diretora precisa comunicar a reestruturacao de uma area, com extincao de dois cargos, a uma equipe de 40 pessoas distribuida em tres cidades. Qual escolha de canal e sequencia reduz o risco de ruido e de boato?",
+      "alternativa_a": "Comunicado por e-mail a todos, simultaneamente, sem reuniao posterior",
+      "alternativa_b": "Conversa individual com os diretamente afetados, seguida de reuniao sincrona com a equipe e comunicado escrito de registro",
+      "alternativa_c": "Divulgacao no mural da unidade sede",
+      "alternativa_d": "Informar primeiro as liderancas informais para que repassem",
+      "alternativa_e": "Aguardar a efetivacao das mudancas para comunicar",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2026",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20028",
+      "enunciado": "Uma diretora precisa comunicar a reestruturacao de uma area, com extincao de dois cargos, a uma equipe de 40 pessoas distribuida em tres cidades. Qual escolha de canal e sequencia reduz o risco de ruido e de boato?",
+      "alternativa_a": "Comunicado por e-mail a todos, simultaneamente, sem reuniao posterior",
+      "alternativa_b": "Conversa individual com os diretamente afetados, seguida de reuniao sincrona com a equipe e comunicado escrito de registro",
+      "alternativa_c": "Divulgacao no mural da unidade sede",
+      "alternativa_d": "Informar primeiro as liderancas informais para que repassem",
+      "alternativa_e": "Aguardar a efetivacao das mudancas para comunicar",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2026,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:46",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:47",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 47,
+      "line_start": 48,
+      "line_end": 48
+    },
+    "raw": {
+      "id": "ITM-20029",
+      "enunciado": "Sao barreiras a comunicacao organizacional, EXCETO:",
+      "alternativa_a": "Filtragem da informacao pelo emissor",
+      "alternativa_b": "Sobrecarga de informacao",
+      "alternativa_c": "Percepcao seletiva pelo receptor",
+      "alternativa_d": "Uso de linguagem comum ao emissor e ao receptor",
+      "alternativa_e": "Ruido no canal",
+      "gabarito": "D",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2022",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20029",
+      "enunciado": "Sao barreiras a comunicacao organizacional, EXCETO:",
+      "alternativa_a": "Filtragem da informacao pelo emissor",
+      "alternativa_b": "Sobrecarga de informacao",
+      "alternativa_c": "Percepcao seletiva pelo receptor",
+      "alternativa_d": "Uso de linguagem comum ao emissor e ao receptor",
+      "alternativa_e": "Ruido no canal",
+      "gabarito": "D",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2022,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:47",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:48",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 48,
+      "line_start": 49,
+      "line_end": 49
+    },
+    "raw": {
+      "id": "ITM-20030",
+      "enunciado": "O que e feedback no processo de comunicacao?",
+      "alternativa_a": "A mensagem original enviada pelo emissor",
+      "alternativa_b": "O retorno do receptor que permite verificar a compreensao da mensagem",
+      "alternativa_c": "O canal escolhido para a transmissao",
+      "alternativa_d": "O ruido presente no ambiente",
+      "alternativa_e": "A codificacao da mensagem",
+      "gabarito": "Alternativa B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2020",
+      "origem_banco": "Importado 2019"
+    },
+    "data": {
+      "id": "ITM-20030",
+      "enunciado": "O que e feedback no processo de comunicacao?",
+      "alternativa_a": "A mensagem original enviada pelo emissor",
+      "alternativa_b": "O retorno do receptor que permite verificar a compreensao da mensagem",
+      "alternativa_c": "O canal escolhido para a transmissao",
+      "alternativa_d": "O ruido presente no ambiente",
+      "alternativa_e": "A codificacao da mensagem",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2020,
+      "origem_banco": "Importado 2019"
+    },
+    "item_record_id": "04_itens_legado.csv:48",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:49",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 49,
+      "line_start": 50,
+      "line_end": 50
+    },
+    "raw": {
+      "id": "ITM-20031",
+      "enunciado": "Duas areas disputam a alocacao de um mesmo profissional e o impasse ja dura tres semanas, com impacto em dois projetos. O gestor comum decide reunir as partes para identificar o interesse por tras de cada posicao e desenhar uma alternativa que atenda parcialmente a ambas. Qual estrategia de administracao de conflito foi adotada?",
+      "alternativa_a": "Competicao",
+      "alternativa_b": "Colaboracao",
+      "alternativa_c": "Acomodacao",
+      "alternativa_d": "Evitamento",
+      "alternativa_e": "Imposicao hierarquica",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2025",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20031",
+      "enunciado": "Duas areas disputam a alocacao de um mesmo profissional e o impasse ja dura tres semanas, com impacto em dois projetos. O gestor comum decide reunir as partes para identificar o interesse por tras de cada posicao e desenhar uma alternativa que atenda parcialmente a ambas. Qual estrategia de administracao de conflito foi adotada?",
+      "alternativa_a": "Competicao",
+      "alternativa_b": "Colaboracao",
+      "alternativa_c": "Acomodacao",
+      "alternativa_d": "Evitamento",
+      "alternativa_e": "Imposicao hierarquica",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2025,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:49",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:50",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 50,
+      "line_start": 51,
+      "line_end": 51
+    },
+    "raw": {
+      "id": "ITM-20032",
+      "enunciado": "Na negociacao distributiva, as partes:",
+      "alternativa_a": "Ampliam o valor total a ser dividido",
+      "alternativa_b": "Disputam a divisao de um valor fixo",
+      "alternativa_c": "Priorizam o relacionamento de longo prazo",
+      "alternativa_d": "Compartilham integralmente suas informacoes",
+      "alternativa_e": "Buscam solucoes integrativas",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2023",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20032",
+      "enunciado": "Na negociacao distributiva, as partes:",
+      "alternativa_a": "Ampliam o valor total a ser dividido",
+      "alternativa_b": "Disputam a divisao de um valor fixo",
+      "alternativa_c": "Priorizam o relacionamento de longo prazo",
+      "alternativa_d": "Compartilham integralmente suas informacoes",
+      "alternativa_e": "Buscam solucoes integrativas",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2023,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:50",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:51",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 51,
+      "line_start": 52,
+      "line_end": 52
+    },
+    "raw": {
+      "id": "ITM-20033",
+      "enunciado": "O conceito de MAPAN (melhor alternativa em caso de nao acordo) serve para:",
+      "alternativa_a": "Definir o preco de reserva do oponente",
+      "alternativa_b": "Estabelecer o limite a partir do qual o acordo deixa de ser vantajoso",
+      "alternativa_c": "Eliminar o conflito antes da negociacao",
+      "alternativa_d": "Garantir a divisao igualitaria do valor",
+      "alternativa_e": "Substituir a necessidade de preparacao",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2024",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20033",
+      "enunciado": "O conceito de MAPAN (melhor alternativa em caso de nao acordo) serve para:",
+      "alternativa_a": "Definir o preco de reserva do oponente",
+      "alternativa_b": "Estabelecer o limite a partir do qual o acordo deixa de ser vantajoso",
+      "alternativa_c": "Eliminar o conflito antes da negociacao",
+      "alternativa_d": "Garantir a divisao igualitaria do valor",
+      "alternativa_e": "Substituir a necessidade de preparacao",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2024,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:51",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:52",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 52,
+      "line_start": 53,
+      "line_end": 53
+    },
+    "raw": {
+      "id": "ITM-20034",
+      "enunciado": "Uma organizacao declara em seu codigo que valoriza a autonomia das equipes, mas toda decisao de compra acima de R$ 500,00 exige aprovacao de tres niveis hierarquicos. Essa situacao evidencia:",
+      "alternativa_a": "Alinhamento entre cultura declarada e praticada",
+      "alternativa_b": "Distancia entre a cultura declarada e os artefatos e praticas efetivas",
+      "alternativa_c": "Clima organizacional favoravel",
+      "alternativa_d": "Predominio de cultura de inovacao",
+      "alternativa_e": "Ausencia de cultura organizacional",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2026",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20034",
+      "enunciado": "Uma organizacao declara em seu codigo que valoriza a autonomia das equipes, mas toda decisao de compra acima de R$ 500,00 exige aprovacao de tres niveis hierarquicos. Essa situacao evidencia:",
+      "alternativa_a": "Alinhamento entre cultura declarada e praticada",
+      "alternativa_b": "Distancia entre a cultura declarada e os artefatos e praticas efetivas",
+      "alternativa_c": "Clima organizacional favoravel",
+      "alternativa_d": "Predominio de cultura de inovacao",
+      "alternativa_e": "Ausencia de cultura organizacional",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2026,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:52",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:53",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 53,
+      "line_start": 54,
+      "line_end": 54
+    },
+    "raw": {
+      "id": "ITM-20035",
+      "enunciado": "Qual a diferenca entre cultura e clima organizacional?",
+      "alternativa_a": "Sao sinonimos",
+      "alternativa_b": "Cultura e o conjunto de pressupostos e valores compartilhados; clima e a percepcao momentanea do ambiente de trabalho",
+      "alternativa_c": "Clima e mais estavel que cultura",
+      "alternativa_d": "Cultura e medida por pesquisa anual e clima por observacao",
+      "alternativa_e": "Clima refere-se apenas a satisfacao com a remuneracao",
+      "gabarito": "B",
+      "disciplina_informada": "Cultura Organizacional",
+      "ano_aplicacao": "2021",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20035",
+      "enunciado": "Qual a diferenca entre cultura e clima organizacional?",
+      "alternativa_a": "Sao sinonimos",
+      "alternativa_b": "Cultura e o conjunto de pressupostos e valores compartilhados; clima e a percepcao momentanea do ambiente de trabalho",
+      "alternativa_c": "Clima e mais estavel que cultura",
+      "alternativa_d": "Cultura e medida por pesquisa anual e clima por observacao",
+      "alternativa_e": "Clima refere-se apenas a satisfacao com a remuneracao",
+      "gabarito": "B",
+      "disciplina_informada": "Cultura Organizacional",
+      "ano_aplicacao": 2021,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:53",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:54",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 54,
+      "line_start": 55,
+      "line_end": 55
+    },
+    "raw": {
+      "id": "ITM-20036",
+      "enunciado": "Os niveis da cultura organizacional propostos por Schein sao:",
+      "alternativa_a": "Artefatos, valores declarados e pressupostos basicos",
+      "alternativa_b": "Normas, regras e procedimentos",
+      "alternativa_c": "Clima, satisfacao e engajamento",
+      "alternativa_d": "Missao, visao e valores",
+      "alternativa_e": "Estrutura, processo e resultado",
+      "gabarito": "A",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2022",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20036",
+      "enunciado": "Os niveis da cultura organizacional propostos por Schein sao:",
+      "alternativa_a": "Artefatos, valores declarados e pressupostos basicos",
+      "alternativa_b": "Normas, regras e procedimentos",
+      "alternativa_c": "Clima, satisfacao e engajamento",
+      "alternativa_d": "Missao, visao e valores",
+      "alternativa_e": "Estrutura, processo e resultado",
+      "gabarito": "A",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2022,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:54",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:55",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 55,
+      "line_start": 56,
+      "line_end": 56
+    },
+    "raw": {
+      "id": "ITM-20037",
+      "enunciado": "Um gestor identifica que um colaborador de sua equipe inflou horas lancadas em um projeto faturado por hora. O colaborador e o de melhor desempenho tecnico da area e esta em periodo de promocao. Qual conduta e compativel com a etica nas relacoes de trabalho?",
+      "alternativa_a": "Desconsiderar o episodio diante do desempenho tecnico",
+      "alternativa_b": "Apurar o fato pelo canal formal e aplicar o mesmo criterio adotado para qualquer colaborador",
+      "alternativa_c": "Adiar a apuracao para depois da promocao",
+      "alternativa_d": "Resolver informalmente com advertencia verbal nao registrada",
+      "alternativa_e": "Transferir o colaborador para outra area sem registro",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2026",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20037",
+      "enunciado": "Um gestor identifica que um colaborador de sua equipe inflou horas lancadas em um projeto faturado por hora. O colaborador e o de melhor desempenho tecnico da area e esta em periodo de promocao. Qual conduta e compativel com a etica nas relacoes de trabalho?",
+      "alternativa_a": "Desconsiderar o episodio diante do desempenho tecnico",
+      "alternativa_b": "Apurar o fato pelo canal formal e aplicar o mesmo criterio adotado para qualquer colaborador",
+      "alternativa_c": "Adiar a apuracao para depois da promocao",
+      "alternativa_d": "Resolver informalmente com advertencia verbal nao registrada",
+      "alternativa_e": "Transferir o colaborador para outra area sem registro",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2026,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:55",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:56",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 56,
+      "line_start": 57,
+      "line_end": 57
+    },
+    "raw": {
+      "id": "ITM-20038",
+      "enunciado": "Assedio moral no ambiente de trabalho caracteriza-se por:",
+      "alternativa_a": "Exigencia de cumprimento de metas acordadas",
+      "alternativa_b": "Conduta abusiva e reiterada que atenta contra a dignidade do trabalhador",
+      "alternativa_c": "Avaliacao de desempenho com criterios objetivos",
+      "alternativa_d": "Feedback corretivo em reuniao individual",
+      "alternativa_e": "Aplicacao de advertencia formal prevista em norma",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2024",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20038",
+      "enunciado": "Assedio moral no ambiente de trabalho caracteriza-se por:",
+      "alternativa_a": "Exigencia de cumprimento de metas acordadas",
+      "alternativa_b": "Conduta abusiva e reiterada que atenta contra a dignidade do trabalhador",
+      "alternativa_c": "Avaliacao de desempenho com criterios objetivos",
+      "alternativa_d": "Feedback corretivo em reuniao individual",
+      "alternativa_e": "Aplicacao de advertencia formal prevista em norma",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2024,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:56",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:57",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 57,
+      "line_start": 58,
+      "line_end": 58
+    },
+    "raw": {
+      "id": "ITM-20039",
+      "enunciado": "O que estabelece um codigo de conduta organizacional?",
+      "alternativa_a": "Apenas as sancoes disciplinares",
+      "alternativa_b": "Os parametros esperados de comportamento e os canais de reporte de desvios",
+      "alternativa_c": "A estrutura de cargos e salarios",
+      "alternativa_d": "O organograma da organizacao",
+      "alternativa_e": "As metas do planejamento estrategico",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2020",
+      "origem_banco": "Prova Antiga"
+    },
+    "data": {
+      "id": "ITM-20039",
+      "enunciado": "O que estabelece um codigo de conduta organizacional?",
+      "alternativa_a": "Apenas as sancoes disciplinares",
+      "alternativa_b": "Os parametros esperados de comportamento e os canais de reporte de desvios",
+      "alternativa_c": "A estrutura de cargos e salarios",
+      "alternativa_d": "O organograma da organizacao",
+      "alternativa_e": "As metas do planejamento estrategico",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2020,
+      "origem_banco": "Prova Antiga"
+    },
+    "item_record_id": "04_itens_legado.csv:57",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:58",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 58,
+      "line_start": 59,
+      "line_end": 59
+    },
+    "raw": {
+      "id": "ITM-20040",
+      "enunciado": "Um lider adota estilo diretivo com um colaborador recem-contratado e sem experiencia na funcao, e estilo delegativo com um especialista senior da mesma equipe. Essa diferenciacao e coerente com qual abordagem de lideranca?",
+      "alternativa_a": "Lideranca por tracos",
+      "alternativa_b": "Lideranca situacional",
+      "alternativa_c": "Lideranca transacional pura",
+      "alternativa_d": "Lideranca laissez-faire",
+      "alternativa_e": "Grid gerencial",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2025",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20040",
+      "enunciado": "Um lider adota estilo diretivo com um colaborador recem-contratado e sem experiencia na funcao, e estilo delegativo com um especialista senior da mesma equipe. Essa diferenciacao e coerente com qual abordagem de lideranca?",
+      "alternativa_a": "Lideranca por tracos",
+      "alternativa_b": "Lideranca situacional",
+      "alternativa_c": "Lideranca transacional pura",
+      "alternativa_d": "Lideranca laissez-faire",
+      "alternativa_e": "Grid gerencial",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2025,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:58",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:59",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 59,
+      "line_start": 60,
+      "line_end": 60
+    },
+    "raw": {
+      "id": "ITM-20041",
+      "enunciado": "A respeito da motivacao, assinale a alternativa correta sobre a teoria da equidade de Adams.",
+      "alternativa_a": "A motivacao depende apenas do valor absoluto da recompensa",
+      "alternativa_b": "O individuo compara sua razao entre contribuicoes e recompensas com a de referentes e ajusta o comportamento diante da percepcao de iniquidade",
+      "alternativa_c": "A equidade e assegurada por tabela salarial publica",
+      "alternativa_d": "A teoria desconsidera comparacoes sociais",
+      "alternativa_e": "A iniquidade percebida aumenta sempre o esforco do individuo",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2026",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20041",
+      "enunciado": "A respeito da motivacao, assinale a alternativa correta sobre a teoria da equidade de Adams.",
+      "alternativa_a": "A motivacao depende apenas do valor absoluto da recompensa",
+      "alternativa_b": "O individuo compara sua razao entre contribuicoes e recompensas com a de referentes e ajusta o comportamento diante da percepcao de iniquidade",
+      "alternativa_c": "A equidade e assegurada por tabela salarial publica",
+      "alternativa_d": "A teoria desconsidera comparacoes sociais",
+      "alternativa_e": "A iniquidade percebida aumenta sempre o esforco do individuo",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2026,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:59",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:60",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 60,
+      "line_start": 61,
+      "line_end": 61
+    },
+    "raw": {
+      "id": "ITM-30007",
+      "enunciado": "Sao requisitos de validade do negocio juridico, nos termos do Codigo Civil:",
+      "alternativa_a": "Agente capaz, objeto licito e forma prescrita ou nao defesa em lei",
+      "alternativa_b": "Apenas agente capaz",
+      "alternativa_c": "Apenas objeto licito",
+      "alternativa_d": "Registro em cartorio em qualquer hipotese",
+      "alternativa_e": "Anuencia do Ministerio Publico",
+      "gabarito": "A",
+      "disciplina_informada": "Direito Empresarial",
+      "ano_aplicacao": "2021",
+      "origem_banco": "Aquisição Norte"
+    },
+    "data": {
+      "id": "ITM-30007",
+      "enunciado": "Sao requisitos de validade do negocio juridico, nos termos do Codigo Civil:",
+      "alternativa_a": "Agente capaz, objeto licito e forma prescrita ou nao defesa em lei",
+      "alternativa_b": "Apenas agente capaz",
+      "alternativa_c": "Apenas objeto licito",
+      "alternativa_d": "Registro em cartorio em qualquer hipotese",
+      "alternativa_e": "Anuencia do Ministerio Publico",
+      "gabarito": "A",
+      "disciplina_informada": "Direito Empresarial",
+      "ano_aplicacao": 2021,
+      "origem_banco": "Aquisição Norte"
+    },
+    "item_record_id": "04_itens_legado.csv:60",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:61",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 61,
+      "line_start": 62,
+      "line_end": 62
+    },
+    "raw": {
+      "id": "ITM-30008",
+      "enunciado": "No calculo do ponto de equilibrio contabil, considera-se:",
+      "alternativa_a": "Custos fixos divididos pela margem de contribuicao unitaria",
+      "alternativa_b": "Receita total menos custo variavel total",
+      "alternativa_c": "Lucro operacional dividido pelo ativo total",
+      "alternativa_d": "Custos variaveis divididos pelo preco de venda",
+      "alternativa_e": "Margem bruta menos despesas administrativas",
+      "gabarito": "A",
+      "disciplina_informada": "Contabilidade de Custos",
+      "ano_aplicacao": "2022",
+      "origem_banco": "Aquisição Norte"
+    },
+    "data": {
+      "id": "ITM-30008",
+      "enunciado": "No calculo do ponto de equilibrio contabil, considera-se:",
+      "alternativa_a": "Custos fixos divididos pela margem de contribuicao unitaria",
+      "alternativa_b": "Receita total menos custo variavel total",
+      "alternativa_c": "Lucro operacional dividido pelo ativo total",
+      "alternativa_d": "Custos variaveis divididos pelo preco de venda",
+      "alternativa_e": "Margem bruta menos despesas administrativas",
+      "gabarito": "A",
+      "disciplina_informada": "Contabilidade de Custos",
+      "ano_aplicacao": 2022,
+      "origem_banco": "Aquisição Norte"
+    },
+    "item_record_id": "04_itens_legado.csv:61",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:62",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 62,
+      "line_start": 63,
+      "line_end": 63
+    },
+    "raw": {
+      "id": "ITM-30009",
+      "enunciado": "A matriz SWOT organiza a analise estrategica em quatro dimensoes. Quais sao elas?",
+      "alternativa_a": "Forcas, fraquezas, oportunidades e ameacas",
+      "alternativa_b": "Produto, preco, praca e promocao",
+      "alternativa_c": "Pessoas, processos, parceiros e performance",
+      "alternativa_d": "Politico, economico, social e tecnologico",
+      "alternativa_e": "Missao, visao, valores e metas",
+      "gabarito": "A",
+      "disciplina_informada": "",
+      "ano_aplicacao": "2020",
+      "origem_banco": ""
+    },
+    "data": {
+      "id": "ITM-30009",
+      "enunciado": "A matriz SWOT organiza a analise estrategica em quatro dimensoes. Quais sao elas?",
+      "alternativa_a": "Forcas, fraquezas, oportunidades e ameacas",
+      "alternativa_b": "Produto, preco, praca e promocao",
+      "alternativa_c": "Pessoas, processos, parceiros e performance",
+      "alternativa_d": "Politico, economico, social e tecnologico",
+      "alternativa_e": "Missao, visao, valores e metas",
+      "gabarito": "A",
+      "disciplina_informada": null,
+      "ano_aplicacao": 2020,
+      "origem_banco": null
+    },
+    "item_record_id": "04_itens_legado.csv:62",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:63",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 63,
+      "line_start": 64,
+      "line_end": 64
+    },
+    "raw": {
+      "id": "ITM-30010",
+      "enunciado": "O regime de tributacao do Simples Nacional aplica-se a:",
+      "alternativa_a": "Microempresas e empresas de pequeno porte, observados os limites de receita",
+      "alternativa_b": "Todas as sociedades anonimas",
+      "alternativa_c": "Exclusivamente prestadores de servico",
+      "alternativa_d": "Empresas com faturamento acima de R$ 78 milhoes",
+      "alternativa_e": "Entidades sem fins lucrativos apenas",
+      "gabarito": "A",
+      "disciplina_informada": "Gestão Tributária",
+      "ano_aplicacao": "",
+      "origem_banco": "Aquisição Norte"
+    },
+    "data": {
+      "id": "ITM-30010",
+      "enunciado": "O regime de tributacao do Simples Nacional aplica-se a:",
+      "alternativa_a": "Microempresas e empresas de pequeno porte, observados os limites de receita",
+      "alternativa_b": "Todas as sociedades anonimas",
+      "alternativa_c": "Exclusivamente prestadores de servico",
+      "alternativa_d": "Empresas com faturamento acima de R$ 78 milhoes",
+      "alternativa_e": "Entidades sem fins lucrativos apenas",
+      "gabarito": "A",
+      "disciplina_informada": "Gestão Tributária",
+      "ano_aplicacao": null,
+      "origem_banco": "Aquisição Norte"
+    },
+    "item_record_id": "04_itens_legado.csv:63",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:64",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 64,
+      "line_start": 65,
+      "line_end": 65
+    },
+    "raw": {
+      "id": "ITM-10073",
+      "enunciado": "O Valor Presente Liquido (VPL) positivo indica que o projeto cria valor ao acionista. Diante disso, um projeto com VPL positivo deve ser:",
+      "alternativa_a": "Rejeitado",
+      "alternativa_b": "Aceito, pois cria valor ao acionista",
+      "alternativa_c": "Postergado indefinidamente",
+      "alternativa_d": "Avaliado apenas pelo payback",
+      "alternativa_e": "Comparado somente a projetos de igual porte",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2023",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10073",
+      "enunciado": "O Valor Presente Liquido (VPL) positivo indica que o projeto cria valor ao acionista. Diante disso, um projeto com VPL positivo deve ser:",
+      "alternativa_a": "Rejeitado",
+      "alternativa_b": "Aceito, pois cria valor ao acionista",
+      "alternativa_c": "Postergado indefinidamente",
+      "alternativa_d": "Avaliado apenas pelo payback",
+      "alternativa_e": "Comparado somente a projetos de igual porte",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2023,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:64",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:65",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 65,
+      "line_start": 66,
+      "line_end": 66
+    },
+    "raw": {
+      "id": "ITM-20042",
+      "enunciado": "A escuta ativa em uma conversa de feedback implica:",
+      "alternativa_a": "Interromper para corrigir o interlocutor",
+      "alternativa_b": "Parafrasear o conteudo para confirmar a compreensao",
+      "alternativa_c": "Preparar a resposta enquanto o outro fala",
+      "alternativa_d": "Preparar a resposta enquanto o outro fala",
+      "alternativa_e": "Encerrar a conversa ao primeiro sinal de desconforto",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2024",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20042",
+      "enunciado": "A escuta ativa em uma conversa de feedback implica:",
+      "alternativa_a": "Interromper para corrigir o interlocutor",
+      "alternativa_b": "Parafrasear o conteudo para confirmar a compreensao",
+      "alternativa_c": "Preparar a resposta enquanto o outro fala",
+      "alternativa_d": "Preparar a resposta enquanto o outro fala",
+      "alternativa_e": "Encerrar a conversa ao primeiro sinal de desconforto",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2024,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:65",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:66",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 66,
+      "line_start": 67,
+      "line_end": 67
+    },
+    "raw": {
+      "id": "ITM-10074",
+      "enunciado": "Qual indicador e mais adequado para avaliar a capacidade de uma empresa honrar compromissos de curto prazo sem depender da venda de estoques?",
+      "alternativa_a": "Liquidez corrente",
+      "alternativa_b": "Liquidez seca",
+      "alternativa_c": "Liquidez imediata",
+      "alternativa_d": "Liquidez geral",
+      "alternativa_e": "Giro do ativo",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": "2025",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-10074",
+      "enunciado": "Qual indicador e mais adequado para avaliar a capacidade de uma empresa honrar compromissos de curto prazo sem depender da venda de estoques?",
+      "alternativa_a": "Liquidez corrente",
+      "alternativa_b": "Liquidez seca",
+      "alternativa_c": "Liquidez imediata",
+      "alternativa_d": "Liquidez geral",
+      "alternativa_e": "Giro do ativo",
+      "gabarito": "B",
+      "disciplina_informada": "Gestão Financeira",
+      "ano_aplicacao": 2025,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:66",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:67",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 67,
+      "line_start": 68,
+      "line_end": 68
+    },
+    "raw": {
+      "id": "ITM-20043",
+      "enunciado": "Com base no texto acima, qual teoria explica o comportamento do gestor descrito?",
+      "alternativa_a": "Teoria X",
+      "alternativa_b": "Teoria Y",
+      "alternativa_c": "Teoria dos dois fatores",
+      "alternativa_d": "Teoria da expectancia",
+      "alternativa_e": "Teoria da equidade",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": "2022",
+      "origem_banco": "Banco Próprio"
+    },
+    "data": {
+      "id": "ITM-20043",
+      "enunciado": "Com base no texto acima, qual teoria explica o comportamento do gestor descrito?",
+      "alternativa_a": "Teoria X",
+      "alternativa_b": "Teoria Y",
+      "alternativa_c": "Teoria dos dois fatores",
+      "alternativa_d": "Teoria da expectancia",
+      "alternativa_e": "Teoria da equidade",
+      "gabarito": "B",
+      "disciplina_informada": "Comportamento Organizacional",
+      "ano_aplicacao": 2022,
+      "origem_banco": "Banco Próprio"
+    },
+    "item_record_id": "04_itens_legado.csv:67",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "04_itens_legado.csv:68",
+    "source": {
+      "file": "04_itens_legado.csv",
+      "record": 68,
+      "line_start": 69,
+      "line_end": 69
+    },
+    "raw": {
+      "id": "ITM-20044",
+      "enunciado": "O turnover voluntario difere do involuntario porque:",
+      "alternativa_a": "Parte da iniciativa do colaborador",
+      "alternativa_b": "Decorre de decisao da organizacao",
+      "alternativa_c": "Ocorre apenas no periodo de experiencia",
+      "alternativa_d": "",
+      "alternativa_e": "",
+      "gabarito": "",
+      "disciplina_informada": "Comp. Organizacional",
+      "ano_aplicacao": "2019",
+      "origem_banco": ""
+    },
+    "data": {
+      "id": "ITM-20044",
+      "enunciado": "O turnover voluntario difere do involuntario porque:",
+      "alternativa_a": "Parte da iniciativa do colaborador",
+      "alternativa_b": "Decorre de decisao da organizacao",
+      "alternativa_c": "Ocorre apenas no periodo de experiencia",
+      "alternativa_d": null,
+      "alternativa_e": null,
+      "gabarito": null,
+      "disciplina_informada": "Comp. Organizacional",
+      "ano_aplicacao": 2019,
+      "origem_banco": null
+    },
+    "item_record_id": "04_itens_legado.csv:68",
+    "link_status": "matched"
+  }
+]

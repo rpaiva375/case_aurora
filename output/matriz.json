@@ -1,0 +1,531 @@
+{
+  "source": {
+    "file": "01_matriz_competencias.json",
+    "json_pointer": ""
+  },
+  "data": {
+    "metadados": {
+      "versao": "1.0.0",
+      "gerado_em": "2026-10-07",
+      "origem": "Material fictício, produzido exclusivamente para case técnico. Não representa a matriz curricular, o acervo ou os dados de nenhuma instituição real.",
+      "licenca_de_uso": "Uso restrito ao case. Pode ser ampliado pelo candidato, desde que a origem do acréscimo fique explícita."
+    },
+    "curso": {
+      "id": "CUR-ADM",
+      "nome": "Administração",
+      "grau": "Bacharelado",
+      "modalidade": "EAD",
+      "duracao_semestres": 8,
+      "area_avaliacao_externa": "Administração"
+    },
+    "taxonomia": {
+      "nome": "Bloom revisada",
+      "niveis": [
+        "lembrar",
+        "compreender",
+        "aplicar",
+        "analisar",
+        "avaliar",
+        "criar"
+      ]
+    },
+    "escalas": {
+      "dificuldade": [
+        "facil",
+        "media",
+        "dificil"
+      ],
+      "tempo_resposta_estimado_segundos": {
+        "minimo": 60,
+        "maximo": 300
+      }
+    },
+    "competencias": [
+      {
+        "id": "COMP-01",
+        "descricao": "Diagnosticar a situação econômico-financeira de uma organização a partir de suas demonstrações contábeis e indicadores.",
+        "origem_normativa": "DCN Administração — eixo de formação profissional (referência fictícia)",
+        "habilidades": [
+          {
+            "id": "HAB-01.1",
+            "descricao": "Interpretar balanço patrimonial e demonstração de resultado para identificar sinais de risco de liquidez e de solvência."
+          },
+          {
+            "id": "HAB-01.2",
+            "descricao": "Calcular e comparar indicadores de liquidez, endividamento e rentabilidade entre períodos."
+          },
+          {
+            "id": "HAB-01.3",
+            "descricao": "Relacionar o diagnóstico financeiro a recomendações de gestão viáveis para a organização."
+          }
+        ]
+      },
+      {
+        "id": "COMP-02",
+        "descricao": "Avaliar a viabilidade econômica de investimentos considerando risco, retorno e custo de capital.",
+        "origem_normativa": "DCN Administração — eixo de formação profissional (referência fictícia)",
+        "habilidades": [
+          {
+            "id": "HAB-02.1",
+            "descricao": "Selecionar e aplicar métodos de avaliação de investimentos adequados ao fluxo de caixa do projeto."
+          },
+          {
+            "id": "HAB-02.2",
+            "descricao": "Justificar a taxa mínima de atratividade adotada a partir do custo de capital da organização."
+          },
+          {
+            "id": "HAB-02.3",
+            "descricao": "Decidir entre alternativas de investimento mutuamente exclusivas e sustentar a decisão."
+          }
+        ]
+      },
+      {
+        "id": "COMP-03",
+        "descricao": "Aplicar instrumentos de matemática financeira na análise de operações de crédito, investimento e financiamento.",
+        "origem_normativa": "DCN Administração — eixo de formação quantitativa (referência fictícia)",
+        "habilidades": [
+          {
+            "id": "HAB-03.1",
+            "descricao": "Resolver problemas de capitalização simples e composta e de equivalência de capitais."
+          },
+          {
+            "id": "HAB-03.2",
+            "descricao": "Comparar sistemas de amortização quanto a prestação, juros e saldo devedor."
+          },
+          {
+            "id": "HAB-03.3",
+            "descricao": "Projetar fluxos de caixa descontados a partir de premissas declaradas."
+          }
+        ]
+      },
+      {
+        "id": "COMP-04",
+        "descricao": "Analisar o comportamento de indivíduos e grupos no contexto organizacional para sustentar decisões de gestão de pessoas.",
+        "origem_normativa": "DCN Administração — eixo de formação em gestão (referência fictícia)",
+        "habilidades": [
+          {
+            "id": "HAB-04.1",
+            "descricao": "Explicar comportamentos no trabalho a partir de teorias de motivação, percepção e atitudes."
+          },
+          {
+            "id": "HAB-04.2",
+            "descricao": "Diagnosticar fatores de cultura e clima que afetam o desempenho de uma equipe."
+          },
+          {
+            "id": "HAB-04.3",
+            "descricao": "Avaliar o efeito de estilos de liderança sobre resultados e sobre o engajamento da equipe."
+          }
+        ]
+      },
+      {
+        "id": "COMP-05",
+        "descricao": "Conduzir processos de comunicação, negociação e mediação de conflitos em equipes de trabalho.",
+        "origem_normativa": "DCN Administração — eixo de formação em gestão (referência fictícia)",
+        "habilidades": [
+          {
+            "id": "HAB-05.1",
+            "descricao": "Identificar barreiras de comunicação e propor ajustes no fluxo de informação da equipe."
+          },
+          {
+            "id": "HAB-05.2",
+            "descricao": "Distinguir estratégias de negociação distributiva e integrativa e escolher a adequada ao contexto."
+          },
+          {
+            "id": "HAB-05.3",
+            "descricao": "Planejar a mediação de um conflito preservando o resultado e a relação entre as partes."
+          }
+        ]
+      },
+      {
+        "id": "COMP-06",
+        "descricao": "Posicionar-se de forma ética e responsável nas decisões de gestão, considerando impactos sociais e ambientais.",
+        "origem_normativa": "DCN Administração — eixo de formação humanística (referência fictícia)",
+        "habilidades": [
+          {
+            "id": "HAB-06.1",
+            "descricao": "Reconhecer conflitos de interesse e dilemas éticos em situações de gestão."
+          },
+          {
+            "id": "HAB-06.2",
+            "descricao": "Avaliar decisões gerenciais quanto a transparência e quanto a impacto sobre partes interessadas."
+          }
+        ]
+      }
+    ],
+    "componentes_curriculares": [
+      {
+        "id": "CC-GF",
+        "nome": "Gestão Financeira",
+        "codigo_academico": "ADM-0412",
+        "semestre": 4,
+        "carga_horaria": 80,
+        "fonte_conhecimento": "ementa_gestao_financeira.txt",
+        "competencias_do_componente": [
+          "COMP-01",
+          "COMP-02",
+          "COMP-03",
+          "COMP-06"
+        ],
+        "objetos_conhecimento": [
+          {
+            "id": "OC-GF-01",
+            "nome": "Valor do dinheiro no tempo: capitalização simples e composta",
+            "competencias": [
+              "COMP-03"
+            ],
+            "niveis_sugeridos": [
+              "compreender",
+              "aplicar"
+            ],
+            "peso_relativo": 0.1,
+            "palavras_chave": [
+              "juros simples",
+              "juros compostos",
+              "montante",
+              "equivalência de capitais",
+              "taxa efetiva"
+            ],
+            "referencia_ementa": "Unidade I"
+          },
+          {
+            "id": "OC-GF-02",
+            "nome": "Séries uniformes e sistemas de amortização",
+            "competencias": [
+              "COMP-03"
+            ],
+            "niveis_sugeridos": [
+              "aplicar",
+              "analisar"
+            ],
+            "peso_relativo": 0.1,
+            "palavras_chave": [
+              "série uniforme",
+              "SAC",
+              "Tabela Price",
+              "saldo devedor",
+              "prestação"
+            ],
+            "referencia_ementa": "Unidade I"
+          },
+          {
+            "id": "OC-GF-03",
+            "nome": "Fluxo de caixa projetado e capital de giro",
+            "competencias": [
+              "COMP-01",
+              "COMP-03"
+            ],
+            "niveis_sugeridos": [
+              "aplicar",
+              "analisar"
+            ],
+            "peso_relativo": 0.12,
+            "palavras_chave": [
+              "fluxo de caixa",
+              "capital de giro",
+              "necessidade de capital de giro",
+              "ciclo financeiro",
+              "prazo médio de recebimento"
+            ],
+            "referencia_ementa": "Unidade II"
+          },
+          {
+            "id": "OC-GF-04",
+            "nome": "Análise de demonstrações financeiras por indicadores",
+            "competencias": [
+              "COMP-01"
+            ],
+            "niveis_sugeridos": [
+              "aplicar",
+              "analisar",
+              "avaliar"
+            ],
+            "peso_relativo": 0.15,
+            "palavras_chave": [
+              "liquidez corrente",
+              "endividamento",
+              "margem líquida",
+              "ROE",
+              "giro do ativo"
+            ],
+            "referencia_ementa": "Unidade II"
+          },
+          {
+            "id": "OC-GF-05",
+            "nome": "Custo de capital e custo médio ponderado de capital",
+            "competencias": [
+              "COMP-02"
+            ],
+            "niveis_sugeridos": [
+              "compreender",
+              "aplicar"
+            ],
+            "peso_relativo": 0.1,
+            "palavras_chave": [
+              "custo de capital próprio",
+              "custo de capital de terceiros",
+              "WACC",
+              "estrutura de capital",
+              "benefício fiscal"
+            ],
+            "referencia_ementa": "Unidade III"
+          },
+          {
+            "id": "OC-GF-06",
+            "nome": "Métodos de avaliação de investimentos: VPL, TIR e payback descontado",
+            "competencias": [
+              "COMP-02",
+              "COMP-03"
+            ],
+            "niveis_sugeridos": [
+              "aplicar",
+              "analisar",
+              "avaliar"
+            ],
+            "peso_relativo": 0.18,
+            "palavras_chave": [
+              "valor presente líquido",
+              "taxa interna de retorno",
+              "payback descontado",
+              "taxa mínima de atratividade",
+              "projetos mutuamente exclusivos"
+            ],
+            "referencia_ementa": "Unidade III"
+          },
+          {
+            "id": "OC-GF-07",
+            "nome": "Risco, retorno e diversificação",
+            "competencias": [
+              "COMP-02"
+            ],
+            "niveis_sugeridos": [
+              "compreender",
+              "analisar"
+            ],
+            "peso_relativo": 0.13,
+            "palavras_chave": [
+              "risco sistemático",
+              "risco diversificável",
+              "beta",
+              "prêmio de risco",
+              "carteira"
+            ],
+            "referencia_ementa": "Unidade IV"
+          },
+          {
+            "id": "OC-GF-08",
+            "nome": "Ética e transparência na informação financeira",
+            "competencias": [
+              "COMP-06",
+              "COMP-01"
+            ],
+            "niveis_sugeridos": [
+              "compreender",
+              "avaliar"
+            ],
+            "peso_relativo": 0.12,
+            "palavras_chave": [
+              "transparência",
+              "conflito de interesse",
+              "partes interessadas",
+              "governança",
+              "qualidade da informação contábil"
+            ],
+            "referencia_ementa": "Unidade IV"
+          }
+        ]
+      },
+      {
+        "id": "CC-CO",
+        "nome": "Comportamento Organizacional",
+        "codigo_academico": "ADM-0307",
+        "semestre": 3,
+        "carga_horaria": 60,
+        "fonte_conhecimento": "ementa_comportamento_organizacional.txt",
+        "competencias_do_componente": [
+          "COMP-04",
+          "COMP-05",
+          "COMP-06"
+        ],
+        "objetos_conhecimento": [
+          {
+            "id": "OC-CO-01",
+            "nome": "Percepção, atitudes e diferenças individuais",
+            "competencias": [
+              "COMP-04"
+            ],
+            "niveis_sugeridos": [
+              "compreender",
+              "analisar"
+            ],
+            "peso_relativo": 0.12,
+            "palavras_chave": [
+              "percepção",
+              "atribuição",
+              "atitude",
+              "satisfação no trabalho",
+              "viés"
+            ],
+            "referencia_ementa": "Unidade I"
+          },
+          {
+            "id": "OC-CO-02",
+            "nome": "Motivação no trabalho: teorias de conteúdo e de processo",
+            "competencias": [
+              "COMP-04"
+            ],
+            "niveis_sugeridos": [
+              "compreender",
+              "aplicar",
+              "analisar"
+            ],
+            "peso_relativo": 0.16,
+            "palavras_chave": [
+              "Maslow",
+              "Herzberg",
+              "fatores higiênicos",
+              "expectância",
+              "equidade",
+              "metas"
+            ],
+            "referencia_ementa": "Unidade II"
+          },
+          {
+            "id": "OC-CO-03",
+            "nome": "Grupos, equipes e decisão coletiva",
+            "competencias": [
+              "COMP-04",
+              "COMP-05"
+            ],
+            "niveis_sugeridos": [
+              "compreender",
+              "analisar"
+            ],
+            "peso_relativo": 0.14,
+            "palavras_chave": [
+              "grupo",
+              "equipe",
+              "normas",
+              "coesão",
+              "pensamento grupal",
+              "folga social"
+            ],
+            "referencia_ementa": "Unidade II"
+          },
+          {
+            "id": "OC-CO-04",
+            "nome": "Liderança e poder nas organizações",
+            "competencias": [
+              "COMP-04",
+              "COMP-05"
+            ],
+            "niveis_sugeridos": [
+              "compreender",
+              "analisar",
+              "avaliar"
+            ],
+            "peso_relativo": 0.16,
+            "palavras_chave": [
+              "liderança transformacional",
+              "liderança situacional",
+              "bases de poder",
+              "influência",
+              "delegação"
+            ],
+            "referencia_ementa": "Unidade III"
+          },
+          {
+            "id": "OC-CO-05",
+            "nome": "Comunicação organizacional e suas barreiras",
+            "competencias": [
+              "COMP-05"
+            ],
+            "niveis_sugeridos": [
+              "compreender",
+              "aplicar"
+            ],
+            "peso_relativo": 0.12,
+            "palavras_chave": [
+              "canal",
+              "ruído",
+              "feedback",
+              "comunicação ascendente",
+              "sobrecarga de informação"
+            ],
+            "referencia_ementa": "Unidade III"
+          },
+          {
+            "id": "OC-CO-06",
+            "nome": "Conflito e negociação",
+            "competencias": [
+              "COMP-05"
+            ],
+            "niveis_sugeridos": [
+              "aplicar",
+              "analisar"
+            ],
+            "peso_relativo": 0.14,
+            "palavras_chave": [
+              "conflito funcional",
+              "negociação distributiva",
+              "negociação integrativa",
+              "ZOPA",
+              "mediação"
+            ],
+            "referencia_ementa": "Unidade IV"
+          },
+          {
+            "id": "OC-CO-07",
+            "nome": "Cultura e clima organizacional",
+            "competencias": [
+              "COMP-04",
+              "COMP-06"
+            ],
+            "niveis_sugeridos": [
+              "compreender",
+              "analisar",
+              "avaliar"
+            ],
+            "peso_relativo": 0.1,
+            "palavras_chave": [
+              "artefatos",
+              "valores declarados",
+              "pressupostos básicos",
+              "clima",
+              "socialização"
+            ],
+            "referencia_ementa": "Unidade IV"
+          },
+          {
+            "id": "OC-CO-08",
+            "nome": "Ética nas relações de trabalho",
+            "competencias": [
+              "COMP-06",
+              "COMP-04"
+            ],
+            "niveis_sugeridos": [
+              "compreender",
+              "avaliar"
+            ],
+            "peso_relativo": 0.06,
+            "palavras_chave": [
+              "código de conduta",
+              "assédio",
+              "equidade de tratamento",
+              "canal de denúncia",
+              "dilema ético"
+            ],
+            "referencia_ementa": "Unidade IV"
+          }
+        ]
+      }
+    ],
+    "regras_de_vinculo": {
+      "minimo_nos_por_item": 1,
+      "maximo_nos_por_item": 3,
+      "exige_pelo_menos_um_objeto_conhecimento": true,
+      "competencia_deve_pertencer_ao_componente_do_objeto": true,
+      "nivel_taxonomico_fora_dos_sugeridos": "permitido, desde que justificado no registro do item",
+      "observacao": "Um item pode legitimamente atender a mais de uma competência e a mais de um objeto de conhecimento. A relação item x nó é N:K."
+    }
+  }
+}

@@ -1,0 +1,2954 @@
+{
+  "version": "local-replay-v1",
+  "provider_mode": "mock",
+  "new_inference": false,
+  "api_calls": 0,
+  "pedagogical_validation": false,
+  "operational_gain": "not_measured",
+  "summary": {
+    "total": 68,
+    "analyzed": 6,
+    "pending": 54,
+    "reserved": 8,
+    "error": 0,
+    "semantic_statuses": {
+      "suggested": 2,
+      "object_supported_competency_pending": 1,
+      "abstained": 3
+    }
+  },
+  "items": [
+    {
+      "item_id": "ITM-10041",
+      "record_id": "04_itens_legado.csv:1",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 1,
+        "line_start": 2,
+        "line_end": 2
+      },
+      "source_hash": "4868f910086072a2aee91e0533559782ffbfda5e2fe9f116924dec5c47c40137",
+      "processing_status": "analyzed",
+      "semantic_status": "suggested",
+      "reason": "recorded_response_replayed",
+      "fingerprint": "462d39285a28f7df458c8268e3df4b7662db620cfcd0e6b768f1f994e4e27f69",
+      "analysis": {
+        "item_id": "ITM-10041",
+        "record_id": "04_itens_legado.csv:1",
+        "item_snapshot": {
+          "id": "ITM-10041",
+          "enunciado": "Um capital de R$ 12.000,00 foi aplicado a juros simples de 2% ao mes durante 7 meses. Qual o montante ao final do periodo?",
+          "alternativa_a": "R$ 13.680,00",
+          "alternativa_b": "R$ 13.440,00",
+          "alternativa_c": "R$ 12.840,00",
+          "alternativa_d": "R$ 14.000,00",
+          "alternativa_e": "R$ 13.200,00",
+          "gabarito": "A",
+          "disciplina_informada": "Gestão Financeira",
+          "ano_aplicacao": 2021,
+          "origem_banco": "Banco Próprio"
+        },
+        "links": [
+          {
+            "oc_id": "OC-GF-01",
+            "competency_id": "COMP-03",
+            "skill_ids": [
+              "HAB-03.1"
+            ],
+            "evidence": [
+              {
+                "kind": "item",
+                "record_id": "04_itens_legado.csv:1",
+                "field": "enunciado",
+                "quote": "Um capital de R$ 12.000,00 foi aplicado a juros simples de 2% ao mes durante 7 meses. Qual o montante ao final do periodo?"
+              },
+              {
+                "kind": "item",
+                "record_id": "04_itens_legado.csv:1",
+                "field": "alternativa_a",
+                "quote": "R$ 13.680,00"
+              },
+              {
+                "kind": "matrix",
+                "file": "01_matriz_competencias.json",
+                "pointer": "/componentes_curriculares/0/objetos_conhecimento/0/nome",
+                "quote": "Valor do dinheiro no tempo: capitalização simples e composta"
+              },
+              {
+                "kind": "matrix",
+                "file": "01_matriz_competencias.json",
+                "pointer": "/competencias/2/descricao",
+                "quote": "Aplicar instrumentos de matemática financeira na análise de operações de crédito, investimento e financiamento."
+              },
+              {
+                "kind": "matrix",
+                "file": "01_matriz_competencias.json",
+                "pointer": "/competencias/2/habilidades/0/descricao",
+                "quote": "Resolver problemas de capitalização simples e composta e de equivalência de capitais."
+              },
+              {
+                "kind": "ementa",
+                "file": "02_ementa_gestao_financeira.txt",
+                "line_start": 38,
+                "line_end": 40,
+                "quote": "1.1 Capitalização simples e composta\nNo regime de juros simples, os juros incidem sempre sobre o capital inicial, de\nmodo que o montante cresce linearmente: M = C x (1 + i x n). No regime de juros"
+              }
+            ],
+            "status": "suggested_partial",
+            "scope": "Somente resolver capitalizacao simples; nao composta, equivalencia ou competencia integral.",
+            "reason": "Resolver capitalizacao simples e parte textual explicita de HAB-03.1. A operacao e simples, mas executa a habilidade, nao apenas um pre-requisito; nao exige demonstrar capitalizacao composta ou toda COMP-03."
+          }
+        ],
+        "rejected_candidates": [],
+        "status": "suggested",
+        "decision_source": "agent_judgment",
+        "criterion_source": "user_criterion_v2",
+        "human_review": "pending",
+        "pedagogical_approval": false,
+        "evidence": [
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:1",
+            "field": "enunciado",
+            "quote": "Um capital de R$ 12.000,00 foi aplicado a juros simples de 2% ao mes durante 7 meses. Qual o montante ao final do periodo?"
+          },
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:1",
+            "field": "alternativa_a",
+            "quote": "R$ 13.680,00"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/componentes_curriculares/0/objetos_conhecimento/0/nome",
+            "quote": "Valor do dinheiro no tempo: capitalização simples e composta"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/2/descricao",
+            "quote": "Aplicar instrumentos de matemática financeira na análise de operações de crédito, investimento e financiamento."
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/2/habilidades/0/descricao",
+            "quote": "Resolver problemas de capitalização simples e composta e de equivalência de capitais."
+          },
+          {
+            "kind": "ementa",
+            "file": "02_ementa_gestao_financeira.txt",
+            "line_start": 38,
+            "line_end": 40,
+            "quote": "1.1 Capitalização simples e composta\nNo regime de juros simples, os juros incidem sempre sobre o capital inicial, de\nmodo que o montante cresce linearmente: M = C x (1 + i x n). No regime de juros"
+          }
+        ],
+        "subject": "Capitalizacao simples e montante.",
+        "object_alignment": {
+          "status": "supported",
+          "supported_oc_ids": [
+            "OC-GF-01"
+          ],
+          "reason": "Resolver capitalizacao simples e parte textual explicita de HAB-03.1. A operacao e simples, mas executa a habilidade, nao apenas um pre-requisito; nao exige demonstrar capitalizacao composta ou toda COMP-03."
+        },
+        "required_task": {
+          "operation": "Calcular montante em juros simples com capital, taxa e prazo fornecidos: 12000*(1+0.02*7)=13680.",
+          "item_evidence": [
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:1",
+              "field": "enunciado",
+              "quote": "Um capital de R$ 12.000,00 foi aplicado a juros simples de 2% ao mes durante 7 meses. Qual o montante ao final do periodo?"
+            },
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:1",
+              "field": "alternativa_a",
+              "quote": "R$ 13.680,00"
+            }
+          ]
+        },
+        "competency_alignment": {
+          "status": "partial_suggestion",
+          "reason": "Resolver capitalizacao simples e parte textual explicita de HAB-03.1. A operacao e simples, mas executa a habilidade, nao apenas um pre-requisito; nao exige demonstrar capitalizacao composta ou toda COMP-03.",
+          "scope": "Somente resolver capitalizacao simples; nao composta, equivalencia ou competencia integral."
+        },
+        "use_issues": [],
+        "readiness": {
+          "status": "not_approved_pending_review",
+          "ready": false,
+          "mapped_does_not_mean_usable": true
+        },
+        "use_issues_decision_source": "agent_judgment",
+        "user_coherence_review": "pending",
+        "specialist_pedagogical_review": "pending"
+      },
+      "rule_check": {
+        "item_id": "ITM-10041",
+        "pair_count": 1,
+        "pair_node_count": 2,
+        "objects_without_pair": [],
+        "identified_node_count": 2,
+        "status": "within_provisional_limit",
+        "limit_exceeded": false
+      },
+      "error": null,
+      "raw_response_path": "raw_responses/001.json",
+      "request_path": "requests/001.json",
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": "session_agent_recording",
+      "new_inference": false,
+      "raw_response_sha256": "cc6dd2c6ee38e8a1624724d323ffaa2e1e5d7e8af57ac5cc08ea8e9ca3ca2836"
+    },
+    {
+      "item_id": "ITM-10042",
+      "record_id": "04_itens_legado.csv:2",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 2,
+        "line_start": 3,
+        "line_end": 3
+      },
+      "source_hash": "a3a350dc2d300f927cbb4617a89a35ffa6d5eba2012c5a504ece7a2ccced05d6",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "f5b352478e740d7edc77313bb45ef84c7143bffb18a0e22d6fcabaa1d787e099",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10043",
+      "record_id": "04_itens_legado.csv:3",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 3,
+        "line_start": 4,
+        "line_end": 4
+      },
+      "source_hash": "89a4d2f2fadbefee2b42f601dcd5822e4a1384655dba762029f9d0411209cdc2",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "132d0b0a8728389f52d6ca84f374d80f1b0aa1c7cdeba08396147d567f8369c0",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10044",
+      "record_id": "04_itens_legado.csv:4",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 4,
+        "line_start": 5,
+        "line_end": 5
+      },
+      "source_hash": "bad9f5c78f6dcb3c95e8767e9962909838746576ea2bd09a332d102249a4a3d9",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "7e4269774e90a263848669de10481d27d07073f0f012e35012e7bfadb7875fcc",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10045",
+      "record_id": "04_itens_legado.csv:5",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 5,
+        "line_start": 6,
+        "line_end": 6
+      },
+      "source_hash": "6843cf1dd2c4b105dd69aa108123f0e6fe975f97ae4b135793005f3998035bf1",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "54c0e945ea8f6f1625ec3b1f725136454fdd2c9166c252ce5db8fa5722290864",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [
+        {
+          "record_id": "04_itens_legado.csv:5",
+          "source": {
+            "file": "04_itens_legado.csv",
+            "record": 5,
+            "line_start": 6,
+            "line_end": 6
+          },
+          "code": "MISSING_FIELD",
+          "field": "alternativa_e",
+          "detail": "Campo vazio na fonte; não imputado.",
+          "status": "open",
+          "pedagogical_validation": false
+        }
+      ],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10046",
+      "record_id": "04_itens_legado.csv:6",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 6,
+        "line_start": 7,
+        "line_end": 7
+      },
+      "source_hash": "e73448a271a6e8d5c45f8af407b5a3df231891bd663ce52d9a235c31c24290fc",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "d04386dd9b9352093ff57fd7b71c4d420c9ad1295f482d8c2f45d742cb684a26",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10047",
+      "record_id": "04_itens_legado.csv:7",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 7,
+        "line_start": 8,
+        "line_end": 8
+      },
+      "source_hash": "4cc5e8ea296afed51444c8fa6d1d72c389580fa7f2862d83d182a73bdfece12e",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "981614ea37ea009fe53b62897a9e48b9233cdb7c6807e3457e74b9439dc4d8cd",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10048",
+      "record_id": "04_itens_legado.csv:8",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 8,
+        "line_start": 9,
+        "line_end": 9
+      },
+      "source_hash": "ba7b81a8531f73d0d00e0e35ca62197d0e1bd1c179d687b0d796cb2355bd77a9",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "869312f92faf261f45541982302916d485466ce9dfc7c8da8e1cc08f1d8199c0",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [
+        {
+          "record_id": "04_itens_legado.csv:8",
+          "source": {
+            "file": "04_itens_legado.csv",
+            "record": 8,
+            "line_start": 9,
+            "line_end": 9
+          },
+          "code": "ANSWER_UNRESOLVED",
+          "field": "gabarito",
+          "detail": {
+            "raw": "2",
+            "decision": "Confirmar convenção na origem."
+          },
+          "status": "open",
+          "pedagogical_validation": false
+        }
+      ],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10049",
+      "record_id": "04_itens_legado.csv:9",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 9,
+        "line_start": 10,
+        "line_end": 10
+      },
+      "source_hash": "63258ec699f98fabe3113e01d3fb5b7486f2013bf94263f698386572a97c95c1",
+      "processing_status": "reserved",
+      "semantic_status": null,
+      "reason": "prospective_holdout_excluded",
+      "fingerprint": "943c09e518be7783e8f7efd17c56eb80efd70aa3979abe3aec54e74a97565f30",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10050",
+      "record_id": "04_itens_legado.csv:10",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 10,
+        "line_start": 11,
+        "line_end": 11
+      },
+      "source_hash": "b55f5490dac1120e1b68b77913a16d80eaacd7e1152a3e18c93a4ea1fd9c2bb5",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "ae413d3a0f2e44458e2538592114baff4efb6ff2087452ec79e612dd31ce1ced",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10051",
+      "record_id": "04_itens_legado.csv:11",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 11,
+        "line_start": 12,
+        "line_end": 12
+      },
+      "source_hash": "dd50949ea879c0008272c0189eeb5f872e3cbdc4f334653f5956db16cd50601e",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "ef9b7bea9479012d8f59024b6f3fbd1e88b6e307da65f34b7ae6dc7883389bbd",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10052",
+      "record_id": "04_itens_legado.csv:12",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 12,
+        "line_start": 13,
+        "line_end": 13
+      },
+      "source_hash": "f362da9594c07da09d912dacba386b3f653baf179ceb33ca183f95523a356608",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "dfbf54d32dffcc73d1f12ee6a4109f4f6217874fd35bde04d8a3ee71e4f135e7",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10053",
+      "record_id": "04_itens_legado.csv:13",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 13,
+        "line_start": 14,
+        "line_end": 14
+      },
+      "source_hash": "e655a77a0f48d07b72c3f2781b48e09836c401c627b9d32da4377ff2293eb84b",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "1da69e6c72dfaa591623ba203a15e278efaef14a3eddd5cac40e969b79d9a926",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10054",
+      "record_id": "04_itens_legado.csv:14",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 14,
+        "line_start": 15,
+        "line_end": 15
+      },
+      "source_hash": "0c343627861b70268c5e1a6dbc294ea2c21b8714bdf602b5c00d6af44fe95ce3",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "016a8a4c69a4ac5592447e0db2829d0f181fda302366f6554cba41f8af056b9f",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10055",
+      "record_id": "04_itens_legado.csv:15",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 15,
+        "line_start": 16,
+        "line_end": 16
+      },
+      "source_hash": "17e744ebbf4708eefe5ed16228ece329fe385dfbdc4696e243674ed6ed179259",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "5481090677e15bc89657e3f6244a29ffe7fe5b328c291864aaff31807b6e0da6",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10056",
+      "record_id": "04_itens_legado.csv:16",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 16,
+        "line_start": 17,
+        "line_end": 17
+      },
+      "source_hash": "7aad16744c31aa22bd51f5ed9b8898d52f5d243e9fd59d2279921dcaf3c4ae55",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "60f8780678e692ba793bb8f4ef743c6a6d2d90d41421a7febed1da223f718c72",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10057",
+      "record_id": "04_itens_legado.csv:17",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 17,
+        "line_start": 18,
+        "line_end": 18
+      },
+      "source_hash": "88ccb8ef70ad2b1610f5872cd1036b1cc02784e0d52c124eb84d9c54e6a412ba",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "35e79ca38581ddf3a89d7ca4fb098ca20c31a07ad7851de0e6f23d9ed74b8a4c",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10058",
+      "record_id": "04_itens_legado.csv:18",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 18,
+        "line_start": 19,
+        "line_end": 19
+      },
+      "source_hash": "912cef8b1d5cdee3e20f9f8a9cca87038306216e92bc32672416fe3f3f63a206",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "5c4138080d271497fd7063e6b12285f3bf73224b6db9091ef8052982c3b48d37",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10059",
+      "record_id": "04_itens_legado.csv:19",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 19,
+        "line_start": 20,
+        "line_end": 20
+      },
+      "source_hash": "166e653c8f1b76d3a04d390d75f15c2f3d196068d51c5cbdce4fb7f27283b5a5",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "05f40effe51163238e1f5410aa0eb2e09146ac1175da3de060ff735354f0a895",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10060",
+      "record_id": "04_itens_legado.csv:20",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 20,
+        "line_start": 21,
+        "line_end": 21
+      },
+      "source_hash": "987007daaa3d547c809b44d35ffb6fb0c087bf803287558bd75fcb0f06ca020d",
+      "processing_status": "reserved",
+      "semantic_status": null,
+      "reason": "prospective_holdout_excluded",
+      "fingerprint": "53064af17f2976c4ac8a9740332d3ee3a475d30ece061ae534ac0b2da2473733",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10061",
+      "record_id": "04_itens_legado.csv:21",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 21,
+        "line_start": 22,
+        "line_end": 22
+      },
+      "source_hash": "6efc4d7ed8e71fd49c9a28bce520cf8f8626ce3ac23c4951ed6901b462c4effb",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "8333b03454e38d48a9a48f71663c77c2aa7484ef30b6588b27d0b604bdd1a9bc",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10062",
+      "record_id": "04_itens_legado.csv:22",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 22,
+        "line_start": 23,
+        "line_end": 23
+      },
+      "source_hash": "40ae876907e7e31dd48d6397b5248d9ae1e945cf254906ee5f10d2863a93cf4d",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "f3f1dbaf7e815c2e44abaad5b0c50973cfb89bb4fdc7f81888d3bf826b973b51",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10063",
+      "record_id": "04_itens_legado.csv:23",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 23,
+        "line_start": 24,
+        "line_end": 24
+      },
+      "source_hash": "90dd7d2acfb54847b94050c98cc4e6a0621c282f02e890507d36cd1b68e1ef1e",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "5c8eb6268a446d8c1ad59e7c5fe8cfc0bf3f3e17198180d160a857a1e8bd95ab",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10064",
+      "record_id": "04_itens_legado.csv:24",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 24,
+        "line_start": 25,
+        "line_end": 25
+      },
+      "source_hash": "5d88e9c27de1e06f81770898c4d5c896a0b12a26c9f06f3addf097e1b21d52d0",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "17b1b8b2d77cb39c563b3b70329d39f5ba429f4bf0ffbc2b431165993d018021",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10065",
+      "record_id": "04_itens_legado.csv:25",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 25,
+        "line_start": 26,
+        "line_end": 26
+      },
+      "source_hash": "304a68e1765215b7944b0f45ab470419de690278b9009a7739aa774b1494b4c3",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "1e0ed0c2ced5347e1917d7a8d53b414ff36eb6f918c8d244075a32a6deeda114",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10066",
+      "record_id": "04_itens_legado.csv:26",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 26,
+        "line_start": 27,
+        "line_end": 27
+      },
+      "source_hash": "5bafea65c3f9278eca0bdb610ced75921a21cb5d04dbe547aace75eaac302c2f",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "b902e1d4be16a061de465103e27c53430b2b64f430d6732660681a59ad06e270",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10067",
+      "record_id": "04_itens_legado.csv:27",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 27,
+        "line_start": 28,
+        "line_end": 28
+      },
+      "source_hash": "a284a71465ca0867a1d0ad710e0a16541f89cec6abd52bd00b987eb9fb32204e",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "09c3bb6c083d939467d83d7bfe554077fe319337c7376ae25424e664b0e4b3ab",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10068",
+      "record_id": "04_itens_legado.csv:28",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 28,
+        "line_start": 29,
+        "line_end": 29
+      },
+      "source_hash": "f4f5d9b4a4b8b1cdfcc7d5c447754405511385a9a89638c374b39127e07dcef1",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "8714c0c319c777bd61cd6280cbf58d32722e221e45cefff6123cc6783d428fc2",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [
+        {
+          "record_id": "04_itens_legado.csv:28",
+          "source": {
+            "file": "04_itens_legado.csv",
+            "record": 28,
+            "line_start": 29,
+            "line_end": 29
+          },
+          "code": "MISSING_FIELD",
+          "field": "gabarito",
+          "detail": "Campo vazio na fonte; não imputado.",
+          "status": "open",
+          "pedagogical_validation": false
+        }
+      ],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10069",
+      "record_id": "04_itens_legado.csv:29",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 29,
+        "line_start": 30,
+        "line_end": 30
+      },
+      "source_hash": "bf391de1683dd241507baf88632b9b7265b963b3f20adee71aba7e5d9d1af402",
+      "processing_status": "reserved",
+      "semantic_status": null,
+      "reason": "prospective_holdout_excluded",
+      "fingerprint": "726dac77ace5f984d0d2bfc5577e75a0f538fdde5c0c4d32ce9608779011f206",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10070",
+      "record_id": "04_itens_legado.csv:30",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 30,
+        "line_start": 31,
+        "line_end": 31
+      },
+      "source_hash": "171388f95084178a1332d9a5a66c8df0ee21b4f55801c910e1f69957f21c0b28",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "527ede9861390ddbb35385f8ca5921bad8d88e1dc323290827e3bf97439d9dd4",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10071",
+      "record_id": "04_itens_legado.csv:31",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 31,
+        "line_start": 32,
+        "line_end": 32
+      },
+      "source_hash": "08625f2d3d0b63bbce2112efe55d0abbe744f47f46c897040f4a916536440f57",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "e57ee1feb3c39873c00d26de4418d849c7abc6215ba9748ca0159791fb676eec",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10072",
+      "record_id": "04_itens_legado.csv:32",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 32,
+        "line_start": 33,
+        "line_end": 33
+      },
+      "source_hash": "88801960187ff9b4a3d4bc21a119ff216d02923c396328c8d88130cf2c6c2a32",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "d8238ddee2ad0646481f191731e6a031d5c2a0ddfd2221396702c656fa3f8208",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20015",
+      "record_id": "04_itens_legado.csv:33",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 33,
+        "line_start": 34,
+        "line_end": 34
+      },
+      "source_hash": "aa7d73a0197715bb53f18ee378648d10d102f3bd2075572c63eef2dc8ac58c2f",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "2d5fce5e3cfdc9c7d68213dc7db675d746d910f0514b60991d1155752ffa9f27",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20016",
+      "record_id": "04_itens_legado.csv:34",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 34,
+        "line_start": 35,
+        "line_end": 35
+      },
+      "source_hash": "67c4673ac8d57f6f7ef216f108c7310fcb36481be94b59cbcff1f8aaaa71aa68",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "6e5d6e81d43a22941d1f3c2e74578899e0ce49254cd6fb0ed9c53f886d7ba0eb",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20017",
+      "record_id": "04_itens_legado.csv:35",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 35,
+        "line_start": 36,
+        "line_end": 36
+      },
+      "source_hash": "5e3435a2377b8d399f8523f09051f44c507a444bb6dca65a398c8bd06e878ce9",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "04691c460bc43a0d12390c69095e40762c069b550ec18bddf91a2e1442b43ea0",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20018",
+      "record_id": "04_itens_legado.csv:36",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 36,
+        "line_start": 37,
+        "line_end": 37
+      },
+      "source_hash": "61261bd7c6f147d4bcf4047c53343c179c315ece88d9f39e8a764c947a0eb4ab",
+      "processing_status": "analyzed",
+      "semantic_status": "suggested",
+      "reason": "recorded_response_replayed",
+      "fingerprint": "49698ea100f44751fff4bf482fdde3e1dedadad9893f7621f71472d3fcef8460",
+      "analysis": {
+        "item_id": "ITM-20018",
+        "record_id": "04_itens_legado.csv:36",
+        "item_snapshot": {
+          "id": "ITM-20018",
+          "enunciado": "Uma equipe de suporte tecnico apresenta alta rotatividade. A pesquisa interna aponta salarios compativeis com o mercado, mas ausencia de reconhecimento e de perspectiva de crescimento. A luz da teoria dos dois fatores de Herzberg, qual interpretacao e correta?",
+          "alternativa_a": "Os fatores higienicos estao insatisfatorios e causam a rotatividade",
+          "alternativa_b": "Os fatores motivacionais estao ausentes, o que explica a insatisfacao apesar da remuneracao adequada",
+          "alternativa_c": "A remuneracao e o unico fator motivacional relevante",
+          "alternativa_d": "A teoria nao se aplica a equipes tecnicas",
+          "alternativa_e": "A rotatividade decorre exclusivamente de fatores externos",
+          "gabarito": "B",
+          "disciplina_informada": "Comportamento Organizacional",
+          "ano_aplicacao": 2025,
+          "origem_banco": "Banco Próprio"
+        },
+        "links": [
+          {
+            "oc_id": "OC-CO-02",
+            "competency_id": "COMP-04",
+            "skill_ids": [
+              "HAB-04.1"
+            ],
+            "evidence": [
+              {
+                "kind": "item",
+                "record_id": "04_itens_legado.csv:36",
+                "field": "enunciado",
+                "quote": "Uma equipe de suporte tecnico apresenta alta rotatividade. A pesquisa interna aponta salarios compativeis com o mercado, mas ausencia de reconhecimento e de perspectiva de crescimento. A luz da teoria dos dois fatores de Herzberg, qual interpretacao e correta?"
+              },
+              {
+                "kind": "item",
+                "record_id": "04_itens_legado.csv:36",
+                "field": "alternativa_b",
+                "quote": "Os fatores motivacionais estao ausentes, o que explica a insatisfacao apesar da remuneracao adequada"
+              },
+              {
+                "kind": "matrix",
+                "file": "01_matriz_competencias.json",
+                "pointer": "/componentes_curriculares/1/objetos_conhecimento/1/nome",
+                "quote": "Motivação no trabalho: teorias de conteúdo e de processo"
+              },
+              {
+                "kind": "matrix",
+                "file": "01_matriz_competencias.json",
+                "pointer": "/competencias/3/descricao",
+                "quote": "Analisar o comportamento de indivíduos e grupos no contexto organizacional para sustentar decisões de gestão de pessoas."
+              },
+              {
+                "kind": "matrix",
+                "file": "01_matriz_competencias.json",
+                "pointer": "/competencias/3/habilidades/0/descricao",
+                "quote": "Explicar comportamentos no trabalho a partir de teorias de motivação, percepção e atitudes."
+              },
+              {
+                "kind": "ementa",
+                "file": "03_ementa_comportamento_organizacional.txt",
+                "line_start": 69,
+                "line_end": 75,
+                "quote": "razoavelmente atendido. A teoria dos dois fatores, de Herzberg, distingue fatores\nhigiênicos — salário, condições de trabalho, políticas da empresa, supervisão —,\ncuja ausência gera insatisfação mas cuja presença não motiva, dos fatores\nmotivacionais — reconhecimento, responsabilidade, conteúdo do trabalho,\ncrescimento —, que atuam sobre a satisfação e o esforço. A consequência prática é\nque corrigir apenas fatores higiênicos remove insatisfação sem produzir\nengajamento."
+              }
+            ],
+            "status": "suggested_partial",
+            "scope": "Somente interpretacao motivacional localizada; nao decisao de pessoas nem competencia integral.",
+            "reason": "Interpretar comportamento no trabalho por teoria motivacional executa aspecto explicito de HAB-04.1. O vinculo tematico e cognitivo subsiste mesmo com validade de B contestada."
+          }
+        ],
+        "rejected_candidates": [
+          {
+            "oc_id": "OC-CO-07",
+            "competency_id": "COMP-04",
+            "status": "rejected",
+            "reason": "A pesquisa interna é contexto; não exige diagnóstico de cultura ou clima.",
+            "evidence": [
+              {
+                "kind": "matrix",
+                "file": "01_matriz_competencias.json",
+                "pointer": "/componentes_curriculares/1/objetos_conhecimento/6/nome",
+                "quote": "Cultura e clima organizacional"
+              }
+            ]
+          }
+        ],
+        "status": "suggested",
+        "decision_source": "agent_judgment",
+        "criterion_source": "user_criterion_v2",
+        "human_review": "pending",
+        "pedagogical_approval": false,
+        "evidence": [
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:36",
+            "field": "enunciado",
+            "quote": "Uma equipe de suporte tecnico apresenta alta rotatividade. A pesquisa interna aponta salarios compativeis com o mercado, mas ausencia de reconhecimento e de perspectiva de crescimento. A luz da teoria dos dois fatores de Herzberg, qual interpretacao e correta?"
+          },
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:36",
+            "field": "alternativa_b",
+            "quote": "Os fatores motivacionais estao ausentes, o que explica a insatisfacao apesar da remuneracao adequada"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/componentes_curriculares/1/objetos_conhecimento/1/nome",
+            "quote": "Motivação no trabalho: teorias de conteúdo e de processo"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/3/descricao",
+            "quote": "Analisar o comportamento de indivíduos e grupos no contexto organizacional para sustentar decisões de gestão de pessoas."
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/3/habilidades/0/descricao",
+            "quote": "Explicar comportamentos no trabalho a partir de teorias de motivação, percepção e atitudes."
+          },
+          {
+            "kind": "ementa",
+            "file": "03_ementa_comportamento_organizacional.txt",
+            "line_start": 69,
+            "line_end": 75,
+            "quote": "razoavelmente atendido. A teoria dos dois fatores, de Herzberg, distingue fatores\nhigiênicos — salário, condições de trabalho, políticas da empresa, supervisão —,\ncuja ausência gera insatisfação mas cuja presença não motiva, dos fatores\nmotivacionais — reconhecimento, responsabilidade, conteúdo do trabalho,\ncrescimento —, que atuam sobre a satisfação e o esforço. A consequência prática é\nque corrigir apenas fatores higiênicos remove insatisfação sem produzir\nengajamento."
+          }
+        ],
+        "subject": "Motivacao no trabalho por Herzberg.",
+        "object_alignment": {
+          "status": "supported",
+          "supported_oc_ids": [
+            "OC-CO-02"
+          ],
+          "reason": "Interpretar comportamento no trabalho por teoria motivacional executa aspecto explicito de HAB-04.1. O vinculo tematico e cognitivo subsiste mesmo com validade de B contestada."
+        },
+        "required_task": {
+          "operation": "Interpretar o cenario de remuneracao, reconhecimento e crescimento usando a distincao de fatores de Herzberg; nao confirmar B como correta.",
+          "item_evidence": [
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:36",
+              "field": "enunciado",
+              "quote": "Uma equipe de suporte tecnico apresenta alta rotatividade. A pesquisa interna aponta salarios compativeis com o mercado, mas ausencia de reconhecimento e de perspectiva de crescimento. A luz da teoria dos dois fatores de Herzberg, qual interpretacao e correta?"
+            },
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:36",
+              "field": "alternativa_b",
+              "quote": "Os fatores motivacionais estao ausentes, o que explica a insatisfacao apesar da remuneracao adequada"
+            }
+          ]
+        },
+        "competency_alignment": {
+          "status": "partial_suggestion",
+          "reason": "Interpretar comportamento no trabalho por teoria motivacional executa aspecto explicito de HAB-04.1. O vinculo tematico e cognitivo subsiste mesmo com validade de B contestada.",
+          "scope": "Somente interpretacao motivacional localizada; nao decisao de pessoas nem competencia integral."
+        },
+        "use_issues": [
+          "Validade de B contestada: atribui insatisfacao a ausencia de motivadores, enquanto ementa distingue sua atuacao em satisfacao/esforco de ausencia de fatores higienicos. Remuneracao adequada nao prova adequacao de todos fatores higienicos. Revisar antes de usar acerto como evidencia."
+        ],
+        "readiness": {
+          "status": "held_for_specialist_review",
+          "ready": false,
+          "mapped_does_not_mean_usable": true
+        },
+        "use_issues_decision_source": "agent_judgment",
+        "user_coherence_review": "pending",
+        "specialist_pedagogical_review": "pending"
+      },
+      "rule_check": {
+        "item_id": "ITM-20018",
+        "pair_count": 1,
+        "pair_node_count": 2,
+        "objects_without_pair": [],
+        "identified_node_count": 2,
+        "status": "within_provisional_limit",
+        "limit_exceeded": false
+      },
+      "error": null,
+      "raw_response_path": "raw_responses/036.json",
+      "request_path": "requests/036.json",
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": "session_agent_recording",
+      "new_inference": false,
+      "raw_response_sha256": "97f274da1de1a4396d94fcc4016ed2ecf5a6abccf068e0fd8d44ea678f215725"
+    },
+    {
+      "item_id": "ITM-20019",
+      "record_id": "04_itens_legado.csv:37",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 37,
+        "line_start": 38,
+        "line_end": 38
+      },
+      "source_hash": "307e8480d38e1a0f1aafe6ee6628c1490dc718c006b2fbe3951e2668f219d179",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "f4a4f1277dcb8865fc4b7724c45d1536e66d74b25a48e86c8802eed923f290e9",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20020",
+      "record_id": "04_itens_legado.csv:38",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 38,
+        "line_start": 39,
+        "line_end": 39
+      },
+      "source_hash": "bf4550abd20afd6e9360b659a2441b0b3f0bf64fc38194b41778e877468405df",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "e7babaa2eb685365547581f4f05633668b51df61edfbf4308702e49bfcba2a6e",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20021",
+      "record_id": "04_itens_legado.csv:39",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 39,
+        "line_start": 40,
+        "line_end": 40
+      },
+      "source_hash": "4f0835c10c3678bb07a3ab1d01248c3f44951a6bff8445e0183eb60d41242026",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "9c49994a9cafe5f4e4c27728570f4ae82c7ad32284cc0d1fe206bf3f132f9c0b",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [
+        {
+          "record_id": "04_itens_legado.csv:39",
+          "source": {
+            "file": "04_itens_legado.csv",
+            "record": 39,
+            "line_start": 40,
+            "line_end": 40
+          },
+          "code": "ANSWER_UNRESOLVED",
+          "field": "gabarito",
+          "detail": {
+            "raw": "1",
+            "decision": "Confirmar convenção na origem."
+          },
+          "status": "open",
+          "pedagogical_validation": false
+        }
+      ],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20022",
+      "record_id": "04_itens_legado.csv:40",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 40,
+        "line_start": 41,
+        "line_end": 41
+      },
+      "source_hash": "6bba5409990278b196d6b1d9e13e602d0f969e41dcca7b231d7f8efb163579b7",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "00da7126aff1f4b8b7579c379cf9eacfafa6410d7474c53aa1a9689cd09ed17a",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20023",
+      "record_id": "04_itens_legado.csv:41",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 41,
+        "line_start": 42,
+        "line_end": 42
+      },
+      "source_hash": "ec4cc88dbf5e247dc267f29a6229d220e93b5c4d0b6cca5c86a74f02515a87a3",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "bbc17f0133c7ee29bc75d332c6094b67a094b5fb9d0d3518ccffe5a1185d6e34",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20024",
+      "record_id": "04_itens_legado.csv:42",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 42,
+        "line_start": 43,
+        "line_end": 43
+      },
+      "source_hash": "7d1beab5b66ba5d2abfa990b6dcd1d3729c80b267fc5d16d2366558f276a88e8",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "0d41eafe090dfdf4ea9330613b549862983372fc88708b2f11c219fc719ba505",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20025",
+      "record_id": "04_itens_legado.csv:43",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 43,
+        "line_start": 44,
+        "line_end": 44
+      },
+      "source_hash": "9e63978da0e3236a3c85272db663d96cfbfda3f12d0ba151ac0f13198917136f",
+      "processing_status": "analyzed",
+      "semantic_status": "object_supported_competency_pending",
+      "reason": "recorded_response_replayed",
+      "fingerprint": "04e01383015d86ef589d1c1f9f3d0012f0126c140e5bdffccd04703b9000a339",
+      "analysis": {
+        "item_id": "ITM-20025",
+        "record_id": "04_itens_legado.csv:43",
+        "item_snapshot": {
+          "id": "ITM-20025",
+          "enunciado": "Um gerente recem-promovido obtem adesao da equipe principalmente porque os colaboradores admiram sua trajetoria tecnica e desejam ser associados a ele. Qual base de poder predomina?",
+          "alternativa_a": "Poder legitimo",
+          "alternativa_b": "Poder de referencia",
+          "alternativa_c": "Poder de recompensa",
+          "alternativa_d": "Poder coercitivo",
+          "alternativa_e": "Poder de especialista",
+          "gabarito": "B",
+          "disciplina_informada": "Comportamento Organizacional",
+          "ano_aplicacao": 2025,
+          "origem_banco": "Banco Próprio"
+        },
+        "links": [],
+        "rejected_candidates": [
+          {
+            "oc_id": "OC-CO-04",
+            "competency_id": "COMP-04",
+            "status": "pending",
+            "reason": "OC-CO-04 sustentado por classificacao contextual de bases de poder. COMP-04 permanece pendente: nomear a base cuja causa e adesao ja foram dadas nao demonstra por si analisar seu efeito (objetivo 3) ou avaliar efeito de estilos (HAB-04.3). Nao se exige competencia inteira nem se veta operacao simples; falta correspondencia operacional suficiente com um aspecto explicito.",
+            "evidence": [
+              {
+                "kind": "item",
+                "record_id": "04_itens_legado.csv:43",
+                "field": "enunciado",
+                "quote": "Um gerente recem-promovido obtem adesao da equipe principalmente porque os colaboradores admiram sua trajetoria tecnica e desejam ser associados a ele. Qual base de poder predomina?"
+              },
+              {
+                "kind": "item",
+                "record_id": "04_itens_legado.csv:43",
+                "field": "alternativa_b",
+                "quote": "Poder de referencia"
+              },
+              {
+                "kind": "item",
+                "record_id": "04_itens_legado.csv:43",
+                "field": "alternativa_e",
+                "quote": "Poder de especialista"
+              },
+              {
+                "kind": "matrix",
+                "file": "01_matriz_competencias.json",
+                "pointer": "/componentes_curriculares/1/objetos_conhecimento/3/nome",
+                "quote": "Liderança e poder nas organizações"
+              },
+              {
+                "kind": "matrix",
+                "file": "01_matriz_competencias.json",
+                "pointer": "/competencias/3/descricao",
+                "quote": "Analisar o comportamento de indivíduos e grupos no contexto organizacional para sustentar decisões de gestão de pessoas."
+              },
+              {
+                "kind": "matrix",
+                "file": "01_matriz_competencias.json",
+                "pointer": "/competencias/3/habilidades/2/descricao",
+                "quote": "Avaliar o efeito de estilos de liderança sobre resultados e sobre o engajamento da equipe."
+              },
+              {
+                "kind": "ementa",
+                "file": "03_ementa_comportamento_organizacional.txt",
+                "line_start": 118,
+                "line_end": 124,
+                "quote": "3.2 Bases de poder\nPoder é a capacidade de influenciar o comportamento de outra pessoa. As bases\nformais incluem o poder legítimo, decorrente do cargo, o poder de recompensa e o\npoder coercitivo. As bases pessoais incluem o poder de competência, derivado de\nconhecimento técnico reconhecido, e o poder de referência, derivado de admiração\ne identificação. Bases pessoais tendem a produzir comprometimento; bases\ncoercitivas tendem a produzir apenas obediência."
+              }
+            ]
+          },
+          {
+            "oc_id": "OC-CO-04",
+            "competency_id": "COMP-05",
+            "status": "rejected",
+            "reason": "Não exige conduzir comunicação, negociação ou mediação.",
+            "evidence": [
+              {
+                "kind": "matrix",
+                "file": "01_matriz_competencias.json",
+                "pointer": "/competencias/4/descricao",
+                "quote": "Conduzir processos de comunicação, negociação e mediação de conflitos em equipes de trabalho."
+              }
+            ]
+          }
+        ],
+        "status": "object_supported_competency_pending",
+        "decision_source": "agent_judgment",
+        "criterion_source": "user_criterion_v2",
+        "human_review": "pending",
+        "pedagogical_approval": false,
+        "evidence": [
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:43",
+            "field": "enunciado",
+            "quote": "Um gerente recem-promovido obtem adesao da equipe principalmente porque os colaboradores admiram sua trajetoria tecnica e desejam ser associados a ele. Qual base de poder predomina?"
+          },
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:43",
+            "field": "alternativa_b",
+            "quote": "Poder de referencia"
+          },
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:43",
+            "field": "alternativa_e",
+            "quote": "Poder de especialista"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/componentes_curriculares/1/objetos_conhecimento/3/nome",
+            "quote": "Liderança e poder nas organizações"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/3/descricao",
+            "quote": "Analisar o comportamento de indivíduos e grupos no contexto organizacional para sustentar decisões de gestão de pessoas."
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/3/habilidades/2/descricao",
+            "quote": "Avaliar o efeito de estilos de liderança sobre resultados e sobre o engajamento da equipe."
+          },
+          {
+            "kind": "ementa",
+            "file": "03_ementa_comportamento_organizacional.txt",
+            "line_start": 118,
+            "line_end": 124,
+            "quote": "3.2 Bases de poder\nPoder é a capacidade de influenciar o comportamento de outra pessoa. As bases\nformais incluem o poder legítimo, decorrente do cargo, o poder de recompensa e o\npoder coercitivo. As bases pessoais incluem o poder de competência, derivado de\nconhecimento técnico reconhecido, e o poder de referência, derivado de admiração\ne identificação. Bases pessoais tendem a produzir comprometimento; bases\ncoercitivas tendem a produzir apenas obediência."
+          },
+          {
+            "kind": "ementa",
+            "file": "03_ementa_comportamento_organizacional.txt",
+            "line_start": 30,
+            "line_end": 30,
+            "quote": "3. Analisar o efeito de estilos de liderança e de bases de poder sobre a equipe."
+          }
+        ],
+        "subject": "Bases de poder e influencia sobre equipe.",
+        "object_alignment": {
+          "status": "supported",
+          "supported_oc_ids": [
+            "OC-CO-04"
+          ],
+          "reason": "OC-CO-04 sustentado por classificacao contextual de bases de poder. COMP-04 permanece pendente: nomear a base cuja causa e adesao ja foram dadas nao demonstra por si analisar seu efeito (objetivo 3) ou avaliar efeito de estilos (HAB-04.3). Nao se exige competencia inteira nem se veta operacao simples; falta correspondencia operacional suficiente com um aspecto explicito."
+        },
+        "required_task": {
+          "operation": "Classificar a base de poder descrita por admiracao/identificacao, distinguindo-a de conhecimento tecnico. O efeito adesao e sua causa ja sao informados.",
+          "item_evidence": [
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:43",
+              "field": "enunciado",
+              "quote": "Um gerente recem-promovido obtem adesao da equipe principalmente porque os colaboradores admiram sua trajetoria tecnica e desejam ser associados a ele. Qual base de poder predomina?"
+            },
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:43",
+              "field": "alternativa_b",
+              "quote": "Poder de referencia"
+            },
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:43",
+              "field": "alternativa_e",
+              "quote": "Poder de especialista"
+            }
+          ]
+        },
+        "competency_alignment": {
+          "status": "pending",
+          "reason": "OC-CO-04 sustentado por classificacao contextual de bases de poder. COMP-04 permanece pendente: nomear a base cuja causa e adesao ja foram dadas nao demonstra por si analisar seu efeito (objetivo 3) ou avaliar efeito de estilos (HAB-04.3). Nao se exige competencia inteira nem se veta operacao simples; falta correspondencia operacional suficiente com um aspecto explicito.",
+          "scope": "Nenhum aspecto de COMP aprovado; classificacao de base e OC sustentado."
+        },
+        "use_issues": [
+          "Trajetoria tecnica também evoca poder de especialista; identificação favorece B. Revisão humana deve decidir se a classificação localizada é evidência suficiente de COMP-04."
+        ],
+        "readiness": {
+          "status": "not_approved_pending_review",
+          "ready": false,
+          "mapped_does_not_mean_usable": true
+        },
+        "use_issues_decision_source": "agent_judgment",
+        "user_coherence_review": "pending",
+        "specialist_pedagogical_review": "pending"
+      },
+      "rule_check": {
+        "item_id": "ITM-20025",
+        "pair_count": 0,
+        "pair_node_count": 0,
+        "objects_without_pair": [
+          "OC-CO-04"
+        ],
+        "identified_node_count": 1,
+        "status": "incomplete_mapping",
+        "limit_exceeded": false
+      },
+      "error": null,
+      "raw_response_path": "raw_responses/043.json",
+      "request_path": "requests/043.json",
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": "session_agent_recording",
+      "new_inference": false,
+      "raw_response_sha256": "e1bb15fa96bcfde0eb2bc958d601e6a46c143899f1dcd5235ed70b657f02900a"
+    },
+    {
+      "item_id": "ITM-20026",
+      "record_id": "04_itens_legado.csv:44",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 44,
+        "line_start": 45,
+        "line_end": 45
+      },
+      "source_hash": "9426a7ff1a73002609f98ca4e4ca57258834d827987b528de891f348359398db",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "14c75d939615615a98b4ada6dcf19c69dd3ffb193062736f65977abd47ef582a",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20027",
+      "record_id": "04_itens_legado.csv:45",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 45,
+        "line_start": 46,
+        "line_end": 46
+      },
+      "source_hash": "8ef36a0a61ff1e8c6a4dd0a1b562df8481cb3c530248043780c18495e3e333aa",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "d6c6ef82430a7a9374820361107ab77e7d2409649a084b9ca50b57885a74ecc1",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20028",
+      "record_id": "04_itens_legado.csv:46",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 46,
+        "line_start": 47,
+        "line_end": 47
+      },
+      "source_hash": "8d7491ddeefd8d06039205363c341c6be777ce22144236a9a8e0f873151b819c",
+      "processing_status": "reserved",
+      "semantic_status": null,
+      "reason": "prospective_holdout_excluded",
+      "fingerprint": "1303259c693cec38fb59458fcee51f4e2b9ce37ae4d30f635f68df19e45e8164",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20029",
+      "record_id": "04_itens_legado.csv:47",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 47,
+        "line_start": 48,
+        "line_end": 48
+      },
+      "source_hash": "394f04cd0e2feebb920f052433dbdcceff77fd8149de3181dbb05671ffb2eda1",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "52c7e4b2bd84f66dafe04e982c635399c294688f2a6ca157a35e4ac4f38357c5",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20030",
+      "record_id": "04_itens_legado.csv:48",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 48,
+        "line_start": 49,
+        "line_end": 49
+      },
+      "source_hash": "6d312196949be3f7a0f98a7ad5cab677d0687717de642b31c0b5085762f4da2b",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "dfbb24fc4ff2e41c81574e5ad140b0ee89fd921cbf7ecb50517fd027b97757a8",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20031",
+      "record_id": "04_itens_legado.csv:49",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 49,
+        "line_start": 50,
+        "line_end": 50
+      },
+      "source_hash": "07ba101355abd47aca6cbd10a1b377fce19f5a427a3929df75ec06e074d4c4ea",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "99d598c2a72cab63a188e3b8835675268d982733c7593f4fb4277bed8c13cee7",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20032",
+      "record_id": "04_itens_legado.csv:50",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 50,
+        "line_start": 51,
+        "line_end": 51
+      },
+      "source_hash": "31612feff63370903a6ab044664b9062ed2d42a77a98fd2a1b72312f05b29209",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "2ea259afbe98ee2236965cc46bfbfc38a7cf02b24ce8a85076d94080bd6f579d",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20033",
+      "record_id": "04_itens_legado.csv:51",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 51,
+        "line_start": 52,
+        "line_end": 52
+      },
+      "source_hash": "b2ee7e97cfbf6ba79c5bbc888ebc61c8e158705e50bbbe6e511f4bc8a7b22dc8",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "63cefc1e6953bcd41b95467f87a24272124a9d38e65051c3e2a567cc1916642e",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20034",
+      "record_id": "04_itens_legado.csv:52",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 52,
+        "line_start": 53,
+        "line_end": 53
+      },
+      "source_hash": "7490f93196af412799b9cda894716de7e802a184b29ee741f25347736831559b",
+      "processing_status": "reserved",
+      "semantic_status": null,
+      "reason": "prospective_holdout_excluded",
+      "fingerprint": "c29462e373381c79ccc9259578bb0b29887528681ed4b16d4746f1b6d1500305",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20035",
+      "record_id": "04_itens_legado.csv:53",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 53,
+        "line_start": 54,
+        "line_end": 54
+      },
+      "source_hash": "fb8e7c22a97f1afae86e16aca96c82d7b92c5dfce8c3cd240bd96e31d6f7e996",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "f9a09a427fec54a531e7626253da6de321e5feb8d2e3658292e2a939da243475",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20036",
+      "record_id": "04_itens_legado.csv:54",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 54,
+        "line_start": 55,
+        "line_end": 55
+      },
+      "source_hash": "11c16bef5b36f9e148335a4af665bec1dbf0d74731735fb4d49a925f3f61cba4",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "c8aae1157a6973814d5f510acfeb3ea83da51fb4062add7791212db2fc2b17bc",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20037",
+      "record_id": "04_itens_legado.csv:55",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 55,
+        "line_start": 56,
+        "line_end": 56
+      },
+      "source_hash": "631d2bcfb4c79281b62d17dce91d92e2837005130620a3bfa1f05871ef13171d",
+      "processing_status": "reserved",
+      "semantic_status": null,
+      "reason": "prospective_holdout_excluded",
+      "fingerprint": "e3f003c51eee263cb678a6ec6afd5d606c65e6dec029730dd23d87b214378e8c",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20038",
+      "record_id": "04_itens_legado.csv:56",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 56,
+        "line_start": 57,
+        "line_end": 57
+      },
+      "source_hash": "1260a7a3a0e979c84c1bffc667d6a154ab6474aa68e5046099d682aa1bbf7035",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "f36b83944a4b4d9677a5e65a3d9ecbacc9eb2e902c121ac6518a8b511a2ce445",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20039",
+      "record_id": "04_itens_legado.csv:57",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 57,
+        "line_start": 58,
+        "line_end": 58
+      },
+      "source_hash": "2d0b983a16627ddf870e560be2621c4def5c079646813033fa7f64cf41ab24d8",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "4c617e0a0e034746d3a8a0d6f82c858aad450762d2e6f46a7d12ba0b95efa937",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20040",
+      "record_id": "04_itens_legado.csv:58",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 58,
+        "line_start": 59,
+        "line_end": 59
+      },
+      "source_hash": "36891690634085307c709ac43395296cfd3a61c94f61d9b6e6df3de84f615759",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "c17eed041cee43958783324a736f2072030fc8a0b215f8354d555e94fac921e0",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20041",
+      "record_id": "04_itens_legado.csv:59",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 59,
+        "line_start": 60,
+        "line_end": 60
+      },
+      "source_hash": "7deafab67dc0f301db7208c2490287b5d32b37e99bf6a39e1f77eb67ae6f6296",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "86ac1d637001e676dcc52fca0a8cb834552e5597e6febb4ab3ab0fb99ce6c508",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-30007",
+      "record_id": "04_itens_legado.csv:60",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 60,
+        "line_start": 61,
+        "line_end": 61
+      },
+      "source_hash": "033d21ba289f1e167a8f6138f304a8a5d8f0a30d13f2d8e42d699ad5d26dca7d",
+      "processing_status": "analyzed",
+      "semantic_status": "abstained",
+      "reason": "recorded_response_replayed",
+      "fingerprint": "a7971f45ab1404afd1ff81f1a4b9efccd9cba8a07a6968880c2cd6664e890790",
+      "analysis": {
+        "item_id": "ITM-30007",
+        "record_id": "04_itens_legado.csv:60",
+        "item_snapshot": {
+          "id": "ITM-30007",
+          "enunciado": "Sao requisitos de validade do negocio juridico, nos termos do Codigo Civil:",
+          "alternativa_a": "Agente capaz, objeto licito e forma prescrita ou nao defesa em lei",
+          "alternativa_b": "Apenas agente capaz",
+          "alternativa_c": "Apenas objeto licito",
+          "alternativa_d": "Registro em cartorio em qualquer hipotese",
+          "alternativa_e": "Anuencia do Ministerio Publico",
+          "gabarito": "A",
+          "disciplina_informada": "Direito Empresarial",
+          "ano_aplicacao": 2021,
+          "origem_banco": "Aquisição Norte"
+        },
+        "links": [],
+        "rejected_candidates": [
+          {
+            "oc_id": "OC-GF-08",
+            "competency_id": "COMP-06",
+            "status": "rejected",
+            "reason": "Legalidade de negócio jurídico não é evidência de ética/transparência financeira.",
+            "evidence": [
+              {
+                "kind": "item",
+                "record_id": "04_itens_legado.csv:60",
+                "field": "enunciado",
+                "quote": "Sao requisitos de validade do negocio juridico, nos termos do Codigo Civil:"
+              },
+              {
+                "kind": "item",
+                "record_id": "04_itens_legado.csv:60",
+                "field": "alternativa_a",
+                "quote": "Agente capaz, objeto licito e forma prescrita ou nao defesa em lei"
+              },
+              {
+                "kind": "matrix",
+                "file": "01_matriz_competencias.json",
+                "pointer": "/componentes_curriculares/0/objetos_conhecimento/7/nome",
+                "quote": "Ética e transparência na informação financeira"
+              },
+              {
+                "kind": "matrix",
+                "file": "01_matriz_competencias.json",
+                "pointer": "/competencias/5/descricao",
+                "quote": "Posicionar-se de forma ética e responsável nas decisões de gestão, considerando impactos sociais e ambientais."
+              },
+              {
+                "kind": "ementa",
+                "file": "02_ementa_gestao_financeira.txt",
+                "line_start": 18,
+                "line_end": 18,
+                "quote": "diversificação. Ética e transparência na informação financeira."
+              }
+            ]
+          }
+        ],
+        "status": "abstained",
+        "decision_source": "agent_judgment",
+        "criterion_source": "user_criterion_v2",
+        "human_review": "pending",
+        "pedagogical_approval": false,
+        "evidence": [
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:60",
+            "field": "enunciado",
+            "quote": "Sao requisitos de validade do negocio juridico, nos termos do Codigo Civil:"
+          },
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:60",
+            "field": "alternativa_a",
+            "quote": "Agente capaz, objeto licito e forma prescrita ou nao defesa em lei"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/componentes_curriculares/0/objetos_conhecimento/7/nome",
+            "quote": "Ética e transparência na informação financeira"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/5/descricao",
+            "quote": "Posicionar-se de forma ética e responsável nas decisões de gestão, considerando impactos sociais e ambientais."
+          },
+          {
+            "kind": "ementa",
+            "file": "02_ementa_gestao_financeira.txt",
+            "line_start": 18,
+            "line_end": 18,
+            "quote": "diversificação. Ética e transparência na informação financeira."
+          }
+        ],
+        "subject": "Requisitos de validade de negocio juridico.",
+        "object_alignment": {
+          "status": "outside_provided_scope",
+          "supported_oc_ids": [],
+          "reason": "Nao existe OC juridico especifico na matriz fornecida. Reconhecer requisitos legais nao exige reconhecer dilema etico ou avaliar impactos de gestao. Ausencia de escopo nao declara invalidade juridica."
+        },
+        "required_task": {
+          "operation": "Reconhecer uma lista de requisitos juridicos entre alternativas; completude normativa nao verificada.",
+          "item_evidence": [
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:60",
+              "field": "enunciado",
+              "quote": "Sao requisitos de validade do negocio juridico, nos termos do Codigo Civil:"
+            },
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:60",
+              "field": "alternativa_a",
+              "quote": "Agente capaz, objeto licito e forma prescrita ou nao defesa em lei"
+            }
+          ]
+        },
+        "competency_alignment": {
+          "status": "not_established",
+          "reason": "Nao existe OC juridico especifico na matriz fornecida. Reconhecer requisitos legais nao exige reconhecer dilema etico ou avaliar impactos de gestao. Ausencia de escopo nao declara invalidade juridica.",
+          "scope": "Sem inferencia juridica normativa ou aconselhamento."
+        },
+        "use_issues": [
+          "Gabarito A preservado como dado; completude legal nao verificada pelas fontes disponiveis."
+        ],
+        "readiness": {
+          "status": "not_approved_pending_review",
+          "ready": false,
+          "mapped_does_not_mean_usable": true
+        },
+        "use_issues_decision_source": "agent_judgment",
+        "user_coherence_review": "pending",
+        "specialist_pedagogical_review": "pending"
+      },
+      "rule_check": {
+        "item_id": "ITM-30007",
+        "pair_count": 0,
+        "pair_node_count": 0,
+        "objects_without_pair": [],
+        "identified_node_count": 0,
+        "status": "not_applicable",
+        "limit_exceeded": false
+      },
+      "error": null,
+      "raw_response_path": "raw_responses/060.json",
+      "request_path": "requests/060.json",
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": "session_agent_recording",
+      "new_inference": false,
+      "raw_response_sha256": "d77a8c376de7fb64f1083c9a1dc3aac36377c1d4c599e2b816f9744477e2b038"
+    },
+    {
+      "item_id": "ITM-30008",
+      "record_id": "04_itens_legado.csv:61",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 61,
+        "line_start": 62,
+        "line_end": 62
+      },
+      "source_hash": "b1ed2e17c9be8b72468e7d9a784205c9d2b2f80992c9338afa9fe0f591256587",
+      "processing_status": "analyzed",
+      "semantic_status": "abstained",
+      "reason": "recorded_response_replayed",
+      "fingerprint": "6e0da1ea5547c9e6a485312da11fd132429392dfe0435b55e88519f60fcd475d",
+      "analysis": {
+        "item_id": "ITM-30008",
+        "record_id": "04_itens_legado.csv:61",
+        "item_snapshot": {
+          "id": "ITM-30008",
+          "enunciado": "No calculo do ponto de equilibrio contabil, considera-se:",
+          "alternativa_a": "Custos fixos divididos pela margem de contribuicao unitaria",
+          "alternativa_b": "Receita total menos custo variavel total",
+          "alternativa_c": "Lucro operacional dividido pelo ativo total",
+          "alternativa_d": "Custos variaveis divididos pelo preco de venda",
+          "alternativa_e": "Margem bruta menos despesas administrativas",
+          "gabarito": "A",
+          "disciplina_informada": "Contabilidade de Custos",
+          "ano_aplicacao": 2022,
+          "origem_banco": "Aquisição Norte"
+        },
+        "links": [],
+        "rejected_candidates": [
+          {
+            "oc_id": "OC-GF-04",
+            "competency_id": "COMP-01",
+            "status": "rejected",
+            "reason": "Não requer interpretar demonstrações nem comparar indicadores financeiros.",
+            "evidence": [
+              {
+                "kind": "item",
+                "record_id": "04_itens_legado.csv:61",
+                "field": "enunciado",
+                "quote": "No calculo do ponto de equilibrio contabil, considera-se:"
+              },
+              {
+                "kind": "item",
+                "record_id": "04_itens_legado.csv:61",
+                "field": "alternativa_a",
+                "quote": "Custos fixos divididos pela margem de contribuicao unitaria"
+              },
+              {
+                "kind": "matrix",
+                "file": "01_matriz_competencias.json",
+                "pointer": "/componentes_curriculares/0/objetos_conhecimento/3/nome",
+                "quote": "Análise de demonstrações financeiras por indicadores"
+              },
+              {
+                "kind": "matrix",
+                "file": "01_matriz_competencias.json",
+                "pointer": "/competencias/0/descricao",
+                "quote": "Diagnosticar a situação econômico-financeira de uma organização a partir de suas demonstrações contábeis e indicadores."
+              },
+              {
+                "kind": "ementa",
+                "file": "02_ementa_gestao_financeira.txt",
+                "line_start": 15,
+                "line_end": 16,
+                "quote": "do capital de giro. Análise das demonstrações financeiras por indicadores de\nliquidez, endividamento e rentabilidade. Custo de capital e custo médio"
+              }
+            ]
+          }
+        ],
+        "status": "abstained",
+        "decision_source": "agent_judgment",
+        "criterion_source": "user_criterion_v2",
+        "human_review": "pending",
+        "pedagogical_approval": false,
+        "evidence": [
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:61",
+            "field": "enunciado",
+            "quote": "No calculo do ponto de equilibrio contabil, considera-se:"
+          },
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:61",
+            "field": "alternativa_a",
+            "quote": "Custos fixos divididos pela margem de contribuicao unitaria"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/componentes_curriculares/0/objetos_conhecimento/3/nome",
+            "quote": "Análise de demonstrações financeiras por indicadores"
+          },
+          {
+            "kind": "matrix",
+            "file": "01_matriz_competencias.json",
+            "pointer": "/competencias/0/descricao",
+            "quote": "Diagnosticar a situação econômico-financeira de uma organização a partir de suas demonstrações contábeis e indicadores."
+          },
+          {
+            "kind": "ementa",
+            "file": "02_ementa_gestao_financeira.txt",
+            "line_start": 15,
+            "line_end": 16,
+            "quote": "do capital de giro. Análise das demonstrações financeiras por indicadores de\nliquidez, endividamento e rentabilidade. Custo de capital e custo médio"
+          }
+        ],
+        "subject": "Formula do ponto de equilibrio contabil.",
+        "object_alignment": {
+          "status": "outside_provided_scope",
+          "supported_oc_ids": [],
+          "reason": "Nao existe OC especifico de custo-volume-lucro/ponto de equilibrio na matriz fornecida. Reconhecer formula e uma operacao identificavel, nao um veto por facilidade. OC-GF-04 trata demonstracoes e indicadores, e COMP-03 trata instrumentos de matematica financeira; mera divisao nao estabelece esses aspectos."
+        },
+        "required_task": {
+          "operation": "Reconhecer a expressao de calculo entre alternativas; nao realizar calculo numerico.",
+          "item_evidence": [
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:61",
+              "field": "enunciado",
+              "quote": "No calculo do ponto de equilibrio contabil, considera-se:"
+            },
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:61",
+              "field": "alternativa_a",
+              "quote": "Custos fixos divididos pela margem de contribuicao unitaria"
+            }
+          ]
+        },
+        "competency_alignment": {
+          "status": "not_established",
+          "reason": "Nao existe OC especifico de custo-volume-lucro/ponto de equilibrio na matriz fornecida. Reconhecer formula e uma operacao identificavel, nao um veto por facilidade. OC-GF-04 trata demonstracoes e indicadores, e COMP-03 trata instrumentos de matematica financeira; mera divisao nao estabelece esses aspectos.",
+          "scope": "Reconhecimento da formula sem OC especifico sustentado."
+        },
+        "use_issues": [
+          "Precisao editorial da unidade de ponto de equilibrio deve ser revisada; nao completar o enunciado."
+        ],
+        "readiness": {
+          "status": "not_approved_pending_review",
+          "ready": false,
+          "mapped_does_not_mean_usable": true
+        },
+        "use_issues_decision_source": "agent_judgment",
+        "user_coherence_review": "pending",
+        "specialist_pedagogical_review": "pending"
+      },
+      "rule_check": {
+        "item_id": "ITM-30008",
+        "pair_count": 0,
+        "pair_node_count": 0,
+        "objects_without_pair": [],
+        "identified_node_count": 0,
+        "status": "not_applicable",
+        "limit_exceeded": false
+      },
+      "error": null,
+      "raw_response_path": "raw_responses/061.json",
+      "request_path": "requests/061.json",
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": "session_agent_recording",
+      "new_inference": false,
+      "raw_response_sha256": "399b0ac81673e13d38450a739893035e4f81d2d5b2f6adbb179f7c59c5776fc4"
+    },
+    {
+      "item_id": "ITM-30009",
+      "record_id": "04_itens_legado.csv:62",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 62,
+        "line_start": 63,
+        "line_end": 63
+      },
+      "source_hash": "42327804a63afbc6d0ae76ee0385e8f28e91482756d34e499379b99539c44052",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "4a4032870c2025dcbbb3e8fc0406a6298c777e81616870138ec8709ff440f421",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [
+        {
+          "record_id": "04_itens_legado.csv:62",
+          "source": {
+            "file": "04_itens_legado.csv",
+            "record": 62,
+            "line_start": 63,
+            "line_end": 63
+          },
+          "code": "MISSING_FIELD",
+          "field": "disciplina_informada",
+          "detail": "Campo vazio na fonte; não imputado.",
+          "status": "open",
+          "pedagogical_validation": false
+        },
+        {
+          "record_id": "04_itens_legado.csv:62",
+          "source": {
+            "file": "04_itens_legado.csv",
+            "record": 62,
+            "line_start": 63,
+            "line_end": 63
+          },
+          "code": "MISSING_FIELD",
+          "field": "origem_banco",
+          "detail": "Campo vazio na fonte; não imputado.",
+          "status": "open",
+          "pedagogical_validation": false
+        }
+      ],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-30010",
+      "record_id": "04_itens_legado.csv:63",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 63,
+        "line_start": 64,
+        "line_end": 64
+      },
+      "source_hash": "8a113f11dd6b022a9c0e178b8bb05429cd85fb0912843dc0333901c2d962281a",
+      "processing_status": "reserved",
+      "semantic_status": null,
+      "reason": "prospective_holdout_excluded",
+      "fingerprint": "cd271183984a288941cf4efd84e58ee3691b18ed8f3e6572a29d149ef4b53471",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [
+        {
+          "record_id": "04_itens_legado.csv:63",
+          "source": {
+            "file": "04_itens_legado.csv",
+            "record": 63,
+            "line_start": 64,
+            "line_end": 64
+          },
+          "code": "MISSING_FIELD",
+          "field": "ano_aplicacao",
+          "detail": "Campo vazio na fonte; não imputado.",
+          "status": "open",
+          "pedagogical_validation": false
+        }
+      ],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10073",
+      "record_id": "04_itens_legado.csv:64",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 64,
+        "line_start": 65,
+        "line_end": 65
+      },
+      "source_hash": "328e7cbab377621b245f1b52e612b417b63db55b2ce633077dfb5e708cad5ce9",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "d6ed6a81254577942eb9c36be088281adc3d82ee0d8593cbe8315f4c8d8c4f99",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20042",
+      "record_id": "04_itens_legado.csv:65",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 65,
+        "line_start": 66,
+        "line_end": 66
+      },
+      "source_hash": "cc0bc059da6f783274ef56e3ed148c1f0fa7249d014fff86aea25ce1c65571e9",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "d808d2b87505724856518ceec31344e2f73dc2ce733123daea18260b45dc5a85",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [
+        {
+          "record_id": "04_itens_legado.csv:65",
+          "source": {
+            "file": "04_itens_legado.csv",
+            "record": 65,
+            "line_start": 66,
+            "line_end": 66
+          },
+          "code": "DUPLICATE_ALTERNATIVES",
+          "field": "alternativas",
+          "detail": [
+            [
+              "alternativa_c",
+              "alternativa_d"
+            ]
+          ],
+          "status": "open",
+          "pedagogical_validation": false
+        }
+      ],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-10074",
+      "record_id": "04_itens_legado.csv:66",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 66,
+        "line_start": 67,
+        "line_end": 67
+      },
+      "source_hash": "d94fa2ff026c43301af2b29935305eb2f353b29a4cf837ce8c596ece8bb48ea5",
+      "processing_status": "pending",
+      "semantic_status": null,
+      "reason": "fixture_missing",
+      "fingerprint": "559e8bfae2c84d0187d3bb1c5f12707d9310b05f3222e3e23e46650d3cef3d27",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    },
+    {
+      "item_id": "ITM-20043",
+      "record_id": "04_itens_legado.csv:67",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 67,
+        "line_start": 68,
+        "line_end": 68
+      },
+      "source_hash": "7ea7f0d16c8249d0ff9967b0ce9430f0b65cd2214bde71dac821fb1bf75f6c06",
+      "processing_status": "analyzed",
+      "semantic_status": "abstained",
+      "reason": "recorded_response_replayed",
+      "fingerprint": "6c4bf2ee4d851840815f275a9912ab1e53a4155e495894d8657a4973ed876ed6",
+      "analysis": {
+        "item_id": "ITM-20043",
+        "record_id": "04_itens_legado.csv:67",
+        "item_snapshot": {
+          "id": "ITM-20043",
+          "enunciado": "Com base no texto acima, qual teoria explica o comportamento do gestor descrito?",
+          "alternativa_a": "Teoria X",
+          "alternativa_b": "Teoria Y",
+          "alternativa_c": "Teoria dos dois fatores",
+          "alternativa_d": "Teoria da expectancia",
+          "alternativa_e": "Teoria da equidade",
+          "gabarito": "B",
+          "disciplina_informada": "Comportamento Organizacional",
+          "ano_aplicacao": 2022,
+          "origem_banco": "Banco Próprio"
+        },
+        "links": [],
+        "rejected_candidates": [],
+        "status": "abstained",
+        "decision_source": "agent_judgment",
+        "criterion_source": "user_criterion_v2",
+        "human_review": "pending",
+        "pedagogical_approval": false,
+        "evidence": [
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:67",
+            "field": "enunciado",
+            "quote": "Com base no texto acima, qual teoria explica o comportamento do gestor descrito?"
+          },
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:67",
+            "field": "alternativa_b",
+            "quote": "Teoria Y"
+          }
+        ],
+        "subject": "Teorias do comportamento; objeto especifico indeterminavel sem texto-base.",
+        "object_alignment": {
+          "status": "indeterminate",
+          "supported_oc_ids": [],
+          "reason": "Incompletude impede observar comportamento necessario para sustentar OC e competencia. Alternativas e gabarito nao reconstituem texto-base."
+        },
+        "required_task": {
+          "operation": "Demanda pretendida: relacionar comportamento do gestor a teoria. Operacao executavel indeterminada: texto acima ausente.",
+          "item_evidence": [
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:67",
+              "field": "enunciado",
+              "quote": "Com base no texto acima, qual teoria explica o comportamento do gestor descrito?"
+            },
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:67",
+              "field": "alternativa_b",
+              "quote": "Teoria Y"
+            }
+          ]
+        },
+        "competency_alignment": {
+          "status": "not_established",
+          "reason": "Incompletude impede observar comportamento necessario para sustentar OC e competencia. Alternativas e gabarito nao reconstituem texto-base.",
+          "scope": "Sem inferencia curricular positiva."
+        },
+        "use_issues": [
+          "Recuperar texto-base na origem antes de reapreciar."
+        ],
+        "readiness": {
+          "status": "held_missing_context",
+          "ready": false,
+          "mapped_does_not_mean_usable": true
+        },
+        "use_issues_decision_source": "agent_judgment",
+        "user_coherence_review": "pending",
+        "specialist_pedagogical_review": "pending"
+      },
+      "rule_check": {
+        "item_id": "ITM-20043",
+        "pair_count": 0,
+        "pair_node_count": 0,
+        "objects_without_pair": [],
+        "identified_node_count": 0,
+        "status": "not_applicable",
+        "limit_exceeded": false
+      },
+      "error": null,
+      "raw_response_path": "raw_responses/067.json",
+      "request_path": "requests/067.json",
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [],
+      "provider_mode": "mock",
+      "response_origin": "session_agent_recording",
+      "new_inference": false,
+      "raw_response_sha256": "1fe12e9572bca04775041cda1e09675204ac942b1e6bc814f680edc143b7949d"
+    },
+    {
+      "item_id": "ITM-20044",
+      "record_id": "04_itens_legado.csv:68",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 68,
+        "line_start": 69,
+        "line_end": 69
+      },
+      "source_hash": "56133ee6b4a6aa486ba51856a742799259ed3948188cb5bbc4d1f000fa0ceff4",
+      "processing_status": "reserved",
+      "semantic_status": null,
+      "reason": "prospective_holdout_excluded",
+      "fingerprint": "ada21f3019064c430a3ea18a4bd72940e99d7d9a08523c6ce0a4e205e0d7f01f",
+      "analysis": null,
+      "rule_check": null,
+      "error": null,
+      "raw_response_path": null,
+      "request_path": null,
+      "ready_for_exam": false,
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending",
+      "ingestion_issues": [
+        {
+          "record_id": "04_itens_legado.csv:68",
+          "source": {
+            "file": "04_itens_legado.csv",
+            "record": 68,
+            "line_start": 69,
+            "line_end": 69
+          },
+          "code": "MISSING_FIELD",
+          "field": "alternativa_d",
+          "detail": "Campo vazio na fonte; não imputado.",
+          "status": "open",
+          "pedagogical_validation": false
+        },
+        {
+          "record_id": "04_itens_legado.csv:68",
+          "source": {
+            "file": "04_itens_legado.csv",
+            "record": 68,
+            "line_start": 69,
+            "line_end": 69
+          },
+          "code": "MISSING_FIELD",
+          "field": "alternativa_e",
+          "detail": "Campo vazio na fonte; não imputado.",
+          "status": "open",
+          "pedagogical_validation": false
+        },
+        {
+          "record_id": "04_itens_legado.csv:68",
+          "source": {
+            "file": "04_itens_legado.csv",
+            "record": 68,
+            "line_start": 69,
+            "line_end": 69
+          },
+          "code": "MISSING_FIELD",
+          "field": "gabarito",
+          "detail": "Campo vazio na fonte; não imputado.",
+          "status": "open",
+          "pedagogical_validation": false
+        },
+        {
+          "record_id": "04_itens_legado.csv:68",
+          "source": {
+            "file": "04_itens_legado.csv",
+            "record": 68,
+            "line_start": 69,
+            "line_end": 69
+          },
+          "code": "MISSING_FIELD",
+          "field": "origem_banco",
+          "detail": "Campo vazio na fonte; não imputado.",
+          "status": "open",
+          "pedagogical_validation": false
+        }
+      ],
+      "provider_mode": "mock",
+      "response_origin": null,
+      "new_inference": false
+    }
+  ]
+}

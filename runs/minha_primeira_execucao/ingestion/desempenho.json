@@ -1,0 +1,1865 @@
+[
+  {
+    "record_id": "05_desempenho_itens.csv:1",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 1,
+      "line_start": 2,
+      "line_end": 2
+    },
+    "raw": {
+      "item_id": "ITM-10041",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": "1842",
+      "percentual_acerto": "0.62",
+      "indice_discriminacao": "0.34",
+      "tempo_medio_resposta_seg": "142"
+    },
+    "data": {
+      "item_id": "ITM-10041",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": 1842,
+      "percentual_acerto": 0.62,
+      "indice_discriminacao": 0.34,
+      "tempo_medio_resposta_seg": 142.0
+    },
+    "item_record_id": "04_itens_legado.csv:1",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:2",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 2,
+      "line_start": 3,
+      "line_end": 3
+    },
+    "raw": {
+      "item_id": "ITM-10042",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": "1790",
+      "percentual_acerto": "0.81",
+      "indice_discriminacao": "0.19",
+      "tempo_medio_resposta_seg": "68"
+    },
+    "data": {
+      "item_id": "ITM-10042",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": 1790,
+      "percentual_acerto": 0.81,
+      "indice_discriminacao": 0.19,
+      "tempo_medio_resposta_seg": 68.0
+    },
+    "item_record_id": "04_itens_legado.csv:2",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:3",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 3,
+      "line_start": 4,
+      "line_end": 4
+    },
+    "raw": {
+      "item_id": "ITM-10043",
+      "semestre_referencia": "2025.1",
+      "n_respondentes": "1655",
+      "percentual_acerto": "0.78",
+      "indice_discriminacao": "0.21",
+      "tempo_medio_resposta_seg": "74"
+    },
+    "data": {
+      "item_id": "ITM-10043",
+      "semestre_referencia": "2025.1",
+      "n_respondentes": 1655,
+      "percentual_acerto": 0.78,
+      "indice_discriminacao": 0.21,
+      "tempo_medio_resposta_seg": 74.0
+    },
+    "item_record_id": "04_itens_legado.csv:3",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:4",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 4,
+      "line_start": 5,
+      "line_end": 5
+    },
+    "raw": {
+      "item_id": "ITM-10044",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": "1203",
+      "percentual_acerto": "0.44",
+      "indice_discriminacao": "0.41",
+      "tempo_medio_resposta_seg": "188"
+    },
+    "data": {
+      "item_id": "ITM-10044",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": 1203,
+      "percentual_acerto": 0.44,
+      "indice_discriminacao": 0.41,
+      "tempo_medio_resposta_seg": 188.0
+    },
+    "item_record_id": "04_itens_legado.csv:4",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:5",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 5,
+      "line_start": 6,
+      "line_end": 6
+    },
+    "raw": {
+      "item_id": "ITM-10045",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": "980",
+      "percentual_acerto": "0.57",
+      "indice_discriminacao": "0.29",
+      "tempo_medio_resposta_seg": "131"
+    },
+    "data": {
+      "item_id": "ITM-10045",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": 980,
+      "percentual_acerto": 0.57,
+      "indice_discriminacao": 0.29,
+      "tempo_medio_resposta_seg": 131.0
+    },
+    "item_record_id": "04_itens_legado.csv:5",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:6",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 6,
+      "line_start": 7,
+      "line_end": 7
+    },
+    "raw": {
+      "item_id": "ITM-10046",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": "1411",
+      "percentual_acerto": "0.38",
+      "indice_discriminacao": "0.47",
+      "tempo_medio_resposta_seg": "205"
+    },
+    "data": {
+      "item_id": "ITM-10046",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": 1411,
+      "percentual_acerto": 0.38,
+      "indice_discriminacao": 0.47,
+      "tempo_medio_resposta_seg": 205.0
+    },
+    "item_record_id": "04_itens_legado.csv:6",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:7",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 7,
+      "line_start": 8,
+      "line_end": 8
+    },
+    "raw": {
+      "item_id": "ITM-10047",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": "1066",
+      "percentual_acerto": "0.51",
+      "indice_discriminacao": "0.44",
+      "tempo_medio_resposta_seg": "176"
+    },
+    "data": {
+      "item_id": "ITM-10047",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": 1066,
+      "percentual_acerto": 0.51,
+      "indice_discriminacao": 0.44,
+      "tempo_medio_resposta_seg": 176.0
+    },
+    "item_record_id": "04_itens_legado.csv:7",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:8",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 8,
+      "line_start": 9,
+      "line_end": 9
+    },
+    "raw": {
+      "item_id": "ITM-10048",
+      "semestre_referencia": "2024.2",
+      "n_respondentes": "2015",
+      "percentual_acerto": "0.86",
+      "indice_discriminacao": "0.12",
+      "tempo_medio_resposta_seg": "52"
+    },
+    "data": {
+      "item_id": "ITM-10048",
+      "semestre_referencia": "2024.2",
+      "n_respondentes": 2015,
+      "percentual_acerto": 0.86,
+      "indice_discriminacao": 0.12,
+      "tempo_medio_resposta_seg": 52.0
+    },
+    "item_record_id": "04_itens_legado.csv:8",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:9",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 9,
+      "line_start": 10,
+      "line_end": 10
+    },
+    "raw": {
+      "item_id": "ITM-10049",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": "1588",
+      "percentual_acerto": "0.59",
+      "indice_discriminacao": "0.38",
+      "tempo_medio_resposta_seg": "149"
+    },
+    "data": {
+      "item_id": "ITM-10049",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": 1588,
+      "percentual_acerto": 0.59,
+      "indice_discriminacao": 0.38,
+      "tempo_medio_resposta_seg": 149.0
+    },
+    "item_record_id": "04_itens_legado.csv:9",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:10",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 10,
+      "line_start": 11,
+      "line_end": 11
+    },
+    "raw": {
+      "item_id": "ITM-10050",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": "902",
+      "percentual_acerto": "0.42",
+      "indice_discriminacao": "0.52",
+      "tempo_medio_resposta_seg": "221"
+    },
+    "data": {
+      "item_id": "ITM-10050",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": 902,
+      "percentual_acerto": 0.42,
+      "indice_discriminacao": 0.52,
+      "tempo_medio_resposta_seg": 221.0
+    },
+    "item_record_id": "04_itens_legado.csv:10",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:11",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 11,
+      "line_start": 12,
+      "line_end": 12
+    },
+    "raw": {
+      "item_id": "ITM-10051",
+      "semestre_referencia": "2025.1",
+      "n_respondentes": "1977",
+      "percentual_acerto": "0.93",
+      "indice_discriminacao": "0.03",
+      "tempo_medio_resposta_seg": "41"
+    },
+    "data": {
+      "item_id": "ITM-10051",
+      "semestre_referencia": "2025.1",
+      "n_respondentes": 1977,
+      "percentual_acerto": 0.93,
+      "indice_discriminacao": 0.03,
+      "tempo_medio_resposta_seg": 41.0
+    },
+    "item_record_id": "04_itens_legado.csv:11",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:12",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 12,
+      "line_start": 13,
+      "line_end": 13
+    },
+    "raw": {
+      "item_id": "ITM-10052",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": "1340",
+      "percentual_acerto": "0.47",
+      "indice_discriminacao": "0.39",
+      "tempo_medio_resposta_seg": "196"
+    },
+    "data": {
+      "item_id": "ITM-10052",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": 1340,
+      "percentual_acerto": 0.47,
+      "indice_discriminacao": 0.39,
+      "tempo_medio_resposta_seg": 196.0
+    },
+    "item_record_id": "04_itens_legado.csv:12",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:13",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 13,
+      "line_start": 14,
+      "line_end": 14
+    },
+    "raw": {
+      "item_id": "ITM-10053",
+      "semestre_referencia": "2025.1",
+      "n_respondentes": "1702",
+      "percentual_acerto": "0.74",
+      "indice_discriminacao": "0.22",
+      "tempo_medio_resposta_seg": "81"
+    },
+    "data": {
+      "item_id": "ITM-10053",
+      "semestre_referencia": "2025.1",
+      "n_respondentes": 1702,
+      "percentual_acerto": 0.74,
+      "indice_discriminacao": 0.22,
+      "tempo_medio_resposta_seg": 81.0
+    },
+    "item_record_id": "04_itens_legado.csv:13",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:14",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 14,
+      "line_start": 15,
+      "line_end": 15
+    },
+    "raw": {
+      "item_id": "ITM-10054",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": "1018",
+      "percentual_acerto": "0.49",
+      "indice_discriminacao": "0.46",
+      "tempo_medio_resposta_seg": "213"
+    },
+    "data": {
+      "item_id": "ITM-10054",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": 1018,
+      "percentual_acerto": 0.49,
+      "indice_discriminacao": 0.46,
+      "tempo_medio_resposta_seg": 213.0
+    },
+    "item_record_id": "04_itens_legado.csv:14",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:15",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 15,
+      "line_start": 16,
+      "line_end": 16
+    },
+    "raw": {
+      "item_id": "ITM-10055",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": "874",
+      "percentual_acerto": "0.36",
+      "indice_discriminacao": "0.51",
+      "tempo_medio_resposta_seg": "238"
+    },
+    "data": {
+      "item_id": "ITM-10055",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": 874,
+      "percentual_acerto": 0.36,
+      "indice_discriminacao": 0.51,
+      "tempo_medio_resposta_seg": 238.0
+    },
+    "item_record_id": "04_itens_legado.csv:15",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:16",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 16,
+      "line_start": 17,
+      "line_end": 17
+    },
+    "raw": {
+      "item_id": "ITM-10056",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": "1256",
+      "percentual_acerto": "0.41",
+      "indice_discriminacao": "0.33",
+      "tempo_medio_resposta_seg": "165"
+    },
+    "data": {
+      "item_id": "ITM-10056",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": 1256,
+      "percentual_acerto": 0.41,
+      "indice_discriminacao": 0.33,
+      "tempo_medio_resposta_seg": 165.0
+    },
+    "item_record_id": "04_itens_legado.csv:16",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:17",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 17,
+      "line_start": 18,
+      "line_end": 18
+    },
+    "raw": {
+      "item_id": "ITM-10057",
+      "semestre_referencia": "2024.2",
+      "n_respondentes": "1893",
+      "percentual_acerto": "0.88",
+      "indice_discriminacao": "0.09",
+      "tempo_medio_resposta_seg": "47"
+    },
+    "data": {
+      "item_id": "ITM-10057",
+      "semestre_referencia": "2024.2",
+      "n_respondentes": 1893,
+      "percentual_acerto": 0.88,
+      "indice_discriminacao": 0.09,
+      "tempo_medio_resposta_seg": 47.0
+    },
+    "item_record_id": "04_itens_legado.csv:17",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:18",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 18,
+      "line_start": 19,
+      "line_end": 19
+    },
+    "raw": {
+      "item_id": "ITM-10058",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": "1177",
+      "percentual_acerto": "0.45",
+      "indice_discriminacao": "0.43",
+      "tempo_medio_resposta_seg": "183"
+    },
+    "data": {
+      "item_id": "ITM-10058",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": 1177,
+      "percentual_acerto": 0.45,
+      "indice_discriminacao": 0.43,
+      "tempo_medio_resposta_seg": 183.0
+    },
+    "item_record_id": "04_itens_legado.csv:18",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:19",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 19,
+      "line_start": 20,
+      "line_end": 20
+    },
+    "raw": {
+      "item_id": "ITM-10059",
+      "semestre_referencia": "2025.1",
+      "n_respondentes": "1620",
+      "percentual_acerto": "0.69",
+      "indice_discriminacao": "0.26",
+      "tempo_medio_resposta_seg": "93"
+    },
+    "data": {
+      "item_id": "ITM-10059",
+      "semestre_referencia": "2025.1",
+      "n_respondentes": 1620,
+      "percentual_acerto": 0.69,
+      "indice_discriminacao": 0.26,
+      "tempo_medio_resposta_seg": 93.0
+    },
+    "item_record_id": "04_itens_legado.csv:19",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:20",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 20,
+      "line_start": 21,
+      "line_end": 21
+    },
+    "raw": {
+      "item_id": "ITM-10060",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": "845",
+      "percentual_acerto": "0.63",
+      "indice_discriminacao": "0.37",
+      "tempo_medio_resposta_seg": "201"
+    },
+    "data": {
+      "item_id": "ITM-10060",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": 845,
+      "percentual_acerto": 0.63,
+      "indice_discriminacao": 0.37,
+      "tempo_medio_resposta_seg": 201.0
+    },
+    "item_record_id": "04_itens_legado.csv:20",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:21",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 21,
+      "line_start": 22,
+      "line_end": 22
+    },
+    "raw": {
+      "item_id": "ITM-10061",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": "1308",
+      "percentual_acerto": "0.9",
+      "indice_discriminacao": "0.07",
+      "tempo_medio_resposta_seg": "58"
+    },
+    "data": {
+      "item_id": "ITM-10061",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": 1308,
+      "percentual_acerto": 0.9,
+      "indice_discriminacao": 0.07,
+      "tempo_medio_resposta_seg": 58.0
+    },
+    "item_record_id": "04_itens_legado.csv:21",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:22",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 22,
+      "line_start": 23,
+      "line_end": 23
+    },
+    "raw": {
+      "item_id": "ITM-10062",
+      "semestre_referencia": "2024.2",
+      "n_respondentes": "1744",
+      "percentual_acerto": "0.72",
+      "indice_discriminacao": "0.24",
+      "tempo_medio_resposta_seg": "88"
+    },
+    "data": {
+      "item_id": "ITM-10062",
+      "semestre_referencia": "2024.2",
+      "n_respondentes": 1744,
+      "percentual_acerto": 0.72,
+      "indice_discriminacao": 0.24,
+      "tempo_medio_resposta_seg": 88.0
+    },
+    "item_record_id": "04_itens_legado.csv:22",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:23",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 23,
+      "line_start": 24,
+      "line_end": 24
+    },
+    "raw": {
+      "item_id": "ITM-10063",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": "1192",
+      "percentual_acerto": "0.53",
+      "indice_discriminacao": "0.36",
+      "tempo_medio_resposta_seg": "171"
+    },
+    "data": {
+      "item_id": "ITM-10063",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": 1192,
+      "percentual_acerto": 0.53,
+      "indice_discriminacao": 0.36,
+      "tempo_medio_resposta_seg": 171.0
+    },
+    "item_record_id": "04_itens_legado.csv:23",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:24",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 24,
+      "line_start": 25,
+      "line_end": 25
+    },
+    "raw": {
+      "item_id": "ITM-10064",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": "931",
+      "percentual_acerto": "0.34",
+      "indice_discriminacao": "0.49",
+      "tempo_medio_resposta_seg": "229"
+    },
+    "data": {
+      "item_id": "ITM-10064",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": 931,
+      "percentual_acerto": 0.34,
+      "indice_discriminacao": 0.49,
+      "tempo_medio_resposta_seg": 229.0
+    },
+    "item_record_id": "04_itens_legado.csv:24",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:25",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 25,
+      "line_start": 26,
+      "line_end": 26
+    },
+    "raw": {
+      "item_id": "ITM-10065",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": "668",
+      "percentual_acerto": "0.28",
+      "indice_discriminacao": "0.45",
+      "tempo_medio_resposta_seg": "254"
+    },
+    "data": {
+      "item_id": "ITM-10065",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": 668,
+      "percentual_acerto": 0.28,
+      "indice_discriminacao": 0.45,
+      "tempo_medio_resposta_seg": 254.0
+    },
+    "item_record_id": "04_itens_legado.csv:25",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:26",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 26,
+      "line_start": 27,
+      "line_end": 27
+    },
+    "raw": {
+      "item_id": "ITM-10066",
+      "semestre_referencia": "2025.1",
+      "n_respondentes": "1533",
+      "percentual_acerto": "0.67",
+      "indice_discriminacao": "0.31",
+      "tempo_medio_resposta_seg": "102"
+    },
+    "data": {
+      "item_id": "ITM-10066",
+      "semestre_referencia": "2025.1",
+      "n_respondentes": 1533,
+      "percentual_acerto": 0.67,
+      "indice_discriminacao": 0.31,
+      "tempo_medio_resposta_seg": 102.0
+    },
+    "item_record_id": "04_itens_legado.csv:26",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:27",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 27,
+      "line_start": 28,
+      "line_end": 28
+    },
+    "raw": {
+      "item_id": "ITM-10067",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": "889",
+      "percentual_acerto": "0.48",
+      "indice_discriminacao": "0.42",
+      "tempo_medio_resposta_seg": "187"
+    },
+    "data": {
+      "item_id": "ITM-10067",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": 889,
+      "percentual_acerto": 0.48,
+      "indice_discriminacao": 0.42,
+      "tempo_medio_resposta_seg": 187.0
+    },
+    "item_record_id": "04_itens_legado.csv:27",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:28",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 28,
+      "line_start": 29,
+      "line_end": 29
+    },
+    "raw": {
+      "item_id": "ITM-10069",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": "914",
+      "percentual_acerto": "0.55",
+      "indice_discriminacao": "0.4",
+      "tempo_medio_resposta_seg": "168"
+    },
+    "data": {
+      "item_id": "ITM-10069",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": 914,
+      "percentual_acerto": 0.55,
+      "indice_discriminacao": 0.4,
+      "tempo_medio_resposta_seg": 168.0
+    },
+    "item_record_id": "04_itens_legado.csv:29",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:29",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 29,
+      "line_start": 30,
+      "line_end": 30
+    },
+    "raw": {
+      "item_id": "ITM-10070",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": "823",
+      "percentual_acerto": "0.58",
+      "indice_discriminacao": "0.39",
+      "tempo_medio_resposta_seg": "194"
+    },
+    "data": {
+      "item_id": "ITM-10070",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": 823,
+      "percentual_acerto": 0.58,
+      "indice_discriminacao": 0.39,
+      "tempo_medio_resposta_seg": 194.0
+    },
+    "item_record_id": "04_itens_legado.csv:30",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:30",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 30,
+      "line_start": 31,
+      "line_end": 31
+    },
+    "raw": {
+      "item_id": "ITM-10071",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": "1425",
+      "percentual_acerto": "0.61",
+      "indice_discriminacao": "0.32",
+      "tempo_medio_resposta_seg": "158"
+    },
+    "data": {
+      "item_id": "ITM-10071",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": 1425,
+      "percentual_acerto": 0.61,
+      "indice_discriminacao": 0.32,
+      "tempo_medio_resposta_seg": 158.0
+    },
+    "item_record_id": "04_itens_legado.csv:31",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:31",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 31,
+      "line_start": 32,
+      "line_end": 32
+    },
+    "raw": {
+      "item_id": "ITM-10072",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": "1098",
+      "percentual_acerto": "0.43",
+      "indice_discriminacao": "0.44",
+      "tempo_medio_resposta_seg": "199"
+    },
+    "data": {
+      "item_id": "ITM-10072",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": 1098,
+      "percentual_acerto": 0.43,
+      "indice_discriminacao": 0.44,
+      "tempo_medio_resposta_seg": 199.0
+    },
+    "item_record_id": "04_itens_legado.csv:32",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:32",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 32,
+      "line_start": 33,
+      "line_end": 33
+    },
+    "raw": {
+      "item_id": "ITM-10073",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": "1361",
+      "percentual_acerto": "0.96",
+      "indice_discriminacao": "0.02",
+      "tempo_medio_resposta_seg": "38"
+    },
+    "data": {
+      "item_id": "ITM-10073",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": 1361,
+      "percentual_acerto": 0.96,
+      "indice_discriminacao": 0.02,
+      "tempo_medio_resposta_seg": 38.0
+    },
+    "item_record_id": "04_itens_legado.csv:64",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:33",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 33,
+      "line_start": 34,
+      "line_end": 34
+    },
+    "raw": {
+      "item_id": "ITM-10074",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": "907",
+      "percentual_acerto": "0.39",
+      "indice_discriminacao": "-0.18",
+      "tempo_medio_resposta_seg": "162"
+    },
+    "data": {
+      "item_id": "ITM-10074",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": 907,
+      "percentual_acerto": 0.39,
+      "indice_discriminacao": -0.18,
+      "tempo_medio_resposta_seg": 162.0
+    },
+    "item_record_id": "04_itens_legado.csv:66",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:34",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 34,
+      "line_start": 35,
+      "line_end": 35
+    },
+    "raw": {
+      "item_id": "ITM-20015",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": "1588",
+      "percentual_acerto": "0.56",
+      "indice_discriminacao": "0.35",
+      "tempo_medio_resposta_seg": "139"
+    },
+    "data": {
+      "item_id": "ITM-20015",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": 1588,
+      "percentual_acerto": 0.56,
+      "indice_discriminacao": 0.35,
+      "tempo_medio_resposta_seg": 139.0
+    },
+    "item_record_id": "04_itens_legado.csv:33",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:35",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 35,
+      "line_start": 36,
+      "line_end": 36
+    },
+    "raw": {
+      "item_id": "ITM-20016",
+      "semestre_referencia": "2025.1",
+      "n_respondentes": "1690",
+      "percentual_acerto": "0.73",
+      "indice_discriminacao": "0.23",
+      "tempo_medio_resposta_seg": "84"
+    },
+    "data": {
+      "item_id": "ITM-20016",
+      "semestre_referencia": "2025.1",
+      "n_respondentes": 1690,
+      "percentual_acerto": 0.73,
+      "indice_discriminacao": 0.23,
+      "tempo_medio_resposta_seg": 84.0
+    },
+    "item_record_id": "04_itens_legado.csv:34",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:36",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 36,
+      "line_start": 37,
+      "line_end": 37
+    },
+    "raw": {
+      "item_id": "ITM-20017",
+      "semestre_referencia": "2024.2",
+      "n_respondentes": "1812",
+      "percentual_acerto": "0.7",
+      "indice_discriminacao": "0.2",
+      "tempo_medio_resposta_seg": "91"
+    },
+    "data": {
+      "item_id": "ITM-20017",
+      "semestre_referencia": "2024.2",
+      "n_respondentes": 1812,
+      "percentual_acerto": 0.7,
+      "indice_discriminacao": 0.2,
+      "tempo_medio_resposta_seg": 91.0
+    },
+    "item_record_id": "04_itens_legado.csv:35",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:37",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 37,
+      "line_start": 38,
+      "line_end": 38
+    },
+    "raw": {
+      "item_id": "ITM-20018",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": "942",
+      "percentual_acerto": "0.52",
+      "indice_discriminacao": "0.47",
+      "tempo_medio_resposta_seg": "178"
+    },
+    "data": {
+      "item_id": "ITM-20018",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": 942,
+      "percentual_acerto": 0.52,
+      "indice_discriminacao": 0.47,
+      "tempo_medio_resposta_seg": 178.0
+    },
+    "item_record_id": "04_itens_legado.csv:36",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:38",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 38,
+      "line_start": 39,
+      "line_end": 39
+    },
+    "raw": {
+      "item_id": "ITM-20019",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": "1277",
+      "percentual_acerto": "0.64",
+      "indice_discriminacao": "0.3",
+      "tempo_medio_resposta_seg": "112"
+    },
+    "data": {
+      "item_id": "ITM-20019",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": 1277,
+      "percentual_acerto": 0.64,
+      "indice_discriminacao": 0.3,
+      "tempo_medio_resposta_seg": 112.0
+    },
+    "item_record_id": "04_itens_legado.csv:37",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:39",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 39,
+      "line_start": 40,
+      "line_end": 40
+    },
+    "raw": {
+      "item_id": "ITM-20020",
+      "semestre_referencia": "2024.1",
+      "n_respondentes": "2104",
+      "percentual_acerto": "0.94",
+      "indice_discriminacao": "0.05",
+      "tempo_medio_resposta_seg": "44"
+    },
+    "data": {
+      "item_id": "ITM-20020",
+      "semestre_referencia": "2024.1",
+      "n_respondentes": 2104,
+      "percentual_acerto": 0.94,
+      "indice_discriminacao": 0.05,
+      "tempo_medio_resposta_seg": 44.0
+    },
+    "item_record_id": "04_itens_legado.csv:38",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:40",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 40,
+      "line_start": 41,
+      "line_end": 41
+    },
+    "raw": {
+      "item_id": "ITM-20021",
+      "semestre_referencia": "2025.1",
+      "n_respondentes": "1866",
+      "percentual_acerto": "0.91",
+      "indice_discriminacao": "0.06",
+      "tempo_medio_resposta_seg": "46"
+    },
+    "data": {
+      "item_id": "ITM-20021",
+      "semestre_referencia": "2025.1",
+      "n_respondentes": 1866,
+      "percentual_acerto": 0.91,
+      "indice_discriminacao": 0.06,
+      "tempo_medio_resposta_seg": 46.0
+    },
+    "item_record_id": "04_itens_legado.csv:39",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:41",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 41,
+      "line_start": 42,
+      "line_end": 42
+    },
+    "raw": {
+      "item_id": "ITM-20022",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": "858",
+      "percentual_acerto": "0.6",
+      "indice_discriminacao": "0.43",
+      "tempo_medio_resposta_seg": "170"
+    },
+    "data": {
+      "item_id": "ITM-20022",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": 858,
+      "percentual_acerto": 0.6,
+      "indice_discriminacao": 0.43,
+      "tempo_medio_resposta_seg": 170.0
+    },
+    "item_record_id": "04_itens_legado.csv:40",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:42",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 42,
+      "line_start": 43,
+      "line_end": 43
+    },
+    "raw": {
+      "item_id": "ITM-20023",
+      "semestre_referencia": "2025.1",
+      "n_respondentes": "1744",
+      "percentual_acerto": "0.76",
+      "indice_discriminacao": "0.21",
+      "tempo_medio_resposta_seg": "79"
+    },
+    "data": {
+      "item_id": "ITM-20023",
+      "semestre_referencia": "2025.1",
+      "n_respondentes": 1744,
+      "percentual_acerto": 0.76,
+      "indice_discriminacao": 0.21,
+      "tempo_medio_resposta_seg": 79.0
+    },
+    "item_record_id": "04_itens_legado.csv:41",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:43",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 43,
+      "line_start": 44,
+      "line_end": 44
+    },
+    "raw": {
+      "item_id": "ITM-20024",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": "811",
+      "percentual_acerto": "0.41",
+      "indice_discriminacao": "0.48",
+      "tempo_medio_resposta_seg": "216"
+    },
+    "data": {
+      "item_id": "ITM-20024",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": 811,
+      "percentual_acerto": 0.41,
+      "indice_discriminacao": 0.48,
+      "tempo_medio_resposta_seg": 216.0
+    },
+    "item_record_id": "04_itens_legado.csv:42",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:44",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 44,
+      "line_start": 45,
+      "line_end": 45
+    },
+    "raw": {
+      "item_id": "ITM-20025",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": "1322",
+      "percentual_acerto": "0.58",
+      "indice_discriminacao": "0.36",
+      "tempo_medio_resposta_seg": "147"
+    },
+    "data": {
+      "item_id": "ITM-20025",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": 1322,
+      "percentual_acerto": 0.58,
+      "indice_discriminacao": 0.36,
+      "tempo_medio_resposta_seg": 147.0
+    },
+    "item_record_id": "04_itens_legado.csv:43",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:45",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 45,
+      "line_start": 46,
+      "line_end": 46
+    },
+    "raw": {
+      "item_id": "ITM-20026",
+      "semestre_referencia": "2025.1",
+      "n_respondentes": "1611",
+      "percentual_acerto": "0.71",
+      "indice_discriminacao": "0.25",
+      "tempo_medio_resposta_seg": "87"
+    },
+    "data": {
+      "item_id": "ITM-20026",
+      "semestre_referencia": "2025.1",
+      "n_respondentes": 1611,
+      "percentual_acerto": 0.71,
+      "indice_discriminacao": 0.25,
+      "tempo_medio_resposta_seg": 87.0
+    },
+    "item_record_id": "04_itens_legado.csv:44",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:46",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 46,
+      "line_start": 47,
+      "line_end": 47
+    },
+    "raw": {
+      "item_id": "ITM-20027",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": "1289",
+      "percentual_acerto": "0.66",
+      "indice_discriminacao": "0.33",
+      "tempo_medio_resposta_seg": "124"
+    },
+    "data": {
+      "item_id": "ITM-20027",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": 1289,
+      "percentual_acerto": 0.66,
+      "indice_discriminacao": 0.33,
+      "tempo_medio_resposta_seg": 124.0
+    },
+    "item_record_id": "04_itens_legado.csv:45",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:47",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 47,
+      "line_start": 48,
+      "line_end": 48
+    },
+    "raw": {
+      "item_id": "ITM-20028",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": "836",
+      "percentual_acerto": "0.54",
+      "indice_discriminacao": "0.45",
+      "tempo_medio_resposta_seg": "192"
+    },
+    "data": {
+      "item_id": "ITM-20028",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": 836,
+      "percentual_acerto": 0.54,
+      "indice_discriminacao": 0.45,
+      "tempo_medio_resposta_seg": 192.0
+    },
+    "item_record_id": "04_itens_legado.csv:46",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:48",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 48,
+      "line_start": 49,
+      "line_end": 49
+    },
+    "raw": {
+      "item_id": "ITM-20029",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": "1405",
+      "percentual_acerto": "0.47",
+      "indice_discriminacao": "-0.11",
+      "tempo_medio_resposta_seg": "136"
+    },
+    "data": {
+      "item_id": "ITM-20029",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": 1405,
+      "percentual_acerto": 0.47,
+      "indice_discriminacao": -0.11,
+      "tempo_medio_resposta_seg": 136.0
+    },
+    "item_record_id": "04_itens_legado.csv:47",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:49",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 49,
+      "line_start": 50,
+      "line_end": 50
+    },
+    "raw": {
+      "item_id": "ITM-20030",
+      "semestre_referencia": "2024.2",
+      "n_respondentes": "1958",
+      "percentual_acerto": "0.89",
+      "indice_discriminacao": "0.08",
+      "tempo_medio_resposta_seg": "49"
+    },
+    "data": {
+      "item_id": "ITM-20030",
+      "semestre_referencia": "2024.2",
+      "n_respondentes": 1958,
+      "percentual_acerto": 0.89,
+      "indice_discriminacao": 0.08,
+      "tempo_medio_resposta_seg": 49.0
+    },
+    "item_record_id": "04_itens_legado.csv:48",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:50",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 50,
+      "line_start": 51,
+      "line_end": 51
+    },
+    "raw": {
+      "item_id": "ITM-20031",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": "867",
+      "percentual_acerto": "0.59",
+      "indice_discriminacao": "0.46",
+      "tempo_medio_resposta_seg": "185"
+    },
+    "data": {
+      "item_id": "ITM-20031",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": 867,
+      "percentual_acerto": 0.59,
+      "indice_discriminacao": 0.46,
+      "tempo_medio_resposta_seg": 185.0
+    },
+    "item_record_id": "04_itens_legado.csv:49",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:51",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 51,
+      "line_start": 52,
+      "line_end": 52
+    },
+    "raw": {
+      "item_id": "ITM-20032",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": "1244",
+      "percentual_acerto": "0.62",
+      "indice_discriminacao": "0.31",
+      "tempo_medio_resposta_seg": "118"
+    },
+    "data": {
+      "item_id": "ITM-20032",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": 1244,
+      "percentual_acerto": 0.62,
+      "indice_discriminacao": 0.31,
+      "tempo_medio_resposta_seg": 118.0
+    },
+    "item_record_id": "04_itens_legado.csv:50",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:52",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 52,
+      "line_start": 53,
+      "line_end": 53
+    },
+    "raw": {
+      "item_id": "ITM-20033",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": "1163",
+      "percentual_acerto": "0.44",
+      "indice_discriminacao": "0.4",
+      "tempo_medio_resposta_seg": "174"
+    },
+    "data": {
+      "item_id": "ITM-20033",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": 1163,
+      "percentual_acerto": 0.44,
+      "indice_discriminacao": 0.4,
+      "tempo_medio_resposta_seg": 174.0
+    },
+    "item_record_id": "04_itens_legado.csv:51",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:53",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 53,
+      "line_start": 54,
+      "line_end": 54
+    },
+    "raw": {
+      "item_id": "ITM-20034",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": "798",
+      "percentual_acerto": "0.57",
+      "indice_discriminacao": "0.44",
+      "tempo_medio_resposta_seg": "189"
+    },
+    "data": {
+      "item_id": "ITM-20034",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": 798,
+      "percentual_acerto": 0.57,
+      "indice_discriminacao": 0.44,
+      "tempo_medio_resposta_seg": 189.0
+    },
+    "item_record_id": "04_itens_legado.csv:52",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:54",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 54,
+      "line_start": 55,
+      "line_end": 55
+    },
+    "raw": {
+      "item_id": "ITM-20035",
+      "semestre_referencia": "2025.1",
+      "n_respondentes": "1677",
+      "percentual_acerto": "0.75",
+      "indice_discriminacao": "0.22",
+      "tempo_medio_resposta_seg": "83"
+    },
+    "data": {
+      "item_id": "ITM-20035",
+      "semestre_referencia": "2025.1",
+      "n_respondentes": 1677,
+      "percentual_acerto": 0.75,
+      "indice_discriminacao": 0.22,
+      "tempo_medio_resposta_seg": 83.0
+    },
+    "item_record_id": "04_itens_legado.csv:53",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:55",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 55,
+      "line_start": 56,
+      "line_end": 56
+    },
+    "raw": {
+      "item_id": "ITM-20036",
+      "semestre_referencia": "2025.1",
+      "n_respondentes": "1598",
+      "percentual_acerto": "0.68",
+      "indice_discriminacao": "0.27",
+      "tempo_medio_resposta_seg": "96"
+    },
+    "data": {
+      "item_id": "ITM-20036",
+      "semestre_referencia": "2025.1",
+      "n_respondentes": 1598,
+      "percentual_acerto": 0.68,
+      "indice_discriminacao": 0.27,
+      "tempo_medio_resposta_seg": 96.0
+    },
+    "item_record_id": "04_itens_legado.csv:54",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:56",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 56,
+      "line_start": 57,
+      "line_end": 57
+    },
+    "raw": {
+      "item_id": "ITM-20037",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": "785",
+      "percentual_acerto": "0.61",
+      "indice_discriminacao": "0.41",
+      "tempo_medio_resposta_seg": "197"
+    },
+    "data": {
+      "item_id": "ITM-20037",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": 785,
+      "percentual_acerto": 0.61,
+      "indice_discriminacao": 0.41,
+      "tempo_medio_resposta_seg": 197.0
+    },
+    "item_record_id": "04_itens_legado.csv:55",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:57",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 57,
+      "line_start": 58,
+      "line_end": 58
+    },
+    "raw": {
+      "item_id": "ITM-20038",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": "1356",
+      "percentual_acerto": "0.8",
+      "indice_discriminacao": "0.18",
+      "tempo_medio_resposta_seg": "71"
+    },
+    "data": {
+      "item_id": "ITM-20038",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": 1356,
+      "percentual_acerto": 0.8,
+      "indice_discriminacao": 0.18,
+      "tempo_medio_resposta_seg": 71.0
+    },
+    "item_record_id": "04_itens_legado.csv:56",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:58",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 58,
+      "line_start": 59,
+      "line_end": 59
+    },
+    "raw": {
+      "item_id": "ITM-20039",
+      "semestre_referencia": "2024.2",
+      "n_respondentes": "1889",
+      "percentual_acerto": "0.87",
+      "indice_discriminacao": "0.1",
+      "tempo_medio_resposta_seg": "54"
+    },
+    "data": {
+      "item_id": "ITM-20039",
+      "semestre_referencia": "2024.2",
+      "n_respondentes": 1889,
+      "percentual_acerto": 0.87,
+      "indice_discriminacao": 0.1,
+      "tempo_medio_resposta_seg": 54.0
+    },
+    "item_record_id": "04_itens_legado.csv:57",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:59",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 59,
+      "line_start": 60,
+      "line_end": 60
+    },
+    "raw": {
+      "item_id": "ITM-20040",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": "842",
+      "percentual_acerto": "0.53",
+      "indice_discriminacao": "0.45",
+      "tempo_medio_resposta_seg": "181"
+    },
+    "data": {
+      "item_id": "ITM-20040",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": 842,
+      "percentual_acerto": 0.53,
+      "indice_discriminacao": 0.45,
+      "tempo_medio_resposta_seg": 181.0
+    },
+    "item_record_id": "04_itens_legado.csv:58",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:60",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 60,
+      "line_start": 61,
+      "line_end": 61
+    },
+    "raw": {
+      "item_id": "ITM-20041",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": "776",
+      "percentual_acerto": "0.46",
+      "indice_discriminacao": "0.47",
+      "tempo_medio_resposta_seg": "207"
+    },
+    "data": {
+      "item_id": "ITM-20041",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": 776,
+      "percentual_acerto": 0.46,
+      "indice_discriminacao": 0.47,
+      "tempo_medio_resposta_seg": 207.0
+    },
+    "item_record_id": "04_itens_legado.csv:59",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:61",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 61,
+      "line_start": 62,
+      "line_end": 62
+    },
+    "raw": {
+      "item_id": "ITM-20043",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": "1534",
+      "percentual_acerto": "0.31",
+      "indice_discriminacao": "-0.24",
+      "tempo_medio_resposta_seg": "118"
+    },
+    "data": {
+      "item_id": "ITM-20043",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": 1534,
+      "percentual_acerto": 0.31,
+      "indice_discriminacao": -0.24,
+      "tempo_medio_resposta_seg": 118.0
+    },
+    "item_record_id": "04_itens_legado.csv:67",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:62",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 62,
+      "line_start": 63,
+      "line_end": 63
+    },
+    "raw": {
+      "item_id": "ITM-20042",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": "1298",
+      "percentual_acerto": "0.84",
+      "indice_discriminacao": "0.11",
+      "tempo_medio_resposta_seg": "63"
+    },
+    "data": {
+      "item_id": "ITM-20042",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": 1298,
+      "percentual_acerto": 0.84,
+      "indice_discriminacao": 0.11,
+      "tempo_medio_resposta_seg": 63.0
+    },
+    "item_record_id": "04_itens_legado.csv:65",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:63",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 63,
+      "line_start": 64,
+      "line_end": 64
+    },
+    "raw": {
+      "item_id": "ITM-30008",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": "18",
+      "percentual_acerto": "0.5",
+      "indice_discriminacao": "",
+      "tempo_medio_resposta_seg": "203"
+    },
+    "data": {
+      "item_id": "ITM-30008",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": 18,
+      "percentual_acerto": 0.5,
+      "indice_discriminacao": null,
+      "tempo_medio_resposta_seg": 203.0
+    },
+    "item_record_id": "04_itens_legado.csv:61",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:64",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 64,
+      "line_start": 65,
+      "line_end": 65
+    },
+    "raw": {
+      "item_id": "ITM-30009",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": "22",
+      "percentual_acerto": "0.77",
+      "indice_discriminacao": "",
+      "tempo_medio_resposta_seg": "88"
+    },
+    "data": {
+      "item_id": "ITM-30009",
+      "semestre_referencia": "2025.2",
+      "n_respondentes": 22,
+      "percentual_acerto": 0.77,
+      "indice_discriminacao": null,
+      "tempo_medio_resposta_seg": 88.0
+    },
+    "item_record_id": "04_itens_legado.csv:62",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:65",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 65,
+      "line_start": 66,
+      "line_end": 66
+    },
+    "raw": {
+      "item_id": "ITM-30010",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": "11",
+      "percentual_acerto": "0.64",
+      "indice_discriminacao": "",
+      "tempo_medio_resposta_seg": "142"
+    },
+    "data": {
+      "item_id": "ITM-30010",
+      "semestre_referencia": "2026.1",
+      "n_respondentes": 11,
+      "percentual_acerto": 0.64,
+      "indice_discriminacao": null,
+      "tempo_medio_resposta_seg": 142.0
+    },
+    "item_record_id": "04_itens_legado.csv:63",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:66",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 66,
+      "line_start": 67,
+      "line_end": 67
+    },
+    "raw": {
+      "item_id": "ITM10068",
+      "semestre_referencia": "2024.2",
+      "n_respondentes": "1702",
+      "percentual_acerto": "0.66",
+      "indice_discriminacao": "0.28",
+      "tempo_medio_resposta_seg": "99"
+    },
+    "data": {
+      "item_id": "ITM-10068",
+      "semestre_referencia": "2024.2",
+      "n_respondentes": 1702,
+      "percentual_acerto": 0.66,
+      "indice_discriminacao": 0.28,
+      "tempo_medio_resposta_seg": 99.0
+    },
+    "item_record_id": "04_itens_legado.csv:28",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:67",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 67,
+      "line_start": 68,
+      "line_end": 68
+    },
+    "raw": {
+      "item_id": "ITM10066",
+      "semestre_referencia": "2024.1",
+      "n_respondentes": "1588",
+      "percentual_acerto": "0.64",
+      "indice_discriminacao": "0.3",
+      "tempo_medio_resposta_seg": "105"
+    },
+    "data": {
+      "item_id": "ITM-10066",
+      "semestre_referencia": "2024.1",
+      "n_respondentes": 1588,
+      "percentual_acerto": 0.64,
+      "indice_discriminacao": 0.3,
+      "tempo_medio_resposta_seg": 105.0
+    },
+    "item_record_id": "04_itens_legado.csv:26",
+    "link_status": "matched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:68",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 68,
+      "line_start": 69,
+      "line_end": 69
+    },
+    "raw": {
+      "item_id": "ITM-10039",
+      "semestre_referencia": "2024.1",
+      "n_respondentes": "1455",
+      "percentual_acerto": "0.58",
+      "indice_discriminacao": "0.33",
+      "tempo_medio_resposta_seg": "151"
+    },
+    "data": {
+      "item_id": "ITM-10039",
+      "semestre_referencia": "2024.1",
+      "n_respondentes": 1455,
+      "percentual_acerto": 0.58,
+      "indice_discriminacao": 0.33,
+      "tempo_medio_resposta_seg": 151.0
+    },
+    "item_record_id": null,
+    "link_status": "unmatched"
+  },
+  {
+    "record_id": "05_desempenho_itens.csv:69",
+    "source": {
+      "file": "05_desempenho_itens.csv",
+      "record": 69,
+      "line_start": 70,
+      "line_end": 70
+    },
+    "raw": {
+      "item_id": "ITM-20011",
+      "semestre_referencia": "2024.1",
+      "n_respondentes": "1390",
+      "percentual_acerto": "0.49",
+      "indice_discriminacao": "0.37",
+      "tempo_medio_resposta_seg": "168"
+    },
+    "data": {
+      "item_id": "ITM-20011",
+      "semestre_referencia": "2024.1",
+      "n_respondentes": 1390,
+      "percentual_acerto": 0.49,
+      "indice_discriminacao": 0.37,
+      "tempo_medio_resposta_seg": 168.0
+    },
+    "item_record_id": null,
+    "link_status": "unmatched"
+  }
+]

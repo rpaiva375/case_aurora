@@ -1,0 +1,193 @@
+========================================================================
+ARQUIVO 06 — AMOSTRA DA FILA DE REVISAO DOCENTE (revisao.itens@aurora.edu.br)
+Amostra de 16 registros de uma media de ~890 reprovacoes/semestre.
+Formatos preservados: e-mail livre, campo de comentario do sistema e grupo
+de WhatsApp da coordenacao. Nenhum motivo de reprovacao e categorizado.
+========================================================================
+
+
+--- E-MAIL 1 -----------------------------------------------------------
+De: marcos.vilela@aurora.edu.br
+Para: revisao.itens@aurora.edu.br
+Data: 14/03/2026 08:22
+Assunto: itens da GF - lote 7
+
+Bom dia,
+
+Olhei o lote. O ITM-10073 nao da pra usar: o proprio enunciado ja afirma que
+VPL positivo cria valor e depois pergunta o que fazer com um projeto de VPL
+positivo. Qualquer aluno acerta sem saber nada. Ja reprovei esse item uma vez
+no ano passado e ele voltou igual.
+
+O ITM-10051 tecnicamente esta certo mas e decoreba. A matriz pede aplicar,
+nao lembrar. Se for pra medir conceito, que seja numa questao de nivel
+compreender, nao numa prova de fim de disciplina.
+
+Abs
+Marcos
+
+
+--- E-MAIL 2 -----------------------------------------------------------
+De: patricia.andrade@aurora.edu.br
+Para: revisao.itens@aurora.edu.br; coord.avaliacao@aurora.edu.br
+Data: 16/03/2026 19:47
+Assunto: RE: pendencias CO
+
+Pessoal, o ITM-20042 tem a alternativa C e a D escritas exatamente iguais
+("Preparar a resposta enquanto o outro fala"). Isso ja caiu em prova assim?
+Se caiu, o aluno que marcou D foi prejudicado.
+
+Aproveito: o ITM-20043 pergunta "com base no texto acima" e nao tem texto
+nenhum. Esse item esta no banco desde que eu entrei aqui. Eu tenho certeza
+que ja reclamei disso antes.
+
+Patricia
+
+
+--- COMENTARIO NO SISTEMA (campo livre de 500 caracteres) --------------
+Item: ITM-10074
+Revisor: joana.prado
+Data: 02/04/2026
+Comentario: reprovado. a questao pede o indicador que mede capacidade de
+pagamento de curto prazo sem depender de estoque. gabarito marcado liquidez
+seca mas liquidez imediata tambem atende o enunciado como esta escrito.
+precisa fechar o enunciado ou mudar o gabarito. do jeito que esta tem duas
+respostas defensaveis
+
+
+--- COMENTARIO NO SISTEMA ---------------------------------------------
+Item: ITM-20021
+Revisor: joana.prado
+Data: 02/04/2026
+Comentario: essa e a mesma coisa do ITM-20020, so trocaram "assinale a ordem
+correta" por "cite em ordem". banco ja tem essa questao. nao faz sentido ter
+as duas
+
+
+--- E-MAIL 3 -----------------------------------------------------------
+De: rogerio.lemos@aurora.edu.br
+Para: revisao.itens@aurora.edu.br
+Data: 07/04/2026 11:05
+Assunto: lote 9 - devolvendo
+
+Oi,
+
+Devolvo 4:
+
+ITM-20044 - sem gabarito preenchido e so tem 3 alternativas. Nao sei se foi
+erro de importacao ou se o item esta incompleto mesmo.
+
+ITM-10068 - idem, gabarito em branco.
+
+ITM-30007 e ITM-30010 - esses dois nao sao da minha area. Um e de Direito
+Empresarial e o outro de tributario. Vieram no lote de Administracao mas o
+conteudo nao bate com nenhuma das duas disciplinas que eu reviso. Acho que
+sao da leva que veio da unidade Norte.
+
+Rogerio
+
+
+--- E-MAIL 4 -----------------------------------------------------------
+De: marcos.vilela@aurora.edu.br
+Para: revisao.itens@aurora.edu.br
+Data: 11/04/2026 16:31
+Assunto: ITM-10061
+
+Esse item descreve a definicao de transparencia no enunciado e depois pede
+qual pratica viola a transparencia. Da pra responder lendo so o enunciado.
+Mesmo problema do 10073 que eu reportei em marco.
+
+Nao e exatamente errado, mas nao mede nada.
+
+
+--- COMENTARIO NO SISTEMA ---------------------------------------------
+Item: ITM-20029
+Revisor: luis.tavares
+Data: 15/04/2026
+Comentario: item com EXCETO. aluno le rapido e erra por causa do enunciado,
+nao por causa do conteudo. alem disso a alternativa correta ("uso de
+linguagem comum ao emissor e ao receptor") e obviamente a unica positiva da
+lista, entao quem nao sabe nada tambem acerta por eliminacao. reprovo
+
+
+--- E-MAIL 5 -----------------------------------------------------------
+De: patricia.andrade@aurora.edu.br
+Para: coord.avaliacao@aurora.edu.br
+Data: 20/04/2026 09:12
+Assunto: preocupacao com repeticao
+
+Carla,
+
+Montei a prova da 2026.1 de CO e quando fui conferir vi que o ITM-20022
+(pensamento grupal) ja estava em outras duas provas desse mesmo semestre. O
+ITM-20028 tambem. Eu nao tenho como saber isso na hora de montar, o sistema
+nao me avisa.
+
+Se o aluno faz a prova de uma turma e passa pro grupo, as outras duas estao
+queimadas.
+
+Patricia
+
+
+--- E-MAIL 6 -----------------------------------------------------------
+De: joana.prado@aurora.edu.br
+Para: revisao.itens@aurora.edu.br
+Data: 24/04/2026 14:58
+Assunto: lote 11
+
+ITM-10043 - esse e praticamente o ITM-10042 com outras palavras. Os dois
+perguntam a diferenca entre simples e composta. Reprovo o 10043 e mantenho o
+42 que esta melhor escrito.
+
+ITM-10048 - "o que e capital de giro" - definicao pura, e o gabarito esta
+como "2" em vez de "B". Nao sei se o sistema aceita.
+
+ITM-20017 - gabarito esta como "B" mas na importacao apareceu outra coisa.
+Alguem confere o formato desses campos? Tem item com "A", tem com "A)", tem
+com "1", tem com "Alternativa B". Isso vai dar problema na montagem.
+
+
+--- TRECHO DO GRUPO DE WHATSAPP "CURADORIA DE ITENS" -------------------
+[14/03 08:40] Marcos: devolvi o 10073 de novo, mesmo problema do ano passado
+[14/03 08:41] Carla (coord): de novo? achei que tinha sido corrigido
+[14/03 08:43] Marcos: voltou igual. nao sei se alguem mexeu
+[14/03 09:02] Carla (coord): o motivo fica onde quando voces reprovam?
+[14/03 09:04] Marcos: eu escrevo no email mesmo. tem um campo de comentario
+no sistema mas e pequeno e ninguem le depois
+[14/03 09:05] Patricia: eu uso o campo. mas concordo que nao serve pra nada,
+nunca ninguem voltou pra ver
+[16/03 19:50] Carla (coord): gente o Enade mudou a janela. preciso do mapa de
+cobertura por competencia e nao tenho isso de lugar nenhum
+[16/03 19:52] Patricia: cobertura a gente nunca teve. da pra montar na mao
+olhando prova por prova mas leva uma semana por curso
+[16/03 19:55] Carla (coord): e a gente tem 240 mil itens no banco
+[16/03 20:01] Marcos: desses, quantos tem competencia marcada?
+[16/03 20:02] Carla (coord): o TI falou que uns 15%. o resto esta so com
+disciplina no campo de texto
+[20/04 09:20] Carla (coord): Patricia, sobre a repeticao, vou abrir chamado.
+mas adianto que o TI nao vai liberar escrita no banco esse semestre
+[20/04 09:22] Patricia: entao nao tem como marcar item como queimado?
+[20/04 09:25] Carla (coord): nao no banco. teria que ser fora
+
+
+--- E-MAIL 7 -----------------------------------------------------------
+De: carla.menezes@aurora.edu.br
+Para: proreitoria.academica@aurora.edu.br
+Data: 28/04/2026 17:40
+Assunto: banco de questoes com IA - status
+
+Prezado,
+
+Respondendo sua pergunta sobre a ferramenta contratada no ano passado.
+
+O acesso esta ativo e o contrato corre ate dezembro. O uso pelos docentes
+foi de 11 itens aprovados em 7 meses. O que os revisores relatam e que os
+itens gerados vem bem escritos, mas sem vinculo com a nossa matriz, entao a
+revisao precisa classificar o item do zero antes de avaliar o merito. Deu
+mais trabalho do que escrever o item.
+
+Dois coordenadores me disseram a mesma frase: "se eu vou ter que conferir
+tudo de novo, eu prefiro escrever eu mesma".
+
+Carla Menezes
+Coordenacao de Avaliacao

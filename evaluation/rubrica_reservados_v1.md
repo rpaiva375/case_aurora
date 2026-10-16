@@ -1,0 +1,15 @@
+# Rubrica congelada — reservados, rodada única v1
+
+Dados permitidos: somente packet.json desta avaliação, contendo oito itens e matriz/ementas. Sem rede/API, acervo completo, desempenho, aplicações, sugestões anteriores ou rótulos humanos. Não alterar entradas nem esta rubrica. Uma resposta por item nesta única rodada; preservar abstenções e erros, sem segunda tentativa ou ajuste a partir dos resultados.
+
+Separar assunto, objeto sustentado, operação cognitiva realmente exigida, aspecto curricular e problemas de uso. Teste único: trecho exato do item → operação observável → objetivo/habilidade/aspecto curricular explícito → par OC-COMP proposto ou competência pendente. Evidência parcial explícita basta; coincidência temática ou pré-requisito não basta. Simplicidade não veta. Não exigir a competência inteira.
+
+Para inferências positivas, citar trecho literal da questão, pointer da matriz e arquivo/linhas da ementa; explicar por que responder exige a habilidade citada. Candidatos examinados não são vínculos. Se há objeto sustentado sem competência suficientemente evidenciada, preservar o objeto e a pendência. Não fabricar evidência para ausências de escopo ou contexto. Nenhum gabarito é automaticamente validado. Problemas de uso são um eixo separado do vínculo.
+
+Estados: suggested; object_supported_competency_pending; abstained; error. Para cada item guardar: item_id, record_id, status, subject, required_task, supported_oc_ids, links (oc_id, competency_id, skill_ids, scope), rationale, evidence, use_issues, abstention_or_pending_reason, analyst_next_action, user_check_question. Evidence: kind item/matrix/ementa; quote literal; item: record_id e field; matrix: file e pointer; ementa: file, line_start, line_end. Citação pode ser trecho literal contido no campo/intervalo, sem normalização que esconda diferenças. Toda sugestão positiva deve incluir as três classes de evidência. Erro de produção/processamento não é abstenção semântica.
+
+Todos: ready_for_exam=false, user_evidence_check=pending, specialist_pedagogical_review=pending. Autoria/julgamento dos agentes; critério derivado do definido pelo usuário. Inferência nova da sessão, não replay nem cliente API integrado. Não atribuir decisões ou aprovação ao usuário. Declarar problemas detectados sem os transformar em diagnóstico especializado confirmado.
+
+Regra 1–3 separada e provisória: contar nós únicos OC+COMP dos pares, excluindo habilidades; reportar também OCs sem par e contá-los como nós identificados. Objeto sem competência recebe incomplete_mapping. Sem nós recebe not_applicable. Excesso recebe review_limit_exceeded, sem cortar vínculos. Conferência estrutural não é validação pedagógica.
+
+Encaminhamento da analista deve distinguir conferência de evidências, solicitação de informação e revisão especializada. Nenhuma saída autoriza prova. Se faltar contexto, não preenchê-lo por inferência. Se o aspecto curricular não estiver nos dois componentes fornecidos, declarar limite do recorte sem afirmar que o item é inválido em qualquer currículo.

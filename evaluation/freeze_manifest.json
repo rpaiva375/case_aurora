@@ -1,0 +1,33 @@
+{
+  "frozen_at": "2026-10-15T14:38:18.328160+00:00",
+  "source_hashes": {
+    "evaluation/rubrica_reservados_v1.md": "4cbcfdd463ce792a4cd03fc14146b8b9902fb88b841995c16078558ec5f99863",
+    "evaluation/freeze.py": "91171d4b69b2e36f8bcb377e0421eb86e033389d21318ccdc89c247e5dbdc40c",
+    "mapping/split.json": "6818f1852f7dbad183118412d56ccba08acf4af381b8ad89b41612adebc27744",
+    "output/itens.json": "e08ad0983b4d768a1d536cec4b7746f7adbfaa879760bc66197292a826d300e5",
+    "output/matriz.json": "d9f2d3fb06abe250dbfab5a7f2a9c8227ff3e2804bf6065063ce38d360ae99e8",
+    "output/textos.json": "ef8cedba364ee3baecdd5240e5328a5a0ba1eaf99b58947d7a4c304ab77af9e9",
+    "output/ementas_manifest.json": "da23b23f7e56b9c969d2e41df64937807771240a13b60261c8a47c8d3579df8c",
+    "run_local.py": "cdb35dc9e4fcc2ebbd8f56f0f2e5965b21dcdd67fbf6a698264e1da08ac4d64b",
+    "decisions.py": "65d5bac14ce75ad133c84c155e74222f2ed255c216892f51770551a036db203f"
+  },
+  "ids": [
+    "ITM-10049",
+    "ITM-10060",
+    "ITM-10069",
+    "ITM-20028",
+    "ITM-20034",
+    "ITM-20037",
+    "ITM-20044",
+    "ITM-30010"
+  ],
+  "rounds": 1,
+  "retries": 0,
+  "provider": "session_agents",
+  "model": "inherited_session_model_not_independently_identified",
+  "paid_api_authorized": false,
+  "api_client_executed": false,
+  "previous_exposure": "prospective reserve; earlier diagnostic accessed corpus; not retrospectively blind",
+  "user_evidence_check": "pending",
+  "specialist_pedagogical_review": "pending"
+}

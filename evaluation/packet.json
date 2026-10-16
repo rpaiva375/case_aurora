@@ -1,0 +1,851 @@
+{
+  "items": [
+    {
+      "record_id": "04_itens_legado.csv:9",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 9,
+        "line_start": 10,
+        "line_end": 10
+      },
+      "raw": {
+        "id": "ITM-10049",
+        "enunciado": "Uma empresa apresenta ativo circulante de R$ 240.000,00 e passivo circulante de R$ 160.000,00. Qual o indice de liquidez corrente e o que ele indica?",
+        "alternativa_a": "0,67 — capacidade insuficiente de honrar obrigacoes de curto prazo",
+        "alternativa_b": "1,50 — capacidade de honrar obrigacoes de curto prazo",
+        "alternativa_c": "1,50 — endividamento elevado no longo prazo",
+        "alternativa_d": "2,40 — folga financeira ampla",
+        "alternativa_e": "0,67 — rentabilidade abaixo do setor",
+        "gabarito": "B",
+        "disciplina_informada": "Gestão Financeira",
+        "ano_aplicacao": "2024",
+        "origem_banco": "Banco Próprio"
+      },
+      "data": {
+        "id": "ITM-10049",
+        "enunciado": "Uma empresa apresenta ativo circulante de R$ 240.000,00 e passivo circulante de R$ 160.000,00. Qual o indice de liquidez corrente e o que ele indica?",
+        "alternativa_a": "0,67 — capacidade insuficiente de honrar obrigacoes de curto prazo",
+        "alternativa_b": "1,50 — capacidade de honrar obrigacoes de curto prazo",
+        "alternativa_c": "1,50 — endividamento elevado no longo prazo",
+        "alternativa_d": "2,40 — folga financeira ampla",
+        "alternativa_e": "0,67 — rentabilidade abaixo do setor",
+        "gabarito": "B",
+        "disciplina_informada": "Gestão Financeira",
+        "ano_aplicacao": 2024,
+        "origem_banco": "Banco Próprio"
+      },
+      "item_record_id": "04_itens_legado.csv:9",
+      "link_status": "matched"
+    },
+    {
+      "record_id": "04_itens_legado.csv:20",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 20,
+        "line_start": 21,
+        "line_end": 21
+      },
+      "raw": {
+        "id": "ITM-10060",
+        "enunciado": "A diretoria financeira de uma companhia aberta identificou, duas semanas antes da divulgacao do resultado trimestral, um erro relevante na apuracao de receitas que reduz o lucro informado em 18%. Qual conduta e compativel com os principios de transparencia na informacao financeira?",
+        "alternativa_a": "Divulgar o resultado original e corrigir no trimestre seguinte",
+        "alternativa_b": "Retificar a informacao e comunicar o mercado antes da divulgacao, registrando a origem do erro",
+        "alternativa_c": "Comunicar apenas o auditor independente e manter a divulgacao",
+        "alternativa_d": "Adiar a divulgacao sem justificativa publica",
+        "alternativa_e": "Compensar o erro com reversao de provisoes de outra conta",
+        "gabarito": "B",
+        "disciplina_informada": "Gestão Financeira",
+        "ano_aplicacao": "2026",
+        "origem_banco": "Banco Próprio"
+      },
+      "data": {
+        "id": "ITM-10060",
+        "enunciado": "A diretoria financeira de uma companhia aberta identificou, duas semanas antes da divulgacao do resultado trimestral, um erro relevante na apuracao de receitas que reduz o lucro informado em 18%. Qual conduta e compativel com os principios de transparencia na informacao financeira?",
+        "alternativa_a": "Divulgar o resultado original e corrigir no trimestre seguinte",
+        "alternativa_b": "Retificar a informacao e comunicar o mercado antes da divulgacao, registrando a origem do erro",
+        "alternativa_c": "Comunicar apenas o auditor independente e manter a divulgacao",
+        "alternativa_d": "Adiar a divulgacao sem justificativa publica",
+        "alternativa_e": "Compensar o erro com reversao de provisoes de outra conta",
+        "gabarito": "B",
+        "disciplina_informada": "Gestão Financeira",
+        "ano_aplicacao": 2026,
+        "origem_banco": "Banco Próprio"
+      },
+      "item_record_id": "04_itens_legado.csv:20",
+      "link_status": "matched"
+    },
+    {
+      "record_id": "04_itens_legado.csv:29",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 29,
+        "line_start": 30,
+        "line_end": 30
+      },
+      "raw": {
+        "id": "ITM-10069",
+        "enunciado": "Em um cenario de elevacao da taxa basica de juros, qual efeito e esperado sobre a avaliacao de projetos de investimento de longo prazo?",
+        "alternativa_a": "O VPL dos projetos aumenta",
+        "alternativa_b": "O VPL dos projetos diminui pela elevacao da taxa de desconto",
+        "alternativa_c": "A TIR dos projetos aumenta",
+        "alternativa_d": "O payback simples se reduz",
+        "alternativa_e": "Nao ha efeito sobre a avaliacao",
+        "gabarito": "B",
+        "disciplina_informada": "Gestão Financeira",
+        "ano_aplicacao": "2026",
+        "origem_banco": "Banco Próprio"
+      },
+      "data": {
+        "id": "ITM-10069",
+        "enunciado": "Em um cenario de elevacao da taxa basica de juros, qual efeito e esperado sobre a avaliacao de projetos de investimento de longo prazo?",
+        "alternativa_a": "O VPL dos projetos aumenta",
+        "alternativa_b": "O VPL dos projetos diminui pela elevacao da taxa de desconto",
+        "alternativa_c": "A TIR dos projetos aumenta",
+        "alternativa_d": "O payback simples se reduz",
+        "alternativa_e": "Nao ha efeito sobre a avaliacao",
+        "gabarito": "B",
+        "disciplina_informada": "Gestão Financeira",
+        "ano_aplicacao": 2026,
+        "origem_banco": "Banco Próprio"
+      },
+      "item_record_id": "04_itens_legado.csv:29",
+      "link_status": "matched"
+    },
+    {
+      "record_id": "04_itens_legado.csv:46",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 46,
+        "line_start": 47,
+        "line_end": 47
+      },
+      "raw": {
+        "id": "ITM-20028",
+        "enunciado": "Uma diretora precisa comunicar a reestruturacao de uma area, com extincao de dois cargos, a uma equipe de 40 pessoas distribuida em tres cidades. Qual escolha de canal e sequencia reduz o risco de ruido e de boato?",
+        "alternativa_a": "Comunicado por e-mail a todos, simultaneamente, sem reuniao posterior",
+        "alternativa_b": "Conversa individual com os diretamente afetados, seguida de reuniao sincrona com a equipe e comunicado escrito de registro",
+        "alternativa_c": "Divulgacao no mural da unidade sede",
+        "alternativa_d": "Informar primeiro as liderancas informais para que repassem",
+        "alternativa_e": "Aguardar a efetivacao das mudancas para comunicar",
+        "gabarito": "B",
+        "disciplina_informada": "Comportamento Organizacional",
+        "ano_aplicacao": "2026",
+        "origem_banco": "Banco Próprio"
+      },
+      "data": {
+        "id": "ITM-20028",
+        "enunciado": "Uma diretora precisa comunicar a reestruturacao de uma area, com extincao de dois cargos, a uma equipe de 40 pessoas distribuida em tres cidades. Qual escolha de canal e sequencia reduz o risco de ruido e de boato?",
+        "alternativa_a": "Comunicado por e-mail a todos, simultaneamente, sem reuniao posterior",
+        "alternativa_b": "Conversa individual com os diretamente afetados, seguida de reuniao sincrona com a equipe e comunicado escrito de registro",
+        "alternativa_c": "Divulgacao no mural da unidade sede",
+        "alternativa_d": "Informar primeiro as liderancas informais para que repassem",
+        "alternativa_e": "Aguardar a efetivacao das mudancas para comunicar",
+        "gabarito": "B",
+        "disciplina_informada": "Comportamento Organizacional",
+        "ano_aplicacao": 2026,
+        "origem_banco": "Banco Próprio"
+      },
+      "item_record_id": "04_itens_legado.csv:46",
+      "link_status": "matched"
+    },
+    {
+      "record_id": "04_itens_legado.csv:52",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 52,
+        "line_start": 53,
+        "line_end": 53
+      },
+      "raw": {
+        "id": "ITM-20034",
+        "enunciado": "Uma organizacao declara em seu codigo que valoriza a autonomia das equipes, mas toda decisao de compra acima de R$ 500,00 exige aprovacao de tres niveis hierarquicos. Essa situacao evidencia:",
+        "alternativa_a": "Alinhamento entre cultura declarada e praticada",
+        "alternativa_b": "Distancia entre a cultura declarada e os artefatos e praticas efetivas",
+        "alternativa_c": "Clima organizacional favoravel",
+        "alternativa_d": "Predominio de cultura de inovacao",
+        "alternativa_e": "Ausencia de cultura organizacional",
+        "gabarito": "B",
+        "disciplina_informada": "Comportamento Organizacional",
+        "ano_aplicacao": "2026",
+        "origem_banco": "Banco Próprio"
+      },
+      "data": {
+        "id": "ITM-20034",
+        "enunciado": "Uma organizacao declara em seu codigo que valoriza a autonomia das equipes, mas toda decisao de compra acima de R$ 500,00 exige aprovacao de tres niveis hierarquicos. Essa situacao evidencia:",
+        "alternativa_a": "Alinhamento entre cultura declarada e praticada",
+        "alternativa_b": "Distancia entre a cultura declarada e os artefatos e praticas efetivas",
+        "alternativa_c": "Clima organizacional favoravel",
+        "alternativa_d": "Predominio de cultura de inovacao",
+        "alternativa_e": "Ausencia de cultura organizacional",
+        "gabarito": "B",
+        "disciplina_informada": "Comportamento Organizacional",
+        "ano_aplicacao": 2026,
+        "origem_banco": "Banco Próprio"
+      },
+      "item_record_id": "04_itens_legado.csv:52",
+      "link_status": "matched"
+    },
+    {
+      "record_id": "04_itens_legado.csv:55",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 55,
+        "line_start": 56,
+        "line_end": 56
+      },
+      "raw": {
+        "id": "ITM-20037",
+        "enunciado": "Um gestor identifica que um colaborador de sua equipe inflou horas lancadas em um projeto faturado por hora. O colaborador e o de melhor desempenho tecnico da area e esta em periodo de promocao. Qual conduta e compativel com a etica nas relacoes de trabalho?",
+        "alternativa_a": "Desconsiderar o episodio diante do desempenho tecnico",
+        "alternativa_b": "Apurar o fato pelo canal formal e aplicar o mesmo criterio adotado para qualquer colaborador",
+        "alternativa_c": "Adiar a apuracao para depois da promocao",
+        "alternativa_d": "Resolver informalmente com advertencia verbal nao registrada",
+        "alternativa_e": "Transferir o colaborador para outra area sem registro",
+        "gabarito": "B",
+        "disciplina_informada": "Comportamento Organizacional",
+        "ano_aplicacao": "2026",
+        "origem_banco": "Banco Próprio"
+      },
+      "data": {
+        "id": "ITM-20037",
+        "enunciado": "Um gestor identifica que um colaborador de sua equipe inflou horas lancadas em um projeto faturado por hora. O colaborador e o de melhor desempenho tecnico da area e esta em periodo de promocao. Qual conduta e compativel com a etica nas relacoes de trabalho?",
+        "alternativa_a": "Desconsiderar o episodio diante do desempenho tecnico",
+        "alternativa_b": "Apurar o fato pelo canal formal e aplicar o mesmo criterio adotado para qualquer colaborador",
+        "alternativa_c": "Adiar a apuracao para depois da promocao",
+        "alternativa_d": "Resolver informalmente com advertencia verbal nao registrada",
+        "alternativa_e": "Transferir o colaborador para outra area sem registro",
+        "gabarito": "B",
+        "disciplina_informada": "Comportamento Organizacional",
+        "ano_aplicacao": 2026,
+        "origem_banco": "Banco Próprio"
+      },
+      "item_record_id": "04_itens_legado.csv:55",
+      "link_status": "matched"
+    },
+    {
+      "record_id": "04_itens_legado.csv:63",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 63,
+        "line_start": 64,
+        "line_end": 64
+      },
+      "raw": {
+        "id": "ITM-30010",
+        "enunciado": "O regime de tributacao do Simples Nacional aplica-se a:",
+        "alternativa_a": "Microempresas e empresas de pequeno porte, observados os limites de receita",
+        "alternativa_b": "Todas as sociedades anonimas",
+        "alternativa_c": "Exclusivamente prestadores de servico",
+        "alternativa_d": "Empresas com faturamento acima de R$ 78 milhoes",
+        "alternativa_e": "Entidades sem fins lucrativos apenas",
+        "gabarito": "A",
+        "disciplina_informada": "Gestão Tributária",
+        "ano_aplicacao": "",
+        "origem_banco": "Aquisição Norte"
+      },
+      "data": {
+        "id": "ITM-30010",
+        "enunciado": "O regime de tributacao do Simples Nacional aplica-se a:",
+        "alternativa_a": "Microempresas e empresas de pequeno porte, observados os limites de receita",
+        "alternativa_b": "Todas as sociedades anonimas",
+        "alternativa_c": "Exclusivamente prestadores de servico",
+        "alternativa_d": "Empresas com faturamento acima de R$ 78 milhoes",
+        "alternativa_e": "Entidades sem fins lucrativos apenas",
+        "gabarito": "A",
+        "disciplina_informada": "Gestão Tributária",
+        "ano_aplicacao": null,
+        "origem_banco": "Aquisição Norte"
+      },
+      "item_record_id": "04_itens_legado.csv:63",
+      "link_status": "matched"
+    },
+    {
+      "record_id": "04_itens_legado.csv:68",
+      "source": {
+        "file": "04_itens_legado.csv",
+        "record": 68,
+        "line_start": 69,
+        "line_end": 69
+      },
+      "raw": {
+        "id": "ITM-20044",
+        "enunciado": "O turnover voluntario difere do involuntario porque:",
+        "alternativa_a": "Parte da iniciativa do colaborador",
+        "alternativa_b": "Decorre de decisao da organizacao",
+        "alternativa_c": "Ocorre apenas no periodo de experiencia",
+        "alternativa_d": "",
+        "alternativa_e": "",
+        "gabarito": "",
+        "disciplina_informada": "Comp. Organizacional",
+        "ano_aplicacao": "2019",
+        "origem_banco": ""
+      },
+      "data": {
+        "id": "ITM-20044",
+        "enunciado": "O turnover voluntario difere do involuntario porque:",
+        "alternativa_a": "Parte da iniciativa do colaborador",
+        "alternativa_b": "Decorre de decisao da organizacao",
+        "alternativa_c": "Ocorre apenas no periodo de experiencia",
+        "alternativa_d": null,
+        "alternativa_e": null,
+        "gabarito": null,
+        "disciplina_informada": "Comp. Organizacional",
+        "ano_aplicacao": 2019,
+        "origem_banco": null
+      },
+      "item_record_id": "04_itens_legado.csv:68",
+      "link_status": "matched"
+    }
+  ],
+  "matrix": {
+    "source": {
+      "file": "01_matriz_competencias.json",
+      "json_pointer": ""
+    },
+    "data": {
+      "metadados": {
+        "versao": "1.0.0",
+        "gerado_em": "2026-10-07",
+        "origem": "Material fictício, produzido exclusivamente para case técnico. Não representa a matriz curricular, o acervo ou os dados de nenhuma instituição real.",
+        "licenca_de_uso": "Uso restrito ao case. Pode ser ampliado pelo candidato, desde que a origem do acréscimo fique explícita."
+      },
+      "curso": {
+        "id": "CUR-ADM",
+        "nome": "Administração",
+        "grau": "Bacharelado",
+        "modalidade": "EAD",
+        "duracao_semestres": 8,
+        "area_avaliacao_externa": "Administração"
+      },
+      "taxonomia": {
+        "nome": "Bloom revisada",
+        "niveis": [
+          "lembrar",
+          "compreender",
+          "aplicar",
+          "analisar",
+          "avaliar",
+          "criar"
+        ]
+      },
+      "escalas": {
+        "dificuldade": [
+          "facil",
+          "media",
+          "dificil"
+        ],
+        "tempo_resposta_estimado_segundos": {
+          "minimo": 60,
+          "maximo": 300
+        }
+      },
+      "competencias": [
+        {
+          "id": "COMP-01",
+          "descricao": "Diagnosticar a situação econômico-financeira de uma organização a partir de suas demonstrações contábeis e indicadores.",
+          "origem_normativa": "DCN Administração — eixo de formação profissional (referência fictícia)",
+          "habilidades": [
+            {
+              "id": "HAB-01.1",
+              "descricao": "Interpretar balanço patrimonial e demonstração de resultado para identificar sinais de risco de liquidez e de solvência."
+            },
+            {
+              "id": "HAB-01.2",
+              "descricao": "Calcular e comparar indicadores de liquidez, endividamento e rentabilidade entre períodos."
+            },
+            {
+              "id": "HAB-01.3",
+              "descricao": "Relacionar o diagnóstico financeiro a recomendações de gestão viáveis para a organização."
+            }
+          ]
+        },
+        {
+          "id": "COMP-02",
+          "descricao": "Avaliar a viabilidade econômica de investimentos considerando risco, retorno e custo de capital.",
+          "origem_normativa": "DCN Administração — eixo de formação profissional (referência fictícia)",
+          "habilidades": [
+            {
+              "id": "HAB-02.1",
+              "descricao": "Selecionar e aplicar métodos de avaliação de investimentos adequados ao fluxo de caixa do projeto."
+            },
+            {
+              "id": "HAB-02.2",
+              "descricao": "Justificar a taxa mínima de atratividade adotada a partir do custo de capital da organização."
+            },
+            {
+              "id": "HAB-02.3",
+              "descricao": "Decidir entre alternativas de investimento mutuamente exclusivas e sustentar a decisão."
+            }
+          ]
+        },
+        {
+          "id": "COMP-03",
+          "descricao": "Aplicar instrumentos de matemática financeira na análise de operações de crédito, investimento e financiamento.",
+          "origem_normativa": "DCN Administração — eixo de formação quantitativa (referência fictícia)",
+          "habilidades": [
+            {
+              "id": "HAB-03.1",
+              "descricao": "Resolver problemas de capitalização simples e composta e de equivalência de capitais."
+            },
+            {
+              "id": "HAB-03.2",
+              "descricao": "Comparar sistemas de amortização quanto a prestação, juros e saldo devedor."
+            },
+            {
+              "id": "HAB-03.3",
+              "descricao": "Projetar fluxos de caixa descontados a partir de premissas declaradas."
+            }
+          ]
+        },
+        {
+          "id": "COMP-04",
+          "descricao": "Analisar o comportamento de indivíduos e grupos no contexto organizacional para sustentar decisões de gestão de pessoas.",
+          "origem_normativa": "DCN Administração — eixo de formação em gestão (referência fictícia)",
+          "habilidades": [
+            {
+              "id": "HAB-04.1",
+              "descricao": "Explicar comportamentos no trabalho a partir de teorias de motivação, percepção e atitudes."
+            },
+            {
+              "id": "HAB-04.2",
+              "descricao": "Diagnosticar fatores de cultura e clima que afetam o desempenho de uma equipe."
+            },
+            {
+              "id": "HAB-04.3",
+              "descricao": "Avaliar o efeito de estilos de liderança sobre resultados e sobre o engajamento da equipe."
+            }
+          ]
+        },
+        {
+          "id": "COMP-05",
+          "descricao": "Conduzir processos de comunicação, negociação e mediação de conflitos em equipes de trabalho.",
+          "origem_normativa": "DCN Administração — eixo de formação em gestão (referência fictícia)",
+          "habilidades": [
+            {
+              "id": "HAB-05.1",
+              "descricao": "Identificar barreiras de comunicação e propor ajustes no fluxo de informação da equipe."
+            },
+            {
+              "id": "HAB-05.2",
+              "descricao": "Distinguir estratégias de negociação distributiva e integrativa e escolher a adequada ao contexto."
+            },
+            {
+              "id": "HAB-05.3",
+              "descricao": "Planejar a mediação de um conflito preservando o resultado e a relação entre as partes."
+            }
+          ]
+        },
+        {
+          "id": "COMP-06",
+          "descricao": "Posicionar-se de forma ética e responsável nas decisões de gestão, considerando impactos sociais e ambientais.",
+          "origem_normativa": "DCN Administração — eixo de formação humanística (referência fictícia)",
+          "habilidades": [
+            {
+              "id": "HAB-06.1",
+              "descricao": "Reconhecer conflitos de interesse e dilemas éticos em situações de gestão."
+            },
+            {
+              "id": "HAB-06.2",
+              "descricao": "Avaliar decisões gerenciais quanto a transparência e quanto a impacto sobre partes interessadas."
+            }
+          ]
+        }
+      ],
+      "componentes_curriculares": [
+        {
+          "id": "CC-GF",
+          "nome": "Gestão Financeira",
+          "codigo_academico": "ADM-0412",
+          "semestre": 4,
+          "carga_horaria": 80,
+          "fonte_conhecimento": "ementa_gestao_financeira.txt",
+          "competencias_do_componente": [
+            "COMP-01",
+            "COMP-02",
+            "COMP-03",
+            "COMP-06"
+          ],
+          "objetos_conhecimento": [
+            {
+              "id": "OC-GF-01",
+              "nome": "Valor do dinheiro no tempo: capitalização simples e composta",
+              "competencias": [
+                "COMP-03"
+              ],
+              "niveis_sugeridos": [
+                "compreender",
+                "aplicar"
+              ],
+              "peso_relativo": 0.1,
+              "palavras_chave": [
+                "juros simples",
+                "juros compostos",
+                "montante",
+                "equivalência de capitais",
+                "taxa efetiva"
+              ],
+              "referencia_ementa": "Unidade I"
+            },
+            {
+              "id": "OC-GF-02",
+              "nome": "Séries uniformes e sistemas de amortização",
+              "competencias": [
+                "COMP-03"
+              ],
+              "niveis_sugeridos": [
+                "aplicar",
+                "analisar"
+              ],
+              "peso_relativo": 0.1,
+              "palavras_chave": [
+                "série uniforme",
+                "SAC",
+                "Tabela Price",
+                "saldo devedor",
+                "prestação"
+              ],
+              "referencia_ementa": "Unidade I"
+            },
+            {
+              "id": "OC-GF-03",
+              "nome": "Fluxo de caixa projetado e capital de giro",
+              "competencias": [
+                "COMP-01",
+                "COMP-03"
+              ],
+              "niveis_sugeridos": [
+                "aplicar",
+                "analisar"
+              ],
+              "peso_relativo": 0.12,
+              "palavras_chave": [
+                "fluxo de caixa",
+                "capital de giro",
+                "necessidade de capital de giro",
+                "ciclo financeiro",
+                "prazo médio de recebimento"
+              ],
+              "referencia_ementa": "Unidade II"
+            },
+            {
+              "id": "OC-GF-04",
+              "nome": "Análise de demonstrações financeiras por indicadores",
+              "competencias": [
+                "COMP-01"
+              ],
+              "niveis_sugeridos": [
+                "aplicar",
+                "analisar",
+                "avaliar"
+              ],
+              "peso_relativo": 0.15,
+              "palavras_chave": [
+                "liquidez corrente",
+                "endividamento",
+                "margem líquida",
+                "ROE",
+                "giro do ativo"
+              ],
+              "referencia_ementa": "Unidade II"
+            },
+            {
+              "id": "OC-GF-05",
+              "nome": "Custo de capital e custo médio ponderado de capital",
+              "competencias": [
+                "COMP-02"
+              ],
+              "niveis_sugeridos": [
+                "compreender",
+                "aplicar"
+              ],
+              "peso_relativo": 0.1,
+              "palavras_chave": [
+                "custo de capital próprio",
+                "custo de capital de terceiros",
+                "WACC",
+                "estrutura de capital",
+                "benefício fiscal"
+              ],
+              "referencia_ementa": "Unidade III"
+            },
+            {
+              "id": "OC-GF-06",
+              "nome": "Métodos de avaliação de investimentos: VPL, TIR e payback descontado",
+              "competencias": [
+                "COMP-02",
+                "COMP-03"
+              ],
+              "niveis_sugeridos": [
+                "aplicar",
+                "analisar",
+                "avaliar"
+              ],
+              "peso_relativo": 0.18,
+              "palavras_chave": [
+                "valor presente líquido",
+                "taxa interna de retorno",
+                "payback descontado",
+                "taxa mínima de atratividade",
+                "projetos mutuamente exclusivos"
+              ],
+              "referencia_ementa": "Unidade III"
+            },
+            {
+              "id": "OC-GF-07",
+              "nome": "Risco, retorno e diversificação",
+              "competencias": [
+                "COMP-02"
+              ],
+              "niveis_sugeridos": [
+                "compreender",
+                "analisar"
+              ],
+              "peso_relativo": 0.13,
+              "palavras_chave": [
+                "risco sistemático",
+                "risco diversificável",
+                "beta",
+                "prêmio de risco",
+                "carteira"
+              ],
+              "referencia_ementa": "Unidade IV"
+            },
+            {
+              "id": "OC-GF-08",
+              "nome": "Ética e transparência na informação financeira",
+              "competencias": [
+                "COMP-06",
+                "COMP-01"
+              ],
+              "niveis_sugeridos": [
+                "compreender",
+                "avaliar"
+              ],
+              "peso_relativo": 0.12,
+              "palavras_chave": [
+                "transparência",
+                "conflito de interesse",
+                "partes interessadas",
+                "governança",
+                "qualidade da informação contábil"
+              ],
+              "referencia_ementa": "Unidade IV"
+            }
+          ]
+        },
+        {
+          "id": "CC-CO",
+          "nome": "Comportamento Organizacional",
+          "codigo_academico": "ADM-0307",
+          "semestre": 3,
+          "carga_horaria": 60,
+          "fonte_conhecimento": "ementa_comportamento_organizacional.txt",
+          "competencias_do_componente": [
+            "COMP-04",
+            "COMP-05",
+            "COMP-06"
+          ],
+          "objetos_conhecimento": [
+            {
+              "id": "OC-CO-01",
+              "nome": "Percepção, atitudes e diferenças individuais",
+              "competencias": [
+                "COMP-04"
+              ],
+              "niveis_sugeridos": [
+                "compreender",
+                "analisar"
+              ],
+              "peso_relativo": 0.12,
+              "palavras_chave": [
+                "percepção",
+                "atribuição",
+                "atitude",
+                "satisfação no trabalho",
+                "viés"
+              ],
+              "referencia_ementa": "Unidade I"
+            },
+            {
+              "id": "OC-CO-02",
+              "nome": "Motivação no trabalho: teorias de conteúdo e de processo",
+              "competencias": [
+                "COMP-04"
+              ],
+              "niveis_sugeridos": [
+                "compreender",
+                "aplicar",
+                "analisar"
+              ],
+              "peso_relativo": 0.16,
+              "palavras_chave": [
+                "Maslow",
+                "Herzberg",
+                "fatores higiênicos",
+                "expectância",
+                "equidade",
+                "metas"
+              ],
+              "referencia_ementa": "Unidade II"
+            },
+            {
+              "id": "OC-CO-03",
+              "nome": "Grupos, equipes e decisão coletiva",
+              "competencias": [
+                "COMP-04",
+                "COMP-05"
+              ],
+              "niveis_sugeridos": [
+                "compreender",
+                "analisar"
+              ],
+              "peso_relativo": 0.14,
+              "palavras_chave": [
+                "grupo",
+                "equipe",
+                "normas",
+                "coesão",
+                "pensamento grupal",
+                "folga social"
+              ],
+              "referencia_ementa": "Unidade II"
+            },
+            {
+              "id": "OC-CO-04",
+              "nome": "Liderança e poder nas organizações",
+              "competencias": [
+                "COMP-04",
+                "COMP-05"
+              ],
+              "niveis_sugeridos": [
+                "compreender",
+                "analisar",
+                "avaliar"
+              ],
+              "peso_relativo": 0.16,
+              "palavras_chave": [
+                "liderança transformacional",
+                "liderança situacional",
+                "bases de poder",
+                "influência",
+                "delegação"
+              ],
+              "referencia_ementa": "Unidade III"
+            },
+            {
+              "id": "OC-CO-05",
+              "nome": "Comunicação organizacional e suas barreiras",
+              "competencias": [
+                "COMP-05"
+              ],
+              "niveis_sugeridos": [
+                "compreender",
+                "aplicar"
+              ],
+              "peso_relativo": 0.12,
+              "palavras_chave": [
+                "canal",
+                "ruído",
+                "feedback",
+                "comunicação ascendente",
+                "sobrecarga de informação"
+              ],
+              "referencia_ementa": "Unidade III"
+            },
+            {
+              "id": "OC-CO-06",
+              "nome": "Conflito e negociação",
+              "competencias": [
+                "COMP-05"
+              ],
+              "niveis_sugeridos": [
+                "aplicar",
+                "analisar"
+              ],
+              "peso_relativo": 0.14,
+              "palavras_chave": [
+                "conflito funcional",
+                "negociação distributiva",
+                "negociação integrativa",
+                "ZOPA",
+                "mediação"
+              ],
+              "referencia_ementa": "Unidade IV"
+            },
+            {
+              "id": "OC-CO-07",
+              "nome": "Cultura e clima organizacional",
+              "competencias": [
+                "COMP-04",
+                "COMP-06"
+              ],
+              "niveis_sugeridos": [
+                "compreender",
+                "analisar",
+                "avaliar"
+              ],
+              "peso_relativo": 0.1,
+              "palavras_chave": [
+                "artefatos",
+                "valores declarados",
+                "pressupostos básicos",
+                "clima",
+                "socialização"
+              ],
+              "referencia_ementa": "Unidade IV"
+            },
+            {
+              "id": "OC-CO-08",
+              "nome": "Ética nas relações de trabalho",
+              "competencias": [
+                "COMP-06",
+                "COMP-04"
+              ],
+              "niveis_sugeridos": [
+                "compreender",
+                "avaliar"
+              ],
+              "peso_relativo": 0.06,
+              "palavras_chave": [
+                "código de conduta",
+                "assédio",
+                "equidade de tratamento",
+                "canal de denúncia",
+                "dilema ético"
+              ],
+              "referencia_ementa": "Unidade IV"
+            }
+          ]
+        }
+      ],
+      "regras_de_vinculo": {
+        "minimo_nos_por_item": 1,
+        "maximo_nos_por_item": 3,
+        "exige_pelo_menos_um_objeto_conhecimento": true,
+        "competencia_deve_pertencer_ao_componente_do_objeto": true,
+        "nivel_taxonomico_fora_dos_sugeridos": "permitido, desde que justificado no registro do item",
+        "observacao": "Um item pode legitimamente atender a mais de uma competência e a mais de um objeto de conhecimento. A relação item x nó é N:K."
+      }
+    }
+  },
+  "ementas": [
+    {
+      "source": {
+        "file": "02_ementa_gestao_financeira.txt",
+        "line_start": 1,
+        "line_end": 173
+      },
+      "text": "PLANO DE ENSINO — MATERIAL FICTÍCIO PARA CASE TÉCNICO\n\nComponente curricular: Gestão Financeira\nCódigo: ADM-0412\nCurso: Administração (Bacharelado)\nSemestre: 4º\nCarga horária: 80 horas\nModalidade: EAD\n\n------------------------------------------------------------\nEMENTA\n------------------------------------------------------------\nFundamentos do valor do dinheiro no tempo. Capitalização simples e composta.\nSéries uniformes e sistemas de amortização. Projeção de fluxo de caixa e gestão\ndo capital de giro. Análise das demonstrações financeiras por indicadores de\nliquidez, endividamento e rentabilidade. Custo de capital e custo médio\nponderado de capital. Métodos de avaliação de investimentos. Risco, retorno e\ndiversificação. Ética e transparência na informação financeira.\n\n------------------------------------------------------------\nOBJETIVO GERAL\n------------------------------------------------------------\nCapacitar o estudante a diagnosticar a situação financeira de uma organização e\na avaliar decisões de investimento e de financiamento com base em evidência\nquantitativa e em premissas explicitadas.\n\nOBJETIVOS ESPECÍFICOS\n1. Resolver problemas de capitalização e de equivalência de capitais.\n2. Comparar sistemas de amortização quanto a prestação, juros e saldo devedor.\n3. Calcular e interpretar indicadores extraídos das demonstrações financeiras.\n4. Aplicar VPL, TIR e payback descontado na decisão de investimento.\n5. Reconhecer dilemas éticos ligados à produção e à divulgação de informação\n   financeira.\n\n------------------------------------------------------------\nUNIDADE I — VALOR DO DINHEIRO NO TEMPO\n------------------------------------------------------------\n1.1 Capitalização simples e composta\nNo regime de juros simples, os juros incidem sempre sobre o capital inicial, de\nmodo que o montante cresce linearmente: M = C x (1 + i x n). No regime de juros\ncompostos, os juros de cada período passam a integrar a base de cálculo do\nperíodo seguinte, e o montante cresce exponencialmente: M = C x (1 + i)^n. Para\num mesmo capital, mesma taxa e prazo superior a um período, o montante composto\né sempre maior que o simples. Exemplo: um capital de R$ 10.000,00 aplicado a 2%\nao mês por 6 meses resulta em R$ 11.200,00 no regime simples e em R$ 11.261,62\nno regime composto.\n\n1.2 Taxas e equivalência de capitais\nTaxa nominal é a taxa anunciada para um período, sem considerar a capitalização\nintermediária; taxa efetiva é a que de fato incide no período considerado. Dois\ncapitais são equivalentes em uma determinada data quando, descontados ou\ncapitalizados pela mesma taxa para aquela data, apresentam o mesmo valor. A\ncomparação entre alternativas de pagamento exige, portanto, que todos os valores\nsejam trazidos a uma data focal comum.\n\n1.3 Séries uniformes\nSérie uniforme é um conjunto de pagamentos ou recebimentos de mesmo valor, em\nintervalos iguais. O valor presente de uma série uniforme postecipada de n\nparcelas de valor PMT, à taxa i, é dado por PV = PMT x [1 - (1 + i)^-n] / i. O\nfator entre colchetes dividido por i é o fator de valor presente da série, e seu\nuso simplifica o cálculo de financiamentos e de aluguéis.\n\n1.4 Sistemas de amortização\nNo Sistema de Amortização Constante (SAC), a parcela de amortização do principal\né igual em todos os períodos; como os juros incidem sobre um saldo devedor\ndecrescente, as prestações são decrescentes. Na Tabela Price, a prestação é\nconstante: a parcela de juros é maior no início e decresce, enquanto a parcela de\namortização cresce ao longo do tempo. Para um mesmo prazo e uma mesma taxa, o\ntotal de juros pago na Price é superior ao do SAC, porque a amortização do\nprincipal é mais lenta no início do contrato.\n\n------------------------------------------------------------\nUNIDADE II — FLUXO DE CAIXA, CAPITAL DE GIRO E ANÁLISE DE DEMONSTRAÇÕES\n------------------------------------------------------------\n2.1 Fluxo de caixa projetado\nO fluxo de caixa projetado organiza entradas e saídas esperadas em uma linha de\ntempo e é o insumo central de qualquer decisão de investimento. Projeções devem\ndeclarar suas premissas: crescimento de receita, prazos de recebimento e de\npagamento, sazonalidade e política de estoques.\n\n2.2 Capital de giro e ciclo financeiro\nCapital de giro é o recurso aplicado no curto prazo para sustentar a operação. O\nciclo operacional vai da compra de insumos ao recebimento das vendas; o ciclo\nfinanceiro, ou de caixa, corresponde ao intervalo entre o pagamento a\nfornecedores e o recebimento dos clientes. A necessidade de capital de giro\naumenta quando o prazo médio de recebimento ou o prazo médio de estocagem se\nalongam, e diminui quando se amplia o prazo obtido com fornecedores. Uma empresa\nlucrativa pode enfrentar insolvência de curto prazo se o ciclo financeiro for\nfinanciado de forma inadequada.\n\n2.3 Indicadores de liquidez\nLiquidez corrente = ativo circulante / passivo circulante; indica quanto a\nempresa possui de recursos de curto prazo para cada unidade monetária de\nobrigações de curto prazo. Liquidez seca retira os estoques do numerador.\nLiquidez imediata considera apenas disponibilidades. Exemplo: ativo circulante\nde R$ 180.000,00 e passivo circulante de R$ 120.000,00 produzem liquidez\ncorrente de 1,5.\n\n2.4 Indicadores de endividamento e de rentabilidade\nA participação de capital de terceiros relaciona o passivo total ao ativo total.\nA composição do endividamento mede quanto da dívida vence no curto prazo. Margem\nlíquida = lucro líquido / receita líquida. Retorno sobre o patrimônio líquido\n(ROE) = lucro líquido / patrimônio líquido. Giro do ativo = receita líquida /\nativo total. Indicadores isolados não sustentam diagnóstico: a leitura exige\ncomparação temporal e setorial.\n\n------------------------------------------------------------\nUNIDADE III — CUSTO DE CAPITAL E AVALIAÇÃO DE INVESTIMENTOS\n------------------------------------------------------------\n3.1 Custo de capital\nO custo de capital de terceiros corresponde à remuneração exigida pelos credores,\nlíquida do benefício fiscal gerado pela dedutibilidade dos juros. O custo de\ncapital próprio é o retorno exigido pelos acionistas, superior ao de terceiros\npor refletir maior risco. O custo médio ponderado de capital (WACC) pondera as\nduas fontes pela participação de cada uma na estrutura de capital e costuma ser\nadotado como taxa mínima de atratividade (TMA) dos projetos da organização.\n\n3.2 Valor presente líquido\nO VPL é a soma dos fluxos de caixa do projeto descontados à TMA, menos o\ninvestimento inicial. VPL positivo indica que o projeto remunera o capital acima\nda TMA e agrega valor; VPL negativo indica o contrário; VPL nulo indica retorno\nexatamente igual à TMA. Exemplo: investimento inicial de R$ 50.000,00 com\nentradas de R$ 20.000,00 por três anos e TMA de 10% ao ano produz valor presente\ndas entradas de aproximadamente R$ 49.738,00 e, portanto, VPL de cerca de\nR$ 262,00 negativos — o projeto deve ser rejeitado.\n\n3.3 Taxa interna de retorno\nA TIR é a taxa de desconto que torna o VPL igual a zero. O projeto é aceitável\nquando a TIR supera a TMA. A TIR apresenta limitações: pode haver múltiplas\nsoluções em fluxos com mais de uma inversão de sinal, e a comparação entre\nprojetos de escalas diferentes pode conduzir a decisão equivocada. Em projetos\nmutuamente exclusivos, o VPL é o critério preferencial.\n\n3.4 Payback simples e descontado\nO payback simples é o prazo necessário para que as entradas acumuladas igualem o\ninvestimento, sem considerar o valor do dinheiro no tempo. O payback descontado\ncorrige essa limitação ao acumular fluxos já descontados pela TMA. Nenhuma das\nduas versões mede a rentabilidade do projeto após a recuperação do investimento,\nrazão pela qual são usadas como critério complementar de risco de liquidez.\n\n------------------------------------------------------------\nUNIDADE IV — RISCO, RETORNO E ÉTICA NA INFORMAÇÃO FINANCEIRA\n------------------------------------------------------------\n4.1 Risco e retorno\nRetorno esperado e risco caminham juntos: ativos de maior risco demandam prêmio\nadicional. O risco total de um ativo divide-se em risco diversificável, que pode\nser reduzido pela composição de carteira, e risco sistemático, ligado a fatores\nde mercado e não eliminável por diversificação. O coeficiente beta mede a\nsensibilidade do ativo a movimentos do mercado.\n\n4.2 Diversificação\nA diversificação reduz o risco da carteira quando os ativos não são perfeitamente\ncorrelacionados. Acrescentar ativos muito correlacionados entre si amplia a\nexposição sem reduzir o risco de forma proporcional.\n\n4.3 Ética e transparência\nA informação financeira orienta decisões de credores, investidores, gestores e\nórgãos reguladores. Omitir passivos, antecipar receitas ou escolher critérios\ncontábeis com o único objetivo de melhorar indicadores configura falha ética,\nainda quando se discuta a legalidade da prática. Conflitos de interesse devem ser\ndeclarados, e a qualidade da informação é condição para a confiança das partes\ninteressadas.\n\n------------------------------------------------------------\nBIBLIOGRAFIA BÁSICA (referência de apoio)\n------------------------------------------------------------\nPrincípios de administração financeira — obras de referência da área.\nMatemática financeira aplicada à gestão.\nAnálise de demonstrações financeiras: teoria e prática.\n\nOBSERVAÇÃO: Este plano de ensino é fictício e foi redigido para servir de fonte\nde conhecimento em um case técnico. Não corresponde ao plano de ensino de\nnenhuma instituição real.\n",
+      "semantic_classification": null
+    },
+    {
+      "source": {
+        "file": "03_ementa_comportamento_organizacional.txt",
+        "line_start": 1,
+        "line_end": 177
+      },
+      "text": "PLANO DE ENSINO — MATERIAL FICTÍCIO PARA CASE TÉCNICO\n\nComponente curricular: Comportamento Organizacional\nCódigo: ADM-0307\nCurso: Administração (Bacharelado)\nSemestre: 3º\nCarga horária: 60 horas\nModalidade: EAD\n\n------------------------------------------------------------\nEMENTA\n------------------------------------------------------------\nO campo do comportamento organizacional e seus níveis de análise. Percepção,\natitudes e diferenças individuais. Motivação no trabalho: teorias de conteúdo e\nde processo. Grupos, equipes e decisão coletiva. Liderança e poder. Comunicação\norganizacional e suas barreiras. Conflito e negociação. Cultura e clima\norganizacional. Ética nas relações de trabalho.\n\n------------------------------------------------------------\nOBJETIVO GERAL\n------------------------------------------------------------\nCapacitar o estudante a analisar o comportamento de indivíduos e grupos no\nambiente de trabalho e a utilizar esse diagnóstico para sustentar decisões de\ngestão de pessoas.\n\nOBJETIVOS ESPECÍFICOS\n1. Distinguir os níveis individual, grupal e organizacional de análise.\n2. Explicar comportamentos no trabalho a partir das principais teorias de\n   motivação.\n3. Analisar o efeito de estilos de liderança e de bases de poder sobre a equipe.\n4. Identificar barreiras de comunicação e propor correções no fluxo de informação.\n5. Escolher estratégias de negociação e de mediação adequadas ao conflito.\n\n------------------------------------------------------------\nUNIDADE I — O INDIVÍDUO NA ORGANIZAÇÃO\n------------------------------------------------------------\n1.1 Níveis de análise\nO comportamento organizacional estuda o comportamento humano no trabalho em três\nníveis: individual (percepção, atitudes, motivação), grupal (equipes, normas,\nliderança, conflito) e organizacional (cultura, estrutura, políticas). Um mesmo\nfenômeno, como a rotatividade, pode ser lido nos três níveis e demanda\ndiagnóstico antes de intervenção.\n\n1.2 Percepção e atribuição\nPercepção é o processo pelo qual o indivíduo organiza e interpreta estímulos para\ndar sentido ao ambiente. Como a decisão gerencial se baseia na percepção da\nrealidade, e não na realidade em si, erros de percepção produzem decisões\nequivocadas. A teoria da atribuição descreve como atribuímos causas ao\ncomportamento alheio; o erro fundamental de atribuição consiste em superestimar\nfatores internos, como caráter e esforço, e subestimar fatores situacionais ao\njulgar o comportamento de outra pessoa. Vieses frequentes incluem o efeito de\nhalo, a projeção e o estereótipo.\n\n1.3 Atitudes e satisfação no trabalho\nAtitude é uma avaliação, favorável ou desfavorável, sobre objetos, pessoas ou\neventos, e combina componentes cognitivo, afetivo e comportamental. Satisfação no\ntrabalho, envolvimento com o trabalho e comprometimento organizacional são\natitudes distintas, com consequências distintas: a satisfação relaciona-se de\nforma moderada ao desempenho e de forma mais consistente à rotatividade e ao\nabsenteísmo.\n\n------------------------------------------------------------\nUNIDADE II — MOTIVAÇÃO, GRUPOS E EQUIPES\n------------------------------------------------------------\n2.1 Teorias de conteúdo\nAs teorias de conteúdo tratam do que motiva. A hierarquia de necessidades de\nMaslow organiza necessidades em cinco níveis, dos fisiológicos à autorrealização,\nsob a premissa de que um nível se torna relevante quando o anterior está\nrazoavelmente atendido. A teoria dos dois fatores, de Herzberg, distingue fatores\nhigiênicos — salário, condições de trabalho, políticas da empresa, supervisão —,\ncuja ausência gera insatisfação mas cuja presença não motiva, dos fatores\nmotivacionais — reconhecimento, responsabilidade, conteúdo do trabalho,\ncrescimento —, que atuam sobre a satisfação e o esforço. A consequência prática é\nque corrigir apenas fatores higiênicos remove insatisfação sem produzir\nengajamento.\n\n2.2 Teorias de processo\nAs teorias de processo tratam de como a motivação se forma. A teoria da\nexpectância, de Vroom, propõe que o esforço depende de três percepções\nencadeadas: que o esforço levará ao desempenho, que o desempenho levará à\nrecompensa e que a recompensa tem valor para a pessoa. Se qualquer um dos elos\nfor percebido como frágil, a motivação cai. A teoria da equidade sustenta que o\nindivíduo compara sua razão entre contribuições e retornos com a de colegas de\nreferência, e que a percepção de injustiça gera ajuste de esforço, pedido de\nrevisão ou saída. A teoria da fixação de metas indica que metas específicas,\ndesafiadoras e aceitas, acompanhadas de retorno sobre o progresso, produzem\ndesempenho superior a metas genéricas.\n\n2.3 Grupos e equipes\nGrupo é um conjunto de pessoas que interagem para um objetivo comum; equipe\ncaracteriza-se por esforço coordenado, responsabilidade mútua e habilidades\ncomplementares, de modo que o resultado coletivo supera a soma dos resultados\nindividuais. Normas são padrões de comportamento compartilhados e tácitos; coesão\né o grau de atração entre os membros, e sua relação com o desempenho depende do\nalinhamento das normas aos objetivos da organização.\n\n2.4 Falhas da decisão coletiva\nO pensamento grupal ocorre quando a pressão pela concordância suprime a avaliação\ncrítica de alternativas, levando o grupo a decidir pior do que decidiriam seus\nmembros isoladamente. A folga social é a tendência de reduzir o esforço\nindividual quando o resultado é avaliado apenas de forma coletiva. Contramedidas\nincluem designar um avaliador crítico, registrar discordâncias e tornar visível a\ncontribuição individual.\n\n------------------------------------------------------------\nUNIDADE III — LIDERANÇA, PODER E COMUNICAÇÃO\n------------------------------------------------------------\n3.1 Liderança\nAs abordagens de traços buscaram características estáveis do líder; as\ncomportamentais descreveram estilos orientados à tarefa ou às pessoas; as\ncontingenciais sustentam que a eficácia depende da situação. A liderança\nsituacional propõe ajustar o estilo — dirigir, orientar, apoiar ou delegar — ao\nnível de maturidade e de preparo do liderado para a tarefa. A liderança\ntransacional baseia-se em troca entre desempenho e recompensa; a liderança\ntransformacional atua sobre propósito, estímulo intelectual e consideração\nindividualizada, e associa-se a maior engajamento.\n\n3.2 Bases de poder\nPoder é a capacidade de influenciar o comportamento de outra pessoa. As bases\nformais incluem o poder legítimo, decorrente do cargo, o poder de recompensa e o\npoder coercitivo. As bases pessoais incluem o poder de competência, derivado de\nconhecimento técnico reconhecido, e o poder de referência, derivado de admiração\ne identificação. Bases pessoais tendem a produzir comprometimento; bases\ncoercitivas tendem a produzir apenas obediência.\n\n3.3 Comunicação organizacional\nO processo de comunicação envolve emissor, codificação, mensagem, canal,\ndecodificação, receptor e retorno. Ruído é qualquer interferência que distorce a\nmensagem. Barreiras comuns incluem filtragem, percepção seletiva, sobrecarga de\ninformação, linguagem inadequada ao receptor e silêncio organizacional. A\ncomunicação ascendente é a mais frágil nas estruturas hierárquicas: problemas\ntendem a ser filtrados antes de chegar ao nível decisório.\n\n------------------------------------------------------------\nUNIDADE IV — CONFLITO, CULTURA E ÉTICA\n------------------------------------------------------------\n4.1 Conflito\nO conflito pode ser funcional, quando questiona premissas e melhora a qualidade\nda decisão, ou disfuncional, quando desloca a energia da tarefa para a disputa.\nConflitos de tarefa e de processo costumam ser mais tratáveis que conflitos de\nrelacionamento. Estilos de administração de conflito incluem competição,\ncolaboração, acomodação, afastamento e concessão mútua.\n\n4.2 Negociação\nNa negociação distributiva, as partes disputam a divisão de um valor fixo, e o\nganho de uma implica perda da outra. Na negociação integrativa, as partes buscam\nampliar o valor disponível a partir de interesses complementares, o que exige\ntroca de informação e confiança. A zona de possível acordo é o intervalo entre os\npontos de reserva das partes; conhecer a melhor alternativa à negociação define o\nlimite a partir do qual recusar é melhor do que aceitar.\n\n4.3 Cultura e clima\nA cultura organizacional pode ser lida em três camadas: artefatos observáveis,\ncomo rituais, linguagem e espaço físico; valores declarados, presentes em códigos\ne discursos; e pressupostos básicos, tácitos e raramente discutidos, que de fato\norientam o comportamento. A distância entre valores declarados e pressupostos\nexplica por que mudanças anunciadas não se sustentam. Clima organizacional é a\npercepção compartilhada e de curto prazo sobre o ambiente de trabalho, sensível a\neventos recentes, e por isso mais volátil que a cultura.\n\n4.4 Ética nas relações de trabalho\nCódigos de conduta, canais de denúncia protegidos e equidade de tratamento são\ninstrumentos de gestão, não apenas peças formais. Dilemas éticos no trabalho\nraramente opõem certo e errado evidentes: em geral confrontam valores legítimos,\ncomo lealdade à equipe e transparência com a organização, e exigem critério\ndeclarado para a decisão.\n\n------------------------------------------------------------\nBIBLIOGRAFIA BÁSICA (referência de apoio)\n------------------------------------------------------------\nComportamento organizacional — obras de referência da área.\nPsicologia aplicada ao trabalho e às organizações.\nCultura organizacional e liderança: teoria e prática.\n\nOBSERVAÇÃO: Este plano de ensino é fictício e foi redigido para servir de fonte\nde conhecimento em um case técnico. Não corresponde ao plano de ensino de\nnenhuma instituição real.\n",
+      "semantic_classification": null
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "component_id": "CC-GF",
+    "source_file": "01_matriz_competencias.json",
+    "json_pointer": "/componentes_curriculares/0/fonte_conhecimento",
+    "before": "ementa_gestao_financeira.txt",
+    "after": "02_ementa_gestao_financeira.txt",
+    "rule_id": "EMENTA_MANIFEST",
+    "reason": "Resolver nome da matriz pelo manifesto explícito, sem alterar matriz original."
+  },
+  {
+    "component_id": "CC-CO",
+    "source_file": "01_matriz_competencias.json",
+    "json_pointer": "/componentes_curriculares/1/fonte_conhecimento",
+    "before": "ementa_comportamento_organizacional.txt",
+    "after": "03_ementa_comportamento_organizacional.txt",
+    "rule_id": "EMENTA_MANIFEST",
+    "reason": "Resolver nome da matriz pelo manifesto explícito, sem alterar matriz original."
+  }
+]

@@ -1,0 +1,886 @@
+{
+  "version": "suggestions-v2",
+  "authorship": "session_agent_authored",
+  "started_at": null,
+  "checkpoint_at": "2026-10-14 19:15:52 UTC",
+  "time_note": "Inicio nao capturado; checkpoint obtido por clock tool apos leitura preliminar.",
+  "api_integration_executed": false,
+  "decision_source": "agent_judgment",
+  "item_decisions": "agent_judgment",
+  "sources_consulted": [
+    "sample_packet.json",
+    "suggestions_v1.json",
+    "prompt_v1.md",
+    "review/critica_v1.md",
+    "review/findings_v1.json"
+  ],
+  "source_hashes": {
+    "sample_packet.json": "4877f16df8091bbc070b783429daaaf4d8f3c9f9d7c281480a06b8891a79bdad",
+    "suggestions_v1.json": "53d1acd15e6283c1cc4b7876f8def76b263719661b29a03975f2da8c16027d80",
+    "prompt_v1.md": "215690811b561e132dc03a50a419de79462c5751c245f75c5357b6e49320f8be",
+    "review/critica_v1.md": "5730521dea15b10a619a15242a472afb2d07401843a480c97320a743b1335b8e",
+    "review/findings_v1.json": "2e0fb79c288bd6b8d23d11dd7835b72914074e737501f65ae5ee4fa7037f693e"
+  },
+  "items": [
+    {
+      "item_id": "ITM-10041",
+      "record_id": "04_itens_legado.csv:1",
+      "item_snapshot": {
+        "id": "ITM-10041",
+        "enunciado": "Um capital de R$ 12.000,00 foi aplicado a juros simples de 2% ao mes durante 7 meses. Qual o montante ao final do periodo?",
+        "alternativa_a": "R$ 13.680,00",
+        "alternativa_b": "R$ 13.440,00",
+        "alternativa_c": "R$ 12.840,00",
+        "alternativa_d": "R$ 14.000,00",
+        "alternativa_e": "R$ 13.200,00",
+        "gabarito": "A",
+        "disciplina_informada": "Gestão Financeira",
+        "ano_aplicacao": 2021,
+        "origem_banco": "Banco Próprio"
+      },
+      "links": [
+        {
+          "oc_id": "OC-GF-01",
+          "competency_id": "COMP-03",
+          "skill_ids": [
+            "HAB-03.1"
+          ],
+          "evidence": [
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:1",
+              "field": "enunciado",
+              "quote": "Um capital de R$ 12.000,00 foi aplicado a juros simples de 2% ao mes durante 7 meses. Qual o montante ao final do periodo?"
+            },
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:1",
+              "field": "alternativa_a",
+              "quote": "R$ 13.680,00"
+            },
+            {
+              "kind": "matrix",
+              "file": "01_matriz_competencias.json",
+              "pointer": "/componentes_curriculares/0/objetos_conhecimento/0/nome",
+              "quote": "Valor do dinheiro no tempo: capitalização simples e composta"
+            },
+            {
+              "kind": "matrix",
+              "file": "01_matriz_competencias.json",
+              "pointer": "/competencias/2/descricao",
+              "quote": "Aplicar instrumentos de matemática financeira na análise de operações de crédito, investimento e financiamento."
+            },
+            {
+              "kind": "matrix",
+              "file": "01_matriz_competencias.json",
+              "pointer": "/competencias/2/habilidades/0/descricao",
+              "quote": "Resolver problemas de capitalização simples e composta e de equivalência de capitais."
+            },
+            {
+              "kind": "ementa",
+              "file": "02_ementa_gestao_financeira.txt",
+              "line_start": 38,
+              "line_end": 40,
+              "quote": "1.1 Capitalização simples e composta\nNo regime de juros simples, os juros incidem sempre sobre o capital inicial, de\nmodo que o montante cresce linearmente: M = C x (1 + i x n). No regime de juros"
+            }
+          ],
+          "status": "suggested_partial",
+          "scope": "Somente resolver capitalizacao simples; nao composta, equivalencia ou competencia integral.",
+          "reason": "Resolver capitalizacao simples e parte textual explicita de HAB-03.1. A operacao e simples, mas executa a habilidade, nao apenas um pre-requisito; nao exige demonstrar capitalizacao composta ou toda COMP-03."
+        }
+      ],
+      "rejected_candidates": [],
+      "status": "suggested",
+      "decision_source": "agent_judgment",
+      "criterion_source": "user_criterion_v2",
+      "human_review": "pending",
+      "pedagogical_approval": false,
+      "evidence": [
+        {
+          "kind": "item",
+          "record_id": "04_itens_legado.csv:1",
+          "field": "enunciado",
+          "quote": "Um capital de R$ 12.000,00 foi aplicado a juros simples de 2% ao mes durante 7 meses. Qual o montante ao final do periodo?"
+        },
+        {
+          "kind": "item",
+          "record_id": "04_itens_legado.csv:1",
+          "field": "alternativa_a",
+          "quote": "R$ 13.680,00"
+        },
+        {
+          "kind": "matrix",
+          "file": "01_matriz_competencias.json",
+          "pointer": "/componentes_curriculares/0/objetos_conhecimento/0/nome",
+          "quote": "Valor do dinheiro no tempo: capitalização simples e composta"
+        },
+        {
+          "kind": "matrix",
+          "file": "01_matriz_competencias.json",
+          "pointer": "/competencias/2/descricao",
+          "quote": "Aplicar instrumentos de matemática financeira na análise de operações de crédito, investimento e financiamento."
+        },
+        {
+          "kind": "matrix",
+          "file": "01_matriz_competencias.json",
+          "pointer": "/competencias/2/habilidades/0/descricao",
+          "quote": "Resolver problemas de capitalização simples e composta e de equivalência de capitais."
+        },
+        {
+          "kind": "ementa",
+          "file": "02_ementa_gestao_financeira.txt",
+          "line_start": 38,
+          "line_end": 40,
+          "quote": "1.1 Capitalização simples e composta\nNo regime de juros simples, os juros incidem sempre sobre o capital inicial, de\nmodo que o montante cresce linearmente: M = C x (1 + i x n). No regime de juros"
+        }
+      ],
+      "subject": "Capitalizacao simples e montante.",
+      "object_alignment": {
+        "status": "supported",
+        "supported_oc_ids": [
+          "OC-GF-01"
+        ],
+        "reason": "Resolver capitalizacao simples e parte textual explicita de HAB-03.1. A operacao e simples, mas executa a habilidade, nao apenas um pre-requisito; nao exige demonstrar capitalizacao composta ou toda COMP-03."
+      },
+      "required_task": {
+        "operation": "Calcular montante em juros simples com capital, taxa e prazo fornecidos: 12000*(1+0.02*7)=13680.",
+        "item_evidence": [
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:1",
+            "field": "enunciado",
+            "quote": "Um capital de R$ 12.000,00 foi aplicado a juros simples de 2% ao mes durante 7 meses. Qual o montante ao final do periodo?"
+          },
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:1",
+            "field": "alternativa_a",
+            "quote": "R$ 13.680,00"
+          }
+        ]
+      },
+      "competency_alignment": {
+        "status": "partial_suggestion",
+        "reason": "Resolver capitalizacao simples e parte textual explicita de HAB-03.1. A operacao e simples, mas executa a habilidade, nao apenas um pre-requisito; nao exige demonstrar capitalizacao composta ou toda COMP-03.",
+        "scope": "Somente resolver capitalizacao simples; nao composta, equivalencia ou competencia integral."
+      },
+      "use_issues": [],
+      "readiness": {
+        "status": "not_approved_pending_review",
+        "ready": false,
+        "mapped_does_not_mean_usable": true
+      },
+      "use_issues_decision_source": "agent_judgment",
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending"
+    },
+    {
+      "item_id": "ITM-20018",
+      "record_id": "04_itens_legado.csv:36",
+      "item_snapshot": {
+        "id": "ITM-20018",
+        "enunciado": "Uma equipe de suporte tecnico apresenta alta rotatividade. A pesquisa interna aponta salarios compativeis com o mercado, mas ausencia de reconhecimento e de perspectiva de crescimento. A luz da teoria dos dois fatores de Herzberg, qual interpretacao e correta?",
+        "alternativa_a": "Os fatores higienicos estao insatisfatorios e causam a rotatividade",
+        "alternativa_b": "Os fatores motivacionais estao ausentes, o que explica a insatisfacao apesar da remuneracao adequada",
+        "alternativa_c": "A remuneracao e o unico fator motivacional relevante",
+        "alternativa_d": "A teoria nao se aplica a equipes tecnicas",
+        "alternativa_e": "A rotatividade decorre exclusivamente de fatores externos",
+        "gabarito": "B",
+        "disciplina_informada": "Comportamento Organizacional",
+        "ano_aplicacao": 2025,
+        "origem_banco": "Banco Próprio"
+      },
+      "links": [
+        {
+          "oc_id": "OC-CO-02",
+          "competency_id": "COMP-04",
+          "skill_ids": [
+            "HAB-04.1"
+          ],
+          "evidence": [
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:36",
+              "field": "enunciado",
+              "quote": "Uma equipe de suporte tecnico apresenta alta rotatividade. A pesquisa interna aponta salarios compativeis com o mercado, mas ausencia de reconhecimento e de perspectiva de crescimento. A luz da teoria dos dois fatores de Herzberg, qual interpretacao e correta?"
+            },
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:36",
+              "field": "alternativa_b",
+              "quote": "Os fatores motivacionais estao ausentes, o que explica a insatisfacao apesar da remuneracao adequada"
+            },
+            {
+              "kind": "matrix",
+              "file": "01_matriz_competencias.json",
+              "pointer": "/componentes_curriculares/1/objetos_conhecimento/1/nome",
+              "quote": "Motivação no trabalho: teorias de conteúdo e de processo"
+            },
+            {
+              "kind": "matrix",
+              "file": "01_matriz_competencias.json",
+              "pointer": "/competencias/3/descricao",
+              "quote": "Analisar o comportamento de indivíduos e grupos no contexto organizacional para sustentar decisões de gestão de pessoas."
+            },
+            {
+              "kind": "matrix",
+              "file": "01_matriz_competencias.json",
+              "pointer": "/competencias/3/habilidades/0/descricao",
+              "quote": "Explicar comportamentos no trabalho a partir de teorias de motivação, percepção e atitudes."
+            },
+            {
+              "kind": "ementa",
+              "file": "03_ementa_comportamento_organizacional.txt",
+              "line_start": 69,
+              "line_end": 75,
+              "quote": "razoavelmente atendido. A teoria dos dois fatores, de Herzberg, distingue fatores\nhigiênicos — salário, condições de trabalho, políticas da empresa, supervisão —,\ncuja ausência gera insatisfação mas cuja presença não motiva, dos fatores\nmotivacionais — reconhecimento, responsabilidade, conteúdo do trabalho,\ncrescimento —, que atuam sobre a satisfação e o esforço. A consequência prática é\nque corrigir apenas fatores higiênicos remove insatisfação sem produzir\nengajamento."
+            }
+          ],
+          "status": "suggested_partial",
+          "scope": "Somente interpretacao motivacional localizada; nao decisao de pessoas nem competencia integral.",
+          "reason": "Interpretar comportamento no trabalho por teoria motivacional executa aspecto explicito de HAB-04.1. O vinculo tematico e cognitivo subsiste mesmo com validade de B contestada."
+        }
+      ],
+      "rejected_candidates": [
+        {
+          "oc_id": "OC-CO-07",
+          "competency_id": "COMP-04",
+          "status": "rejected",
+          "reason": "A pesquisa interna é contexto; não exige diagnóstico de cultura ou clima.",
+          "evidence": [
+            {
+              "kind": "matrix",
+              "file": "01_matriz_competencias.json",
+              "pointer": "/componentes_curriculares/1/objetos_conhecimento/6/nome",
+              "quote": "Cultura e clima organizacional"
+            }
+          ]
+        }
+      ],
+      "status": "suggested",
+      "decision_source": "agent_judgment",
+      "criterion_source": "user_criterion_v2",
+      "human_review": "pending",
+      "pedagogical_approval": false,
+      "evidence": [
+        {
+          "kind": "item",
+          "record_id": "04_itens_legado.csv:36",
+          "field": "enunciado",
+          "quote": "Uma equipe de suporte tecnico apresenta alta rotatividade. A pesquisa interna aponta salarios compativeis com o mercado, mas ausencia de reconhecimento e de perspectiva de crescimento. A luz da teoria dos dois fatores de Herzberg, qual interpretacao e correta?"
+        },
+        {
+          "kind": "item",
+          "record_id": "04_itens_legado.csv:36",
+          "field": "alternativa_b",
+          "quote": "Os fatores motivacionais estao ausentes, o que explica a insatisfacao apesar da remuneracao adequada"
+        },
+        {
+          "kind": "matrix",
+          "file": "01_matriz_competencias.json",
+          "pointer": "/componentes_curriculares/1/objetos_conhecimento/1/nome",
+          "quote": "Motivação no trabalho: teorias de conteúdo e de processo"
+        },
+        {
+          "kind": "matrix",
+          "file": "01_matriz_competencias.json",
+          "pointer": "/competencias/3/descricao",
+          "quote": "Analisar o comportamento de indivíduos e grupos no contexto organizacional para sustentar decisões de gestão de pessoas."
+        },
+        {
+          "kind": "matrix",
+          "file": "01_matriz_competencias.json",
+          "pointer": "/competencias/3/habilidades/0/descricao",
+          "quote": "Explicar comportamentos no trabalho a partir de teorias de motivação, percepção e atitudes."
+        },
+        {
+          "kind": "ementa",
+          "file": "03_ementa_comportamento_organizacional.txt",
+          "line_start": 69,
+          "line_end": 75,
+          "quote": "razoavelmente atendido. A teoria dos dois fatores, de Herzberg, distingue fatores\nhigiênicos — salário, condições de trabalho, políticas da empresa, supervisão —,\ncuja ausência gera insatisfação mas cuja presença não motiva, dos fatores\nmotivacionais — reconhecimento, responsabilidade, conteúdo do trabalho,\ncrescimento —, que atuam sobre a satisfação e o esforço. A consequência prática é\nque corrigir apenas fatores higiênicos remove insatisfação sem produzir\nengajamento."
+        }
+      ],
+      "subject": "Motivacao no trabalho por Herzberg.",
+      "object_alignment": {
+        "status": "supported",
+        "supported_oc_ids": [
+          "OC-CO-02"
+        ],
+        "reason": "Interpretar comportamento no trabalho por teoria motivacional executa aspecto explicito de HAB-04.1. O vinculo tematico e cognitivo subsiste mesmo com validade de B contestada."
+      },
+      "required_task": {
+        "operation": "Interpretar o cenario de remuneracao, reconhecimento e crescimento usando a distincao de fatores de Herzberg; nao confirmar B como correta.",
+        "item_evidence": [
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:36",
+            "field": "enunciado",
+            "quote": "Uma equipe de suporte tecnico apresenta alta rotatividade. A pesquisa interna aponta salarios compativeis com o mercado, mas ausencia de reconhecimento e de perspectiva de crescimento. A luz da teoria dos dois fatores de Herzberg, qual interpretacao e correta?"
+          },
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:36",
+            "field": "alternativa_b",
+            "quote": "Os fatores motivacionais estao ausentes, o que explica a insatisfacao apesar da remuneracao adequada"
+          }
+        ]
+      },
+      "competency_alignment": {
+        "status": "partial_suggestion",
+        "reason": "Interpretar comportamento no trabalho por teoria motivacional executa aspecto explicito de HAB-04.1. O vinculo tematico e cognitivo subsiste mesmo com validade de B contestada.",
+        "scope": "Somente interpretacao motivacional localizada; nao decisao de pessoas nem competencia integral."
+      },
+      "use_issues": [
+        "Validade de B contestada: atribui insatisfacao a ausencia de motivadores, enquanto ementa distingue sua atuacao em satisfacao/esforco de ausencia de fatores higienicos. Remuneracao adequada nao prova adequacao de todos fatores higienicos. Revisar antes de usar acerto como evidencia."
+      ],
+      "readiness": {
+        "status": "held_for_specialist_review",
+        "ready": false,
+        "mapped_does_not_mean_usable": true
+      },
+      "use_issues_decision_source": "agent_judgment",
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending"
+    },
+    {
+      "item_id": "ITM-20025",
+      "record_id": "04_itens_legado.csv:43",
+      "item_snapshot": {
+        "id": "ITM-20025",
+        "enunciado": "Um gerente recem-promovido obtem adesao da equipe principalmente porque os colaboradores admiram sua trajetoria tecnica e desejam ser associados a ele. Qual base de poder predomina?",
+        "alternativa_a": "Poder legitimo",
+        "alternativa_b": "Poder de referencia",
+        "alternativa_c": "Poder de recompensa",
+        "alternativa_d": "Poder coercitivo",
+        "alternativa_e": "Poder de especialista",
+        "gabarito": "B",
+        "disciplina_informada": "Comportamento Organizacional",
+        "ano_aplicacao": 2025,
+        "origem_banco": "Banco Próprio"
+      },
+      "links": [],
+      "rejected_candidates": [
+        {
+          "oc_id": "OC-CO-04",
+          "competency_id": "COMP-04",
+          "status": "pending",
+          "reason": "OC-CO-04 sustentado por classificacao contextual de bases de poder. COMP-04 permanece pendente: nomear a base cuja causa e adesao ja foram dadas nao demonstra por si analisar seu efeito (objetivo 3) ou avaliar efeito de estilos (HAB-04.3). Nao se exige competencia inteira nem se veta operacao simples; falta correspondencia operacional suficiente com um aspecto explicito.",
+          "evidence": [
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:43",
+              "field": "enunciado",
+              "quote": "Um gerente recem-promovido obtem adesao da equipe principalmente porque os colaboradores admiram sua trajetoria tecnica e desejam ser associados a ele. Qual base de poder predomina?"
+            },
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:43",
+              "field": "alternativa_b",
+              "quote": "Poder de referencia"
+            },
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:43",
+              "field": "alternativa_e",
+              "quote": "Poder de especialista"
+            },
+            {
+              "kind": "matrix",
+              "file": "01_matriz_competencias.json",
+              "pointer": "/componentes_curriculares/1/objetos_conhecimento/3/nome",
+              "quote": "Liderança e poder nas organizações"
+            },
+            {
+              "kind": "matrix",
+              "file": "01_matriz_competencias.json",
+              "pointer": "/competencias/3/descricao",
+              "quote": "Analisar o comportamento de indivíduos e grupos no contexto organizacional para sustentar decisões de gestão de pessoas."
+            },
+            {
+              "kind": "matrix",
+              "file": "01_matriz_competencias.json",
+              "pointer": "/competencias/3/habilidades/2/descricao",
+              "quote": "Avaliar o efeito de estilos de liderança sobre resultados e sobre o engajamento da equipe."
+            },
+            {
+              "kind": "ementa",
+              "file": "03_ementa_comportamento_organizacional.txt",
+              "line_start": 118,
+              "line_end": 124,
+              "quote": "3.2 Bases de poder\nPoder é a capacidade de influenciar o comportamento de outra pessoa. As bases\nformais incluem o poder legítimo, decorrente do cargo, o poder de recompensa e o\npoder coercitivo. As bases pessoais incluem o poder de competência, derivado de\nconhecimento técnico reconhecido, e o poder de referência, derivado de admiração\ne identificação. Bases pessoais tendem a produzir comprometimento; bases\ncoercitivas tendem a produzir apenas obediência."
+            }
+          ]
+        },
+        {
+          "oc_id": "OC-CO-04",
+          "competency_id": "COMP-05",
+          "status": "rejected",
+          "reason": "Não exige conduzir comunicação, negociação ou mediação.",
+          "evidence": [
+            {
+              "kind": "matrix",
+              "file": "01_matriz_competencias.json",
+              "pointer": "/competencias/4/descricao",
+              "quote": "Conduzir processos de comunicação, negociação e mediação de conflitos em equipes de trabalho."
+            }
+          ]
+        }
+      ],
+      "status": "object_supported_competency_pending",
+      "decision_source": "agent_judgment",
+      "criterion_source": "user_criterion_v2",
+      "human_review": "pending",
+      "pedagogical_approval": false,
+      "evidence": [
+        {
+          "kind": "item",
+          "record_id": "04_itens_legado.csv:43",
+          "field": "enunciado",
+          "quote": "Um gerente recem-promovido obtem adesao da equipe principalmente porque os colaboradores admiram sua trajetoria tecnica e desejam ser associados a ele. Qual base de poder predomina?"
+        },
+        {
+          "kind": "item",
+          "record_id": "04_itens_legado.csv:43",
+          "field": "alternativa_b",
+          "quote": "Poder de referencia"
+        },
+        {
+          "kind": "item",
+          "record_id": "04_itens_legado.csv:43",
+          "field": "alternativa_e",
+          "quote": "Poder de especialista"
+        },
+        {
+          "kind": "matrix",
+          "file": "01_matriz_competencias.json",
+          "pointer": "/componentes_curriculares/1/objetos_conhecimento/3/nome",
+          "quote": "Liderança e poder nas organizações"
+        },
+        {
+          "kind": "matrix",
+          "file": "01_matriz_competencias.json",
+          "pointer": "/competencias/3/descricao",
+          "quote": "Analisar o comportamento de indivíduos e grupos no contexto organizacional para sustentar decisões de gestão de pessoas."
+        },
+        {
+          "kind": "matrix",
+          "file": "01_matriz_competencias.json",
+          "pointer": "/competencias/3/habilidades/2/descricao",
+          "quote": "Avaliar o efeito de estilos de liderança sobre resultados e sobre o engajamento da equipe."
+        },
+        {
+          "kind": "ementa",
+          "file": "03_ementa_comportamento_organizacional.txt",
+          "line_start": 118,
+          "line_end": 124,
+          "quote": "3.2 Bases de poder\nPoder é a capacidade de influenciar o comportamento de outra pessoa. As bases\nformais incluem o poder legítimo, decorrente do cargo, o poder de recompensa e o\npoder coercitivo. As bases pessoais incluem o poder de competência, derivado de\nconhecimento técnico reconhecido, e o poder de referência, derivado de admiração\ne identificação. Bases pessoais tendem a produzir comprometimento; bases\ncoercitivas tendem a produzir apenas obediência."
+        },
+        {
+          "kind": "ementa",
+          "file": "03_ementa_comportamento_organizacional.txt",
+          "line_start": 30,
+          "line_end": 30,
+          "quote": "3. Analisar o efeito de estilos de liderança e de bases de poder sobre a equipe."
+        }
+      ],
+      "subject": "Bases de poder e influencia sobre equipe.",
+      "object_alignment": {
+        "status": "supported",
+        "supported_oc_ids": [
+          "OC-CO-04"
+        ],
+        "reason": "OC-CO-04 sustentado por classificacao contextual de bases de poder. COMP-04 permanece pendente: nomear a base cuja causa e adesao ja foram dadas nao demonstra por si analisar seu efeito (objetivo 3) ou avaliar efeito de estilos (HAB-04.3). Nao se exige competencia inteira nem se veta operacao simples; falta correspondencia operacional suficiente com um aspecto explicito."
+      },
+      "required_task": {
+        "operation": "Classificar a base de poder descrita por admiracao/identificacao, distinguindo-a de conhecimento tecnico. O efeito adesao e sua causa ja sao informados.",
+        "item_evidence": [
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:43",
+            "field": "enunciado",
+            "quote": "Um gerente recem-promovido obtem adesao da equipe principalmente porque os colaboradores admiram sua trajetoria tecnica e desejam ser associados a ele. Qual base de poder predomina?"
+          },
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:43",
+            "field": "alternativa_b",
+            "quote": "Poder de referencia"
+          },
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:43",
+            "field": "alternativa_e",
+            "quote": "Poder de especialista"
+          }
+        ]
+      },
+      "competency_alignment": {
+        "status": "pending",
+        "reason": "OC-CO-04 sustentado por classificacao contextual de bases de poder. COMP-04 permanece pendente: nomear a base cuja causa e adesao ja foram dadas nao demonstra por si analisar seu efeito (objetivo 3) ou avaliar efeito de estilos (HAB-04.3). Nao se exige competencia inteira nem se veta operacao simples; falta correspondencia operacional suficiente com um aspecto explicito.",
+        "scope": "Nenhum aspecto de COMP aprovado; classificacao de base e OC sustentado."
+      },
+      "use_issues": [
+        "Trajetoria tecnica também evoca poder de especialista; identificação favorece B. Revisão humana deve decidir se a classificação localizada é evidência suficiente de COMP-04."
+      ],
+      "readiness": {
+        "status": "not_approved_pending_review",
+        "ready": false,
+        "mapped_does_not_mean_usable": true
+      },
+      "use_issues_decision_source": "agent_judgment",
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending"
+    },
+    {
+      "item_id": "ITM-20043",
+      "record_id": "04_itens_legado.csv:67",
+      "item_snapshot": {
+        "id": "ITM-20043",
+        "enunciado": "Com base no texto acima, qual teoria explica o comportamento do gestor descrito?",
+        "alternativa_a": "Teoria X",
+        "alternativa_b": "Teoria Y",
+        "alternativa_c": "Teoria dos dois fatores",
+        "alternativa_d": "Teoria da expectancia",
+        "alternativa_e": "Teoria da equidade",
+        "gabarito": "B",
+        "disciplina_informada": "Comportamento Organizacional",
+        "ano_aplicacao": 2022,
+        "origem_banco": "Banco Próprio"
+      },
+      "links": [],
+      "rejected_candidates": [],
+      "status": "abstained",
+      "decision_source": "agent_judgment",
+      "criterion_source": "user_criterion_v2",
+      "human_review": "pending",
+      "pedagogical_approval": false,
+      "evidence": [
+        {
+          "kind": "item",
+          "record_id": "04_itens_legado.csv:67",
+          "field": "enunciado",
+          "quote": "Com base no texto acima, qual teoria explica o comportamento do gestor descrito?"
+        },
+        {
+          "kind": "item",
+          "record_id": "04_itens_legado.csv:67",
+          "field": "alternativa_b",
+          "quote": "Teoria Y"
+        }
+      ],
+      "subject": "Teorias do comportamento; objeto especifico indeterminavel sem texto-base.",
+      "object_alignment": {
+        "status": "indeterminate",
+        "supported_oc_ids": [],
+        "reason": "Incompletude impede observar comportamento necessario para sustentar OC e competencia. Alternativas e gabarito nao reconstituem texto-base."
+      },
+      "required_task": {
+        "operation": "Demanda pretendida: relacionar comportamento do gestor a teoria. Operacao executavel indeterminada: texto acima ausente.",
+        "item_evidence": [
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:67",
+            "field": "enunciado",
+            "quote": "Com base no texto acima, qual teoria explica o comportamento do gestor descrito?"
+          },
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:67",
+            "field": "alternativa_b",
+            "quote": "Teoria Y"
+          }
+        ]
+      },
+      "competency_alignment": {
+        "status": "not_established",
+        "reason": "Incompletude impede observar comportamento necessario para sustentar OC e competencia. Alternativas e gabarito nao reconstituem texto-base.",
+        "scope": "Sem inferencia curricular positiva."
+      },
+      "use_issues": [
+        "Recuperar texto-base na origem antes de reapreciar."
+      ],
+      "readiness": {
+        "status": "held_missing_context",
+        "ready": false,
+        "mapped_does_not_mean_usable": true
+      },
+      "use_issues_decision_source": "agent_judgment",
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending"
+    },
+    {
+      "item_id": "ITM-30007",
+      "record_id": "04_itens_legado.csv:60",
+      "item_snapshot": {
+        "id": "ITM-30007",
+        "enunciado": "Sao requisitos de validade do negocio juridico, nos termos do Codigo Civil:",
+        "alternativa_a": "Agente capaz, objeto licito e forma prescrita ou nao defesa em lei",
+        "alternativa_b": "Apenas agente capaz",
+        "alternativa_c": "Apenas objeto licito",
+        "alternativa_d": "Registro em cartorio em qualquer hipotese",
+        "alternativa_e": "Anuencia do Ministerio Publico",
+        "gabarito": "A",
+        "disciplina_informada": "Direito Empresarial",
+        "ano_aplicacao": 2021,
+        "origem_banco": "Aquisição Norte"
+      },
+      "links": [],
+      "rejected_candidates": [
+        {
+          "oc_id": "OC-GF-08",
+          "competency_id": "COMP-06",
+          "status": "rejected",
+          "reason": "Legalidade de negócio jurídico não é evidência de ética/transparência financeira.",
+          "evidence": [
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:60",
+              "field": "enunciado",
+              "quote": "Sao requisitos de validade do negocio juridico, nos termos do Codigo Civil:"
+            },
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:60",
+              "field": "alternativa_a",
+              "quote": "Agente capaz, objeto licito e forma prescrita ou nao defesa em lei"
+            },
+            {
+              "kind": "matrix",
+              "file": "01_matriz_competencias.json",
+              "pointer": "/componentes_curriculares/0/objetos_conhecimento/7/nome",
+              "quote": "Ética e transparência na informação financeira"
+            },
+            {
+              "kind": "matrix",
+              "file": "01_matriz_competencias.json",
+              "pointer": "/competencias/5/descricao",
+              "quote": "Posicionar-se de forma ética e responsável nas decisões de gestão, considerando impactos sociais e ambientais."
+            },
+            {
+              "kind": "ementa",
+              "file": "02_ementa_gestao_financeira.txt",
+              "line_start": 18,
+              "line_end": 18,
+              "quote": "diversificação. Ética e transparência na informação financeira."
+            }
+          ]
+        }
+      ],
+      "status": "abstained",
+      "decision_source": "agent_judgment",
+      "criterion_source": "user_criterion_v2",
+      "human_review": "pending",
+      "pedagogical_approval": false,
+      "evidence": [
+        {
+          "kind": "item",
+          "record_id": "04_itens_legado.csv:60",
+          "field": "enunciado",
+          "quote": "Sao requisitos de validade do negocio juridico, nos termos do Codigo Civil:"
+        },
+        {
+          "kind": "item",
+          "record_id": "04_itens_legado.csv:60",
+          "field": "alternativa_a",
+          "quote": "Agente capaz, objeto licito e forma prescrita ou nao defesa em lei"
+        },
+        {
+          "kind": "matrix",
+          "file": "01_matriz_competencias.json",
+          "pointer": "/componentes_curriculares/0/objetos_conhecimento/7/nome",
+          "quote": "Ética e transparência na informação financeira"
+        },
+        {
+          "kind": "matrix",
+          "file": "01_matriz_competencias.json",
+          "pointer": "/competencias/5/descricao",
+          "quote": "Posicionar-se de forma ética e responsável nas decisões de gestão, considerando impactos sociais e ambientais."
+        },
+        {
+          "kind": "ementa",
+          "file": "02_ementa_gestao_financeira.txt",
+          "line_start": 18,
+          "line_end": 18,
+          "quote": "diversificação. Ética e transparência na informação financeira."
+        }
+      ],
+      "subject": "Requisitos de validade de negocio juridico.",
+      "object_alignment": {
+        "status": "outside_provided_scope",
+        "supported_oc_ids": [],
+        "reason": "Nao existe OC juridico especifico na matriz fornecida. Reconhecer requisitos legais nao exige reconhecer dilema etico ou avaliar impactos de gestao. Ausencia de escopo nao declara invalidade juridica."
+      },
+      "required_task": {
+        "operation": "Reconhecer uma lista de requisitos juridicos entre alternativas; completude normativa nao verificada.",
+        "item_evidence": [
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:60",
+            "field": "enunciado",
+            "quote": "Sao requisitos de validade do negocio juridico, nos termos do Codigo Civil:"
+          },
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:60",
+            "field": "alternativa_a",
+            "quote": "Agente capaz, objeto licito e forma prescrita ou nao defesa em lei"
+          }
+        ]
+      },
+      "competency_alignment": {
+        "status": "not_established",
+        "reason": "Nao existe OC juridico especifico na matriz fornecida. Reconhecer requisitos legais nao exige reconhecer dilema etico ou avaliar impactos de gestao. Ausencia de escopo nao declara invalidade juridica.",
+        "scope": "Sem inferencia juridica normativa ou aconselhamento."
+      },
+      "use_issues": [
+        "Gabarito A preservado como dado; completude legal nao verificada pelas fontes disponiveis."
+      ],
+      "readiness": {
+        "status": "not_approved_pending_review",
+        "ready": false,
+        "mapped_does_not_mean_usable": true
+      },
+      "use_issues_decision_source": "agent_judgment",
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending"
+    },
+    {
+      "item_id": "ITM-30008",
+      "record_id": "04_itens_legado.csv:61",
+      "item_snapshot": {
+        "id": "ITM-30008",
+        "enunciado": "No calculo do ponto de equilibrio contabil, considera-se:",
+        "alternativa_a": "Custos fixos divididos pela margem de contribuicao unitaria",
+        "alternativa_b": "Receita total menos custo variavel total",
+        "alternativa_c": "Lucro operacional dividido pelo ativo total",
+        "alternativa_d": "Custos variaveis divididos pelo preco de venda",
+        "alternativa_e": "Margem bruta menos despesas administrativas",
+        "gabarito": "A",
+        "disciplina_informada": "Contabilidade de Custos",
+        "ano_aplicacao": 2022,
+        "origem_banco": "Aquisição Norte"
+      },
+      "links": [],
+      "rejected_candidates": [
+        {
+          "oc_id": "OC-GF-04",
+          "competency_id": "COMP-01",
+          "status": "rejected",
+          "reason": "Não requer interpretar demonstrações nem comparar indicadores financeiros.",
+          "evidence": [
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:61",
+              "field": "enunciado",
+              "quote": "No calculo do ponto de equilibrio contabil, considera-se:"
+            },
+            {
+              "kind": "item",
+              "record_id": "04_itens_legado.csv:61",
+              "field": "alternativa_a",
+              "quote": "Custos fixos divididos pela margem de contribuicao unitaria"
+            },
+            {
+              "kind": "matrix",
+              "file": "01_matriz_competencias.json",
+              "pointer": "/componentes_curriculares/0/objetos_conhecimento/3/nome",
+              "quote": "Análise de demonstrações financeiras por indicadores"
+            },
+            {
+              "kind": "matrix",
+              "file": "01_matriz_competencias.json",
+              "pointer": "/competencias/0/descricao",
+              "quote": "Diagnosticar a situação econômico-financeira de uma organização a partir de suas demonstrações contábeis e indicadores."
+            },
+            {
+              "kind": "ementa",
+              "file": "02_ementa_gestao_financeira.txt",
+              "line_start": 15,
+              "line_end": 16,
+              "quote": "do capital de giro. Análise das demonstrações financeiras por indicadores de\nliquidez, endividamento e rentabilidade. Custo de capital e custo médio"
+            }
+          ]
+        }
+      ],
+      "status": "abstained",
+      "decision_source": "agent_judgment",
+      "criterion_source": "user_criterion_v2",
+      "human_review": "pending",
+      "pedagogical_approval": false,
+      "evidence": [
+        {
+          "kind": "item",
+          "record_id": "04_itens_legado.csv:61",
+          "field": "enunciado",
+          "quote": "No calculo do ponto de equilibrio contabil, considera-se:"
+        },
+        {
+          "kind": "item",
+          "record_id": "04_itens_legado.csv:61",
+          "field": "alternativa_a",
+          "quote": "Custos fixos divididos pela margem de contribuicao unitaria"
+        },
+        {
+          "kind": "matrix",
+          "file": "01_matriz_competencias.json",
+          "pointer": "/componentes_curriculares/0/objetos_conhecimento/3/nome",
+          "quote": "Análise de demonstrações financeiras por indicadores"
+        },
+        {
+          "kind": "matrix",
+          "file": "01_matriz_competencias.json",
+          "pointer": "/competencias/0/descricao",
+          "quote": "Diagnosticar a situação econômico-financeira de uma organização a partir de suas demonstrações contábeis e indicadores."
+        },
+        {
+          "kind": "ementa",
+          "file": "02_ementa_gestao_financeira.txt",
+          "line_start": 15,
+          "line_end": 16,
+          "quote": "do capital de giro. Análise das demonstrações financeiras por indicadores de\nliquidez, endividamento e rentabilidade. Custo de capital e custo médio"
+        }
+      ],
+      "subject": "Formula do ponto de equilibrio contabil.",
+      "object_alignment": {
+        "status": "outside_provided_scope",
+        "supported_oc_ids": [],
+        "reason": "Nao existe OC especifico de custo-volume-lucro/ponto de equilibrio na matriz fornecida. Reconhecer formula e uma operacao identificavel, nao um veto por facilidade. OC-GF-04 trata demonstracoes e indicadores, e COMP-03 trata instrumentos de matematica financeira; mera divisao nao estabelece esses aspectos."
+      },
+      "required_task": {
+        "operation": "Reconhecer a expressao de calculo entre alternativas; nao realizar calculo numerico.",
+        "item_evidence": [
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:61",
+            "field": "enunciado",
+            "quote": "No calculo do ponto de equilibrio contabil, considera-se:"
+          },
+          {
+            "kind": "item",
+            "record_id": "04_itens_legado.csv:61",
+            "field": "alternativa_a",
+            "quote": "Custos fixos divididos pela margem de contribuicao unitaria"
+          }
+        ]
+      },
+      "competency_alignment": {
+        "status": "not_established",
+        "reason": "Nao existe OC especifico de custo-volume-lucro/ponto de equilibrio na matriz fornecida. Reconhecer formula e uma operacao identificavel, nao um veto por facilidade. OC-GF-04 trata demonstracoes e indicadores, e COMP-03 trata instrumentos de matematica financeira; mera divisao nao estabelece esses aspectos.",
+        "scope": "Reconhecimento da formula sem OC especifico sustentado."
+      },
+      "use_issues": [
+        "Precisao editorial da unidade de ponto de equilibrio deve ser revisada; nao completar o enunciado."
+      ],
+      "readiness": {
+        "status": "not_approved_pending_review",
+        "ready": false,
+        "mapped_does_not_mean_usable": true
+      },
+      "use_issues_decision_source": "agent_judgment",
+      "user_coherence_review": "pending",
+      "specialist_pedagogical_review": "pending"
+    }
+  ],
+  "criterion_source": "user_criterion_v2"
+}

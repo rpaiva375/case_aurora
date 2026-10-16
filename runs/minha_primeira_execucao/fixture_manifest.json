@@ -1,0 +1,36 @@
+{
+  "contract": "aurora-replay-v1/raw-data-curriculum-prompt-validator",
+  "origin": "Frozen from six session-agent v2 responses; not new inference",
+  "items": {
+    "ITM-10041": {
+      "fingerprint": "462d39285a28f7df458c8268e3df4b7662db620cfcd0e6b768f1f994e4e27f69",
+      "response_file": "ITM-10041.json",
+      "response_sha256": "cc6dd2c6ee38e8a1624724d323ffaa2e1e5d7e8af57ac5cc08ea8e9ca3ca2836"
+    },
+    "ITM-20018": {
+      "fingerprint": "49698ea100f44751fff4bf482fdde3e1dedadad9893f7621f71472d3fcef8460",
+      "response_file": "ITM-20018.json",
+      "response_sha256": "97f274da1de1a4396d94fcc4016ed2ecf5a6abccf068e0fd8d44ea678f215725"
+    },
+    "ITM-20025": {
+      "fingerprint": "04e01383015d86ef589d1c1f9f3d0012f0126c140e5bdffccd04703b9000a339",
+      "response_file": "ITM-20025.json",
+      "response_sha256": "e1bb15fa96bcfde0eb2bc958d601e6a46c143899f1dcd5235ed70b657f02900a"
+    },
+    "ITM-20043": {
+      "fingerprint": "6c4bf2ee4d851840815f275a9912ab1e53a4155e495894d8657a4973ed876ed6",
+      "response_file": "ITM-20043.json",
+      "response_sha256": "1fe12e9572bca04775041cda1e09675204ac942b1e6bc814f680edc143b7949d"
+    },
+    "ITM-30007": {
+      "fingerprint": "a7971f45ab1404afd1ff81f1a4b9efccd9cba8a07a6968880c2cd6664e890790",
+      "response_file": "ITM-30007.json",
+      "response_sha256": "d77a8c376de7fb64f1083c9a1dc3aac36377c1d4c599e2b816f9744477e2b038"
+    },
+    "ITM-30008": {
+      "fingerprint": "6e0da1ea5547c9e6a485312da11fd132429392dfe0435b55e88519f60fcd475d",
+      "response_file": "ITM-30008.json",
+      "response_sha256": "399b0ac81673e13d38450a739893035e4f81d2d5b2f6adbb179f7c59c5776fc4"
+    }
+  }
+}

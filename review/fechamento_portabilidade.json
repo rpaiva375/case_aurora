@@ -1,0 +1,76 @@
+{
+  "temporary_path": "C:\\Users\\rodri\\AppData\\Local\\Temp\\aurora_portabilidade_stbd0b9j\\projeto",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "commands": [
+    {
+      "command": [
+        "run_local.py",
+        "--source",
+        "output/originals",
+        "--output",
+        "runs/teste_novo"
+      ],
+      "returncode": 0,
+      "stdout": "{\"total\": 68, \"analyzed\": 6, \"pending\": 54, \"reserved\": 8, \"error\": 0, \"semantic_statuses\": {\"suggested\": 2, \"object_supported_competency_pending\": 1, \"abstained\": 3}}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "demo.py",
+        "--results",
+        "runs/teste_novo/results.json",
+        "--output",
+        "runs/demo_nova"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"output\": \"C:\\\\Users\\\\rodri\\\\AppData\\\\Local\\\\Temp\\\\aurora_portabilidade_stbd0b9j\\\\projeto\\\\runs\\\\demo_nova\",\n  \"events\": 3,\n  \"protected_files\": 85,\n  \"unchanged\": true\n}\n",
+      "stderr": ""
+    }
+  ],
+  "result_summary": {
+    "total": 68,
+    "analyzed": 6,
+    "pending": 54,
+    "reserved": 8,
+    "error": 0,
+    "semantic_statuses": {
+      "suggested": 2,
+      "object_supported_competency_pending": 1,
+      "abstained": 3
+    }
+  },
+  "demo": {
+    "events_count": 3,
+    "cases": [
+      {
+        "item_id": "ITM-10041",
+        "pathway": "Sugestão",
+        "processing_status": "analyzed",
+        "event": "events\\5a46c2572ad548ff8146ed31b3c2603c.json",
+        "event_applicability": "current",
+        "ready_for_exam": false,
+        "decision": "defer"
+      },
+      {
+        "item_id": "ITM-30007",
+        "pathway": "Abstenção",
+        "processing_status": "analyzed",
+        "event": "events\\6d69b7ccaad34a9aa6cab100e4b2453d.json",
+        "event_applicability": "current",
+        "ready_for_exam": false,
+        "decision": "defer"
+      },
+      {
+        "item_id": "ITM-10048",
+        "pathway": "Pendência",
+        "processing_status": "pending",
+        "event": "events\\0c6a311d111a49d6ae4c9a1b71c2e698.json",
+        "event_applicability": "current",
+        "ready_for_exam": false,
+        "decision": "request_source"
+      }
+    ],
+    "protected_files": 85,
+    "unchanged": true
+  }
+}
